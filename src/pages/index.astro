@@ -1,0 +1,20 @@
+---
+import Layout from "@layouts/Layout.astro";
+import releases from "@data/releases.json";
+---
+
+<Layout title="Wax">
+  <main>
+    <h1>{releases.length} records</h1>
+    <ol>
+      {
+        releases.map(({ basic_information }) => (
+          <li>
+            {basic_information.title} by {basic_information.artists[0].name} -{" "}
+            {basic_information.formats[0]?.text}
+          </li>
+        ))
+      }
+    </ol>
+  </main>
+</Layout>

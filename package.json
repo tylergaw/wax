@@ -1,0 +1,22 @@
+{
+  "name": "wax",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "get-collection": "node ./scripts/getCollection.js"
+  },
+  "dependencies": {
+    "astro": "1.6.12"
+  },
+  "devDependencies": {
+    "node-fetch": "3.3.0",
+    "prettier": "2.8.0",
+    "prettier-plugin-astro": "0.7.0"
+  }
+}

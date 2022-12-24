@@ -10175,7 +10175,7 @@
         {
           "name": "Vinyl",
           "qty": "3",
-          "text": "Definitive Edition",
+          "text": "Definitive Edition, 180g",
           "descriptions": [
             "LP",
             "Album",
@@ -12582,6 +12582,123 @@
     "folder_id": 1
   },
   {
+    "id": 24675908,
+    "instance_id": 1209603376,
+    "date_added": "2022-12-18T13:33:41-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 24675908,
+      "master_id": 2802419,
+      "master_url": "https://api.discogs.com/masters/2802419",
+      "resource_url": "https://api.discogs.com/releases/24675908",
+      "thumb": "https://i.discogs.com/1wFYJng9dZT8qkyqAzmj2UP2Lq3jiurdMQtm7TnWwck/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Njc1/OTA4LTE2NjQ1NDEy/MzgtMjA3NC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/xBn8lZ5Ax3rqxSvGZqu7r6lXBK6h5pUObzUkxiWteeg/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Njc1/OTA4LTE2NjQ1NDEy/MzgtMjA3NC5qcGVn.jpeg",
+      "title": "The End For Now...",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Pink [Neon Pink]",
+          "descriptions": [
+            "LP",
+            "45 RPM",
+            "Album",
+            "Limited Edition"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Roadrunner Records",
+          "catno": "075678637834",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34268,
+          "resource_url": "https://api.discogs.com/labels/34268"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Slipknot",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 38523,
+          "resource_url": "https://api.discogs.com/artists/38523"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Heavy Metal",
+        "Nu Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 23956076,
+    "instance_id": 1207235686,
+    "date_added": "2022-12-15T19:30:49-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 23956076,
+      "master_id": 746172,
+      "master_url": "https://api.discogs.com/masters/746172",
+      "resource_url": "https://api.discogs.com/releases/23956076",
+      "thumb": "https://i.discogs.com/Uz5n877ya-jMMUXvV0y3kUWZNT5qQ_ldVSIlky25pYU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTU2/MDc2LTE2NTg1MzYw/MzQtMzA4NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/51NCMVPJ_5W7Q9cZluyERyiAKYBIQX_pHtY5ipXfAbY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTU2/MDc2LTE2NTg1MzYw/MzQtMzA4NS5qcGVn.jpeg",
+      "title": ".5: The Gray Chapter",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Pink, Gatefold",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Stereo"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Roadrunner Records",
+          "catno": "1686-175451",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34268,
+          "resource_url": "https://api.discogs.com/labels/34268"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Slipknot",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 38523,
+          "resource_url": "https://api.discogs.com/artists/38523"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Heavy Metal",
+        "Nu Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 24239123,
     "instance_id": 1125064556,
     "date_added": "2022-09-09T08:08:13-07:00",
@@ -12634,6 +12751,129 @@
       ],
       "styles": [
         "Nu Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 23116973,
+    "instance_id": 1207163329,
+    "date_added": "2022-12-15T16:29:48-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 23116973,
+      "master_id": 53296,
+      "master_url": "https://api.discogs.com/masters/53296",
+      "resource_url": "https://api.discogs.com/releases/23116973",
+      "thumb": "https://i.discogs.com/wWaMkjhLJvjsFwhD7o8l4JfVpdczpcV7inHYEjrUUdc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMTE2/OTczLTE2NTE3Mjgy/ODAtODIxMC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/c7fSOm0Y_iya1VOTjl0O_O-lM8jw1MK2Qj-k4ek21cs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMTE2/OTczLTE2NTE3Mjgy/ODAtODIxMC5qcGVn.jpeg",
+      "title": "Iowa",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Green Translucent",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Roadrunner Records",
+          "catno": "RR 8564-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34268,
+          "resource_url": "https://api.discogs.com/labels/34268"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Slipknot",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 38523,
+          "resource_url": "https://api.discogs.com/artists/38523"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 24324380,
+    "instance_id": 1207202917,
+    "date_added": "2022-12-15T18:02:09-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 24324380,
+      "master_id": 53293,
+      "master_url": "https://api.discogs.com/masters/53293",
+      "resource_url": "https://api.discogs.com/releases/24324380",
+      "thumb": "https://i.discogs.com/GOqjAj77g9fS6jD33w4kvSeN01eQfntwQ_RH5MohRs4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzI0/MzgwLTE2NjE1NjQz/MTQtNjk3Ny5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/DU7K5Nuq5iInyQVZGMujgDEWu73l5zuPUoSxlShWZIs/rs:fit/g:sm/q:90/h:610/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzI0/MzgwLTE2NjE1NjQz/MTQtNjk3Ny5qcGVn.jpeg",
+      "title": "All Hope Is Gone",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Orange",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Roadrunner Records",
+          "catno": "1-645936",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34268,
+          "resource_url": "https://api.discogs.com/labels/34268"
+        },
+        {
+          "name": "Roadrunner Records",
+          "catno": "1686-179381",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34268,
+          "resource_url": "https://api.discogs.com/labels/34268"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Slipknot",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 38523,
+          "resource_url": "https://api.discogs.com/artists/38523"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Heavy Metal",
+        "Hard Rock"
       ]
     },
     "folder_id": 1

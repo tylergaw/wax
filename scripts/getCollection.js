@@ -1,10 +1,13 @@
+import * as dotenv from "dotenv";
+dotenv.config();
+
 import readline from "readline/promises";
 import fs from "fs/promises";
 import fetch from "node-fetch";
 
 const token = process.env.TOKEN;
-const username = process.env.USERNAME || "thegaw";
-const filePath = "./src/data/releases.json";
+const username = process.env.USERNAME;
+const filePath = "./src/data/collection.json";
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -13,7 +16,14 @@ const rl = readline.createInterface({
 
 if (!token) {
   console.log(
-    "You'll need a Discogs personal access token exported as a TOKEN env var."
+    "You need a Discogs personal access token exported as a TOKEN env var. See .env.example"
+  );
+  process.exit(1);
+}
+
+if (!username) {
+  console.log(
+    "You need a Discogs username exported as a USERNAME env var. See .env.example"
   );
   process.exit(1);
 }

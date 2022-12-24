@@ -18,6 +18,7 @@
     "astro": "1.6.12"
   },
   "devDependencies": {
+    "dotenv": "16.0.3",
     "node-fetch": "3.3.0",
     "prettier": "2.8.0",
     "prettier-plugin-astro": "0.7.0"

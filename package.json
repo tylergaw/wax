@@ -11,6 +11,9 @@
     "astro": "astro",
     "get-collection": "node ./scripts/getCollection.js"
   },
+  "engines": {
+    "node": ">= 17.0.0"
+  },
   "dependencies": {
     "astro": "1.6.12"
   },

@@ -6824,8 +6824,8 @@
       "master_id": 32568,
       "master_url": "https://api.discogs.com/masters/32568",
       "resource_url": "https://api.discogs.com/releases/12488117",
-      "thumb": "https://i.discogs.com/I1YawFHVJyilR0UZ9-Lxv0GOL9wZycLsMfjyWtU1VZM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDg4/MTE3LTE1NDA3ODYy/NzgtOTI3MS5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/96-0rSb7ANX6eXhwwkASsWhU-kB2XPiOKijQRUcy1J0/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDg4/MTE3LTE1NDA3ODYy/NzgtOTI3MS5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/mYoFkvY-u9KmPY1HWPpjXEkEDRnRgCJCEDXj6WWYjvs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDg4/MTE3LTE2NzI1MTM4/NTctMTYxMy5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/7TheHZacBIkFNS0tTLmEvyPCbkHsBm5D6gliSFIUay0/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDg4/MTE3LTE2NzI1MTM4/NTctMTYxMy5qcGVn.jpeg",
       "title": "Follow The Leader",
       "year": 2018,
       "formats": [
@@ -9236,7 +9236,8 @@
           "qty": "1",
           "descriptions": [
             "Album",
-            "Reissue"
+            "Reissue",
+            "Repress"
           ]
         }
       ],
@@ -12874,6 +12875,72 @@
       "styles": [
         "Heavy Metal",
         "Hard Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 23017685,
+    "instance_id": 1237579129,
+    "date_added": "2023-01-15T12:23:07-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 23017685,
+      "master_id": 53314,
+      "master_url": "https://api.discogs.com/masters/53314",
+      "resource_url": "https://api.discogs.com/releases/23017685",
+      "thumb": "https://i.discogs.com/7ZICmanakF3rs53e-mdh6F-9s4BPfF_e9R3KZZ-XgMk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDE3/Njg1LTE2NTU1Njgz/MDctMzgyMS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/HGtPm3xqm_lCcNZCf3jzepyQ_C0RYs2qabVsYzEJ5PY/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDE3/Njg1LTE2NTU1Njgz/MDctMzgyMS5qcGVn.jpeg",
+      "title": "Slipknot",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Yellow [Lemon]",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Repress"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Roadrunner Records",
+          "catno": "RR 8655-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34268,
+          "resource_url": "https://api.discogs.com/labels/34268"
+        },
+        {
+          "name": "Roadrunner Records",
+          "catno": "1-645933",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34268,
+          "resource_url": "https://api.discogs.com/labels/34268"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Slipknot",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 38523,
+          "resource_url": "https://api.discogs.com/artists/38523"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
       ]
     },
     "folder_id": 1
@@ -17113,8 +17180,8 @@
       "master_id": 2363104,
       "master_url": "https://api.discogs.com/masters/2363104",
       "resource_url": "https://api.discogs.com/releases/20857672",
-      "thumb": "https://i.discogs.com/DzCQRJ28LzLfKcXc6thQZTP-2V5bxmgXSNS-hi8ngMc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwODU3/NjcyLTE2MzY1NjEw/MTItMTg2Ny5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/AWOQ_-Qlyz9k51tLXw6aGI2c2kBaDw7KN-JbGSOeh3I/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwODU3/NjcyLTE2MzY1NjEw/MTItMTg2Ny5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/49FwEHiCQePEk4FF4PdSTnspgQewc26nAxrnJ7qMQmQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwODU3/NjcyLTE2MzY1NjEw/NTQtNjI2Ni5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/0q6k_t5NTtHeHDgn1X0KR1ewbIRH4Y5YpjEv28fuWj4/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwODU3/NjcyLTE2MzY1NjEw/NTQtNjI2Ni5qcGVn.jpeg",
       "title": "Kid A Mnesia",
       "year": 2021,
       "formats": [

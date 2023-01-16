@@ -1,0 +1,22 @@
+---
+import Layout from "@layouts/Layout.astro";
+import collection from "@data/collection.json";
+import { getArtists } from "@data/index";
+
+const artists = getArtists(collection);
+---
+
+<Layout title="Bands">
+  <main>
+    <h1>{artists.length} artists</h1>
+    <ol>
+      {
+        artists.map(({ name }) => (
+          <li>
+            <a href="/">{name}</a>
+          </li>
+        ))
+      }
+    </ol>
+  </main>
+</Layout>

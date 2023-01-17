@@ -1,0 +1,19 @@
+---
+import Layout from "@layouts/Layout.astro";
+import collection from "@data/collection.json";
+import { getArtists } from "@util/data";
+
+export async function getStaticPaths() {
+  return getArtists(collection).map((artist) => ({
+    params: { artist: artist.slug },
+  }));
+}
+
+const { artist } = Astro.params;
+---
+
+<Layout title="FIXME">
+  <main>
+    <h1>{artist}</h1>
+  </main>
+</Layout>

@@ -6,4 +6,5 @@ export type Collection = Release[];
 
 export interface Artist {
   name: string;
+  slug: string;
 }

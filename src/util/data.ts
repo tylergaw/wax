@@ -17,6 +17,7 @@ function getArtists(collection: Release[]): Artist[] {
       if (!artistIndex.includes(currName)) {
         const next: Artist = {
           name: currName,
+          slug: slug(currName),
         };
         artistIndex.push(currName);
         artists.push(next);
@@ -32,4 +33,4 @@ function getReleaseUrl(release: Release): string {
   return buildUrl([artists[0].name, title]);
 }
 
-export { getArtists, getReleaseUrl };
+export { buildUrl, getArtists, getReleaseUrl };

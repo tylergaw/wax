@@ -1,7 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import collection from "@data/collection.json";
-import { getArtists } from "@data/index";
+import { getArtists } from "@util/data";
 
 const artists = getArtists(collection);
 ---

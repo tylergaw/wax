@@ -1,6 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import releases from "@data/collection.json";
+import { getReleaseUrl } from "@util/data";
 ---
 
 <Layout title="Wax">
@@ -8,12 +9,12 @@ import releases from "@data/collection.json";
     <h1>{releases.length} records</h1>
     <ol>
       {
-        releases.map(({ basic_information }) => (
+        releases.map((release) => (
           <li>
-            <a href="/">
-              {basic_information.title}
+            <a href={getReleaseUrl(release)}>
+              {release.basic_information.title}
               <br />
-              {basic_information.artists[0].name}
+              {release.basic_information.artists[0].name}
             </a>
           </li>
         ))

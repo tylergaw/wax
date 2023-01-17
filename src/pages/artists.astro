@@ -1,7 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import collection from "@data/collection.json";
-import { getArtists } from "@util/data";
+import { buildUrl, getArtists } from "@util/data";
 
 const artists = getArtists(collection);
 ---
@@ -13,7 +13,7 @@ const artists = getArtists(collection);
       {
         artists.map(({ name }) => (
           <li>
-            <a href="/">{name}</a>
+            <a href={buildUrl([name])}>{name}</a>
           </li>
         ))
       }

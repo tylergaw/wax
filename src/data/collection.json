@@ -12087,6 +12087,7 @@
           "descriptions": [
             "Album",
             "Reissue",
+            "Repress",
             "Special Edition"
           ]
         }
@@ -16685,6 +16686,72 @@
       "styles": [
         "Contemporary R&B",
         "Soul"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 8804850,
+    "instance_id": 1239064702,
+    "date_added": "2023-01-16T21:35:59-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 8804850,
+      "master_id": 1181,
+      "master_url": "https://api.discogs.com/masters/1181",
+      "resource_url": "https://api.discogs.com/releases/8804850",
+      "thumb": "https://i.discogs.com/Cm1Sw19ASRfUWX16O5vVxK-Mf4Im1qZ9fr-YRYUUdU4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MDQ4/NTAtMTQ3MDg1MzAx/NC05NjE0LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/0GXLdzQLt3-9wZQYkiUdB1_BLKBl53Wl8gEDLO4DoI8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MDQ4/NTAtMTQ3MDg1MzAx/NC05NjE0LmpwZWc.jpeg",
+      "title": "Undertow",
+      "year": 0,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Misprint",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Volcano (2)",
+          "catno": "61422-31052-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 25809,
+          "resource_url": "https://api.discogs.com/labels/25809"
+        },
+        {
+          "name": "Tool Dissectional",
+          "catno": "61422-31052-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 132607,
+          "resource_url": "https://api.discogs.com/labels/132607"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Tool (2)",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 87016,
+          "resource_url": "https://api.discogs.com/artists/87016"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock",
+        "Prog Rock",
+        "Progressive Metal"
       ]
     },
     "folder_id": 1

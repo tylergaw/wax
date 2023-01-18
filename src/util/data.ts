@@ -5,11 +5,29 @@ function buildUrl(segments: string[]) {
   return segments.reduce((accum, curr) => `${accum}${slug(curr)}/`, "/");
 }
 
+// FIXME: Working here
 function getReleasesByArtist(collection: Release[]) {
-  const artists = getArtists(collection);
-  return artists.map((release) => {
-    return release;
+  const artists = getArtists(collection).sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    }
+
+    if (a.name > b.name) {
+      return 1;
+    }
+
+    return 0;
   });
+
+  return artists.reduce((obj, release) => {
+    const name = release.name;
+
+    // FIXME: typing
+    if (!obj[name]) {
+      obj[name] = {};
+    }
+    return obj;
+  }, {});
 }
 
 function getArtists(collection: Release[]): Artist[] {

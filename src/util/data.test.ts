@@ -123,7 +123,9 @@ describe("getReleasesByArtist function", () => {
       },
     ];
     const expectedKeys = ["AFI", "Slipknot", "Soundgarden", "Tim Barry"];
-    expect(Object.keys(getReleasesByArtist(collection))).toBe(expectedKeys);
+    expect(Object.keys(getReleasesByArtist(collection))).toStrictEqual(
+      expectedKeys
+    );
   });
 });
 

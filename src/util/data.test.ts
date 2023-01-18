@@ -1,6 +1,6 @@
 import type { Collection, Release } from "@types";
 import { describe, it, expect } from "vitest";
-import { getArtists, getReleaseUrl } from "./data";
+import { getArtists, getReleasesByArtist, getReleaseUrl } from "./data";
 
 describe("getArtists function", () => {
   it("handles single artist per release", () => {
@@ -70,6 +70,60 @@ describe("getArtists function", () => {
     ];
     const artists = getArtists(collection);
     expect(artists.length).toBe(1);
+  });
+});
+
+describe("getReleasesByArtist function", () => {
+  it("returns the expected results", () => {
+    const collection: Collection = [
+      {
+        basic_information: {
+          artists: [
+            {
+              name: "Slipknot",
+            },
+          ],
+        },
+      },
+      {
+        basic_information: {
+          artists: [
+            {
+              name: "AFI",
+            },
+          ],
+        },
+      },
+      {
+        basic_information: {
+          artists: [
+            {
+              name: "Tim Barry",
+            },
+          ],
+        },
+      },
+      {
+        basic_information: {
+          artists: [
+            {
+              name: "AFI",
+            },
+          ],
+        },
+      },
+      {
+        basic_information: {
+          artists: [
+            {
+              name: "Soundgarden",
+            },
+          ],
+        },
+      },
+    ];
+    const expectedKeys = ["AFI", "Slipknot", "Soundgarden", "Tim Barry"];
+    expect(Object.keys(getReleasesByArtist(collection))).toBe(expectedKeys);
   });
 });
 

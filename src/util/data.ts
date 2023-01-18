@@ -5,6 +5,13 @@ function buildUrl(segments: string[]) {
   return segments.reduce((accum, curr) => `${accum}${slug(curr)}/`, "/");
 }
 
+function getReleasesByArtist(collection: Release[]) {
+  const artists = getArtists(collection);
+  return artists.map((release) => {
+    return release;
+  });
+}
+
 function getArtists(collection: Release[]): Artist[] {
   let artistIndex: string[] = [];
   let artists: Artist[] = [];
@@ -33,4 +40,4 @@ function getReleaseUrl(release: Release): string {
   return buildUrl([artists[0].name, title]);
 }
 
-export { buildUrl, getArtists, getReleaseUrl };
+export { buildUrl, getArtists, getReleasesByArtist, getReleaseUrl };

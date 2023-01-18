@@ -6,14 +6,15 @@ import { getArtists } from "@util/data";
 export async function getStaticPaths() {
   return getArtists(collection).map((artist) => ({
     params: { artist: artist.slug },
+    props: { artist },
   }));
 }
 
-const { artist } = Astro.params;
+const { artist } = Astro.props;
 ---
 
-<Layout title="FIXME">
+<Layout title={artist.name}>
   <main>
-    <h1>{artist}</h1>
+    <h1>{artist.name}</h1>
   </main>
 </Layout>

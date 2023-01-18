@@ -1,15 +1,15 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import releases from "@data/collection.json";
+import collection from "@data/collection.json";
 import { getReleaseUrl } from "@util/data";
 ---
 
 <Layout title="Wax">
   <main>
-    <h1>{releases.length} records</h1>
+    <h1>{collection.length} records</h1>
     <ol>
       {
-        releases.map((release) => (
+        collection.map((release) => (
           <li>
             <a href={getReleaseUrl(release)}>
               {release.basic_information.title}

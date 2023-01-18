@@ -1,0 +1,27 @@
+---
+import slug from "slug";
+import Layout from "@layouts/Layout.astro";
+import collection from "@data/collection.json";
+
+// TODO: Reduce repetition
+export async function getStaticPaths() {
+  return collection.map((release) => {
+    const artist = release.basic_information.artists[0].name;
+    const title = slug(release.basic_information.title);
+
+    return {
+      params: { artist: slug(artist), release: title },
+      props: { artist, release },
+    };
+  });
+}
+
+const { artist, release } = Astro.props;
+const title = release.basic_information.title;
+---
+
+<Layout title={`${title} by ${artist}`}>
+  <main>
+    <h1>{title} by {artist}</h1>
+  </main>
+</Layout>

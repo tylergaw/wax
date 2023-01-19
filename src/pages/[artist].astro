@@ -1,20 +1,33 @@
 ---
+import type { Release } from "@types";
 import Layout from "@layouts/Layout.astro";
 import collection from "@data/collection.json";
-import { getArtists } from "@util/data";
+import Releases from "@components/Releases.astro";
+import { getArtists, getReleasesByArtist } from "@util/data";
 
 export async function getStaticPaths() {
-  return getArtists(collection).map((artist) => ({
-    params: { artist: artist.slug },
-    props: { artist },
-  }));
+  const allReleases = getReleasesByArtist(collection);
+
+  // TODO: There's likely a better way to do this than using getArtists since
+  // we're already getting all the artists from getReleasesByArtist
+  // We just don't have the artist slug there yet.
+  return getArtists(collection).map((artist) => {
+    const artistReleases = allReleases[artist.name];
+
+    return {
+      params: { artist: artist.slug },
+      props: { artist, releases: artistReleases },
+    };
+  });
 }
 
-const { artist } = Astro.props;
+const { artist, releases } = Astro.props;
 ---
 
 <Layout title={artist.name}>
   <main>
     <h1>{artist.name}</h1>
+
+    <Releases releases={releases} />
   </main>
 </Layout>

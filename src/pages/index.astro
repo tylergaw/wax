@@ -1,20 +1,28 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import releases from "@data/collection.json";
-import { getReleaseUrl } from "@util/data";
+import collection from "@data/collection.json";
+import { getReleasesByArtist, getReleaseUrl } from "@util/data";
+import type { Release } from "@types";
+
+const releases = getReleasesByArtist(collection);
+
+let releasesDisplay: Release[] = [];
+for (const key in releases) {
+  releasesDisplay.push(...releases[key]);
+}
 ---
 
 <Layout title="Wax">
   <main>
-    <h1>{releases.length} records</h1>
+    <h1>{releasesDisplay.length} records</h1>
     <ol>
       {
-        releases.map((release) => (
+        releasesDisplay.map((release: Release) => (
           <li>
             <a href={getReleaseUrl(release)}>
-              {release.basic_information.title}
-              <br />
-              {release.basic_information.artists[0].name}
+              {release.basic_information.title} -{" "}
+              {release.basic_information.artists[0].name} -{" "}
+              {release.basic_information.year}
             </a>
           </li>
         ))

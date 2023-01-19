@@ -1,0 +1,19 @@
+---
+import { getReleaseUrl } from "@util/data";
+
+const { releases } = Astro.props;
+---
+
+<ol>
+  {
+    releases.map((release: Release) => (
+      <li>
+        <a href={getReleaseUrl(release)}>
+          {release.basic_information.title} -{" "}
+          {release.basic_information.artists[0].name} -{" "}
+          {release.basic_information.year}
+        </a>
+      </li>
+    ))
+  }
+</ol>

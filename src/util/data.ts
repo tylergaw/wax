@@ -5,9 +5,10 @@ function buildUrl(segments: string[]) {
   return segments.reduce((accum, curr) => `${accum}${slug(curr)}/`, "/");
 }
 
-// FIXME: Working here
-function getReleasesByArtist(collection: Release[]) {
-  const artists = getArtists(collection).sort((a, b) => {
+// TODO: This could be made generic for use with lists other than Artists
+function sortArtistsByName(list: Artist[]) {
+  // TODO: Ignore "The" in artist names when sorting
+  return list.sort((a, b) => {
     if (a.name < b.name) {
       return -1;
     }
@@ -18,16 +19,28 @@ function getReleasesByArtist(collection: Release[]) {
 
     return 0;
   });
+}
 
-  return artists.reduce((obj, release) => {
-    const name = release.name;
+function getReleasesByArtist(collection: Release[]) {
+  const artists = getArtists(collection);
 
-    // FIXME: typing
-    if (!obj[name]) {
-      obj[name] = {};
-    }
+  // Create our object with artist names as keys
+  let releases = artists.reduce((obj, artist) => {
+    obj[artist.name] = [];
     return obj;
-  }, {});
+  }, {} as { [index: string]: any });
+
+  // Walk the collection and put each release in the releases object at the
+  // cooresponding artist key
+  collection
+    .sort((a, b) => a.basic_information.year - b.basic_information.year)
+    .forEach((release) => {
+      release.basic_information.artists.forEach((artist: any) => {
+        releases[artist.name].push(release);
+      });
+    });
+
+  return releases;
 }
 
 function getArtists(collection: Release[]): Artist[] {
@@ -50,7 +63,7 @@ function getArtists(collection: Release[]): Artist[] {
     });
   });
 
-  return artists;
+  return sortArtistsByName(artists);
 }
 
 function getReleaseUrl(release: Release): string {

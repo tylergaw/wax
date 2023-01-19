@@ -78,6 +78,8 @@ describe("getReleasesByArtist function", () => {
     const collection: Collection = [
       {
         basic_information: {
+          title: "Iowa",
+          year: 2001,
           artists: [
             {
               name: "Slipknot",
@@ -87,6 +89,8 @@ describe("getReleasesByArtist function", () => {
       },
       {
         basic_information: {
+          title: "Sing the Sorrow",
+          year: 2003,
           artists: [
             {
               name: "AFI",
@@ -96,6 +100,8 @@ describe("getReleasesByArtist function", () => {
       },
       {
         basic_information: {
+          title: "Manchester",
+          year: 2011,
           artists: [
             {
               name: "Tim Barry",
@@ -105,6 +111,8 @@ describe("getReleasesByArtist function", () => {
       },
       {
         basic_information: {
+          title: "The Art of Drowning",
+          year: 2000,
           artists: [
             {
               name: "AFI",
@@ -114,6 +122,8 @@ describe("getReleasesByArtist function", () => {
       },
       {
         basic_information: {
+          title: "Superunknown",
+          year: 1994,
           artists: [
             {
               name: "Soundgarden",
@@ -123,9 +133,20 @@ describe("getReleasesByArtist function", () => {
       },
     ];
     const expectedKeys = ["AFI", "Slipknot", "Soundgarden", "Tim Barry"];
-    expect(Object.keys(getReleasesByArtist(collection))).toStrictEqual(
-      expectedKeys
+    const result = getReleasesByArtist(collection);
+
+    // Test to make sure we're getting the expected number of keys(artists)
+    // This makes sure we don't have duplicate artist entries when we have
+    // multiple releases by a single artist, like AFI in the above sample.
+    expect(Object.keys(result)).toStrictEqual(expectedKeys);
+    expect(result["Soundgarden"].length).toBe(1);
+    expect(result["AFI"].length).toBe(2);
+
+    // Maybe a short-sighted test, but checking to make sure data sorting works.
+    const releaseYears = result["AFI"].map(
+      (release: Release) => release.basic_information.year
     );
+    expect(releaseYears).toStrictEqual([2000, 2003]);
   });
 });
 

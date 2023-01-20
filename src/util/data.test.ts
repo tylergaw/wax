@@ -1,6 +1,11 @@
 import type { Collection, Release } from "@types";
 import { describe, it, expect } from "vitest";
-import { getArtists, getReleasesByArtist, getReleaseUrl } from "./data";
+import {
+  getArtists,
+  getReleasesByArtist,
+  getReleaseUrl,
+  sortArtistsByName,
+} from "./data";
 
 describe("getArtists function", () => {
   it("handles single artist per release", () => {
@@ -71,6 +76,47 @@ describe("getArtists function", () => {
     const artists = getArtists(collection);
     expect(artists.length).toBe(1);
   });
+
+  // This is likely redundant since we test for this in the sortArtistsByName
+  // function, but keeping it in place since I wrote this test first.
+  it("ignores the definite article artist names", () => {
+    const collection: Collection = [
+      {
+        basic_information: {
+          title: "Superunknown",
+          year: 1994,
+          artists: [
+            {
+              name: "Soundgarden",
+            },
+          ],
+        },
+      },
+      {
+        basic_information: {
+          title: "On The Impossible Past",
+          year: 2012,
+          artists: [
+            {
+              name: "The Menzingers",
+            },
+          ],
+        },
+      },
+      {
+        basic_information: {
+          artists: [
+            {
+              name: "AFI",
+            },
+          ],
+        },
+      },
+    ];
+    const artists = getArtists(collection);
+    const expectedKeys = ["AFI", "The Menzingers", "Soundgarden"];
+    expect(artists.map((a) => a.name)).toStrictEqual(expectedKeys);
+  });
 });
 
 describe("getReleasesByArtist function", () => {
@@ -94,6 +140,17 @@ describe("getReleasesByArtist function", () => {
           artists: [
             {
               name: "AFI",
+            },
+          ],
+        },
+      },
+      {
+        basic_information: {
+          title: "On The Impossible Past",
+          year: 2012,
+          artists: [
+            {
+              name: "The Menzingers",
             },
           ],
         },
@@ -131,8 +188,26 @@ describe("getReleasesByArtist function", () => {
           ],
         },
       },
+      {
+        basic_information: {
+          title: "Frances The Mute",
+          year: 2005,
+          artists: [
+            {
+              name: "The Mars Volta",
+            },
+          ],
+        },
+      },
     ];
-    const expectedKeys = ["AFI", "Slipknot", "Soundgarden", "Tim Barry"];
+    const expectedKeys = [
+      "AFI",
+      "The Mars Volta",
+      "The Menzingers",
+      "Slipknot",
+      "Soundgarden",
+      "Tim Barry",
+    ];
     const result = getReleasesByArtist(collection);
 
     // Test to make sure we're getting the expected number of keys(artists)
@@ -178,5 +253,21 @@ describe("getReleaseUrl function", () => {
     expect(getReleaseUrl(release2)).toBe(
       "/johnny-cash/american-iii-solitary-man/"
     );
+  });
+});
+
+describe("sortArtistsByName function", () => {
+  it("sorts artists in the expected order", () => {
+    const artists = [
+      { name: "Tim Barry", slug: "tim-barry" },
+      { name: "Slipknot", slug: "slipknot" },
+      // Test for ignoring the definite article, "The"
+      { name: "The Menzingers", slug: "the-menzingers" },
+      { name: "AFI", slug: "afi" },
+    ];
+    const result = sortArtistsByName(artists).map((a) => a.name);
+    const expectedKeys = ["AFI", "The Menzingers", "Slipknot", "Tim Barry"];
+    console.log(result.length, expectedKeys.length);
+    expect(result).toStrictEqual(expectedKeys);
   });
 });

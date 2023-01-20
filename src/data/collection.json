@@ -14822,12 +14822,12 @@
     "folder_id": 1,
     "notes": [
       {
-        "field_id": 1,
-        "value": "Near Mint (NM or M-)"
-      },
-      {
         "field_id": 2,
         "value": "Mint (M)"
+      },
+      {
+        "field_id": 1,
+        "value": "Near Mint (NM or M-)"
       }
     ]
   },
@@ -17385,6 +17385,72 @@
       ],
       "styles": [
         "Indie Rock",
+        "Post-Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 23818649,
+    "instance_id": 1241753545,
+    "date_added": "2023-01-19T18:19:25-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 23818649,
+      "master_id": 2700770,
+      "master_url": "https://api.discogs.com/masters/2700770",
+      "resource_url": "https://api.discogs.com/releases/23818649",
+      "thumb": "https://i.discogs.com/_R-SfU95N-2z8Pjju5A3FTwEb1QSWSQkTDqS6hgS1Pg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODE4/NjQ5LTE2NTgzMTg0/MjEtNDQxOC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/O3PbZ0OM3YBj5G83elezgBrjcxeXQWQfrCWpbbUIhUY/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODE4/NjQ5LTE2NTgzMTg0/MjEtNDQxOC5qcGVn.jpeg",
+      "title": "Cave World",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Orange Opaque, 180g",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Stereo"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Year0001",
+          "catno": "YR0164LPRT",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 973197,
+          "resource_url": "https://api.discogs.com/labels/973197"
+        },
+        {
+          "name": "Year0001",
+          "catno": "YR0164",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 973197,
+          "resource_url": "https://api.discogs.com/labels/973197"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Viagra Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 4861285,
+          "resource_url": "https://api.discogs.com/artists/4861285"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
         "Post-Punk"
       ]
     },

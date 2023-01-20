@@ -1,27 +1,49 @@
 ---
+import type { Release } from "@types";
 import slug from "slug";
 import Layout from "@layouts/Layout.astro";
+import Releases from "@components/Releases.astro";
 import collection from "@data/collection.json";
+import { getReleasesByArtist } from "@util/data";
 
-// TODO: Reduce repetition
+// TODO: Reduce repetition, I think this can be done better across everything.
 export async function getStaticPaths() {
+  const releases = getReleasesByArtist(collection);
+
   return collection.map((release) => {
     const artist = release.basic_information.artists[0].name;
-    const title = slug(release.basic_information.title);
+    const currentTitle = release.basic_information.title;
+    const otherReleases: Release[] = releases[artist].filter(
+      (r: Release) => r.basic_information.title !== currentTitle
+    );
 
     return {
-      params: { artist: slug(artist), release: title },
-      props: { artist, release },
+      params: {
+        artist: slug(artist),
+        release: slug(currentTitle),
+      },
+      props: { artist, release, otherReleases },
     };
   });
 }
 
-const { artist, release } = Astro.props;
+const { artist, release, otherReleases } = Astro.props;
 const title = release.basic_information.title;
 ---
 
 <Layout title={`${title} by ${artist}`}>
   <main>
     <h1>{title} by {artist}</h1>
+
+    <hr />
+
+    {
+      otherReleases.length > 0 && (
+        <>
+          <h2>Other relases by {artist}</h2>
+          <Releases releases={otherReleases} />
+        </>
+      )
+    }
   </main>
 </Layout>

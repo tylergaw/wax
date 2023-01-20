@@ -5,15 +5,27 @@ function buildUrl(segments: string[]) {
   return segments.reduce((accum, curr) => `${accum}${slug(curr)}/`, "/");
 }
 
+function getComparableName(name: string): string {
+  const hasThe = name.toLowerCase().startsWith("the ");
+
+  if (hasThe) {
+    return name.replace("The ", "");
+  }
+
+  return name;
+}
+
 // TODO: This could be made generic for use with lists other than Artists
-function sortArtistsByName(list: Artist[]) {
-  // TODO: Ignore "The" in artist names when sorting
+export function sortArtistsByName(list: Artist[]) {
   return list.sort((a, b) => {
-    if (a.name < b.name) {
+    const aName = getComparableName(a.name);
+    const bName = getComparableName(b.name);
+
+    if (aName < bName) {
       return -1;
     }
 
-    if (a.name > b.name) {
+    if (aName > bName) {
       return 1;
     }
 

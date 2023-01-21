@@ -5,16 +5,90 @@ import { getReleaseUrl } from "@util/data";
 const { releases } = Astro.props;
 ---
 
-<ol>
+<ul>
   {
     releases.map((release: Release) => (
       <li>
         <a href={getReleaseUrl(release)}>
-          {release.basic_information.title} -{" "}
-          {release.basic_information.artists[0].name} -{" "}
-          {release.basic_information.year}
+          <div>
+            <img
+              src={release.basic_information.cover_image}
+              alt=""
+              width="350px"
+              height="350px"
+              loading="lazy"
+            />
+          </div>
+          <div class="info">
+            <h3 class="title">{release.basic_information.title}</h3>
+            <p class="artist">{release.basic_information.artists[0].name}</p>
+          </div>
         </a>
       </li>
     ))
   }
-</ol>
+</ul>
+
+<style>
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: grid;
+    flex: 1;
+  }
+
+  a {
+    color: black;
+    display: grid;
+    gap: 1rem;
+    grid-template: "container";
+    text-decoration: none;
+    min-width: 350px;
+  }
+
+  a > * {
+    grid-area: container;
+  }
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.4rem;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  .title,
+  .artist {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .artist {
+    text-align: right;
+  }
+
+  a:hover img,
+  a:focus img {
+    transform: scale(0.82);
+  }
+
+  a:hover .info,
+  a:focus .info {
+    opacity: 1;
+  }
+</style>

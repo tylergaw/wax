@@ -11,13 +11,13 @@ const { releases } = Astro.props;
       <li>
         <a href={getReleaseUrl(release)}>
           <div>
-            <img
+            {/*FIXME<img
               src={release.basic_information.cover_image}
               alt=""
               width="350px"
               height="350px"
               loading="lazy"
-            />
+            />*/}
           </div>
           <div class="info">
             <h3 class="title">{release.basic_information.title}</h3>
@@ -34,8 +34,9 @@ const { releases } = Astro.props;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    gap: 1rem;
     margin: 0;
-    padding: 0;
+    padding: 0 1rem;
   }
 
   li {
@@ -44,12 +45,14 @@ const { releases } = Astro.props;
   }
 
   a {
+    border: 1px solid;
     color: black;
     display: grid;
     gap: 1rem;
     grid-template: "container";
     text-decoration: none;
-    min-width: 350px;
+    min-height: 300px;
+    min-width: 300px;
   }
 
   a > * {
@@ -63,11 +66,12 @@ const { releases } = Astro.props;
   }
 
   .info {
-    display: flex;
+    /* FIXME */
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
     padding: 0.4rem;
-    opacity: 0;
+    /* opacity: 0; */
     z-index: 2;
   }
 
@@ -78,11 +82,7 @@ const { releases } = Astro.props;
     margin: 0;
   }
 
-  .artist {
-    text-align: right;
-  }
-
-  a:hover img,
+  /* FIXME: a:hover img,
   a:focus img {
     transform: scale(0.82);
   }
@@ -90,5 +90,5 @@ const { releases } = Astro.props;
   a:hover .info,
   a:focus .info {
     opacity: 1;
-  }
+  } */
 </style>

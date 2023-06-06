@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -17,15 +16,15 @@
     "node": ">= 17.0.0"
   },
   "dependencies": {
-    "astro": "2.0.0-beta.3"
+    "astro": "2.6.0"
   },
   "devDependencies": {
     "@types/slug": "5.0.3",
-    "dotenv": "16.0.3",
-    "node-fetch": "3.3.0",
-    "prettier": "2.8.0",
-    "prettier-plugin-astro": "0.7.2",
+    "dotenv": "16.1.4",
+    "node-fetch": "3.3.1",
+    "prettier": "2.8.8",
+    "prettier-plugin-astro": "0.10.0",
     "slug": "8.2.2",
-    "vitest": "0.27.1"
+    "vitest": "0.32.0"
   }
 }

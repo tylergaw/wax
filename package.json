@@ -10,7 +10,7 @@
     "astro": "astro",
     "test": "vitest",
     "get-collection": "node ./scripts/getCollection.js",
-    "transform-collection": "node ./scripts/transformCollection.js"
+    "enrich-collection": "node ./scripts/enrichCollection.js"
   },
   "engines": {
     "node": ">= 17.0.0"
@@ -22,6 +22,7 @@
     "@types/slug": "5.0.3",
     "dotenv": "16.1.4",
     "node-fetch": "3.3.1",
+    "openai": "3.2.1",
     "prettier": "2.8.8",
     "prettier-plugin-astro": "0.10.0",
     "slug": "8.2.2",

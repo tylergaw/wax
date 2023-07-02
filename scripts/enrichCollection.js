@@ -101,7 +101,7 @@ export const getOpenAIEnrichments = async (collection, promptLimit = 20) => {
 
   const responses = await Promise.allSettled(requests);
   const data = responses.map((res) => res.value.data.choices).flat();
-  const enrichments = getTransformedChoices(data);
+  const enrichments = getTransformedChoices(data).filter((i) => i);
   return enrichments;
 };
 

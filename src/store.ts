@@ -3,19 +3,40 @@ import discogsData from "@data/collection.json";
 import openAIEnrichments from "@data/openAIEnrichments.json";
 import { sortArtistsByName } from "@util/data";
 import slug from "slug";
+import merge from "lodash/fp/merge";
 
-// FIXME: Working here
-// Munge all data sources together
-// Order matters for importance.
-function mungeDataSources(
+/**
+ * Combine all possible data sources to produce a final collection.
+ * The order is important here
+ * - discogs is the foundation
+ * - openai enrichments are next
+ * - TODO: user enrichments  are most important so can override any others.
+ */
+export function combineDataSources(
   discogs: Collection,
-  openai: DataSource = [],
-  user: DataSource = []
-) {
-  return discogs;
+  openai: DataSource = []
+): Collection {
+  const discogsById = discogs.reduce((obj: Release, release: Release) => {
+    obj[release.id] = release;
+    return obj;
+  }, {} as Release);
+
+  const openAIEnrichmentsById = openai
+    .filter((i) => i)
+    .reduce((obj, enrichment) => {
+      obj[enrichment.id] = { display: { ...enrichment } };
+      return obj;
+    }, {} as { [key: string]: any });
+
+  const merged = merge(discogsById, openAIEnrichmentsById);
+  const collection: Collection = Object.keys(merged).map((key) => ({
+    ...merged[key],
+  }));
+
+  return collection;
 }
 
-const finalCollection: Collection = mungeDataSources(
+const finalCollection: Collection = combineDataSources(
   discogsData,
   openAIEnrichments as DataSource
 );

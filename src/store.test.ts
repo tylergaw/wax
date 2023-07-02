@@ -1,11 +1,57 @@
 import type { Collection, Release } from "@types";
 import { describe, it, expect } from "vitest";
-import { getArtists, getReleasesByArtist } from "./store";
+import { combineDataSources, getArtists, getReleasesByArtist } from "./store";
+
+describe("combineDataSources function", () => {
+  it("returns the expected results", () => {
+    const discogsData: Collection = [
+      {
+        id: 123,
+        basic_information: {
+          title: "Iowa",
+          year: 2001,
+          artists: [
+            {
+              name: "Slipknot",
+            },
+          ],
+        },
+      },
+    ];
+
+    const openAIEnrichments = [
+      {
+        id: 123,
+        description: "Red Translucent",
+        human_readable_color: "Red Translucent",
+        css_readable_colors: ["red"],
+        pattern_texture: "translucent",
+      },
+    ];
+
+    const finalCollection = combineDataSources(discogsData, openAIEnrichments);
+    const release = finalCollection[0];
+
+    // First, make sure all standard properties are still in place
+    expect(release).toHaveProperty("basic_information");
+    expect(release).toHaveProperty("basic_information.title", "Iowa");
+
+    // Next, check for the expected properites from openai enrichment
+    expect(release).toHaveProperty("display");
+    expect(release).toHaveProperty(
+      "display.human_readable_color",
+      "Red Translucent"
+    );
+    expect(release).toHaveProperty("display.css_readable_colors", ["red"]);
+    expect(release).toHaveProperty("display.pattern_texture", "translucent");
+  });
+});
 
 describe("getArtists function", () => {
   it("handles single artist per release", () => {
     const collection: Collection = [
       {
+        id: 123,
         basic_information: {
           artists: [
             {
@@ -15,6 +61,7 @@ describe("getArtists function", () => {
         },
       },
       {
+        id: 456,
         basic_information: {
           artists: [
             {
@@ -31,6 +78,7 @@ describe("getArtists function", () => {
   it("handles multiple artists per release", () => {
     const collection: Collection = [
       {
+        id: 123,
         basic_information: {
           artists: [
             {
@@ -50,6 +98,7 @@ describe("getArtists function", () => {
   it("does not duplicate artists", () => {
     const collection: Collection = [
       {
+        id: 123,
         basic_information: {
           artists: [
             {
@@ -59,6 +108,7 @@ describe("getArtists function", () => {
         },
       },
       {
+        id: 456,
         basic_information: {
           artists: [
             {
@@ -77,6 +127,7 @@ describe("getArtists function", () => {
   it("ignores the definite article artist names", () => {
     const collection: Collection = [
       {
+        id: 123,
         basic_information: {
           title: "Superunknown",
           year: 1994,
@@ -88,6 +139,7 @@ describe("getArtists function", () => {
         },
       },
       {
+        id: 456,
         basic_information: {
           title: "On The Impossible Past",
           year: 2012,
@@ -99,6 +151,7 @@ describe("getArtists function", () => {
         },
       },
       {
+        id: 789,
         basic_information: {
           artists: [
             {
@@ -118,6 +171,7 @@ describe("getReleasesByArtist function", () => {
   it("returns the expected results", () => {
     const collection: Collection = [
       {
+        id: 123,
         basic_information: {
           title: "Iowa",
           year: 2001,
@@ -129,6 +183,7 @@ describe("getReleasesByArtist function", () => {
         },
       },
       {
+        id: 456,
         basic_information: {
           title: "Sing the Sorrow",
           year: 2003,
@@ -140,6 +195,7 @@ describe("getReleasesByArtist function", () => {
         },
       },
       {
+        id: 789,
         basic_information: {
           title: "On The Impossible Past",
           year: 2012,
@@ -151,6 +207,7 @@ describe("getReleasesByArtist function", () => {
         },
       },
       {
+        id: 111,
         basic_information: {
           title: "Manchester",
           year: 2011,
@@ -162,6 +219,7 @@ describe("getReleasesByArtist function", () => {
         },
       },
       {
+        id: 222,
         basic_information: {
           title: "The Art of Drowning",
           year: 2000,
@@ -173,6 +231,7 @@ describe("getReleasesByArtist function", () => {
         },
       },
       {
+        id: 333,
         basic_information: {
           title: "Superunknown",
           year: 1994,
@@ -184,6 +243,7 @@ describe("getReleasesByArtist function", () => {
         },
       },
       {
+        id: 444,
         basic_information: {
           title: "Frances The Mute",
           year: 2005,

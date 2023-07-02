@@ -1,16 +1,15 @@
 ---
 import type { Release } from "@types";
-import slug from "slug";
+import store from "@store";
 import Layout from "@layouts/Layout.astro";
 import Releases from "@components/Releases.astro";
-import collection from "@data/collection.json";
-import { getReleasesByArtist } from "@util/data";
+import slug from "slug";
 
 // TODO: Reduce repetition, I think this can be done better across everything.
 export async function getStaticPaths() {
-  const releases = getReleasesByArtist(collection);
+  const releases = store.releasesByArtist;
 
-  return collection.map((release) => {
+  return store.collection.map((release: Release) => {
     const artist = release.basic_information.artists[0].name;
     const currentTitle = release.basic_information.title;
     const otherReleases: Release[] = releases[artist].filter(

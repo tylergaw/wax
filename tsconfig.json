@@ -8,6 +8,7 @@
       "@data/*": ["src/data/*"],
       "@util/*": ["src/util/*"],
       "@types": ["src/types.ts"],
+      "@store": ["src/store.ts"]
     }
   }
 }

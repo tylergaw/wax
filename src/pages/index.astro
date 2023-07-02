@@ -4,11 +4,15 @@ import store from "@store";
 import Layout from "@layouts/Layout.astro";
 import Releases from "@components/Releases.astro";
 
+/*
+  We want to display releases in the correct order, so we need to build a new
+  array from the releasesByArtist object.
+*/
 const releases = store.releasesByArtist;
-let releasesDisplay: Release[] = [];
-for (const key in releases) {
-  releasesDisplay.push(...releases[key]);
-}
+const releasesDisplay: Release[] = Object.keys(releases).reduce(
+  (arr, key) => arr.concat(releases[key]),
+  [] as Release[]
+);
 ---
 
 <Layout title="Wax">

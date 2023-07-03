@@ -17,7 +17,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -41,8 +46,14 @@
           "resource_url": "https://api.discogs.com/labels/634"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["New Wave", "Goth Rock", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "New Wave",
+        "Goth Rock",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -71,7 +82,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "200 Gram",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -95,8 +111,13 @@
           "resource_url": "https://api.discogs.com/labels/904"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Grunge"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Grunge"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -125,7 +146,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Purple Marbled Translucent, 180 Gram",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -149,8 +174,13 @@
           "resource_url": "https://api.discogs.com/labels/925633"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Stoner Rock", "Progressive Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Stoner Rock",
+        "Progressive Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -172,7 +202,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["12\"", "Single", "Picture Disc"]
+          "descriptions": [
+            "12\"",
+            "Single",
+            "Picture Disc"
+          ]
         }
       ],
       "artists": [
@@ -196,8 +230,14 @@
           "resource_url": "https://api.discogs.com/labels/925633"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Sludge Metal", "Stoner Rock", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Sludge Metal",
+        "Stoner Rock",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -249,8 +289,14 @@
           "resource_url": "https://api.discogs.com/labels/925633"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Stoner Rock", "Prog Rock", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Stoner Rock",
+        "Prog Rock",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -302,8 +348,14 @@
           "resource_url": "https://api.discogs.com/labels/925633"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Stoner Rock", "Progressive Metal", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Stoner Rock",
+        "Progressive Metal",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -355,8 +407,14 @@
           "resource_url": "https://api.discogs.com/labels/925633"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Stoner Rock", "Progressive Metal", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Stoner Rock",
+        "Progressive Metal",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -379,18 +437,26 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Orange Translucent",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow-Black Marble ",
-          "descriptions": ["LP", "Single Sided", "Etched"]
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -414,8 +480,14 @@
           "resource_url": "https://api.discogs.com/labels/925633"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Stoner Rock", "Heavy Metal", "Prog Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Stoner Rock",
+        "Heavy Metal",
+        "Prog Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -438,18 +510,26 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow Translucent With Red & Orange Splatter",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow Translucent With Black & White Splatter",
-          "descriptions": ["LP", "Single Sided", "Etched"]
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -473,8 +553,14 @@
           "resource_url": "https://api.discogs.com/labels/925633"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Stoner Rock", "Heavy Metal", "Prog Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Stoner Rock",
+        "Heavy Metal",
+        "Prog Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -497,7 +583,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Red Translucent",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -521,8 +611,14 @@
           "resource_url": "https://api.discogs.com/labels/37406"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -554,7 +650,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Picture Disc", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Picture Disc",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -586,8 +687,14 @@
           "resource_url": "https://api.discogs.com/labels/34307"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Blues Rock", "Goth Rock", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Blues Rock",
+        "Goth Rock",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -619,7 +726,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -643,8 +753,12 @@
           "resource_url": "https://api.discogs.com/labels/156663"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -666,7 +780,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -690,8 +807,12 @@
           "resource_url": "https://api.discogs.com/labels/156663"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -713,7 +834,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Misprint"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Misprint"
+          ]
         }
       ],
       "artists": [
@@ -737,8 +862,13 @@
           "resource_url": "https://api.discogs.com/labels/10389"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -767,7 +897,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 gram",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -791,8 +925,13 @@
           "resource_url": "https://api.discogs.com/labels/2569"
         }
       ],
-      "genres": ["Folk, World, & Country"],
-      "styles": ["Country", "Country Rock"]
+      "genres": [
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Country",
+        "Country Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -824,7 +963,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -864,8 +1007,12 @@
           "resource_url": "https://api.discogs.com/labels/15491"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -893,17 +1040,24 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Single Sided"]
+          "descriptions": [
+            "LP",
+            "Single Sided"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -927,8 +1081,13 @@
           "resource_url": "https://api.discogs.com/labels/1873"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Blues Rock", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Blues Rock",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -981,8 +1140,12 @@
           "resource_url": "https://api.discogs.com/labels/1873"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Black Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Black Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -1005,7 +1168,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Blue Opaque",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -1037,8 +1204,13 @@
           "resource_url": "https://api.discogs.com/labels/1873"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Post-Metal", "Blackgaze"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Metal",
+        "Blackgaze"
+      ]
     },
     "folder_id": 1
   },
@@ -1061,7 +1233,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Gold",
-          "descriptions": ["LP", "45 RPM", "Album", "Stereo"]
+          "descriptions": [
+            "LP",
+            "45 RPM",
+            "Album",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -1085,8 +1262,13 @@
           "resource_url": "https://api.discogs.com/labels/683857"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Acoustic"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Acoustic"
+      ]
     },
     "folder_id": 1
   },
@@ -1108,7 +1290,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -1132,8 +1317,17 @@
           "resource_url": "https://api.discogs.com/labels/362"
         }
       ],
-      "genres": ["Electronic", "Funk / Soul", "Pop"],
-      "styles": ["Soul", "Synth-pop", "Ballad", "Disco"]
+      "genres": [
+        "Electronic",
+        "Funk / Soul",
+        "Pop"
+      ],
+      "styles": [
+        "Soul",
+        "Synth-pop",
+        "Ballad",
+        "Disco"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -1166,7 +1360,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180g, United Pressing",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -1198,7 +1397,9 @@
           "resource_url": "https://api.discogs.com/labels/362"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": []
     },
     "folder_id": 1
@@ -1222,7 +1423,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Gatefold Cover, 180 gram",
-          "descriptions": ["LP", "Album", "Reissue", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -1286,8 +1492,14 @@
           "resource_url": "https://api.discogs.com/labels/152823"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Groove Metal", "Thrash", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Groove Metal",
+        "Thrash",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -1319,12 +1531,18 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Single Sided", "Etched"]
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched"
+          ]
         },
         {
           "name": "All Media",
@@ -1368,7 +1586,11 @@
           "resource_url": "https://api.discogs.com/labels/681"
         }
       ],
-      "genres": ["Electronic", "Rock", "Stage & Screen"],
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Stage & Screen"
+      ],
       "styles": [
         "Soundtrack",
         "Alternative Rock",
@@ -1407,12 +1629,21 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         },
         {
           "name": "CD",
           "qty": "1",
-          "descriptions": ["Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         },
         {
           "name": "CD",
@@ -1425,7 +1656,11 @@
         {
           "name": "Box Set",
           "qty": "1",
-          "descriptions": ["Compilation", "Deluxe Edition", "Limited Edition"]
+          "descriptions": [
+            "Compilation",
+            "Deluxe Edition",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -1457,8 +1692,12 @@
           "resource_url": "https://api.discogs.com/labels/33244"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -1491,7 +1730,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Orange Day-glo",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -1539,8 +1781,14 @@
           "resource_url": "https://api.discogs.com/labels/115117"
         }
       ],
-      "genres": ["Electronic", "Latin", "Folk, World, & Country"],
-      "styles": ["Mariachi"]
+      "genres": [
+        "Electronic",
+        "Latin",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Mariachi"
+      ]
     },
     "folder_id": 1
   },
@@ -1563,12 +1811,17 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Tri Color Split Red/White/Green",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "CD",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -1600,8 +1853,13 @@
           "resource_url": "https://api.discogs.com/labels/115117"
         }
       ],
-      "genres": ["Latin", "Folk, World, & Country"],
-      "styles": ["Mariachi"]
+      "genres": [
+        "Latin",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Mariachi"
+      ]
     },
     "folder_id": 1
   },
@@ -1671,8 +1929,16 @@
           "resource_url": "https://api.discogs.com/labels/115117"
         }
       ],
-      "genres": ["Rock", "Latin", "Folk, World, & Country"],
-      "styles": ["Mariachi", "Hardcore", "Punk"]
+      "genres": [
+        "Rock",
+        "Latin",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Mariachi",
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -1694,7 +1960,11 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -1718,8 +1988,12 @@
           "resource_url": "https://api.discogs.com/labels/501701"
         }
       ],
-      "genres": ["Pop"],
-      "styles": ["Vocal"]
+      "genres": [
+        "Pop"
+      ],
+      "styles": [
+        "Vocal"
+      ]
     },
     "folder_id": 1
   },
@@ -1741,7 +2015,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -1773,8 +2050,12 @@
           "resource_url": "https://api.discogs.com/labels/501701"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -1806,7 +2087,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["12\"", "33 ⅓ RPM", "EP"]
+          "descriptions": [
+            "12\"",
+            "33 ⅓ RPM",
+            "EP"
+          ]
         }
       ],
       "artists": [
@@ -1838,8 +2123,12 @@
           "resource_url": "https://api.discogs.com/labels/501701"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -1872,7 +2161,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red Translucent",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -1896,8 +2190,14 @@
           "resource_url": "https://api.discogs.com/labels/2803"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock", "Alternative Rock", "Emo"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock",
+        "Alternative Rock",
+        "Emo"
+      ]
     },
     "folder_id": 1
   },
@@ -1919,7 +2219,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -1943,8 +2246,13 @@
           "resource_url": "https://api.discogs.com/labels/2803"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -1967,7 +2275,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Purple Marble",
-          "descriptions": ["LP", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -1999,8 +2310,13 @@
           "resource_url": "https://api.discogs.com/labels/43155"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -2022,7 +2338,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -2054,8 +2373,12 @@
           "resource_url": "https://api.discogs.com/labels/33231"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -2109,8 +2432,13 @@
           "resource_url": "https://api.discogs.com/labels/472773"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -2138,7 +2466,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -2162,7 +2493,11 @@
           "resource_url": "https://api.discogs.com/labels/34325"
         }
       ],
-      "genres": ["Rock", "Blues", "Folk, World, & Country"],
+      "genres": [
+        "Rock",
+        "Blues",
+        "Folk, World, & Country"
+      ],
       "styles": []
     },
     "folder_id": 1
@@ -2186,18 +2521,26 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Magenta (Neon) Translucent",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "2",
           "text": "Gold Metallic",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album", "Deluxe Edition", "Limited Edition"]
+          "descriptions": [
+            "Album",
+            "Deluxe Edition",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -2221,8 +2564,13 @@
           "resource_url": "https://api.discogs.com/labels/1003"
         }
       ],
-      "genres": ["Hip Hop"],
-      "styles": ["Hardcore Hip-Hop", "Conscious"]
+      "genres": [
+        "Hip Hop"
+      ],
+      "styles": [
+        "Hardcore Hip-Hop",
+        "Conscious"
+      ]
     },
     "folder_id": 1
   },
@@ -2245,18 +2593,27 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180g",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "180g",
-          "descriptions": ["12\"", "33 ⅓ RPM", "Single Sided"]
+          "descriptions": [
+            "12\"",
+            "33 ⅓ RPM",
+            "Single Sided"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album", "Reissue"]
+          "descriptions": [
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -2288,7 +2645,9 @@
           "resource_url": "https://api.discogs.com/labels/26391"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": []
     },
     "folder_id": 1
@@ -2312,7 +2671,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 gram",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -2336,8 +2698,17 @@
           "resource_url": "https://api.discogs.com/labels/654"
         }
       ],
-      "genres": ["Electronic", "Jazz", "Rock"],
-      "styles": ["Art Rock", "Industrial", "Avant-garde Jazz", "Post Rock"]
+      "genres": [
+        "Electronic",
+        "Jazz",
+        "Rock"
+      ],
+      "styles": [
+        "Art Rock",
+        "Industrial",
+        "Avant-garde Jazz",
+        "Post Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -2360,7 +2731,10 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Gatefold",
-          "descriptions": ["LP", "Compilation"]
+          "descriptions": [
+            "LP",
+            "Compilation"
+          ]
         }
       ],
       "artists": [
@@ -2384,8 +2758,14 @@
           "resource_url": "https://api.discogs.com/labels/69119"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hard Rock", "Doom Metal", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock",
+        "Doom Metal",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -2407,7 +2787,11 @@
         {
           "name": "Vinyl",
           "qty": "5",
-          "descriptions": ["LP", "Album", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
         },
         {
           "name": "Box Set",
@@ -2435,8 +2819,16 @@
           "resource_url": "https://api.discogs.com/labels/3072"
         }
       ],
-      "genres": ["Rock", "Blues", "Folk, World, & Country"],
-      "styles": ["Pop Rock", "Arena Rock", "Blues Rock"]
+      "genres": [
+        "Rock",
+        "Blues",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Pop Rock",
+        "Arena Rock",
+        "Blues Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -2465,7 +2857,10 @@
           "name": "Vinyl",
           "qty": "3",
           "text": "James Booker credit",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -2489,8 +2884,15 @@
           "resource_url": "https://api.discogs.com/labels/3072"
         }
       ],
-      "genres": ["Rock", "Reggae"],
-      "styles": ["Rock & Roll", "Dub", "Punk"]
+      "genres": [
+        "Rock",
+        "Reggae"
+      ],
+      "styles": [
+        "Rock & Roll",
+        "Dub",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -2512,7 +2914,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -2536,8 +2941,14 @@
           "resource_url": "https://api.discogs.com/labels/3198"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["New Wave", "Pop Rock", "Disco"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "New Wave",
+        "Pop Rock",
+        "Disco"
+      ]
     },
     "folder_id": 1
   },
@@ -2559,7 +2970,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Unofficial Release", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Unofficial Release",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -2583,8 +2999,14 @@
           "resource_url": "https://api.discogs.com/labels/51644"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Alternative Rock", "Industrial"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Industrial"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -2612,7 +3034,12 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -2636,7 +3063,9 @@
           "resource_url": "https://api.discogs.com/labels/382975"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": [
         "Art Rock",
         "Prog Rock",
@@ -2665,7 +3094,11 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -2689,8 +3122,14 @@
           "resource_url": "https://api.discogs.com/labels/382975"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Psychedelic Rock", "Prog Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -2713,7 +3152,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Gold Foil Cover",
-          "descriptions": ["LP", "Album", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -2737,8 +3180,14 @@
           "resource_url": "https://api.discogs.com/labels/382975"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Psychedelic Rock", "Prog Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Psychedelic Rock",
+        "Prog Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -2761,7 +3210,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Purple",
-          "descriptions": ["12\"", "33 ⅓ RPM", "EP"]
+          "descriptions": [
+            "12\"",
+            "33 ⅓ RPM",
+            "EP"
+          ]
         }
       ],
       "artists": [
@@ -2785,8 +3238,12 @@
           "resource_url": "https://api.discogs.com/labels/1866"
         }
       ],
-      "genres": ["Folk, World, & Country"],
-      "styles": ["Country"]
+      "genres": [
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Country"
+      ]
     },
     "folder_id": 1
   },
@@ -2809,7 +3266,10 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Pitman Pressing",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -2833,7 +3293,9 @@
           "resource_url": "https://api.discogs.com/labels/1866"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": []
     },
     "folder_id": 1
@@ -2857,7 +3319,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Carrollton Pressing",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -2881,8 +3347,12 @@
           "resource_url": "https://api.discogs.com/labels/1866"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Acoustic"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Acoustic"
+      ]
     },
     "folder_id": 1
   },
@@ -2904,7 +3374,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -2928,8 +3401,12 @@
           "resource_url": "https://api.discogs.com/labels/1866"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Pop Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Pop Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -2951,18 +3428,30 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
           "text": "Gatefold",
-          "descriptions": ["Record Store Day"]
+          "descriptions": [
+            "Record Store Day"
+          ]
         }
       ],
       "artists": [
@@ -2994,8 +3483,14 @@
           "resource_url": "https://api.discogs.com/labels/15491"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Garage Rock", "Hard Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Garage Rock",
+        "Hard Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -3024,7 +3519,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram",
-          "descriptions": ["LP", "Album", "Reissue", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -3056,8 +3556,13 @@
           "resource_url": "https://api.discogs.com/labels/15491"
         }
       ],
-      "genres": ["Jazz"],
-      "styles": ["Modal", "Cool Jazz"]
+      "genres": [
+        "Jazz"
+      ],
+      "styles": [
+        "Modal",
+        "Cool Jazz"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -3086,7 +3591,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Gatefold",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -3110,8 +3619,15 @@
           "resource_url": "https://api.discogs.com/labels/1266884"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Country Rock", "Honky Tonk", "Rockabilly"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Country Rock",
+        "Honky Tonk",
+        "Rockabilly"
+      ]
     },
     "folder_id": 1
   },
@@ -3164,8 +3680,12 @@
           "resource_url": "https://api.discogs.com/labels/1266884"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Progressive Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Progressive Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -3188,7 +3708,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Red Opaque",
-          "descriptions": ["12\"", "45 RPM", "Album", "Repress"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -3212,8 +3737,12 @@
           "resource_url": "https://api.discogs.com/labels/74737"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -3242,18 +3771,27 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Pink Baby",
-          "descriptions": ["12\"", "45 RPM"]
+          "descriptions": [
+            "12\"",
+            "45 RPM"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow Piss",
-          "descriptions": ["12\"", "45 RPM"]
+          "descriptions": [
+            "12\"",
+            "45 RPM"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album", "Repress"]
+          "descriptions": [
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -3277,8 +3815,13 @@
           "resource_url": "https://api.discogs.com/labels/74737"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Blackgaze", "Post-Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Blackgaze",
+        "Post-Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -3301,7 +3844,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow [Highlighter Yellow]",
-          "descriptions": ["LP", "Album", "Limited Edition", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -3333,8 +3881,12 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore"
+      ]
     },
     "folder_id": 1
   },
@@ -3357,7 +3909,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Silver/Red Mix",
-          "descriptions": ["LP", "Album", "Limited Edition", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -3389,8 +3946,13 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Metalcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Metalcore"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -3456,8 +4018,14 @@
           "resource_url": "https://api.discogs.com/labels/6486"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Indie Rock", "Disco"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock",
+        "Disco"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -3485,7 +4053,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -3509,8 +4081,13 @@
           "resource_url": "https://api.discogs.com/labels/53049"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Rock & Roll", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Rock & Roll",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -3563,8 +4140,13 @@
           "resource_url": "https://api.discogs.com/labels/18955"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -3586,7 +4168,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -3618,8 +4205,13 @@
           "resource_url": "https://api.discogs.com/labels/18955"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -3651,7 +4243,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -3691,8 +4288,15 @@
           "resource_url": "https://api.discogs.com/labels/18955"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Hardcore", "Post Rock", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Hardcore",
+        "Post Rock",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -3724,7 +4328,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Picture Disc", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Picture Disc",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -3748,8 +4356,12 @@
           "resource_url": "https://api.discogs.com/labels/235714"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -3771,7 +4383,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["Picture Disc", "LP", "Limited Edition"]
+          "descriptions": [
+            "Picture Disc",
+            "LP",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -3795,8 +4411,12 @@
           "resource_url": "https://api.discogs.com/labels/235714"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -3818,7 +4438,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Picture Disc"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Picture Disc"
+          ]
         }
       ],
       "artists": [
@@ -3842,8 +4466,12 @@
           "resource_url": "https://api.discogs.com/labels/235714"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -3865,7 +4493,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -3897,8 +4528,13 @@
           "resource_url": "https://api.discogs.com/labels/9286"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -3921,7 +4557,13 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Lavender",
-          "descriptions": ["LP", "Album", "Numbered", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Numbered",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -3945,8 +4587,12 @@
           "resource_url": "https://api.discogs.com/labels/80003"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -3969,7 +4615,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "180 Gram",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -3993,8 +4643,13 @@
           "resource_url": "https://api.discogs.com/labels/1005"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -4017,7 +4672,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "2nd pressing",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -4041,8 +4700,13 @@
           "resource_url": "https://api.discogs.com/labels/1005"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Rock & Roll", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Rock & Roll",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -4071,7 +4735,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Pitman Pressing, Gatefold",
-          "descriptions": ["LP", "Album", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -4103,8 +4771,15 @@
           "resource_url": "https://api.discogs.com/labels/1005"
         }
       ],
-      "genres": ["Funk / Soul", "Pop"],
-      "styles": ["Funk", "Disco", "Soul"]
+      "genres": [
+        "Funk / Soul",
+        "Pop"
+      ],
+      "styles": [
+        "Funk",
+        "Disco",
+        "Soul"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -4137,7 +4812,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear ",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -4161,8 +4839,13 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -4184,7 +4867,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "45 RPM", "Single"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -4208,8 +4895,12 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -4232,7 +4923,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Gatefold",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -4256,8 +4951,12 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -4289,7 +4988,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -4313,8 +5016,12 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -4346,7 +5053,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -4370,8 +5080,12 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -4404,7 +5118,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Blue Translucent",
-          "descriptions": ["LP", "Album", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Remastered"
+          ]
         },
         {
           "name": "DVD",
@@ -4432,8 +5150,14 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk", "Avantgarde"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk",
+        "Avantgarde"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -4461,12 +5185,17 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "CD",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -4490,8 +5219,13 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Rock & Roll"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Rock & Roll"
+      ]
     },
     "folder_id": 1
   },
@@ -4513,12 +5247,17 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "CD",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -4542,8 +5281,12 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -4566,12 +5309,18 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear/White",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         },
         {
           "name": "CD",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -4595,8 +5344,13 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -4618,7 +5372,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -4642,8 +5399,12 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Post-Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Hardcore"
+      ]
     },
     "folder_id": 1
   },
@@ -4665,7 +5426,12 @@
         {
           "name": "Vinyl",
           "qty": "4",
-          "descriptions": ["LP", "45 RPM", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "45 RPM",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -4689,8 +5455,13 @@
           "resource_url": "https://api.discogs.com/labels/61599"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Ska", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Ska",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -4713,7 +5484,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Pink (Opaque Pink)",
-          "descriptions": ["LP", "Album", "Limited Edition", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -4737,8 +5513,13 @@
           "resource_url": "https://api.discogs.com/labels/33333"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Post-Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Post-Hardcore"
+      ]
     },
     "folder_id": 1
   },
@@ -4761,7 +5542,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Green W/ Red And Black Splatter",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -4793,8 +5578,13 @@
           "resource_url": "https://api.discogs.com/labels/259412"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -4816,7 +5606,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "Single", "Limited Edition"]
+          "descriptions": [
+            "7\"",
+            "Single",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -4840,7 +5634,9 @@
           "resource_url": "https://api.discogs.com/labels/278733"
         }
       ],
-      "genres": ["Pop"],
+      "genres": [
+        "Pop"
+      ],
       "styles": []
     },
     "folder_id": 1
@@ -4864,7 +5660,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Hollywood Pressing",
-          "descriptions": ["LP", "Album", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -4888,8 +5688,16 @@
           "resource_url": "https://api.discogs.com/labels/1329"
         }
       ],
-      "genres": ["Rock", "Blues"],
-      "styles": ["Blues Rock", "Rock & Roll", "Southern Rock", "Classic Rock"]
+      "genres": [
+        "Rock",
+        "Blues"
+      ],
+      "styles": [
+        "Blues Rock",
+        "Rock & Roll",
+        "Southern Rock",
+        "Classic Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -4917,7 +5725,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -4941,8 +5752,12 @@
           "resource_url": "https://api.discogs.com/labels/33296"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -4964,7 +5779,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -4988,8 +5806,12 @@
           "resource_url": "https://api.discogs.com/labels/33296"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5021,18 +5843,25 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "White",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album", "Repress"]
+          "descriptions": [
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -5056,8 +5885,12 @@
           "resource_url": "https://api.discogs.com/labels/33296"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -5079,7 +5912,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["12\"", "45 RPM", "Limited Edition"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -5103,8 +5940,14 @@
           "resource_url": "https://api.discogs.com/labels/33296"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Electro", "Punk"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Electro",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5136,7 +5979,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["12\"", "45 RPM", "Album"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -5160,8 +6007,12 @@
           "resource_url": "https://api.discogs.com/labels/33296"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -5183,7 +6034,11 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["12\"", "45 RPM", "Album"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -5207,8 +6062,12 @@
           "resource_url": "https://api.discogs.com/labels/33296"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5240,7 +6099,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "45 RPM", "Album"]
+          "descriptions": [
+            "LP",
+            "45 RPM",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -5281,8 +6144,12 @@
           "resource_url": "https://api.discogs.com/labels/56485"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -5335,8 +6202,13 @@
           "resource_url": "https://api.discogs.com/labels/35521"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Emo", "Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Emo",
+        "Hardcore"
+      ]
     },
     "folder_id": 1
   },
@@ -5359,7 +6231,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "White",
-          "descriptions": ["10\"", "33 ⅓ RPM", "EP", "Reissue"]
+          "descriptions": [
+            "10\"",
+            "33 ⅓ RPM",
+            "EP",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -5391,8 +6268,13 @@
           "resource_url": "https://api.discogs.com/labels/35521"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Emo", "Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Emo",
+        "Hardcore"
+      ]
     },
     "folder_id": 1
   },
@@ -5415,7 +6297,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180g",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -5447,8 +6334,13 @@
           "resource_url": "https://api.discogs.com/labels/152823"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "New Wave"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "New Wave"
+      ]
     },
     "folder_id": 1
   },
@@ -5471,7 +6363,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram",
-          "descriptions": ["LP", "Album", "Reissue", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -5511,8 +6408,13 @@
           "resource_url": "https://api.discogs.com/labels/77343"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Grunge", "Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Grunge",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5541,7 +6443,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "United Record Pressing, 180g, Gatefold",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -5589,8 +6495,13 @@
           "resource_url": "https://api.discogs.com/labels/68029"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Ska"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Ska"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5623,7 +6534,10 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Sonopress Pressing",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -5663,8 +6577,12 @@
           "resource_url": "https://api.discogs.com/labels/140536"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hard Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -5725,8 +6643,13 @@
           "resource_url": "https://api.discogs.com/labels/68029"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Pop Punk", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Pop Punk",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5758,7 +6681,10 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -5780,10 +6706,22 @@
           "entity_type_name": "Label",
           "id": 1723302,
           "resource_url": "https://api.discogs.com/labels/1723302"
+        },
+        {
+          "name": "Ghosteen Ltd",
+          "catno": "5056167114796",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1723302,
+          "resource_url": "https://api.discogs.com/labels/1723302"
         }
       ],
-      "genres": ["Electronic"],
-      "styles": ["Ambient"]
+      "genres": [
+        "Electronic"
+      ],
+      "styles": [
+        "Ambient"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5816,7 +6754,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "180g",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -5840,8 +6782,12 @@
           "resource_url": "https://api.discogs.com/labels/189546"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -5863,17 +6809,27 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Special Cut"]
+          "descriptions": [
+            "LP",
+            "Special Cut"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Single Sided", "Etched", "Special Cut"]
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched",
+            "Special Cut"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -5897,8 +6853,15 @@
           "resource_url": "https://api.discogs.com/labels/12131"
         }
       ],
-      "genres": ["Rock", "Latin"],
-      "styles": ["Psychedelic Rock", "Prog Rock", "Math Rock"]
+      "genres": [
+        "Rock",
+        "Latin"
+      ],
+      "styles": [
+        "Psychedelic Rock",
+        "Prog Rock",
+        "Math Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5931,7 +6894,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow Marble, photo insert",
-          "descriptions": ["12\"", "EP"]
+          "descriptions": [
+            "12\"",
+            "EP"
+          ]
         }
       ],
       "artists": [
@@ -5955,8 +6921,14 @@
           "resource_url": "https://api.discogs.com/labels/12131"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Psychedelic Rock", "Experimental"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Psychedelic Rock",
+        "Experimental"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -5988,7 +6960,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -6012,8 +6987,13 @@
           "resource_url": "https://api.discogs.com/labels/2236"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock", "Post-Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock",
+        "Post-Hardcore"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -6042,7 +7022,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Orange",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -6074,7 +7058,9 @@
           "resource_url": "https://api.discogs.com/labels/116554"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": [
         "Alternative Rock",
         "Indie Rock",
@@ -6103,7 +7089,11 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -6135,8 +7125,12 @@
           "resource_url": "https://api.discogs.com/labels/1005"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -6169,7 +7163,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -6193,8 +7190,14 @@
           "resource_url": "https://api.discogs.com/labels/34694"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -6222,7 +7225,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -6246,7 +7253,12 @@
           "resource_url": "https://api.discogs.com/labels/2311"
         }
       ],
-      "genres": ["Rock", "Reggae", "Funk / Soul", "Pop"],
+      "genres": [
+        "Rock",
+        "Reggae",
+        "Funk / Soul",
+        "Pop"
+      ],
       "styles": []
     },
     "folder_id": 1
@@ -6270,7 +7282,13 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Definitive Edition, 180g",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -6302,8 +7320,15 @@
           "resource_url": "https://api.discogs.com/labels/647"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Industrial", "Industrial Metal", "Alternative Rock"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Industrial",
+        "Industrial Metal",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -6326,7 +7351,13 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Gatefold, Definitive Edition, 180g",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -6358,8 +7389,15 @@
           "resource_url": "https://api.discogs.com/labels/647"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Industrial Metal", "Industrial", "Alternative Rock"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Industrial Metal",
+        "Industrial",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -6381,7 +7419,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -6405,8 +7447,14 @@
           "resource_url": "https://api.discogs.com/labels/48048"
         }
       ],
-      "genres": ["Pop", "Classical"],
-      "styles": ["Vocal", "Chanson"]
+      "genres": [
+        "Pop",
+        "Classical"
+      ],
+      "styles": [
+        "Vocal",
+        "Chanson"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -6439,7 +7487,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear",
-          "descriptions": ["7\"", "45 RPM", "EP"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "EP"
+          ]
         }
       ],
       "artists": [
@@ -6463,8 +7515,15 @@
           "resource_url": "https://api.discogs.com/labels/8377"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Hard Rock", "Experimental", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Hard Rock",
+        "Experimental",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -6487,7 +7546,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180g",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -6519,8 +7582,12 @@
           "resource_url": "https://api.discogs.com/labels/68029"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -6542,7 +7609,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -6566,8 +7636,14 @@
           "resource_url": "https://api.discogs.com/labels/29121"
         }
       ],
-      "genres": ["Rock", "Pop", "Folk, World, & Country"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock",
+        "Pop",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -6590,7 +7666,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Pink",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -6614,8 +7694,13 @@
           "resource_url": "https://api.discogs.com/labels/43474"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Goth Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Goth Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -6684,8 +7769,13 @@
           "resource_url": "https://api.discogs.com/labels/276086"
         }
       ],
-      "genres": ["Hip Hop"],
-      "styles": ["Pop Rap", "Conscious"]
+      "genres": [
+        "Hip Hop"
+      ],
+      "styles": [
+        "Pop Rap",
+        "Conscious"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -6718,7 +7808,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red Translucent",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -6750,8 +7843,17 @@
           "resource_url": "https://api.discogs.com/labels/75832"
         }
       ],
-      "genres": ["Electronic", "Rock", "Stage & Screen"],
-      "styles": ["Soundtrack", "Industrial", "Ambient", "Dark Ambient"]
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Soundtrack",
+        "Industrial",
+        "Ambient",
+        "Dark Ambient"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -6783,7 +7885,11 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -6807,8 +7913,13 @@
           "resource_url": "https://api.discogs.com/labels/63652"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Country Rock", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Country Rock",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -6831,7 +7942,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Gold Colored",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -6855,8 +7970,12 @@
           "resource_url": "https://api.discogs.com/labels/63652"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Rock & Roll"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Rock & Roll"
+      ]
     },
     "folder_id": 1
   },
@@ -6879,7 +7998,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Orange Marble, Gatefold",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -6903,8 +8027,12 @@
           "resource_url": "https://api.discogs.com/labels/24105"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -6933,7 +8061,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Blue Light ",
-          "descriptions": ["LP", "Album", "Numbered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Numbered"
+          ]
         }
       ],
       "artists": [
@@ -6957,8 +8089,13 @@
           "resource_url": "https://api.discogs.com/labels/34058"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -6991,7 +8128,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "White, 180g",
-          "descriptions": ["LP", "Album", "Deluxe Edition", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Deluxe Edition",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -7015,8 +8157,14 @@
           "resource_url": "https://api.discogs.com/labels/525063"
         }
       ],
-      "genres": ["Rock", "Blues"],
-      "styles": ["Industrial", "Blues Rock"]
+      "genres": [
+        "Rock",
+        "Blues"
+      ],
+      "styles": [
+        "Industrial",
+        "Blues Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7049,7 +8197,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red Opaque",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -7073,8 +8224,13 @@
           "resource_url": "https://api.discogs.com/labels/525063"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Industrial"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Industrial"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7106,7 +8262,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -7130,8 +8290,13 @@
           "resource_url": "https://api.discogs.com/labels/525063"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Industrial"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Industrial"
+      ]
     },
     "folder_id": 1
   },
@@ -7154,7 +8319,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Hot Pink Shimmer",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -7186,8 +8355,13 @@
           "resource_url": "https://api.discogs.com/labels/525063"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Glam", "Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Glam",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -7209,7 +8383,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Unofficial Release", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Unofficial Release",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -7241,8 +8420,13 @@
           "resource_url": "https://api.discogs.com/labels/817293"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hard Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7271,7 +8455,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Blue Album Artwork",
-          "descriptions": ["12\"", "45 RPM", "Album", "Limited Edition"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -7295,8 +8484,12 @@
           "resource_url": "https://api.discogs.com/labels/194"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -7318,7 +8511,10 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -7342,8 +8538,13 @@
           "resource_url": "https://api.discogs.com/labels/194"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7376,7 +8577,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 gram",
-          "descriptions": ["LP", "Album", "Reissue", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -7400,8 +8606,12 @@
           "resource_url": "https://api.discogs.com/labels/1685"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -7423,7 +8633,11 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -7447,8 +8661,14 @@
           "resource_url": "https://api.discogs.com/labels/1685"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Nu Metal", "Alternative Rock", "Hard Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal",
+        "Alternative Rock",
+        "Hard Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -7471,7 +8691,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Pink",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -7495,8 +8720,13 @@
           "resource_url": "https://api.discogs.com/labels/1685"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hard Rock", "Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock",
+        "Nu Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7528,7 +8758,10 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -7560,8 +8793,13 @@
           "resource_url": "https://api.discogs.com/labels/90939"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7594,18 +8832,26 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red/Silver Marble",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "Blue/Silver Marble",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -7637,8 +8883,17 @@
           "resource_url": "https://api.discogs.com/labels/81208"
         }
       ],
-      "genres": ["Electronic", "Stage & Screen"],
-      "styles": ["Soundtrack", "Abstract", "Electro", "Synth-pop", "Score"]
+      "genres": [
+        "Electronic",
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Soundtrack",
+        "Abstract",
+        "Electro",
+        "Synth-pop",
+        "Score"
+      ]
     },
     "folder_id": 1
   },
@@ -7661,7 +8916,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Grey",
-          "descriptions": ["7\"", "45 RPM", "Single", "Repress"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "Single",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -7685,8 +8945,13 @@
           "resource_url": "https://api.discogs.com/labels/340126"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Rock & Roll", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Rock & Roll",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -7739,8 +9004,16 @@
           "resource_url": "https://api.discogs.com/labels/169635"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Abstract", "Dub", "Experimental", "Psychedelic Rock"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Abstract",
+        "Dub",
+        "Experimental",
+        "Psychedelic Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7769,7 +9042,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "180 Gram",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -7809,8 +9086,13 @@
           "resource_url": "https://api.discogs.com/labels/2327"
         }
       ],
-      "genres": ["Hip Hop", "Rock"],
-      "styles": ["Nu Metal"]
+      "genres": [
+        "Hip Hop",
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7843,7 +9125,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram",
-          "descriptions": ["LP", "Album", "Reissue", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -7883,8 +9170,12 @@
           "resource_url": "https://api.discogs.com/labels/1005"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -7907,19 +9198,28 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram",
-          "descriptions": ["LP", "Single Sided", "Etched"]
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
           "text": "Gatefold",
-          "descriptions": ["Album", "Reissue"]
+          "descriptions": [
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -7951,8 +9251,12 @@
           "resource_url": "https://api.discogs.com/labels/2311"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -7989,7 +9293,13 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram",
-          "descriptions": ["LP", "Album", "Reissue", "Repress", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -8021,8 +9331,14 @@
           "resource_url": "https://api.discogs.com/labels/34268"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Dubstep", "Nu Metal"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Dubstep",
+        "Nu Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -8085,8 +9401,16 @@
           "resource_url": "https://api.discogs.com/labels/26391"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Blues Rock", "Garage Rock", "Lo-Fi", "Noise", "Avantgarde"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Blues Rock",
+        "Garage Rock",
+        "Lo-Fi",
+        "Noise",
+        "Avantgarde"
+      ]
     },
     "folder_id": 1
   },
@@ -8108,7 +9432,12 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Unofficial Release", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Unofficial Release",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -8140,8 +9469,12 @@
           "resource_url": "https://api.discogs.com/labels/188073"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -8169,7 +9502,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -8201,8 +9538,12 @@
           "resource_url": "https://api.discogs.com/labels/1003"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -8263,8 +9604,13 @@
           "resource_url": "https://api.discogs.com/labels/1003"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Blues Rock", "Garage Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Blues Rock",
+        "Garage Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -8300,17 +9646,26 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Single Sided"]
+          "descriptions": [
+            "LP",
+            "Single Sided"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album", "Reissue", "Repress"]
+          "descriptions": [
+            "Album",
+            "Reissue",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -8358,8 +9713,13 @@
           "resource_url": "https://api.discogs.com/labels/1003"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Art Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Art Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -8382,7 +9742,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Green",
-          "descriptions": ["12\"", "45 RPM", "Single", "Limited Edition"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Single",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -8414,8 +9779,13 @@
           "resource_url": "https://api.discogs.com/labels/26391"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Garage Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Garage Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -8437,7 +9807,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -8461,8 +9834,13 @@
           "resource_url": "https://api.discogs.com/labels/686939"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -8484,7 +9862,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "33 ⅓ RPM"]
+          "descriptions": [
+            "7\"",
+            "33 ⅓ RPM"
+          ]
         }
       ],
       "artists": [
@@ -8525,8 +9906,13 @@
           "resource_url": "https://api.discogs.com/labels/102805"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Post Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Post Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -8549,7 +9935,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Purple Marbled",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -8573,8 +9963,13 @@
           "resource_url": "https://api.discogs.com/labels/41643"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -8607,7 +10002,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Purple",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -8631,8 +10030,13 @@
           "resource_url": "https://api.discogs.com/labels/41643"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -8655,7 +10059,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Lilac",
-          "descriptions": ["7\"", "45 RPM", "Single"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -8679,8 +10087,13 @@
           "resource_url": "https://api.discogs.com/labels/33337"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Acoustic", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Acoustic",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -8703,7 +10116,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Reddish Purple",
-          "descriptions": ["7\"", "33 ⅓ RPM"]
+          "descriptions": [
+            "7\"",
+            "33 ⅓ RPM"
+          ]
         }
       ],
       "artists": [
@@ -8727,8 +10143,12 @@
           "resource_url": "https://api.discogs.com/labels/33337"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -8751,7 +10171,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Blue Translucent",
-          "descriptions": ["7\"", "45 RPM", "Single"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -8775,8 +10199,12 @@
           "resource_url": "https://api.discogs.com/labels/33337"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -8809,7 +10237,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Strawberry Jam",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -8833,8 +10264,12 @@
           "resource_url": "https://api.discogs.com/labels/33337"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -8867,7 +10302,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear split w/ Clear Blue",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -8891,8 +10330,15 @@
           "resource_url": "https://api.discogs.com/labels/33337"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Acoustic", "Folk", "Country"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Acoustic",
+        "Folk",
+        "Country"
+      ]
     },
     "folder_id": 1
   },
@@ -8915,7 +10361,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Grey Mix",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -8939,8 +10389,15 @@
           "resource_url": "https://api.discogs.com/labels/33337"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Acoustic", "Punk", "Neofolk"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Acoustic",
+        "Punk",
+        "Neofolk"
+      ]
     },
     "folder_id": 1
   },
@@ -8963,7 +10420,9 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Clear/Clear Deluxe Edition",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         }
       ],
       "artists": [
@@ -8987,7 +10446,9 @@
           "resource_url": "https://api.discogs.com/labels/156292"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": []
     },
     "folder_id": 1
@@ -9011,13 +10472,21 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Half Ultra Clear / Half Bone",
-          "descriptions": ["12\"", "45 RPM", "Remastered"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Remastered"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "Half Ultra Clear / Half Opaque Red",
-          "descriptions": ["12\"", "45 RPM", "Remastered"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -9041,8 +10510,13 @@
           "resource_url": "https://api.discogs.com/labels/156292"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -9095,8 +10569,13 @@
           "resource_url": "https://api.discogs.com/labels/1569971"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Post-Punk", "Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Punk",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -9125,7 +10604,12 @@
           "name": "Vinyl",
           "qty": "3",
           "text": "Definitive Edition, 180g",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -9157,8 +10641,13 @@
           "resource_url": "https://api.discogs.com/labels/2311"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Industrial"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Industrial"
+      ]
     },
     "folder_id": 1
   },
@@ -9192,13 +10681,20 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "45 RPM"]
+          "descriptions": [
+            "7\"",
+            "45 RPM"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
           "text": "Definitive Edition",
-          "descriptions": ["Reissue", "Remastered", "Stereo"]
+          "descriptions": [
+            "Reissue",
+            "Remastered",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -9230,8 +10726,14 @@
           "resource_url": "https://api.discogs.com/labels/2311"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Industrial", "Industrial Metal"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Industrial",
+        "Industrial Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -9253,7 +10755,11 @@
         {
           "name": "Vinyl",
           "qty": "4",
-          "descriptions": ["LP", "Limited Edition", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Limited Edition",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -9285,7 +10791,10 @@
           "resource_url": "https://api.discogs.com/labels/647"
         }
       ],
-      "genres": ["Electronic", "Rock"],
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
       "styles": [
         "Alternative Rock",
         "Industrial",
@@ -9314,7 +10823,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -9338,8 +10850,13 @@
           "resource_url": "https://api.discogs.com/labels/857004"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Folk"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Folk"
+      ]
     },
     "folder_id": 1
   },
@@ -9391,8 +10908,13 @@
           "resource_url": "https://api.discogs.com/labels/857004"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Folk"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Folk"
+      ]
     },
     "folder_id": 1
   },
@@ -9414,7 +10936,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "EP", "33 ⅓ RPM", "Reissue"]
+          "descriptions": [
+            "7\"",
+            "EP",
+            "33 ⅓ RPM",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -9438,8 +10965,12 @@
           "resource_url": "https://api.discogs.com/labels/114043"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -9461,7 +10992,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -9485,8 +11021,15 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Punk", "Post-Punk", "Noise Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Punk",
+        "Post-Punk",
+        "Noise Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -9509,7 +11052,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram, Gatefold",
-          "descriptions": ["LP", "Album", "Deluxe Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Deluxe Edition"
+          ]
         }
       ],
       "artists": [
@@ -9533,8 +11080,13 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -9557,18 +11109,25 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Orange",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "CDr",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
           "text": "Rough Trade Exclusive",
-          "descriptions": ["Limited Edition"]
+          "descriptions": [
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -9592,8 +11151,13 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -9616,7 +11180,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Pink",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -9640,8 +11208,13 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -9664,7 +11237,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Pink Clear Neon",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -9688,8 +11265,13 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -9712,7 +11294,13 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear",
-          "descriptions": ["LP", "Album", "Limited Edition", "Numbered", "Mono"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Numbered",
+            "Mono"
+          ]
         }
       ],
       "artists": [
@@ -9736,8 +11324,13 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -9760,7 +11353,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Gatefold",
-          "descriptions": ["LP", "Album", "Deluxe Edition", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Deluxe Edition",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -9784,8 +11382,15 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Post-Punk", "Indie Rock", "Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Post-Punk",
+        "Indie Rock",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -9808,7 +11413,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Amber Translucent",
-          "descriptions": ["LP", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -9832,8 +11440,13 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -9892,8 +11505,13 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -9922,7 +11540,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Vortex - White / Black Swirl",
-          "descriptions": ["LP", "Album", "Limited Edition", "Mono"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Mono"
+          ]
         }
       ],
       "artists": [
@@ -9954,8 +11577,15 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Post-Punk", "Indie Rock", "Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Post-Punk",
+        "Indie Rock",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -9978,7 +11608,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Eco-Mix Coloured",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -10010,8 +11644,13 @@
           "resource_url": "https://api.discogs.com/labels/140545"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -10040,7 +11679,13 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Gold-In-Ultraclear",
-          "descriptions": ["10\"", "45 RPM", "EP", "Limited Edition", "Stereo"]
+          "descriptions": [
+            "10\"",
+            "45 RPM",
+            "EP",
+            "Limited Edition",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -10064,8 +11709,13 @@
           "resource_url": "https://api.discogs.com/labels/165676"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Post Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Post Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -10087,7 +11737,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -10127,8 +11782,12 @@
           "resource_url": "https://api.discogs.com/labels/18527"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -10157,7 +11816,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear With Yellow, Blue And Orange Swirls",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -10181,8 +11844,14 @@
           "resource_url": "https://api.discogs.com/labels/37250"
         }
       ],
-      "genres": ["Folk, World, & Country"],
-      "styles": ["Acoustic", "Punk", "Folk"]
+      "genres": [
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Acoustic",
+        "Punk",
+        "Folk"
+      ]
     },
     "folder_id": 1
   },
@@ -10205,7 +11874,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Lapis Lazuli Blue",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -10229,8 +11901,14 @@
           "resource_url": "https://api.discogs.com/labels/37250"
         }
       ],
-      "genres": ["Folk, World, & Country"],
-      "styles": ["Acoustic", "Punk", "Folk"]
+      "genres": [
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Acoustic",
+        "Punk",
+        "Folk"
+      ]
     },
     "folder_id": 1
   },
@@ -10253,7 +11931,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Translucent Purple ",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -10277,8 +11959,14 @@
           "resource_url": "https://api.discogs.com/labels/37250"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Acoustic", "Punk"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Acoustic",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -10301,7 +11989,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Starburst  (Black/Blue/Purple)",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -10333,8 +12025,14 @@
           "resource_url": "https://api.discogs.com/labels/43155"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Acoustic", "Punk"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Acoustic",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -10356,7 +12054,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Special Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Special Edition"
+          ]
         }
       ],
       "artists": [
@@ -10388,8 +12090,13 @@
           "resource_url": "https://api.discogs.com/labels/142135"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Folk Rock"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Folk Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -10412,7 +12119,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Gold Nugget",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -10436,8 +12147,12 @@
           "resource_url": "https://api.discogs.com/labels/316973"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Emo"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Emo"
+      ]
     },
     "folder_id": 1
   },
@@ -10459,7 +12174,12 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["12\"", "45 RPM", "Album", "Repress"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -10483,7 +12203,9 @@
           "resource_url": "https://api.discogs.com/labels/3949"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": [
         "Hardcore",
         "Prog Rock",
@@ -10551,7 +12273,9 @@
           "resource_url": "https://api.discogs.com/labels/3949"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": [
         "Stoner Rock",
         "Space Rock",
@@ -10617,8 +12341,14 @@
           "resource_url": "https://api.discogs.com/labels/3949"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Prog Rock", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Prog Rock",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -10640,7 +12370,12 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Limited Edition", "Picture Disc"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Picture Disc"
+          ]
         }
       ],
       "artists": [
@@ -10672,8 +12407,13 @@
           "resource_url": "https://api.discogs.com/labels/3949"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Prog Rock", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Prog Rock",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -10696,7 +12436,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Pink",
-          "descriptions": ["LP", "Compilation", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Compilation",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -10720,7 +12464,9 @@
           "resource_url": "https://api.discogs.com/labels/157"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": [
         "Progressive Metal",
         "Sludge Metal",
@@ -10748,18 +12494,29 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Single Sided", "Etched"]
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
           "text": "Yellow Translucent",
-          "descriptions": ["Album", "Reissue", "Repress", "Special Edition"]
+          "descriptions": [
+            "Album",
+            "Reissue",
+            "Repress",
+            "Special Edition"
+          ]
         }
       ],
       "artists": [
@@ -10783,8 +12540,13 @@
           "resource_url": "https://api.discogs.com/labels/157"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Pop Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Pop Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -10816,18 +12578,27 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Single Sided", "Etched"]
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
           "text": "Clear With Black Smoke",
-          "descriptions": ["Album", "Reissue"]
+          "descriptions": [
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -10851,8 +12622,15 @@
           "resource_url": "https://api.discogs.com/labels/157"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Emo", "Alternative Rock", "Pop Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Emo",
+        "Alternative Rock",
+        "Pop Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -10874,7 +12652,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Record Store Day", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Record Store Day",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -10898,8 +12681,14 @@
           "resource_url": "https://api.discogs.com/labels/157"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Power Pop", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Power Pop",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -10932,7 +12721,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -10956,8 +12749,12 @@
           "resource_url": "https://api.discogs.com/labels/157"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Emo"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Emo"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -10993,7 +12790,11 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -11017,8 +12818,13 @@
           "resource_url": "https://api.discogs.com/labels/157"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Sludge Metal", "Prog Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Sludge Metal",
+        "Prog Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -11041,7 +12847,10 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "White",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -11065,8 +12874,12 @@
           "resource_url": "https://api.discogs.com/labels/38017"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -11098,7 +12911,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -11122,8 +12938,14 @@
           "resource_url": "https://api.discogs.com/labels/38017"
         }
       ],
-      "genres": ["Hip Hop", "Rock"],
-      "styles": ["Alternative Rock", "Funk Metal"]
+      "genres": [
+        "Hip Hop",
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Funk Metal"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -11151,7 +12973,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Limited Edition", "Picture Disc"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Picture Disc"
+          ]
         }
       ],
       "artists": [
@@ -11175,8 +13002,13 @@
           "resource_url": "https://api.discogs.com/labels/165412"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock", "Post-Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock",
+        "Post-Hardcore"
+      ]
     },
     "folder_id": 1
   },
@@ -11199,7 +13031,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear Milky With Swamp Green",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -11223,8 +13058,12 @@
           "resource_url": "https://api.discogs.com/labels/165412"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -11247,7 +13086,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Pink [Neon Pink]",
-          "descriptions": ["LP", "45 RPM", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "45 RPM",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -11271,8 +13115,13 @@
           "resource_url": "https://api.discogs.com/labels/34268"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Heavy Metal", "Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Heavy Metal",
+        "Nu Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -11325,8 +13174,13 @@
           "resource_url": "https://api.discogs.com/labels/34268"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Heavy Metal", "Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Heavy Metal",
+        "Nu Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -11349,7 +13203,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Orange Crush",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -11373,8 +13232,12 @@
           "resource_url": "https://api.discogs.com/labels/34268"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -11397,7 +13260,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Green Translucent",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -11421,8 +13289,12 @@
           "resource_url": "https://api.discogs.com/labels/34268"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -11445,7 +13317,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Orange",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -11477,8 +13354,13 @@
           "resource_url": "https://api.discogs.com/labels/34268"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Heavy Metal", "Hard Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Heavy Metal",
+        "Hard Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -11539,8 +13421,12 @@
           "resource_url": "https://api.discogs.com/labels/34268"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Nu Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -11563,7 +13449,10 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "White",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -11587,8 +13476,13 @@
           "resource_url": "https://api.discogs.com/labels/162544"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Psychedelic Rock", "Prog Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Psychedelic Rock",
+        "Prog Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -11625,7 +13519,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Orange Translucent",
-          "descriptions": ["LP", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -11657,8 +13554,13 @@
           "resource_url": "https://api.discogs.com/labels/51167"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Post-Punk"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -11681,7 +13583,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "White",
-          "descriptions": ["LP", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -11713,8 +13618,13 @@
           "resource_url": "https://api.discogs.com/labels/51167"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Post-Punk"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -11737,7 +13647,10 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Gold",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -11761,8 +13674,13 @@
           "resource_url": "https://api.discogs.com/labels/1127130"
         }
       ],
-      "genres": ["Hip Hop"],
-      "styles": ["Hardcore Hip-Hop", "Conscious"]
+      "genres": [
+        "Hip Hop"
+      ],
+      "styles": [
+        "Hardcore Hip-Hop",
+        "Conscious"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -11790,7 +13708,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "33 ⅓ RPM", "EP", "Repress"]
+          "descriptions": [
+            "7\"",
+            "33 ⅓ RPM",
+            "EP",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -11814,8 +13737,12 @@
           "resource_url": "https://api.discogs.com/labels/41539"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -11838,7 +13765,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Punchout Centers",
-          "descriptions": ["7\"", "45 RPM", "EP"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "EP"
+          ]
         }
       ],
       "artists": [
@@ -11862,8 +13793,13 @@
           "resource_url": "https://api.discogs.com/labels/41539"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -11885,7 +13821,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "45 RPM", "Single"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -11909,8 +13849,14 @@
           "resource_url": "https://api.discogs.com/labels/41539"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Folk Rock", "Alternative Rock"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Folk Rock",
+        "Alternative Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -11932,7 +13878,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "Single"]
+          "descriptions": [
+            "7\"",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -11956,8 +13905,13 @@
           "resource_url": "https://api.discogs.com/labels/41539"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Acoustic", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Acoustic",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -11980,7 +13934,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red",
-          "descriptions": ["7\"", "Single"]
+          "descriptions": [
+            "7\"",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -12004,8 +13961,12 @@
           "resource_url": "https://api.discogs.com/labels/41539"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -12028,7 +13989,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow",
-          "descriptions": ["7\"", "Single"]
+          "descriptions": [
+            "7\"",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -12052,8 +14016,12 @@
           "resource_url": "https://api.discogs.com/labels/41539"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -12076,7 +14044,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red",
-          "descriptions": ["12\"", "45 RPM", "Mini-Album"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Mini-Album"
+          ]
         }
       ],
       "artists": [
@@ -12108,8 +14080,12 @@
           "resource_url": "https://api.discogs.com/labels/63652"
         }
       ],
-      "genres": ["Folk, World, & Country"],
-      "styles": ["Country"]
+      "genres": [
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Country"
+      ]
     },
     "folder_id": 1
   },
@@ -12132,7 +14108,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -12164,8 +14144,13 @@
           "resource_url": "https://api.discogs.com/labels/63652"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Country Rock", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Country Rock",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -12187,7 +14172,10 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -12211,8 +14199,12 @@
           "resource_url": "https://api.discogs.com/labels/116554"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Black Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Black Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -12234,7 +14226,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["12\"", "Limited Edition", "Reissue", "Remastered"]
+          "descriptions": [
+            "12\"",
+            "Limited Edition",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -12258,8 +14255,12 @@
           "resource_url": "https://api.discogs.com/labels/116554"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Black Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Black Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -12312,8 +14313,14 @@
           "resource_url": "https://api.discogs.com/labels/116554"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Avantgarde", "Post-Metal", "Shoegaze"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Avantgarde",
+        "Post-Metal",
+        "Shoegaze"
+      ]
     },
     "folder_id": 1
   },
@@ -12335,7 +14342,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -12359,8 +14371,12 @@
           "resource_url": "https://api.discogs.com/labels/33674"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Death Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Death Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -12383,7 +14399,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Crystal Clear",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -12415,8 +14435,12 @@
           "resource_url": "https://api.discogs.com/labels/33674"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Death Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Death Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -12438,19 +14462,28 @@
         {
           "name": "Box Set",
           "qty": "1",
-          "descriptions": ["Deluxe Edition", "Limited Edition"]
+          "descriptions": [
+            "Deluxe Edition",
+            "Limited Edition"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "2",
           "text": "white/red",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
           "text": "blue w/ white splatter",
-          "descriptions": ["12\"", "45 RPM"]
+          "descriptions": [
+            "12\"",
+            "45 RPM"
+          ]
         }
       ],
       "artists": [
@@ -12474,8 +14507,14 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Punk", "Celtic"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Punk",
+        "Celtic"
+      ]
     },
     "folder_id": 1
   },
@@ -12497,7 +14536,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "Picture Disc", "Limited Edition"]
+          "descriptions": [
+            "7\"",
+            "Picture Disc",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -12521,8 +14564,12 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Folk, World, & Country"],
-      "styles": ["Folk"]
+      "genres": [
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Folk"
+      ]
     },
     "folder_id": 1
   },
@@ -12545,7 +14592,9 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Pink",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         }
       ],
       "artists": [
@@ -12569,8 +14618,13 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Rock", "Pop"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock",
+        "Pop"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -12593,7 +14647,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Coke Bottle Clear",
-          "descriptions": ["7\"", "Single"]
+          "descriptions": [
+            "7\"",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -12626,7 +14683,9 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Rock"],
+      "genres": [
+        "Rock"
+      ],
       "styles": []
     },
     "folder_id": 1
@@ -12650,7 +14709,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Green",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -12674,8 +14737,12 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Folk, World, & Country"],
-      "styles": ["Folk"]
+      "genres": [
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Folk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -12704,7 +14771,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Blood Red",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -12728,8 +14798,12 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -12752,7 +14826,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow",
-          "descriptions": ["7\"", "45 RPM", "Single"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -12776,8 +14854,12 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -12799,7 +14881,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "Shape", "Limited Edition"]
+          "descriptions": [
+            "7\"",
+            "Shape",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -12823,8 +14909,13 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Acoustic"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Acoustic"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -12856,7 +14947,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "45 RPM", "Record Store Day"]
+          "descriptions": [
+            "7\"",
+            "45 RPM",
+            "Record Store Day"
+          ]
         }
       ],
       "artists": [
@@ -12880,8 +14975,12 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -12904,7 +15003,13 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Gold Nugget",
-          "descriptions": ["LP", "Album", "Deluxe Edition", "Reissue", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Deluxe Edition",
+            "Reissue",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -12928,8 +15033,12 @@
           "resource_url": "https://api.discogs.com/labels/249513"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -12951,7 +15060,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Picture Disc", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Picture Disc",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -12983,8 +15097,12 @@
           "resource_url": "https://api.discogs.com/labels/199258"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -13006,7 +15124,9 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         }
       ],
       "artists": [
@@ -13030,8 +15150,12 @@
           "resource_url": "https://api.discogs.com/labels/47256"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Dream Pop"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Dream Pop"
+      ]
     },
     "folder_id": 1
   },
@@ -13053,7 +15177,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "Single"]
+          "descriptions": [
+            "7\"",
+            "Single"
+          ]
         }
       ],
       "artists": [
@@ -13077,8 +15204,12 @@
           "resource_url": "https://api.discogs.com/labels/27031"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -13106,7 +15237,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13130,8 +15264,12 @@
           "resource_url": "https://api.discogs.com/labels/27031"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -13164,7 +15302,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Los Angeles Pressing",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13188,8 +15329,13 @@
           "resource_url": "https://api.discogs.com/labels/27031"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "New Wave"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "New Wave"
+      ]
     },
     "folder_id": 1
   },
@@ -13212,7 +15358,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 Gram",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -13252,8 +15402,13 @@
           "resource_url": "https://api.discogs.com/labels/33244"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["New Wave", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "New Wave",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -13276,12 +15431,17 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Yellow",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "CD",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13313,8 +15473,13 @@
           "resource_url": "https://api.discogs.com/labels/27031"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -13346,12 +15511,17 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "CD",
           "qty": "1",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13383,8 +15553,13 @@
           "resource_url": "https://api.discogs.com/labels/27031"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Folk Rock", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Folk Rock",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -13407,7 +15582,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Gatefold Sleeve, 180 gram",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -13439,8 +15618,13 @@
           "resource_url": "https://api.discogs.com/labels/33244"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Alternative Rock", "Hard Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Hard Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -13477,7 +15661,10 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "180 Gram ",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13526,8 +15713,13 @@
           "resource_url": "https://api.discogs.com/labels/199113"
         }
       ],
-      "genres": ["Stage & Screen"],
-      "styles": ["Soundtrack", "Score"]
+      "genres": [
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Soundtrack",
+        "Score"
+      ]
     },
     "folder_id": 1
   },
@@ -13549,7 +15741,12 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Compilation", "Reissue", "Repress"]
+          "descriptions": [
+            "LP",
+            "Compilation",
+            "Reissue",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -13581,8 +15778,12 @@
           "resource_url": "https://api.discogs.com/labels/9335"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -13604,7 +15805,11 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["12\"", "45 RPM", "Album"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13628,8 +15833,17 @@
           "resource_url": "https://api.discogs.com/labels/77343"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Baroque Pop", "Indie Rock", "Soft Rock", "Folk Rock", "Folk"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Baroque Pop",
+        "Indie Rock",
+        "Soft Rock",
+        "Folk Rock",
+        "Folk"
+      ]
     },
     "folder_id": 1
   },
@@ -13652,7 +15866,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Grey Marbled",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -13676,8 +15894,13 @@
           "resource_url": "https://api.discogs.com/labels/77343"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Rock & Roll", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Rock & Roll",
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -13709,7 +15932,11 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Reissue", "Album"]
+          "descriptions": [
+            "LP",
+            "Reissue",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13733,8 +15960,13 @@
           "resource_url": "https://api.discogs.com/labels/77343"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Rock & Roll", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Rock & Roll",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -13757,7 +15989,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Grey Marbled",
-          "descriptions": ["LP", "Repress"]
+          "descriptions": [
+            "LP",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -13781,8 +16016,13 @@
           "resource_url": "https://api.discogs.com/labels/77343"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Rock & Roll", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Rock & Roll",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -13804,7 +16044,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13828,8 +16071,16 @@
           "resource_url": "https://api.discogs.com/labels/77343"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Country Rock", "Indie Rock", "Alternative Rock", "Shoegaze"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Country Rock",
+        "Indie Rock",
+        "Alternative Rock",
+        "Shoegaze"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -13862,7 +16113,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Green",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -13886,8 +16141,15 @@
           "resource_url": "https://api.discogs.com/labels/48824"
         }
       ],
-      "genres": ["Rock", "Folk, World, & Country"],
-      "styles": ["Folk Rock", "Country", "Folk"]
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Folk Rock",
+        "Country",
+        "Folk"
+      ]
     },
     "folder_id": 1
   },
@@ -13910,7 +16172,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Black With Silver And Blue Merge / Splatter [Monochrome]",
-          "descriptions": ["LP", "Album", "Limited Edition", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -13934,8 +16201,14 @@
           "resource_url": "https://api.discogs.com/labels/97958"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Progressive Metal", "Metalcore", "Math Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Progressive Metal",
+        "Metalcore",
+        "Math Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -13958,7 +16231,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -13990,8 +16266,14 @@
           "resource_url": "https://api.discogs.com/labels/115117"
         }
       ],
-      "genres": ["Latin", "Folk, World, & Country"],
-      "styles": ["Mariachi", "Folk"]
+      "genres": [
+        "Latin",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Mariachi",
+        "Folk"
+      ]
     },
     "folder_id": 1
   },
@@ -14013,7 +16295,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -14037,8 +16322,13 @@
           "resource_url": "https://api.discogs.com/labels/169669"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -14060,17 +16350,26 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Single Sided", "Etched"]
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Album", "Repress"]
+          "descriptions": [
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -14094,8 +16393,12 @@
           "resource_url": "https://api.discogs.com/labels/9952"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Post Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -14128,7 +16431,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Metallic Sand & Deep Crimson",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -14152,8 +16459,14 @@
           "resource_url": "https://api.discogs.com/labels/9952"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore", "Post Rock", "Post-Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
+        "Post Rock",
+        "Post-Hardcore"
+      ]
     },
     "folder_id": 1
   },
@@ -14175,7 +16488,10 @@
         {
           "name": "Vinyl",
           "qty": "4",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -14199,8 +16515,15 @@
           "resource_url": "https://api.discogs.com/labels/108462"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Dark Ambient", "Art Rock", "Industrial"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Dark Ambient",
+        "Art Rock",
+        "Industrial"
+      ]
     },
     "folder_id": 1
   },
@@ -14222,7 +16545,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -14255,8 +16581,12 @@
           "resource_url": "https://api.discogs.com/labels/108462"
         }
       ],
-      "genres": ["Electronic"],
-      "styles": ["Industrial"]
+      "genres": [
+        "Electronic"
+      ],
+      "styles": [
+        "Industrial"
+      ]
     },
     "folder_id": 1
   },
@@ -14278,7 +16608,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -14311,8 +16644,13 @@
           "resource_url": "https://api.discogs.com/labels/108462"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Industrial"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Industrial"
+      ]
     },
     "folder_id": 1
   },
@@ -14334,7 +16672,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -14367,8 +16708,16 @@
           "resource_url": "https://api.discogs.com/labels/108462"
         }
       ],
-      "genres": ["Electronic", "Rock", "Stage & Screen"],
-      "styles": ["Industrial", "Ambient", "Soundtrack"]
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Industrial",
+        "Ambient",
+        "Soundtrack"
+      ]
     },
     "folder_id": 1
   },
@@ -14390,7 +16739,12 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["7\"", "Single", "Picture Disc", "45 RPM"]
+          "descriptions": [
+            "7\"",
+            "Single",
+            "Picture Disc",
+            "45 RPM"
+          ]
         }
       ],
       "artists": [
@@ -14423,8 +16777,13 @@
           "resource_url": "https://api.discogs.com/labels/111401"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -14447,7 +16806,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Opaque Gold",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -14471,8 +16833,12 @@
           "resource_url": "https://api.discogs.com/labels/154798"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -14495,7 +16861,11 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Gatefold, MPO",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -14535,8 +16905,15 @@
           "resource_url": "https://api.discogs.com/labels/2311"
         }
       ],
-      "genres": ["Hip Hop", "Funk / Soul"],
-      "styles": ["Conscious", "Jazzy Hip-Hop", "G-Funk"]
+      "genres": [
+        "Hip Hop",
+        "Funk / Soul"
+      ],
+      "styles": [
+        "Conscious",
+        "Jazzy Hip-Hop",
+        "G-Funk"
+      ]
     },
     "folder_id": 1
   },
@@ -14559,7 +16936,10 @@
           "name": "Vinyl",
           "qty": "3",
           "text": "Triple Gatefold",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -14583,8 +16963,12 @@
           "resource_url": "https://api.discogs.com/labels/283301"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -14617,7 +17001,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Blue Clear",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -14641,8 +17028,12 @@
           "resource_url": "https://api.discogs.com/labels/283301"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -14675,7 +17066,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Blue/White Swirl",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -14699,8 +17093,12 @@
           "resource_url": "https://api.discogs.com/labels/283301"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -14733,7 +17131,11 @@
           "name": "Vinyl",
           "qty": "3",
           "text": "Mint Green with Blue and Yellow Splatter",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -14757,8 +17159,12 @@
           "resource_url": "https://api.discogs.com/labels/283301"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -14791,7 +17197,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red Translucent ",
-          "descriptions": ["LP", "Album", "Reissue", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -14815,8 +17226,13 @@
           "resource_url": "https://api.discogs.com/labels/522453"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Emo", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Emo",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -14838,7 +17254,12 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -14862,8 +17283,17 @@
           "resource_url": "https://api.discogs.com/labels/176614"
         }
       ],
-      "genres": ["Electronic", "Stage & Screen"],
-      "styles": ["Soundtrack", "Abstract", "Score", "Ambient", "Industrial"]
+      "genres": [
+        "Electronic",
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Soundtrack",
+        "Abstract",
+        "Score",
+        "Ambient",
+        "Industrial"
+      ]
     },
     "folder_id": 1
   },
@@ -14886,7 +17316,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "180g",
-          "descriptions": ["12\"", "45 RPM", "Album", "Stereo"]
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Album",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -14926,8 +17361,12 @@
           "resource_url": "https://api.discogs.com/labels/85633"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Industrial Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Industrial Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -14950,7 +17389,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "180 g",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -14982,8 +17424,13 @@
           "resource_url": "https://api.discogs.com/labels/48794"
         }
       ],
-      "genres": ["Funk / Soul"],
-      "styles": ["Contemporary R&B", "Soul"]
+      "genres": [
+        "Funk / Soul"
+      ],
+      "styles": [
+        "Contemporary R&B",
+        "Soul"
+      ]
     },
     "folder_id": 1
   },
@@ -15005,7 +17452,12 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Album", "Misprint", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Misprint",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -15037,8 +17489,14 @@
           "resource_url": "https://api.discogs.com/labels/132607"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hard Rock", "Prog Rock", "Progressive Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock",
+        "Prog Rock",
+        "Progressive Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -15115,8 +17573,13 @@
           "resource_url": "https://api.discogs.com/labels/132607"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Prog Rock", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Prog Rock",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -15138,7 +17601,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -15162,8 +17628,13 @@
           "resource_url": "https://api.discogs.com/labels/1000"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hard Rock", "Heavy Metal"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock",
+        "Heavy Metal"
+      ]
     },
     "folder_id": 1
   },
@@ -15185,7 +17656,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -15209,8 +17683,12 @@
           "resource_url": "https://api.discogs.com/labels/1000"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["New Wave"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "New Wave"
+      ]
     },
     "folder_id": 1
   },
@@ -15233,7 +17711,10 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Specialty Pressing",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         }
       ],
       "artists": [
@@ -15265,8 +17746,15 @@
           "resource_url": "https://api.discogs.com/labels/1000"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Classic Rock", "AOR", "Rock & Roll", "Pop Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Classic Rock",
+        "AOR",
+        "Rock & Roll",
+        "Pop Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -15295,7 +17783,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Allied Pressing",
-          "descriptions": ["LP", "Album", "Repress"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
         }
       ],
       "artists": [
@@ -15327,8 +17819,12 @@
           "resource_url": "https://api.discogs.com/labels/1000"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hard Rock"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -15360,7 +17856,10 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["12\"", "45 RPM"]
+          "descriptions": [
+            "12\"",
+            "45 RPM"
+          ]
         }
       ],
       "artists": [
@@ -15384,8 +17883,13 @@
           "resource_url": "https://api.discogs.com/labels/953"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Industrial", "Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Industrial",
+        "Hardcore"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -15414,7 +17918,12 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "Collector's Edition",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -15438,8 +17947,16 @@
           "resource_url": "https://api.discogs.com/labels/150718"
         }
       ],
-      "genres": ["Rock", "Blues"],
-      "styles": ["Alternative Rock", "Hard Rock", "Blues Rock", "Stoner Rock"]
+      "genres": [
+        "Rock",
+        "Blues"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Hard Rock",
+        "Blues Rock",
+        "Stoner Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -15462,7 +17979,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "White",
-          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -15486,8 +18008,12 @@
           "resource_url": "https://api.discogs.com/labels/115117"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -15524,7 +18050,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Red & White Splatter",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -15548,8 +18078,13 @@
           "resource_url": "https://api.discogs.com/labels/115117"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Hardcore"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Hardcore"
+      ]
     },
     "folder_id": 1
   },
@@ -15571,7 +18106,10 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "descriptions": ["LP", "Compilation"]
+          "descriptions": [
+            "LP",
+            "Compilation"
+          ]
         }
       ],
       "artists": [
@@ -15595,8 +18133,12 @@
           "resource_url": "https://api.discogs.com/labels/115117"
         }
       ],
-      "genres": ["Latin"],
-      "styles": ["Mariachi"]
+      "genres": [
+        "Latin"
+      ],
+      "styles": [
+        "Mariachi"
+      ]
     },
     "folder_id": 1
   },
@@ -15619,17 +18161,24 @@
           "name": "Vinyl",
           "qty": "2",
           "text": "180g",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "CD",
           "qty": "2",
-          "descriptions": ["Album"]
+          "descriptions": [
+            "Album"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Special Edition"]
+          "descriptions": [
+            "Special Edition"
+          ]
         }
       ],
       "artists": [
@@ -15653,8 +18202,14 @@
           "resource_url": "https://api.discogs.com/labels/160"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Art Rock", "Indie Rock"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Art Rock",
+        "Indie Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -15676,23 +18231,36 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "descriptions": ["LP"]
+          "descriptions": [
+            "LP"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
           "text": "Half Speed Cut",
-          "descriptions": ["Compilation", "Stereo"]
+          "descriptions": [
+            "Compilation",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -15716,8 +18284,15 @@
           "resource_url": "https://api.discogs.com/labels/160"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Alternative Rock", "IDM", "Experimental"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "IDM",
+        "Experimental"
+      ]
     },
     "folder_id": 1
   },
@@ -15740,7 +18315,12 @@
           "name": "Vinyl",
           "qty": "3",
           "text": "180g",
-          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
         }
       ],
       "artists": [
@@ -15764,8 +18344,15 @@
           "resource_url": "https://api.discogs.com/labels/160"
         }
       ],
-      "genres": ["Electronic", "Rock"],
-      "styles": ["Alternative Rock", "Art Rock", "Experimental"]
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Art Rock",
+        "Experimental"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -15833,8 +18420,13 @@
           "resource_url": "https://api.discogs.com/labels/160"
         }
       ],
-      "genres": ["Electronic"],
-      "styles": ["Breakbeat", "Breaks"]
+      "genres": [
+        "Electronic"
+      ],
+      "styles": [
+        "Breakbeat",
+        "Breaks"
+      ]
     },
     "folder_id": 1,
     "notes": [
@@ -15863,17 +18455,24 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Burgundy",
-          "descriptions": ["LP", "Album"]
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
         },
         {
           "name": "CD",
           "qty": "1",
-          "descriptions": ["Mixed"]
+          "descriptions": [
+            "Mixed"
+          ]
         },
         {
           "name": "All Media",
           "qty": "1",
-          "descriptions": ["Limited Edition"]
+          "descriptions": [
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -15897,8 +18496,13 @@
           "resource_url": "https://api.discogs.com/labels/973197"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Indie Rock", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -15921,7 +18525,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Blue",
-          "descriptions": ["LP", "Album", "Limited Edition"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
         }
       ],
       "artists": [
@@ -15945,8 +18553,13 @@
           "resource_url": "https://api.discogs.com/labels/973197"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Post-Punk", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Punk",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -15969,7 +18582,11 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Clear",
-          "descriptions": ["LP", "Album", "Reissue"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
         }
       ],
       "artists": [
@@ -16001,8 +18618,14 @@
           "resource_url": "https://api.discogs.com/labels/973197"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Post-Punk", "New Wave", "Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Punk",
+        "New Wave",
+        "Punk"
+      ]
     },
     "folder_id": 1
   },
@@ -16025,7 +18648,12 @@
           "name": "Vinyl",
           "qty": "1",
           "text": "Orange Opaque, 180g",
-          "descriptions": ["LP", "Album", "Limited Edition", "Stereo"]
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Stereo"
+          ]
         }
       ],
       "artists": [
@@ -16057,8 +18685,13 @@
           "resource_url": "https://api.discogs.com/labels/973197"
         }
       ],
-      "genres": ["Rock"],
-      "styles": ["Punk", "Post-Punk"]
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Post-Punk"
+      ]
     },
     "folder_id": 1
   }

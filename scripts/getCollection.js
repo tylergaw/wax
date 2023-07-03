@@ -2,12 +2,12 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 import readline from "readline/promises";
-import fs from "fs/promises";
 import fetch from "node-fetch";
+
+import { dataFilePath, persistData } from "./shared.js";
 
 const token = process.env.TOKEN;
 const username = process.env.USERNAME;
-const filePath = "./src/data/collection.json";
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -38,6 +38,7 @@ async function prompt(q) {
     if (a === "n") {
       console.log("OK, exiting without fetching.");
       rl.close();
+      return false;
     }
 
     return true;
@@ -57,14 +58,6 @@ async function fetchJSON(url) {
   });
   const json = await res.json();
   return json;
-}
-
-async function writeDataToFile(data) {
-  try {
-    await fs.writeFile(filePath, JSON.stringify(data, null, 2), { flag: "w" });
-  } catch (err) {
-    console.log(err);
-  }
 }
 
 try {
@@ -88,12 +81,12 @@ try {
       return accum;
     }, []);
 
-    await writeDataToFile(allReleases);
-    console.log(`Wrote data to ${filePath}. All done.`);
+    await persistData(allReleases, dataFilePath);
+    console.log(`Wrote data to ${dataFilePath}. All done.`);
   }
 
   process.exit(0);
 } catch (err) {
   console.log(err);
-  exit(1);
+  process.exit(1);
 }

@@ -1,20 +1,23 @@
 ---
+import type { Release } from "@types";
+import store from "@store";
 import Layout from "@layouts/Layout.astro";
 import Releases from "@components/Releases.astro";
-import collection from "@data/collection.json";
-import { getReleasesByArtist } from "@util/data";
-import type { Release } from "@types";
 
-const releases = getReleasesByArtist(collection);
-let releasesDisplay: Release[] = [];
-for (const key in releases) {
-  releasesDisplay.push(...releases[key]);
-}
+/*
+  We want to display releases in the correct order, so we need to build a new
+  array from the releasesByArtist object.
+*/
+const releases = store.releasesByArtist;
+const releasesDisplay: Release[] = Object.keys(releases).reduce(
+  (arr, key) => arr.concat(releases[key]),
+  [] as Release[]
+);
 ---
 
 <Layout title="Wax">
-  <main>
-    <h1>{releasesDisplay.length} records</h1>
+  <main class="standard-restricted-width">
+    <h1 class="standard-page-title">{releasesDisplay.length} Records</h1>
     <Releases releases={releasesDisplay} />
   </main>
 </Layout>

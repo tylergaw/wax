@@ -1,8 +1,8 @@
 # Wax [![Netlify Status](https://api.netlify.com/api/v1/badges/683b9d37-a7c7-4a6a-b160-43f8b29c869b/deploy-status)](https://app.netlify.com/sites/on-wax/deploys)
 
-A record collection viewer.
+A record collection viewer with data from Discogs.
 
-- WIP Developement: [https://on-wax.netlify.app/](https://on-wax.netlify.app/)
+- Production: [wax.tylergaw.com](https://wax.tylergaw.com/)
 - Staging: Every pull request gets a preview deploy URL
 
 ## Technology overview
@@ -11,6 +11,7 @@ A record collection viewer.
 - Discogs API [discogs.com/developers/](https://www.discogs.com/developers/)
 - Node >= v17.0.0
 - Hosted on Netlify
+- OpenAI API for data enrichment
 
 ## Local setup
 

@@ -1,31 +1,41 @@
 ---
-import type { Release } from "@types";
-import { getReleaseUrl } from "@util/data";
+export interface Props {
+  className?: string;
+  releases: Release[];
+  showArtist?: boolean;
+}
 
-const { releases } = Astro.props;
+import type { Release } from "@types";
+import { getHumanColor, getMachineColor, getReleaseUrl } from "@util/data";
+import Vinyl from "@components/Vinyl.astro";
+
+const { className, releases, showArtist = true } = Astro.props;
 ---
 
-<ul>
+<ul class=`${className}`>
   {
-    releases.map((release: Release) => (
-      <li>
-        <a href={getReleaseUrl(release)}>
-          <div>
-            <img
-              src={release.basic_information.cover_image}
-              alt=""
-              width="350px"
-              height="350px"
-              loading="lazy"
-            />
-          </div>
-          <div class="info">
-            <h3 class="title">{release.basic_information.title}</h3>
-            <p class="artist">{release.basic_information.artists[0].name}</p>
-          </div>
-        </a>
-      </li>
-    ))
+    releases.map((release: Release) => {
+      const {
+        basic_information: { title, artists },
+      } = release;
+
+      return (
+        <li data-id={release.id}>
+          <a href={getReleaseUrl(release)}>
+            <div class="graphic">
+              <Vinyl color={getMachineColor(release)} />
+            </div>
+            <div class="info">
+              <div class="primary-info">
+                <p class="title">{title}</p>
+                {showArtist && <p class="artist">{artists[0].name}</p>}
+              </div>
+              <p class="desciption">{getHumanColor(release)}</p>
+            </div>
+          </a>
+        </li>
+      );
+    })
   }
 </ul>
 
@@ -36,59 +46,63 @@ const { releases } = Astro.props;
     list-style: none;
     margin: 0;
     padding: 0;
+    column-gap: var(--g-gutter);
+    row-gap: calc(var(--sp-8) * 6);
   }
 
   li {
-    display: grid;
-    flex: 1;
+    width: var(--g-cols-2);
   }
 
   a {
-    color: black;
-    display: grid;
-    gap: 1rem;
-    grid-template: "container";
+    color: inherit;
+    display: block;
     text-decoration: none;
-    min-width: 350px;
   }
 
-  a > * {
-    grid-area: container;
-  }
-
-  img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+  .graphic {
+    max-width: 80%;
   }
 
   .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0.4rem;
-    opacity: 0;
-    z-index: 2;
+    margin-top: var(--sp-4);
   }
 
   .title,
   .artist {
-    font-size: 1.2rem;
-    font-weight: normal;
     margin: 0;
   }
 
   .artist {
-    text-align: right;
+    margin-top: var(--sp-2);
   }
 
-  a:hover img,
-  a:focus img {
-    transform: scale(0.82);
+  .title {
+    font-weight: 500;
   }
 
-  a:hover .info,
-  a:focus .info {
-    opacity: 1;
+  .desciption {
+    font-size: var(--font-size-14);
+    font-weight: 300;
+    margin: var(--sp-8) 0 0 0;
+  }
+
+  ul.mini {
+    row-gap: calc(var(--sp-8) * 2);
+  }
+
+  .mini a {
+    display: flex;
+    column-gap: 0.5rem;
+  }
+
+  .mini .graphic {
+    flex: 1 1 30%;
+    min-width: 64px;
+  }
+
+  .mini .info {
+    flex: 1 1 70%;
+    margin-top: 0;
   }
 </style>

@@ -1,17 +1,16 @@
 ---
-import type { Release } from "@types";
+import store from "@store";
 import Layout from "@layouts/Layout.astro";
-import collection from "@data/collection.json";
 import Releases from "@components/Releases.astro";
-import { getArtists, getReleasesByArtist } from "@util/data";
+import { pluralize } from "@util/string";
 
 export async function getStaticPaths() {
-  const allReleases = getReleasesByArtist(collection);
+  const allReleases = store.releasesByArtist;
 
   // TODO: There's likely a better way to do this than using getArtists since
   // we're already getting all the artists from getReleasesByArtist
   // We just don't have the artist slug there yet.
-  return getArtists(collection).map((artist) => {
+  return store.artists.map((artist) => {
     const artistReleases = allReleases[artist.name];
 
     return {
@@ -25,8 +24,12 @@ const { artist, releases } = Astro.props;
 ---
 
 <Layout title={artist.name}>
-  <main>
-    <h1>{artist.name}</h1>
+  <main class="standard-restricted-width">
+    <h1 class="standard-page-title">
+      {releases.length}
+      {artist.name}
+      {pluralize("Record", releases.length)}
+    </h1>
 
     <Releases releases={releases} />
   </main>

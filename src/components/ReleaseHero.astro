@@ -1,0 +1,72 @@
+---
+export interface props {
+  artist: string;
+  release: Release;
+}
+
+import type { Release } from "@types";
+import Vinyl from "@components/Vinyl.astro";
+import { getHumanColor, getMachineColor } from "@util/data";
+
+const { artist, release } = Astro.props;
+const { title, cover_image, year } = release.basic_information;
+---
+
+<div class="container">
+  <header>
+    <h1 class="title">{title}</h1>
+    <p class="subtitle">{artist} / {year} / {getHumanColor(release)}</p>
+  </header>
+  <div class="graphic">
+    <div class="disc">
+      <Vinyl color={getMachineColor(release)} />
+    </div>
+    <div class="cover">
+      <img src={cover_image} alt="" width="500px" height="500px" />
+    </div>
+  </div>
+</div>
+
+<style>
+  header {
+    padding-top: calc(var(--sp-8) * 6);
+    padding-bottom: calc(var(--sp-8) * 6);
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: var(--font-size-18);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .title {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .graphic {
+    display: grid;
+    grid-template: "container";
+    place-items: center;
+  }
+
+  .cover,
+  .disc {
+    grid-area: container;
+  }
+
+  img {
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: auto;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .disc {
+    max-width: 650px;
+    width: 100%;
+  }
+</style>

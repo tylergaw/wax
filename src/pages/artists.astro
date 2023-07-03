@@ -1,15 +1,15 @@
 ---
+import store from "@store";
 import Layout from "@layouts/Layout.astro";
-import collection from "@data/collection.json";
-import { buildUrl, getArtists } from "@util/data";
+import { buildUrl } from "@util/data";
 
-const artists = getArtists(collection);
+const artists = store.artists;
 ---
 
 <Layout title="Artists">
-  <main>
-    <h1>{artists.length} artists</h1>
-    <ol>
+  <main class="standard-restricted-width">
+    <h1 class="standard-page-title">{artists.length} Artists</h1>
+    <ul>
       {
         artists.map(({ name }) => (
           <li>
@@ -17,6 +17,28 @@ const artists = getArtists(collection);
           </li>
         ))
       }
-    </ol>
+    </ul>
   </main>
 </Layout>
+
+<style>
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    column-gap: var(--g-gutter);
+    row-gap: 1rem;
+  }
+
+  li {
+    width: var(--g-cols-2);
+  }
+
+  a {
+    color: inherit;
+    font-weight: 500;
+    text-decoration: none;
+  }
+</style>

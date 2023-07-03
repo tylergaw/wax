@@ -1,6 +1,7 @@
 ---
 import type { Release } from "@types";
 import { getHumanColor, getMachineColor, getReleaseUrl } from "@util/data";
+import Vinyl from "@components/Vinyl.astro";
 
 const { releases } = Astro.props;
 ---
@@ -15,11 +16,8 @@ const { releases } = Astro.props;
       return (
         <li data-id={release.id}>
           <a href={getReleaseUrl(release)}>
-            <div class="graphic" hidden>
-              <div
-                class="disc"
-                style={`--bg-color: ${getMachineColor(release)}`}
-              />
+            <div style={`--disc-color: ${getMachineColor(release)}`}>
+              <Vinyl />
             </div>
             <div class="info">
               <div class="primary-info">
@@ -54,6 +52,10 @@ const { releases } = Astro.props;
     color: inherit;
     display: block;
     text-decoration: none;
+  }
+
+  .info {
+    margin-top: var(--sp-4);
   }
 
   .title,

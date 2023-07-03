@@ -56,7 +56,7 @@ export function getHumanColor(release: Release): string {
 
 // TODO: Tests
 export function getMachineColor(release: Release): string {
-  let color = "black";
+  let color = "#363636";
 
   if (release.display) {
     const { css_readable_colors } = release.display;

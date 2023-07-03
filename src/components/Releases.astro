@@ -22,11 +22,8 @@ const { className, releases, showArtist = true } = Astro.props;
       return (
         <li data-id={release.id}>
           <a href={getReleaseUrl(release)}>
-            <div
-              class="graphic"
-              style={`--disc-color: ${getMachineColor(release)}`}
-            >
-              <Vinyl />
+            <div class="graphic">
+              <Vinyl color={getMachineColor(release)} />
             </div>
             <div class="info">
               <div class="primary-info">

@@ -3,6 +3,7 @@ import type { Release } from "@types";
 import store from "@store";
 import Layout from "@layouts/Layout.astro";
 import Releases from "@components/Releases.astro";
+import ReleaseHero from "@components/ReleaseHero.astro";
 import slug from "slug";
 
 // TODO: Reduce repetition, I think this can be done better across everything.
@@ -32,13 +33,7 @@ const title = release.basic_information.title;
 
 <Layout title={`${title} by ${artist}`}>
   <main class="standard-restricted-width">
-    <h1>{title} by {artist}</h1>
-    <img
-      src={release.basic_information.cover_image}
-      alt=""
-      width="550px"
-      height="550px"
-    />
+    <ReleaseHero artist={artist} release={release} />
 
     {
       otherReleases.length > 0 && (

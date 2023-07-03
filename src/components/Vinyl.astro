@@ -1,6 +1,14 @@
+---
+export interface props {
+  color?: string;
+}
+
+const { color = "#363636" } = Astro.props;
+---
+
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 193 180">
   <path
-    fill="var(--disc-color)"
+    fill={color}
     fill-rule="evenodd"
     d="M97 180c49.706 0 90-40.294 90-90S146.706 0 97 0 7 40.294 7 90s40.294 90 90 90Zm0-78c6.904 0 12.5-5.596 12.5-12.5S103.904 77 97 77s-12.5 5.596-12.5 12.5S90.096 102 97 102Z"
     clip-rule="evenodd"></path>

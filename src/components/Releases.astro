@@ -1,4 +1,10 @@
 ---
+export interface Props {
+  className?: string;
+  releases: Release[];
+  showArtist?: boolean;
+}
+
 import type { Release } from "@types";
 import { getHumanColor, getMachineColor, getReleaseUrl } from "@util/data";
 import Vinyl from "@components/Vinyl.astro";

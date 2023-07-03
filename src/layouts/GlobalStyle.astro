@@ -1,0 +1,51 @@
+<style is:global>
+  :root {
+    --font-primary: "Barlow Semi Condensed", sans-serif;
+
+    /* Font sizes */
+    --font-size-14: calc(14 / 16 * 1rem);
+    --font-size-16: 1rem;
+    --font-size-24: calc(24 / 16 * 1rem);
+
+    /* Grid */
+    --g-cols: 4;
+    --g-gutter: calc(13 / 16 * 1rem);
+    --g-col-width: calc(193 / 16 * 1rem);
+    --g-max-width: calc(
+      (var(--g-col-width) * var(--g-cols)) +
+        (var(--g-gutter) * (var(--g-cols) - 1))
+    );
+
+    /* Spacing */
+    --sp-2: calc(2 / 16 * 1rem);
+    --sp-8: calc(8 / 16 * 1rem);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: var(--font-size-16);
+    font-family: var(--font-primary);
+  }
+
+  body {
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 500;
+  }
+
+  .standard-page-title {
+    font-size: var(--font-size-24);
+  }
+
+  .standard-restricted-width {
+    margin: 0 auto;
+    max-width: var(--g-max-width);
+  }
+</style>

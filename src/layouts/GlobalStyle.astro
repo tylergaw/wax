@@ -7,6 +7,10 @@
     --font-size-16: 1rem;
     --font-size-24: calc(24 / 16 * 1rem);
 
+    /* Color */
+    --color-primary-dark: #2b2b2b;
+    --color-text: var(--color-primary-dark);
+
     /* Grid */
     --g-cols: 4;
     --g-gutter: calc(13 / 16 * 1rem);
@@ -27,6 +31,7 @@
   }
 
   html {
+    color: var(--color-text);
     font-size: var(--font-size-16);
     font-family: var(--font-primary);
   }

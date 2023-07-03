@@ -12,7 +12,7 @@ function getComparableName(name: string): string {
   return name;
 }
 
-export function buildUrl(segments: string[]) {
+export function buildUrl(segments: string[]): string {
   return segments.reduce((accum, curr) => `${accum}${slug(curr)}/`, "/");
 }
 
@@ -39,7 +39,7 @@ export function getReleaseUrl(release: Release): string {
   return buildUrl([artists[0].name, title]);
 }
 
-// TODO: Tests
+// TODO: Write tests for this.
 export function getHumanColor(release: Release): string {
   let humanColor = "Black";
 
@@ -54,7 +54,7 @@ export function getHumanColor(release: Release): string {
   return `${humanColor} Vinyl`;
 }
 
-// TODO: Tests
+// TODO: Write tests for this.
 export function getMachineColor(release: Release): string {
   let color = "#363636";
 
@@ -64,10 +64,7 @@ export function getMachineColor(release: Release): string {
     if (!isEmpty(css_readable_colors)) {
       color = css_readable_colors[0];
 
-      // FIXME: Working here
-      // if (css_readable_colors.length > 1) {
-      //   console.log(css_readable_colors);
-      // }
+      // TODO: Handle more than one color here
     }
   }
 

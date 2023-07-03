@@ -16,8 +16,8 @@ const releasesDisplay: Release[] = Object.keys(releases).reduce(
 ---
 
 <Layout title="Wax">
-  <main>
-    <h1>{releasesDisplay.length} records</h1>
+  <main class="standard-restricted-width">
+    <h1 class="standard-page-title">{releasesDisplay.length} Records</h1>
     <Releases releases={releasesDisplay} />
   </main>
 </Layout>

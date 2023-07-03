@@ -23,8 +23,8 @@ const { artist, releases } = Astro.props;
 ---
 
 <Layout title={artist.name}>
-  <main>
-    <h1>{artist.name}</h1>
+  <main class="standard-restricted-width">
+    <h1 class="standard-page-title">{artist.name}</h1>
 
     <Releases releases={releases} />
   </main>

@@ -7,8 +7,8 @@ const artists = store.artists;
 ---
 
 <Layout title="Artists">
-  <main>
-    <h1>{artists.length} artists</h1>
+  <main class="standard-restricted-width">
+    <h1 class="standard-page-title">{artists.length} Artists</h1>
     <ol>
       {
         artists.map(({ name }) => (

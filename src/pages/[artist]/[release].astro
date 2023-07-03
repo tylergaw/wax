@@ -31,7 +31,7 @@ const title = release.basic_information.title;
 ---
 
 <Layout title={`${title} by ${artist}`}>
-  <main>
+  <main class="standard-restricted-width">
     <h1>{title} by {artist}</h1>
     <img
       src={release.basic_information.cover_image}
@@ -40,12 +40,10 @@ const title = release.basic_information.title;
       height="550px"
     />
 
-    <hr />
-
     {
       otherReleases.length > 0 && (
         <>
-          <h2>Other relases by {artist}</h2>
+          <h2>Other records by {artist}</h2>
           <Releases releases={otherReleases} />
         </>
       )

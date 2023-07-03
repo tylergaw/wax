@@ -13,31 +13,20 @@ const { releases } = Astro.props;
       } = release;
 
       return (
-        <li>
+        <li data-id={release.id}>
           <a href={getReleaseUrl(release)}>
-            <div>
-              {/*FIXME<img
-              src={release.basic_information.cover_image}
-              alt=""
-              width="350px"
-              height="350px"
-              loading="lazy"
-            />*/}
-            </div>
-            <div class="info">
-              <small>{release.id}</small>
-              <h3 class="title">{title}</h3>
-              <p class="artist">{artists[0].name}</p>
-
-              <p>
-                <small>Human color: {getHumanColor(release)}</small>
-                <br />
-                <small>Machine color: {getMachineColor(release)}</small>
-              </p>
+            <div class="graphic" hidden>
               <div
-                class="swatch"
+                class="disc"
                 style={`--bg-color: ${getMachineColor(release)}`}
               />
+            </div>
+            <div class="info">
+              <div class="primary-info">
+                <p class="title">{title}</p>
+                <p class="artist">{artists[0].name}</p>
+              </div>
+              <p class="desciption">{getHumanColor(release)}</p>
             </div>
           </a>
         </li>
@@ -51,67 +40,38 @@ const { releases } = Astro.props;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 1rem;
     margin: 0;
-    padding: 0 1rem;
+    padding: 0;
+    column-gap: var(--g-gutter);
+    row-gap: calc(var(--sp-8) * 6);
   }
 
   li {
-    display: grid;
-    flex: 1;
+    width: var(--g-col-width);
   }
 
   a {
-    border: 1px solid;
-    color: black;
-    display: grid;
-    gap: 1rem;
-    grid-template: "container";
+    color: inherit;
+    display: block;
     text-decoration: none;
-    min-height: 300px;
-    min-width: 300px;
-  }
-
-  a > * {
-    grid-area: container;
-  }
-
-  img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-  }
-
-  .info {
-    /* FIXME */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-    padding: 0.4rem;
-    /* opacity: 0; */
-    z-index: 2;
   }
 
   .title,
   .artist {
-    font-size: 1.2rem;
-    font-weight: normal;
     margin: 0;
   }
 
-  .swatch {
-    background-color: var(--bg-color, black);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-    height: 100px;
+  .artist {
+    margin-top: var(--sp-2);
   }
 
-  /* FIXME: a:hover img,
-  a:focus img {
-    transform: scale(0.82);
+  .title {
+    font-weight: 500;
   }
 
-  a:hover .info,
-  a:focus .info {
-    opacity: 1;
-  } */
+  .desciption {
+    font-size: var(--font-size-14);
+    font-weight: 300;
+    margin: var(--sp-8) 0 0 0;
+  }
 </style>

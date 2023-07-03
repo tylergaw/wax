@@ -43,8 +43,12 @@ const title = release.basic_information.title;
     {
       otherReleases.length > 0 && (
         <>
-          <h2>Other records by {artist}</h2>
-          <Releases releases={otherReleases} />
+          <h2 class="standard-page-title">More by {artist}</h2>
+          <Releases
+            releases={otherReleases}
+            className="mini"
+            showArtist={false}
+          />
         </>
       )
     }

@@ -3,10 +3,10 @@ import type { Release } from "@types";
 import { getHumanColor, getMachineColor, getReleaseUrl } from "@util/data";
 import Vinyl from "@components/Vinyl.astro";
 
-const { releases } = Astro.props;
+const { className, releases, showArtist = true } = Astro.props;
 ---
 
-<ul>
+<ul class=`${className}`>
   {
     releases.map((release: Release) => {
       const {
@@ -16,13 +16,16 @@ const { releases } = Astro.props;
       return (
         <li data-id={release.id}>
           <a href={getReleaseUrl(release)}>
-            <div style={`--disc-color: ${getMachineColor(release)}`}>
+            <div
+              class="graphic"
+              style={`--disc-color: ${getMachineColor(release)}`}
+            >
               <Vinyl />
             </div>
             <div class="info">
               <div class="primary-info">
                 <p class="title">{title}</p>
-                <p class="artist">{artists[0].name}</p>
+                {showArtist && <p class="artist">{artists[0].name}</p>}
               </div>
               <p class="desciption">{getHumanColor(release)}</p>
             </div>
@@ -75,5 +78,24 @@ const { releases } = Astro.props;
     font-size: var(--font-size-14);
     font-weight: 300;
     margin: var(--sp-8) 0 0 0;
+  }
+
+  ul.mini {
+    row-gap: calc(var(--sp-8) * 2);
+  }
+
+  .mini a {
+    display: flex;
+    column-gap: 0.5rem;
+  }
+
+  .mini .graphic {
+    flex: 1 1 30%;
+    min-width: 64px;
+  }
+
+  .mini .info {
+    flex: 1 1 70%;
+    margin-top: 0;
   }
 </style>

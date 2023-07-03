@@ -1,31 +1,48 @@
 ---
 import type { Release } from "@types";
-import { getReleaseUrl } from "@util/data";
+import { getHumanColor, getMachineColor, getReleaseUrl } from "@util/data";
 
 const { releases } = Astro.props;
 ---
 
 <ul>
   {
-    releases.map((release: Release) => (
-      <li>
-        <a href={getReleaseUrl(release)}>
-          <div>
-            {/*FIXME<img
+    releases.map((release: Release) => {
+      const {
+        basic_information: { title, artists },
+      } = release;
+
+      return (
+        <li>
+          <a href={getReleaseUrl(release)}>
+            <div>
+              {/*FIXME<img
               src={release.basic_information.cover_image}
               alt=""
               width="350px"
               height="350px"
               loading="lazy"
             />*/}
-          </div>
-          <div class="info">
-            <h3 class="title">{release.basic_information.title}</h3>
-            <p class="artist">{release.basic_information.artists[0].name}</p>
-          </div>
-        </a>
-      </li>
-    ))
+            </div>
+            <div class="info">
+              <small>{release.id}</small>
+              <h3 class="title">{title}</h3>
+              <p class="artist">{artists[0].name}</p>
+
+              <p>
+                <small>Human color: {getHumanColor(release)}</small>
+                <br />
+                <small>Machine color: {getMachineColor(release)}</small>
+              </p>
+              <div
+                class="swatch"
+                style={`--bg-color: ${getMachineColor(release)}`}
+              />
+            </div>
+          </a>
+        </li>
+      );
+    })
   }
 </ul>
 
@@ -80,6 +97,12 @@ const { releases } = Astro.props;
     font-size: 1.2rem;
     font-weight: normal;
     margin: 0;
+  }
+
+  .swatch {
+    background-color: var(--bg-color, black);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    height: 100px;
   }
 
   /* FIXME: a:hover img,

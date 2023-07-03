@@ -2,6 +2,7 @@
 import store from "@store";
 import Layout from "@layouts/Layout.astro";
 import Releases from "@components/Releases.astro";
+import { pluralize } from "@util/string";
 
 export async function getStaticPaths() {
   const allReleases = store.releasesByArtist;
@@ -24,7 +25,11 @@ const { artist, releases } = Astro.props;
 
 <Layout title={artist.name}>
   <main class="standard-restricted-width">
-    <h1 class="standard-page-title">{artist.name}</h1>
+    <h1 class="standard-page-title">
+      {releases.length}
+      {artist.name}
+      {pluralize("Record", releases.length)}
+    </h1>
 
     <Releases releases={releases} />
   </main>

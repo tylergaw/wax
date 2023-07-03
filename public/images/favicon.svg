@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
+  <style>
+    #outer-disc {
+      fill: #141414;
+    }
+
+    #inner-disc {
+      fill: #363636;
+    }
+
+    #label {
+      fill: #8C8C8C;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #outer-disc {
+        fill: #fff;
+      }
+
+      #inner-disc {
+        fill: #EFEFEF;
+      }
+
+      #label {
+        fill: #474747;
+      }
+    }
+  </style>
+  <path id="outer-disc" d="M18 36c9.941 0 18-8.059 18-18S27.941 0 18 0 0 8.059 0 18s8.059 18 18 18Zm0-15.6a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+  <path id="inner-disc" d="M18 35c9.389 0 17-7.611 17-17S27.389 1 18 1 1 8.611 1 18s7.611 17 17 17Zm0-14.733a2.361 2.361 0 1 0 0-4.722 2.361 2.361 0 0 0 0 4.722Z"/>
+  <path id="label" d="M18.1 23.8a5.8 5.8 0 1 0 0-11.6 5.8 5.8 0 0 0 0 11.6Zm0-4.64a1.16 1.16 0 1 0 0-2.32 1.16 1.16 0 0 0 0 2.32Z"/>
+</svg>

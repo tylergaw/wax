@@ -5,6 +5,7 @@ import { getReleaseUrl, sortArtistsByName } from "./data";
 describe("getReleaseUrl function", () => {
   it("handles single artist per release", () => {
     const release1: Release = {
+      id: 123,
       basic_information: {
         title: "Sing The Sorrow",
         artists: [
@@ -16,6 +17,7 @@ describe("getReleaseUrl function", () => {
     };
 
     const release2: Release = {
+      id: 456,
       basic_information: {
         title: "American III: Solitary Man",
         artists: [

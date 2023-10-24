@@ -128,6 +128,64 @@
     ]
   },
   {
+    "id": 28366828,
+    "instance_id": 1466765836,
+    "date_added": "2023-09-24T16:26:25-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 28366828,
+      "master_id": 3239662,
+      "master_url": "https://api.discogs.com/masters/3239662",
+      "resource_url": "https://api.discogs.com/releases/28366828",
+      "thumb": "https://i.discogs.com/mlTln_MwhH25jb70YHyxyYdorPVFQatk_-HBVR21jB4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzY2/ODI4LTE2OTU0MzEw/MjUtNzc2NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/8fnUtcWWJcbErXpPtT2H3McGCWcEGtLpIM3sO2fgL68/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzY2/ODI4LTE2OTU0MzEw/MjUtNzc2NS5qcGVn.jpeg",
+      "title": "Stone",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Black w/hi-melt pink and pearlescent blue splatter \"Last Word\" ",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Stereo"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Baroness",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 947614,
+          "resource_url": "https://api.discogs.com/artists/947614"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Abraxan Hymns",
+          "catno": "ABCN008-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 925633,
+          "resource_url": "https://api.discogs.com/labels/925633"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Progressive Metal",
+        "Alternative Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 7860521,
     "instance_id": 395212698,
     "date_added": "2019-08-18T02:07:02-07:00",
@@ -2277,6 +2335,7 @@
           "text": "Purple Marble",
           "descriptions": [
             "LP",
+            "Album",
             "Limited Edition"
           ]
         }
@@ -2371,6 +2430,61 @@
           "entity_type_name": "Label",
           "id": 33231,
           "resource_url": "https://api.discogs.com/labels/33231"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 7432218,
+    "instance_id": 1429396329,
+    "date_added": "2023-08-11T08:17:12-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 7432218,
+      "master_id": 880684,
+      "master_url": "https://api.discogs.com/masters/880684",
+      "resource_url": "https://api.discogs.com/releases/7432218",
+      "thumb": "https://i.discogs.com/eVEZEH-umcMiJB7WeM-m_KOtQpigq0fCqbk9t7O-FFg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MzIy/MTgtMTUyMzUyNzc5/My0xNjkxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/75LQx9yo_RMHN1jvfDquPOIRdq_dmwbLq4tKM5YqsiI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MzIy/MTgtMTUyMzUyNzc5/My0xNjkxLmpwZWc.jpeg",
+      "title": "Revolution Girl Style Now",
+      "year": 2015,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bikini Kill",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 267489,
+          "resource_url": "https://api.discogs.com/artists/267489"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Bikini Kill Records",
+          "catno": "BK001",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 472773,
+          "resource_url": "https://api.discogs.com/labels/472773"
         }
       ],
       "genres": [
@@ -2653,6 +2767,62 @@
     "folder_id": 1
   },
   {
+    "id": 12262385,
+    "instance_id": 1455826993,
+    "date_added": "2023-09-11T14:11:04-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 12262385,
+      "master_id": 615291,
+      "master_url": "https://api.discogs.com/masters/615291",
+      "resource_url": "https://api.discogs.com/releases/12262385",
+      "thumb": "https://i.discogs.com/3i3mxo5UZatsyH8x_HxJvmhQz2aH0apxNVuiM6wVffI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjYy/Mzg1LTE2MTI4NDM1/NjItNDM0NC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/j1N4aDvBIZ68j7KRMutwL5FqpIWtE-VduGv_ipZ2TXU/rs:fit/g:sm/q:90/h:610/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjYy/Mzg1LTE2MTI4NDM1/NjItNDM0NC5qcGVn.jpeg",
+      "title": "The Constant One",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Yellow",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Iron Chic",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1403345,
+          "resource_url": "https://api.discogs.com/artists/1403345"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Bridge Nine Records",
+          "catno": "B9R201",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 71905,
+          "resource_url": "https://api.discogs.com/labels/71905"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 12156667,
     "instance_id": 527627933,
     "date_added": "2020-11-22T22:58:08-08:00",
@@ -2897,6 +3067,61 @@
     "folder_id": 1
   },
   {
+    "id": 2315274,
+    "instance_id": 1478130481,
+    "date_added": "2023-10-08T09:53:10-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 2315274,
+      "master_id": 31769,
+      "master_url": "https://api.discogs.com/masters/31769",
+      "resource_url": "https://api.discogs.com/releases/2315274",
+      "thumb": "https://i.discogs.com/FOIYBZRLQNmWxRDedsoqDYvy6NNQlVk64W8Ju3LodZI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMTUy/NzQtMTQ3OTk4OTgw/Mi04NzAzLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/0K15DhKt9jEUZjF4BQIn8p1rvV5J8YSwguUWoXJAWn8/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMTUy/NzQtMTQ3OTk4OTgw/Mi04NzAzLmpwZWc.jpeg",
+      "title": "Holiday In Cambodia",
+      "year": 1980,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Airplane Cover",
+          "descriptions": [
+            "7\"",
+            "45 RPM"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Dead Kennedys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 239092,
+          "resource_url": "https://api.discogs.com/artists/239092"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Cherry Red",
+          "catno": "101 566",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 5174,
+          "resource_url": "https://api.discogs.com/labels/5174"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 11560063,
     "instance_id": 395234574,
     "date_added": "2019-08-18T06:04:28-07:00",
@@ -2909,14 +3134,16 @@
       "thumb": "https://i.discogs.com/-3d-gKYfEr3xODugHcP9P9SG49iWSmnTKMrldcfrT7Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTYw/MDYzLTE1MTg1MDMw/NzAtMzIxNi5qcGVn.jpeg",
       "cover_image": "https://i.discogs.com/W7P1HPTG6c0IEI2NwXqLC5MkCfCs5qaKA7K5E84vhvc/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTYw/MDYzLTE1MTg1MDMw/NzAtMzIxNi5qcGVn.jpeg",
       "title": "Parallel Lines",
-      "year": 1978,
+      "year": 0,
       "formats": [
         {
           "name": "Vinyl",
           "qty": "1",
+          "text": "Santa Maria",
           "descriptions": [
             "LP",
-            "Album"
+            "Album",
+            "Reissue"
           ]
         }
       ],
@@ -3026,8 +3253,8 @@
       "master_id": 9143,
       "master_url": "https://api.discogs.com/masters/9143",
       "resource_url": "https://api.discogs.com/releases/19869964",
-      "thumb": "https://i.discogs.com/K4OyjrRzK6lf69tPDc3tfi0zahublpk0fdFrmuqoRSY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODY5/OTY0LTE2MjkwNDI3/MjEtNjU1Ni5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/A4txcaW23Q-Fjm9dNLx176W9M5vOyMpcMiMLyXVMzwM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODY5/OTY0LTE2MjkwNDI3/MjEtNjU1Ni5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/qBY4va-EHVw-cETP2lzuRGZzWb3WsrQ6BmpDDqwUEA4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODY5/OTY0LTE2MjkwNDI3/NDMtMzYxOC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/IfY9kyRUsUbBIzjQ5bT8YD5Yq2Zrxpf4jfn2-4BV5aY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODY5/OTY0LTE2MjkwNDI3/NDMtMzYxOC5qcGVn.jpeg",
       "title": "Amputechture",
       "year": 2021,
       "formats": [
@@ -3243,6 +3470,64 @@
       ],
       "styles": [
         "Country"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 28638235,
+    "instance_id": 1490880313,
+    "date_added": "2023-10-23T11:51:42-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 28638235,
+      "master_id": 3280126,
+      "master_url": "https://api.discogs.com/masters/3280126",
+      "resource_url": "https://api.discogs.com/releases/28638235",
+      "thumb": "https://i.discogs.com/WiZl4N2gS4WDH7A8yvd-s-fBspQd_K2UZ1xZE5122-w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjM4/MjM1LTE2OTc3MzYz/ODAtODgyNy5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/X2is9dVehkW3Rw6338Kka1pFsUHz0XuZ9ycBfhqYzP4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjM4/MjM1LTE2OTc3MzYz/ODAtODgyNy5qcGVn.jpeg",
+      "title": "One More Time...",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Clear [Coke Bottle Clear]",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Stereo"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Blink-182",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 80395,
+          "resource_url": "https://api.discogs.com/artists/80395"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Columbia",
+          "catno": "19658830301",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1866,
+          "resource_url": "https://api.discogs.com/labels/1866"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Pop Punk",
+        "Alternative Rock"
       ]
     },
     "folder_id": 1
@@ -3571,6 +3856,61 @@
         "value": "RSD '12"
       }
     ]
+  },
+  {
+    "id": 3772317,
+    "instance_id": 1421887974,
+    "date_added": "2023-08-02T12:43:51-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3772317,
+      "master_id": 431399,
+      "master_url": "https://api.discogs.com/masters/431399",
+      "resource_url": "https://api.discogs.com/releases/3772317",
+      "thumb": "https://i.discogs.com/06gL962_z2GkN00D4ac_PciAfbMveU4uorYgSjr9Gls/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIz/MTctMTYxMzU5MDQ5/Ny03MDQ2LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/5Xq5hezG-vyml8vXaz7OIBxXa0Vnf79KPAR1T_VaLcE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NzIz/MTctMTYxMzU5MDQ5/Ny03MDQ2LmpwZWc.jpeg",
+      "title": "Born Villain",
+      "year": 2012,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "180 Gram",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Marilyn Manson",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 12208,
+          "resource_url": "https://api.discogs.com/artists/12208"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Cooking Vinyl",
+          "catno": "COOKLP554",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 4184,
+          "resource_url": "https://api.discogs.com/labels/4184"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
+    },
+    "folder_id": 1
   },
   {
     "id": 11816219,
@@ -4671,7 +5011,7 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "2nd pressing",
+          "text": "Pitman, 2nd pressing",
           "descriptions": [
             "LP",
             "Album",
@@ -5168,6 +5508,63 @@
     ]
   },
   {
+    "id": 8166324,
+    "instance_id": 1429387542,
+    "date_added": "2023-08-11T08:06:13-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 8166324,
+      "master_id": 249201,
+      "master_url": "https://api.discogs.com/masters/249201",
+      "resource_url": "https://api.discogs.com/releases/8166324",
+      "thumb": "https://i.discogs.com/4nRporcfGg_6lztnTYrl1Nl_KXSLmXMhNMm6SwR57RE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxNjYz/MjQtMTQ1NjM5MzA4/OC03NzEzLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/ihRAzjebKALTUI800tfZrBJc2dSGThHqVm58SOZoGcA/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxNjYz/MjQtMTQ1NjM5MzA4/OC03NzEzLmpwZWc.jpeg",
+      "title": "30 Years Live",
+      "year": 2016,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Red Opaque",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Religion",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 17479,
+          "resource_url": "https://api.discogs.com/artists/17479"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "87105-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 3495975,
     "instance_id": 549617823,
     "date_added": "2020-12-23T21:42:47-08:00",
@@ -5461,6 +5858,121 @@
       "styles": [
         "Ska",
         "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 14724546,
+    "instance_id": 1429389141,
+    "date_added": "2023-08-11T08:08:03-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 14724546,
+      "master_id": 58411,
+      "master_url": "https://api.discogs.com/masters/58411",
+      "resource_url": "https://api.discogs.com/releases/14724546",
+      "thumb": "https://i.discogs.com/hWICG1aU2hTfDaIvq4D2g_R7VwxpwseEw52xZfH-Zdw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NzI0/NTQ2LTE2OTQyODM5/OTgtNzEzMS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/3cFtsJxMi7O2O8DJzmmY4z_JwNnXOw98uNeuWlysHZM/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NzI0/NTQ2LTE2OTQyODM5/OTgtNzEzMS5qcGVn.jpeg",
+      "title": "No Control",
+      "year": 2020,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Lime Green",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Limited Edition"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Religion",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 17479,
+          "resource_url": "https://api.discogs.com/artists/17479"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "E-86406-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 25145062,
+    "instance_id": 1429390500,
+    "date_added": "2023-08-11T08:09:55-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 25145062,
+      "master_id": 25526,
+      "master_url": "https://api.discogs.com/masters/25526",
+      "resource_url": "https://api.discogs.com/releases/25145062",
+      "thumb": "https://i.discogs.com/ieC4bI39LJGhtzMGL2BhVXKNdKbPG1MWBOm7B07NFJY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTQ1/MDYyLTE2NjgyOTE0/MzQtMTY4MS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/W9iYJJpEmH3nGeDytLph3UTYOiMdx5yb7aYDZKakKHg/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTQ1/MDYyLTE2NjgyOTE0/MzQtMTY4MS5qcGVn.jpeg",
+      "title": "How Could Hell Be Any Worse?",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Blue W/ Black Transparent",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Religion",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 17479,
+          "resource_url": "https://api.discogs.com/artists/17479"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "E-86407-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Hardcore"
       ]
     },
     "folder_id": 1
@@ -7469,6 +7981,63 @@
     ]
   },
   {
+    "id": 28091296,
+    "instance_id": 1454972539,
+    "date_added": "2023-09-10T12:45:14-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 28091296,
+      "master_id": 16434,
+      "master_url": "https://api.discogs.com/masters/16434",
+      "resource_url": "https://api.discogs.com/releases/28091296",
+      "thumb": "https://i.discogs.com/mHGK-xi78wFj8XEYhWoGkSFLZPdzLCzzAUNnVraHse0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDkx/Mjk2LTE2OTQ1Nzc1/ODItODU0MC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/W56umVBs6aNFYWJaLA-NnpC-qQxRDn4kA0PKr4-XnLM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDkx/Mjk2LTE2OTQ1Nzc1/ODItODU0MC5qcGVn.jpeg",
+      "title": "Mit Gas",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Fool's Gold",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Tomahawk (6)",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 108251,
+          "resource_url": "https://api.discogs.com/artists/108251"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Ipecac Recordings",
+          "catno": "IPC251LP4",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 48048,
+          "resource_url": "https://api.discogs.com/labels/48048"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 2151825,
     "instance_id": 84824196,
     "date_added": "2012-04-20T18:43:38-07:00",
@@ -7722,7 +8291,7 @@
         {
           "name": "Vinyl",
           "qty": "2",
-          "text": "Black And White Galaxy, Gatefold",
+          "text": "Gray Swirl [Black And White Galaxy], Gatefold",
           "descriptions": [
             "LP",
             "Album",
@@ -8718,6 +9287,14 @@
           "entity_type_name": "Label",
           "id": 1685,
           "resource_url": "https://api.discogs.com/labels/1685"
+        },
+        {
+          "name": "Maverick",
+          "catno": "1-527707 (K1)",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1685,
+          "resource_url": "https://api.discogs.com/labels/1685"
         }
       ],
       "genres": [
@@ -8898,6 +9475,61 @@
     "folder_id": 1
   },
   {
+    "id": 14845571,
+    "instance_id": 1454971555,
+    "date_added": "2023-09-10T12:44:04-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 14845571,
+      "master_id": 1677047,
+      "master_url": "https://api.discogs.com/masters/1677047",
+      "resource_url": "https://api.discogs.com/releases/14845571",
+      "thumb": "https://i.discogs.com/GGNMYmpP8_n89YePBGHgrOZOPESReJiCu1UfErIgbDo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODQ1/NTcxLTE2ODgzOTc2/NzctNzIwOS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/XlucLnXUgCKc4dBWCe-U_NHnrFbMKOrUKsuGbdfhW1Q/rs:fit/g:sm/q:90/h:637/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODQ1/NTcxLTE2ODgzOTc2/NzctNzIwOS5qcGVn.jpeg",
+      "title": "Terminator: Dark Fate (Music From The Motion Picture)",
+      "year": 2019,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "180 Grs",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Tom Holkenborg",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 210018,
+          "resource_url": "https://api.discogs.com/artists/210018"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Mondo (3)",
+          "catno": "MOND-176",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 291374,
+          "resource_url": "https://api.discogs.com/labels/291374"
+        }
+      ],
+      "genres": [
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Score"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 3469317,
     "instance_id": 84824219,
     "date_added": "2012-04-20T18:44:47-07:00",
@@ -9020,6 +9652,74 @@
       {
         "field_id": 3,
         "value": "I have #972 out of 1500"
+      }
+    ]
+  },
+  {
+    "id": 9340972,
+    "instance_id": 1442360656,
+    "date_added": "2023-08-26T11:56:35-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 9340972,
+      "master_id": 80217,
+      "master_url": "https://api.discogs.com/masters/80217",
+      "resource_url": "https://api.discogs.com/releases/9340972",
+      "thumb": "https://i.discogs.com/rop1_W3D02lhfalL4yDX0pJwEyRCKXqQxnSarACByjE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzNDA5/NzItMTQ4NjgxMTEw/MC04ODgzLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/R7HkR_dRKwsByKRB50wbLu5ZK30dzGr_a9fodNEKXnY/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzNDA5/NzItMTQ4NjgxMTEw/MC04ODgzLmpwZWc.jpeg",
+      "title": "Wisconsin Death Trip",
+      "year": 2015,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180g Gatefold",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Stereo"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Static-X",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 213304,
+          "resource_url": "https://api.discogs.com/artists/213304"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Music On Vinyl",
+          "catno": "MOVLP1379",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 169635,
+          "resource_url": "https://api.discogs.com/labels/169635"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Industrial",
+        "Nu Metal"
+      ]
+    },
+    "folder_id": 1,
+    "notes": [
+      {
+        "field_id": 1,
+        "value": "Mint (M)"
+      },
+      {
+        "field_id": 2,
+        "value": "Near Mint (NM or M-)"
       }
     ]
   },
@@ -10228,8 +10928,8 @@
       "master_id": 52269,
       "master_url": "https://api.discogs.com/masters/52269",
       "resource_url": "https://api.discogs.com/releases/13089976",
-      "thumb": "https://i.discogs.com/wbLrhJZcI5cLSJL7UwpEA3r2qJQQaEyGRSSP6UJsrK4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDg5/OTc2LTE1NDc4ODUx/NjQtNTEzMS5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/sKwz8OEqK3REunhnqG3gX5nLwtQPTN5oPfCnAMsc88A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDg5/OTc2LTE1NDc4ODUx/NjQtNTEzMS5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/DWm-7m-cgoxmWT4KnMc78jObF_RQlANxdbm1UNBloqM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDg5/OTc2LTE2OTEyMDIz/NTUtNzY4NC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/DIyxfDumLhhMou_tY-sNMr9ooGMt5kiU71BDfb75wHs/rs:fit/g:sm/q:90/h:555/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDg5/OTc2LTE2OTEyMDIz/NTUtNzY4NC5qcGVn.jpeg",
       "title": "Reinventing Axl Rose",
       "year": 2008,
       "formats": [
@@ -10284,6 +10984,62 @@
     ]
   },
   {
+    "id": 27977268,
+    "instance_id": 1442362078,
+    "date_added": "2023-08-26T11:58:04-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 27977268,
+      "master_id": 140123,
+      "master_url": "https://api.discogs.com/masters/140123",
+      "resource_url": "https://api.discogs.com/releases/27977268",
+      "thumb": "https://i.discogs.com/YvEwjdaugB6EV7huEyZZX4MM94EyB41vnBmX9LihkWY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3OTc3/MjY4LTE2OTIwNzM0/ODgtNjY0OC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/VeKLCVCApLaYQabiTGXf5zojHyrDwsNQjdko0wL4F-M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3OTc3/MjY4LTE2OTIwNzM0/ODgtNjY0OC5qcGVn.jpeg",
+      "title": "The Great Depression",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Kaleidoscope",
+          "descriptions": [
+            "LP",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Defiance, Ohio",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 901514,
+          "resource_url": "https://api.discogs.com/artists/901514"
+        }
+      ],
+      "labels": [
+        {
+          "name": "No Idea Records",
+          "catno": "NO IDEA 189",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 33337,
+          "resource_url": "https://api.discogs.com/labels/33337"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Acoustic",
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 7173732,
     "instance_id": 520214820,
     "date_added": "2020-10-30T07:14:39-07:00",
@@ -10293,15 +11049,15 @@
       "master_id": 261619,
       "master_url": "https://api.discogs.com/masters/261619",
       "resource_url": "https://api.discogs.com/releases/7173732",
-      "thumb": "https://i.discogs.com/gedAXKtO8JYV61Cpble6n-fJaVruH3ExF1LU708IDBw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxNzM3/MzItMTQzNTM2MjE5/MS0zMjY2LmpwZWc.jpeg",
-      "cover_image": "https://i.discogs.com/EFZmMXJLv_gFII9LrnlmmDcYV-c0BgbupdxYGJp7dI4/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxNzM3/MzItMTQzNTM2MjE5/MS0zMjY2LmpwZWc.jpeg",
+      "thumb": "https://i.discogs.com/-D9AUiHTiNz0-Jm-G1-vBBWVwy1ZO31LqwxrjWh8CT8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxNzM3/MzItMTY5MzEyOTY5/Ny01NjYyLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/HnBXgtEWUs309HPo8pNDAEGfFbsvGefkRaK5akGJZok/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxNzM3/MzItMTY5MzEyOTY5/Ny01NjYyLmpwZWc.jpeg",
       "title": "Los Feliz",
       "year": 2015,
       "formats": [
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "Clear split w/ Clear Blue",
+          "text": "Blue/ Clear Split",
           "descriptions": [
             "LP",
             "Album",
@@ -12157,6 +12913,83 @@
     "folder_id": 1
   },
   {
+    "id": 25784593,
+    "instance_id": 1454971996,
+    "date_added": "2023-09-10T12:44:39-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 25784593,
+      "master_id": 950197,
+      "master_url": "https://api.discogs.com/masters/950197",
+      "resource_url": "https://api.discogs.com/releases/25784593",
+      "thumb": "https://i.discogs.com/91xOvT6xy22Masf0zWsnx8NB6thfpftAwIkslSKFbXM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Nzg0/NTkzLTE2OTMwODQ3/NTYtMjQzOS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/nRMHR5thuWAHDbYz-J1neb9nyBjAU4VE_ffIrb23Cz4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Nzg0/NTkzLTE2OTMwODQ3/NTYtMjQzOS5qcGVn.jpeg",
+      "title": "Money Shot",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "White Opaque",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue",
+            "Repress",
+            "Stereo"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Puscifer",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 279194,
+          "resource_url": "https://api.discogs.com/artists/279194"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Puscifer Entertainment",
+          "catno": "538676570",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 96748,
+          "resource_url": "https://api.discogs.com/labels/96748"
+        },
+        {
+          "name": "BMG",
+          "catno": "538676570",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1003,
+          "resource_url": "https://api.discogs.com/labels/1003"
+        },
+        {
+          "name": "Alchemy Recordings (2)",
+          "catno": "538676570",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1934433,
+          "resource_url": "https://api.discogs.com/labels/1934433"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Experimental",
+        "Industrial"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 10358251,
     "instance_id": 395212210,
     "date_added": "2019-08-18T02:02:18-07:00",
@@ -12240,7 +13073,8 @@
             "45 RPM",
             "Album",
             "Limited Edition",
-            "Picture Disc"
+            "Picture Disc",
+            "Repress"
           ]
         }
       ],
@@ -12655,7 +13489,6 @@
           "descriptions": [
             "LP",
             "Album",
-            "Record Store Day",
             "Reissue"
           ]
         }
@@ -13135,8 +13968,8 @@
       "master_id": 746172,
       "master_url": "https://api.discogs.com/masters/746172",
       "resource_url": "https://api.discogs.com/releases/23956076",
-      "thumb": "https://i.discogs.com/Uz5n877ya-jMMUXvV0y3kUWZNT5qQ_ldVSIlky25pYU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTU2/MDc2LTE2NTg1MzYw/MzQtMzA4NS5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/51NCMVPJ_5W7Q9cZluyERyiAKYBIQX_pHtY5ipXfAbY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTU2/MDc2LTE2NTg1MzYw/MzQtMzA4NS5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/XMyPaEDZ9rLTun45i9ziQyRiD3I3sMBK4CP04rsXLyM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTU2/MDc2LTE2NTg0MjU1/OTEtOTY4MC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/6WaX3nFYYG2hopjc1nR7kooOsVj8NH_pA5gTUo7b5QQ/rs:fit/g:sm/q:90/h:576/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTU2/MDc2LTE2NTg0MjU1/OTEtOTY4MC5qcGVn.jpeg",
       "title": ".5: The Gray Chapter",
       "year": 2022,
       "formats": [
@@ -14985,6 +15818,62 @@
     "folder_id": 1
   },
   {
+    "id": 11429851,
+    "instance_id": 1455832840,
+    "date_added": "2023-09-11T14:19:23-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 11429851,
+      "master_id": 1248704,
+      "master_url": "https://api.discogs.com/masters/1248704",
+      "resource_url": "https://api.discogs.com/releases/11429851",
+      "thumb": "https://i.discogs.com/JJ7flpKpQQcnR3JC6UwjOWxUlpvTwLBHZJzP7QefsOA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDI5/ODUxLTE1NjQ2OTY4/OTItMjYyNS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/1hkIsAQBM1uu0u5sMN41N4Vssos4QVywpypkI-gqnd4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDI5/ODUxLTE1NjQ2OTY4/OTItMjYyNS5qcGVn.jpeg",
+      "title": "You Can't Stay Here",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180g",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Repress"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Iron Chic",
+          "anv": "Iron Chic III",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1403345,
+          "resource_url": "https://api.discogs.com/artists/1403345"
+        }
+      ],
+      "labels": [
+        {
+          "name": "SideOneDummy Records",
+          "catno": "SD1691-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 249513,
+          "resource_url": "https://api.discogs.com/labels/249513"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 22129483,
     "instance_id": 946825570,
     "date_added": "2022-02-13T19:01:22-08:00",
@@ -16036,8 +16925,8 @@
       "master_id": 1521043,
       "master_url": "https://api.discogs.com/masters/1521043",
       "resource_url": "https://api.discogs.com/releases/14394149",
-      "thumb": "https://i.discogs.com/O2bsruFLu8k9jD8DDtIr3pJLK74b9KjtCWkaGPOVnMg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Mzk0/MTQ5LTE2NjE4Mzcy/ODAtNjEyMS5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/t_NbrjWvZXrevO54ks84nQsJyl2j7W8ALq-ie0Np4ew/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Mzk0/MTQ5LTE2NjE4Mzcy/ODAtNjEyMS5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/9mphIMem1_3cPw-_94cF2ilkQApWzZzQVQ_D_mO6QrQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Mzk0/MTQ5LTE2ODkzNDU5/OTQtMjMyNy5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/l_gshPbRV8GsCOtzhrmgjCKmn6g0W-fPRk5doQixzRY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Mzk0/MTQ5LTE2ODkzNDU5/OTQtMjMyNy5qcGVn.jpeg",
       "title": "Pony",
       "year": 2019,
       "formats": [
@@ -18313,13 +19202,22 @@
       "formats": [
         {
           "name": "Vinyl",
-          "qty": "3",
+          "qty": "2",
           "text": "180g",
           "descriptions": [
             "LP",
             "Album",
             "Reissue",
             "Remastered"
+          ]
+        },
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180g",
+          "descriptions": [
+            "LP",
+            "Compilation"
           ]
         }
       ],

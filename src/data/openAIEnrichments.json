@@ -16,9 +16,9 @@
   {
     "id": "513594",
     "description": "180g",
-    "human_readable_color": "Clear",
+    "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "translucent"
+    "pattern_texture": "clear"
   },
   {
     "id": "677375",
@@ -48,7 +48,7 @@
     "description": "180 g",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "translucent"
+    "pattern_texture": "clear"
   },
   {
     "id": "1018597",
@@ -67,11 +67,11 @@
     "pattern_texture": ""
   },
   {
-    "id": "1563150",
+    "id": 1563150,
     "description": "Punchout Centers",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "translucent"
+    "pattern_texture": "clear"
   },
   {
     "id": "1597466",
@@ -148,7 +148,7 @@
     "description": "Clear",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "translucent"
+    "pattern_texture": "clear"
   },
   {
     "id": "2151825",
@@ -183,6 +183,13 @@
       "lilac"
     ],
     "pattern_texture": ""
+  },
+  {
+    "id": "2315274",
+    "description": "Airplane Cover",
+    "human_readable_color": "Translucent",
+    "css_readable_colors": [],
+    "pattern_texture": "Translucent"
   },
   {
     "id": "2395237",
@@ -244,7 +251,7 @@
     "description": "180 Gram",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "clear"
+    "pattern_texture": "Clear"
   },
   {
     "id": "2937981",
@@ -415,7 +422,7 @@
     "human_readable_color": "Clear Milky, Swamp Green",
     "css_readable_colors": [
       "#f0fff0",
-      "#24500f"
+      "#228b22"
     ],
     "pattern_texture": "Translucent"
   },
@@ -429,11 +436,18 @@
     "pattern_texture": "Marbled"
   },
   {
+    "id": "3772317",
+    "description": "180 Gram",
+    "human_readable_color": "",
+    "css_readable_colors": [],
+    "pattern_texture": "clear"
+  },
+  {
     "id": "3884453",
     "description": "Pitman Pressing, Gatefold",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "Clear"
+    "pattern_texture": "clear"
   },
   {
     "id": "3974684",
@@ -502,7 +516,7 @@
     "description": "180 Gram",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "Clear"
+    "pattern_texture": "clear"
   },
   {
     "id": "5168643",
@@ -516,7 +530,7 @@
   {
     "id": "5264733",
     "description": "Blue/White Swirl",
-    "human_readable_color": "Blue & White",
+    "human_readable_color": "Blue and White",
     "css_readable_colors": [
       "blue",
       "white"
@@ -625,13 +639,13 @@
   },
   {
     "id": "7173732",
-    "description": "Clear split w/ Clear Blue",
-    "human_readable_color": "Clear & Clear Blue",
+    "description": "Blue/ Clear Split",
+    "human_readable_color": "Blue & Clear",
     "css_readable_colors": [
-      "clear",
-      "blue"
+      "blue",
+      "clear"
     ],
-    "pattern_texture": "translucent"
+    "pattern_texture": "Split"
   },
   {
     "id": "7190525",
@@ -677,6 +691,15 @@
     "pattern_texture": "Marbled"
   },
   {
+    "id": "8166324",
+    "description": "Red Opaque",
+    "human_readable_color": "Red",
+    "css_readable_colors": [
+      "red"
+    ],
+    "pattern_texture": "Opaque"
+  },
+  {
     "id": "8260804",
     "description": "Pitman Pressing",
     "human_readable_color": "",
@@ -715,6 +738,13 @@
     "pattern_texture": "clear"
   },
   {
+    "id": "9340972",
+    "description": "180g Gatefold",
+    "human_readable_color": "",
+    "css_readable_colors": [],
+    "pattern_texture": "clear"
+  },
+  {
     "id": "9653096",
     "description": "Gold",
     "human_readable_color": "Gold",
@@ -734,15 +764,15 @@
   },
   {
     "id": "10471009",
-    "description": "180g",
+    "description": "180g and 180g",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "translucent"
+    "pattern_texture": "clear"
   },
   {
     "id": "10693965",
     "description": "180g",
-    "human_readable_color": "translucent",
+    "human_readable_color": "",
     "css_readable_colors": [],
     "pattern_texture": "translucent"
   },
@@ -776,7 +806,7 @@
     "description": "180g",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "clear"
+    "pattern_texture": ""
   },
   {
     "id": "11390219",
@@ -788,6 +818,13 @@
     "pattern_texture": ""
   },
   {
+    "id": "11429851",
+    "description": "180g",
+    "human_readable_color": "",
+    "css_readable_colors": [],
+    "pattern_texture": "translucent"
+  },
+  {
     "id": "11528694",
     "description": "Silver/Red Mix",
     "human_readable_color": "Silver and Red",
@@ -796,6 +833,13 @@
       "red"
     ],
     "pattern_texture": ""
+  },
+  {
+    "id": "11560063",
+    "description": "Santa Maria",
+    "human_readable_color": "Clear Translucent",
+    "css_readable_colors": [],
+    "pattern_texture": "translucent"
   },
   {
     "id": "11807853",
@@ -811,7 +855,7 @@
     "description": "Gatefold",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "Gatefold"
+    "pattern_texture": "translucent"
   },
   {
     "id": "12109198",
@@ -835,6 +879,15 @@
       "blue"
     ],
     "pattern_texture": "Opaque"
+  },
+  {
+    "id": "12262385",
+    "description": "Yellow",
+    "human_readable_color": "Yellow",
+    "css_readable_colors": [
+      "yellow"
+    ],
+    "pattern_texture": ""
   },
   {
     "id": "12445117",
@@ -882,8 +935,9 @@
   {
     "id": "12802696",
     "description": "Half Ultra Clear / Half Bone and Half Ultra Clear / Half Opaque Red",
-    "human_readable_color": "Half Ultra Clear, Half Bone, Half Opaque Red",
+    "human_readable_color": "Half Ultra Clear, Bone, Half Ultra Clear, Opaque Red",
     "css_readable_colors": [
+      "ultra clear",
       "bone",
       "opaque red"
     ],
@@ -902,9 +956,12 @@
   {
     "id": "13089976",
     "description": "Strawberry Jam",
-    "human_readable_color": "Strawberry Jam",
-    "css_readable_colors": [],
-    "pattern_texture": "translucent"
+    "human_readable_color": "Strawberry & Translucent",
+    "css_readable_colors": [
+      "strawberry",
+      "translucent"
+    ],
+    "pattern_texture": "Translucent"
   },
   {
     "id": "13185369",
@@ -925,7 +982,7 @@
     "description": "Clear",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "clear"
+    "pattern_texture": "translucent"
   },
   {
     "id": "13435962",
@@ -943,7 +1000,7 @@
   },
   {
     "id": "13603103",
-    "description": "2nd pressing",
+    "description": "Pitman, 2nd pressing",
     "human_readable_color": "",
     "css_readable_colors": [],
     "pattern_texture": ""
@@ -964,13 +1021,13 @@
   {
     "id": "13762016",
     "description": "Orange Translucent and Yellow-Black Marble",
-    "human_readable_color": "Orange Translucent, Yellow-Black",
+    "human_readable_color": "Orange Translucent and Yellow-Black",
     "css_readable_colors": [
       "orange",
       "yellow",
       "black"
     ],
-    "pattern_texture": "translucent, marble"
+    "pattern_texture": "translucent"
   },
   {
     "id": "13791583",
@@ -1016,6 +1073,15 @@
     "pattern_texture": "translucent"
   },
   {
+    "id": "14724546",
+    "description": "Lime Green",
+    "human_readable_color": "Lime Green",
+    "css_readable_colors": [
+      "lime"
+    ],
+    "pattern_texture": ""
+  },
+  {
     "id": "14750542",
     "description": "Metallic Sand & Deep Crimson",
     "human_readable_color": "Metallic Sand & Deep Crimson",
@@ -1024,6 +1090,13 @@
       "deep crimson"
     ],
     "pattern_texture": ""
+  },
+  {
+    "id": "14845571",
+    "description": "180 Grs",
+    "human_readable_color": "",
+    "css_readable_colors": [],
+    "pattern_texture": "clear"
   },
   {
     "id": "14884729",
@@ -1097,7 +1170,7 @@
     "description": "180 Gram",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "clear"
+    "pattern_texture": "Clear"
   },
   {
     "id": "15948395",
@@ -1125,17 +1198,17 @@
       "blue",
       "orange"
     ],
-    "pattern_texture": "translucent"
+    "pattern_texture": "Swirls"
   },
   {
     "id": "16030220",
-    "description": "Black And White Galaxy, Gatefold",
-    "human_readable_color": "Black and White",
+    "description": "Gray Swirl [Black And White Galaxy], Gatefold",
+    "human_readable_color": "Gray Swirl, Black and White Galaxy",
     "css_readable_colors": [
       "black",
       "white"
     ],
-    "pattern_texture": "Galaxy"
+    "pattern_texture": "Swirl"
   },
   {
     "id": "16106511",
@@ -1226,13 +1299,13 @@
     "description": "Clear With Rainbow Splatter",
     "human_readable_color": "Clear with Rainbow",
     "css_readable_colors": [
+      "white",
       "red",
       "orange",
       "yellow",
       "green",
       "blue",
-      "indigo",
-      "violet"
+      "purple"
     ],
     "pattern_texture": "Translucent"
   },
@@ -1248,7 +1321,7 @@
   {
     "id": "18414703",
     "description": "180g",
-    "human_readable_color": "",
+    "human_readable_color": "translucent",
     "css_readable_colors": [],
     "pattern_texture": "translucent"
   },
@@ -1381,7 +1454,7 @@
     "css_readable_colors": [
       "orange"
     ],
-    "pattern_texture": "Crush"
+    "pattern_texture": ""
   },
   {
     "id": "24324380",
@@ -1431,6 +1504,16 @@
     "pattern_texture": ""
   },
   {
+    "id": "25145062",
+    "description": "Blue W/ Black Transparent",
+    "human_readable_color": "Blue with Black Translucent",
+    "css_readable_colors": [
+      "blue",
+      "black"
+    ],
+    "pattern_texture": "Translucent"
+  },
+  {
     "id": "25208113",
     "description": "180 Gram",
     "human_readable_color": "",
@@ -1438,31 +1521,12 @@
     "pattern_texture": "clear"
   },
   {
-    "id": "26058616",
-    "description": "Red & White Splatter",
-    "human_readable_color": "Red & White",
-    "css_readable_colors": [
-      "red",
-      "white"
-    ],
-    "pattern_texture": "Splatter"
-  },
-  {
-    "id": "26204477",
-    "description": "Gold Colored",
-    "human_readable_color": "Gold",
-    "css_readable_colors": [
-      "gold"
-    ],
-    "pattern_texture": ""
-  },
-  {
-    "id": "26345177",
-    "description": "White",
+    "id": "25784593",
+    "description": "White Opaque",
     "human_readable_color": "White",
     "css_readable_colors": [
       "white"
     ],
-    "pattern_texture": ""
+    "pattern_texture": "Opaque"
   }
 ]

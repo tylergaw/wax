@@ -1004,6 +1004,117 @@
     ]
   },
   {
+    "id": 26873513,
+    "instance_id": 1510289260,
+    "date_added": "2023-11-14T18:27:52-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 26873513,
+      "master_id": 35599,
+      "master_url": "https://api.discogs.com/masters/35599",
+      "resource_url": "https://api.discogs.com/releases/26873513",
+      "thumb": "https://i.discogs.com/Ffd9AQCLXtrplIwok5HX-Dq9k-fRmeCZ3qMT5I2UguQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODcz/NTEzLTE2ODIzODUw/MDItNDE2My5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/o7m_3McDtoQt1mPaqIlrqyQylgLvAxlm7tX1mvfqGmw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODcz/NTEzLTE2ODIzODUw/MDItNDE2My5qcGVn.jpeg",
+      "title": "System Of A Down",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "System Of A Down",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 85889,
+          "resource_url": "https://api.discogs.com/artists/85889"
+        }
+      ],
+      "labels": [
+        {
+          "name": "American Recordings",
+          "catno": "19075865581",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2569,
+          "resource_url": "https://api.discogs.com/labels/2569"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 12642678,
+    "instance_id": 1510289806,
+    "date_added": "2023-11-14T18:29:13-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 12642678,
+      "master_id": 35626,
+      "master_url": "https://api.discogs.com/masters/35626",
+      "resource_url": "https://api.discogs.com/releases/12642678",
+      "thumb": "https://i.discogs.com/S4x7_CuYnAotLkgKqsGNP-ga8hAfvwbSuo1LYr1rar8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjQy/Njc4LTE1Mzk5OTk3/ODEtMzE1My5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/m6SoQlmfroOIPh-b5x_NGIOBeS9UmTSYVGZ7SJTxRI4/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjQy/Njc4LTE1Mzk5OTk3/ODEtMzE1My5qcGVn.jpeg",
+      "title": "Toxicity",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Stereo"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "System Of A Down",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 85889,
+          "resource_url": "https://api.discogs.com/artists/85889"
+        }
+      ],
+      "labels": [
+        {
+          "name": "American Recordings",
+          "catno": "19075865591",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2569,
+          "resource_url": "https://api.discogs.com/labels/2569"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 12642703,
     "instance_id": 524106872,
     "date_added": "2020-11-12T02:44:07-08:00",
@@ -3484,8 +3595,8 @@
       "master_id": 3280126,
       "master_url": "https://api.discogs.com/masters/3280126",
       "resource_url": "https://api.discogs.com/releases/28638235",
-      "thumb": "https://i.discogs.com/WiZl4N2gS4WDH7A8yvd-s-fBspQd_K2UZ1xZE5122-w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjM4/MjM1LTE2OTc3MzYz/ODAtODgyNy5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/X2is9dVehkW3Rw6338Kka1pFsUHz0XuZ9ycBfhqYzP4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjM4/MjM1LTE2OTc3MzYz/ODAtODgyNy5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/SbKTYzLb3AUURpwYOCIJHB68oIODbZgsO_i4rbrDQ48/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjM4/MjM1LTE2OTgxNjkx/ODEtOTIxNC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/VpazfNrR2YMif3XPoX0xBsUFO0GpQo2gH5tWYTrYHXU/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjM4/MjM1LTE2OTgxNjkx/ODEtOTIxNC5qcGVn.jpeg",
       "title": "One More Time...",
       "year": 2023,
       "formats": [
@@ -6171,7 +6282,7 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "Hollywood Pressing",
+          "text": "Hollywood Pressing, Figure Publishing",
           "descriptions": [
             "LP",
             "Album",

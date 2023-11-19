@@ -1,5 +1,61 @@
 [
   {
+    "id": 2305229,
+    "instance_id": 1513316038,
+    "date_added": "2023-11-18T12:08:33-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 2305229,
+      "master_id": 41374,
+      "master_url": "https://api.discogs.com/masters/41374",
+      "resource_url": "https://api.discogs.com/releases/2305229",
+      "thumb": "https://i.discogs.com/r5KqkSHMEZwvVA7MiMbHesDfT6milzSuWG9M-MRxbnU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDUy/MjktMTQ5NDAwMjQ0/OS05NTkxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/JGQ6c8sBxVGYSte1gVCWjwYWivzqReEBhgv6skFTw8Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDUy/MjktMTQ5NDAwMjQ0/OS05NTkxLmpwZWc.jpeg",
+      "title": "Inflammable Material",
+      "year": 2010,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180 gram",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Stiff Little Fingers",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 83072,
+          "resource_url": "https://api.discogs.com/artists/83072"
+        }
+      ],
+      "labels": [
+        {
+          "name": "4 Men With Beards",
+          "catno": "4m526",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 36605,
+          "resource_url": "https://api.discogs.com/labels/36605"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 4335433,
     "instance_id": 395214827,
     "date_added": "2019-08-18T02:24:44-07:00",
@@ -2934,6 +2990,63 @@
     "folder_id": 1
   },
   {
+    "id": 25144240,
+    "instance_id": 1510646206,
+    "date_added": "2023-11-15T08:37:39-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 25144240,
+      "master_id": 229639,
+      "master_url": "https://api.discogs.com/masters/229639",
+      "resource_url": "https://api.discogs.com/releases/25144240",
+      "thumb": "https://i.discogs.com/gDNiPG4XS_QhNAcaroNu5iF1_TUeBB7mtCcUXxcl1tc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTQ0/MjQwLTE2NjgyODQz/NDEtNTY4Ny5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/nkI7w2ugQOMD6SpZirixXs-64JPdLhjVrnwdt_PlnRs/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTQ0/MjQwLTE2NjgyODQz/NDEtNTY4Ny5qcGVn.jpeg",
+      "title": "Straight To Hell",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Red [Blood Splatter Red], Gatefold",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Hank Williams III",
+          "anv": "Hank III",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 340180,
+          "resource_url": "https://api.discogs.com/artists/340180"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Bruc Records",
+          "catno": "D1-78869",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 118230,
+          "resource_url": "https://api.discogs.com/labels/118230"
+        }
+      ],
+      "genres": [
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Country"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 12156667,
     "instance_id": 527627933,
     "date_added": "2020-11-22T22:58:08-08:00",
@@ -3581,6 +3694,63 @@
       ],
       "styles": [
         "Country"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 22808678,
+    "instance_id": 1510915243,
+    "date_added": "2023-11-15T14:13:21-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 22808678,
+      "master_id": 2585339,
+      "master_url": "https://api.discogs.com/masters/2585339",
+      "resource_url": "https://api.discogs.com/releases/22808678",
+      "thumb": "https://i.discogs.com/Kd184-IeIVs1BERyX_eXhl8B4JNl7zyzc6LY-CiKLiQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyODA4/Njc4LTE2NTAwNTY0/NDAtNDkzMC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/kXZpmKuIlTGsP2jIUKJnrKFCj-4ZQe7LdqwK-5GaOS4/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyODA4/Njc4LTE2NTAwNTY0/NDAtNDkzMC5qcGVn.jpeg",
+      "title": "Bronco",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Orville Peck",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 6871068,
+          "resource_url": "https://api.discogs.com/artists/6871068"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Columbia",
+          "catno": "19439977281",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1866,
+          "resource_url": "https://api.discogs.com/labels/1866"
+        }
+      ],
+      "genres": [
+        "Rock",
+        "Folk, World, & Country"
+      ],
+      "styles": [
+        "Country",
+        "Country Rock"
       ]
     },
     "folder_id": 1
@@ -5991,7 +6161,7 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "Lime Green",
+          "text": "Green, Lime",
           "descriptions": [
             "LP",
             "Album",
@@ -6379,6 +6549,63 @@
         "Rock"
       ],
       "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 20522434,
+    "instance_id": 1513245163,
+    "date_added": "2023-11-18T10:58:48-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 20522434,
+      "master_id": 61631,
+      "master_url": "https://api.discogs.com/masters/61631",
+      "resource_url": "https://api.discogs.com/releases/20522434",
+      "thumb": "https://i.discogs.com/GFWmaAizpXHVUoRZhjvq07fLt9wDc49DS7lHcsu-Ypg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNTIy/NDM0LTE2NTI0NDYz/MjItNjA4Ny5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/hjfsik7g_VyQz7pRyMsm99lhkYYgYlVaGqSg1OZuQyI/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNTIy/NDM0LTE2NTI0NDYz/MjItNjA4Ny5qcGVn.jpeg",
+      "title": "Survival Of The Fattest",
+      "year": 2021,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Teal With White Swirl",
+          "descriptions": [
+            "LP",
+            "Compilation",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": ""
+        }
+      ],
+      "labels": [
+        {
+          "name": "Fat Wreck Chords",
+          "catno": "FAT538-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 33296,
+          "resource_url": "https://api.discogs.com/labels/33296"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
         "Punk"
       ]
     },
@@ -7287,6 +7514,71 @@
     ]
   },
   {
+    "id": 7790110,
+    "instance_id": 1513246897,
+    "date_added": "2023-11-18T11:00:33-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 7790110,
+      "master_id": 9467,
+      "master_url": "https://api.discogs.com/masters/9467",
+      "resource_url": "https://api.discogs.com/releases/7790110",
+      "thumb": "https://i.discogs.com/U80wOMqDXFClw83-c6ohF3lPOYCY37FhYz_LvCry9wA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3OTAx/MTAtMTY3MTM1OTA4/MS0xODkzLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/6OKvG6RU1l4apY9GyBcM78zp4BQDmHmxSxJl6gIl9dM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3OTAx/MTAtMTY3MTM1OTA4/MS0xODkzLmpwZWc.jpeg",
+      "title": "Appetite For Destruction",
+      "year": 2015,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180g",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Guns N' Roses",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 124535,
+          "resource_url": "https://api.discogs.com/artists/124535"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Geffen Records",
+          "catno": "GHS 24148",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 821,
+          "resource_url": "https://api.discogs.com/labels/821"
+        },
+        {
+          "name": "Uzi Suicide Records",
+          "catno": "GHS 24148",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 140536,
+          "resource_url": "https://api.discogs.com/labels/140536"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock",
+        "Glam"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 14345514,
     "instance_id": 430570158,
     "date_added": "2020-01-18T02:48:39-08:00",
@@ -7831,62 +8123,6 @@
     ]
   },
   {
-    "id": 1426305,
-    "instance_id": 84824190,
-    "date_added": "2012-05-18T01:45:18-07:00",
-    "rating": 0,
-    "basic_information": {
-      "id": 1426305,
-      "master_id": 5663,
-      "master_url": "https://api.discogs.com/masters/5663",
-      "resource_url": "https://api.discogs.com/releases/1426305",
-      "thumb": "https://i.discogs.com/2J6AdDhEzRgr4T3HK9JBtGYAzfdXKV12iatgeTaeVeI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjYz/MDUtMTIxODczNDU3/NS5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/BfS1QSXgp_scsi3M8MXf8cHTbtA5DcGOjIfaysj9tA8/rs:fit/g:sm/q:90/h:617/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjYz/MDUtMTIxODczNDU3/NS5qcGVn.jpeg",
-      "title": "Tragic Kingdom",
-      "year": 1995,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "LP",
-            "Album",
-            "Limited Edition"
-          ]
-        }
-      ],
-      "artists": [
-        {
-          "name": "No Doubt",
-          "anv": "",
-          "join": "",
-          "role": "",
-          "tracks": "",
-          "id": 83614,
-          "resource_url": "https://api.discogs.com/artists/83614"
-        }
-      ],
-      "labels": [
-        {
-          "name": "Interscope Records",
-          "catno": "92580-1",
-          "entity_type": "1",
-          "entity_type_name": "Label",
-          "id": 2311,
-          "resource_url": "https://api.discogs.com/labels/2311"
-        }
-      ],
-      "genres": [
-        "Rock",
-        "Reggae",
-        "Funk / Soul",
-        "Pop"
-      ],
-      "styles": []
-    },
-    "folder_id": 1
-  },
-  {
     "id": 14457631,
     "instance_id": 499266522,
     "date_added": "2020-08-19T03:02:23-07:00",
@@ -8021,6 +8257,71 @@
         "Industrial",
         "Alternative Rock"
       ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 3547947,
+    "instance_id": 1513515793,
+    "date_added": "2023-11-18T16:06:53-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3547947,
+      "master_id": 5663,
+      "master_url": "https://api.discogs.com/masters/5663",
+      "resource_url": "https://api.discogs.com/releases/3547947",
+      "thumb": "https://i.discogs.com/8ShnkM2r_lOqtFp07FtCf1xH-UGL91LpaUh4NMJcJA0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NDc5/NDctMTQxNzU5NzQ2/OC00NjUxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/VMmqkFbYVA3dvicDfMHyXK0eOACtSVTLGL-lb2XEGsU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NDc5/NDctMTQxNzU5NzQ2/OC00NjUxLmpwZWc.jpeg",
+      "title": "Tragic Kingdom",
+      "year": 1996,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Orange Translucent",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "No Doubt",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 83614,
+          "resource_url": "https://api.discogs.com/artists/83614"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Interscope Records",
+          "catno": "92580-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2311,
+          "resource_url": "https://api.discogs.com/labels/2311"
+        },
+        {
+          "name": "Trauma Records (2)",
+          "catno": "92580-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 47085,
+          "resource_url": "https://api.discogs.com/labels/47085"
+        }
+      ],
+      "genres": [
+        "Rock",
+        "Reggae",
+        "Funk / Soul",
+        "Pop"
+      ],
+      "styles": []
     },
     "folder_id": 1
   },
@@ -9239,6 +9540,66 @@
     ]
   },
   {
+    "id": 24487997,
+    "instance_id": 1511545318,
+    "date_added": "2023-11-16T11:54:49-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 24487997,
+      "master_id": 9235,
+      "master_url": "https://api.discogs.com/masters/9235",
+      "resource_url": "https://api.discogs.com/releases/24487997",
+      "thumb": "https://i.discogs.com/5CqsJZZTn5Kl5d6nNjRlGY2BSn9gxJCjYdiwkINL1A0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NDg3/OTk3LTE2OTYyODA5/NjEtNzg3My5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/_qNfiJGhECvq9IpbCGSEeggIPXif6on6QYuwZalunyI/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NDg3/OTk3LTE2OTYyODA5/NjEtNzg3My5qcGVn.jpeg",
+      "title": "Turn On The Bright Lights",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Red Opaque, Gatefold",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Club Edition",
+            "Reissue",
+            "Remastered"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Interpol",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 71725,
+          "resource_url": "https://api.discogs.com/artists/71725"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Matador",
+          "catno": "OLE545LPE",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/labels/194"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Post-Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 15364200,
     "instance_id": 1277524442,
     "date_added": "2023-02-24T09:46:16-08:00",
@@ -9765,6 +10126,66 @@
         "value": "I have #972 out of 1500"
       }
     ]
+  },
+  {
+    "id": 5955900,
+    "instance_id": 1513343377,
+    "date_added": "2023-11-18T12:35:32-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 5955900,
+      "master_id": 3938,
+      "master_url": "https://api.discogs.com/masters/3938",
+      "resource_url": "https://api.discogs.com/releases/5955900",
+      "thumb": "https://i.discogs.com/g4t_ILV-CQ3o0XpLlrFqsOGeSXmiXOstt39q0kTGYQg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NTU5/MDAtMTYxNzkwOTc3/Mi00NDc3LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/YCpCTXVNhZMx79zDjMO62NVTNFaiDKslE3-ZSd9UMgI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NTU5/MDAtMTYxNzkwOTc3/Mi00NDc3LmpwZWc.jpeg",
+      "title": "California",
+      "year": 2014,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180 Gram",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Mr. Bungle",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 202323,
+          "resource_url": "https://api.discogs.com/artists/202323"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Music On Vinyl",
+          "catno": "MOVLP1134",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 169635,
+          "resource_url": "https://api.discogs.com/labels/169635"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Experimental",
+        "Doo Wop",
+        "Rockabilly",
+        "Post Rock",
+        "Alternative Rock"
+      ]
+    },
+    "folder_id": 1
   },
   {
     "id": 9340972,
@@ -13768,6 +14189,227 @@
       "styles": [
         "Sludge Metal",
         "Prog Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 2277097,
+    "instance_id": 1513501444,
+    "date_added": "2023-11-18T15:44:05-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 2277097,
+      "master_id": 214113,
+      "master_url": "https://api.discogs.com/masters/214113",
+      "resource_url": "https://api.discogs.com/releases/2277097",
+      "thumb": "https://i.discogs.com/i-BnYcCUE5bCS89a9vYxBfbWzkDmf_13hImieJrERVw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNzcw/OTctMTUyMzA1NzAw/MS04MjUxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/nkd7oMKUlEXnqtomMWhuCG6KUZE_eBr073YaIHtB4JM/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNzcw/OTctMTUyMzA1NzAw/MS04MjUxLmpwZWc.jpeg",
+      "title": "Grey Britain",
+      "year": 2009,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Grey/Red Splatter",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Gallows",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 828675,
+          "resource_url": "https://api.discogs.com/artists/828675"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Reprise Records",
+          "catno": "519232-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        },
+        {
+          "name": "Black Envelope",
+          "catno": "519232-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 151245,
+          "resource_url": "https://api.discogs.com/labels/151245"
+        },
+        {
+          "name": "Sire",
+          "catno": "519232-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 27031,
+          "resource_url": "https://api.discogs.com/labels/27031"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Hardcore"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 18550273,
+    "instance_id": 1512340285,
+    "date_added": "2023-11-17T12:13:47-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 18550273,
+      "master_id": 815737,
+      "master_url": "https://api.discogs.com/masters/815737",
+      "resource_url": "https://api.discogs.com/releases/18550273",
+      "thumb": "https://i.discogs.com/K5X7zaWQzgZM4aXlhPqeSCPHNrjaO6IdlVCFu_kry3Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NTUw/MjczLTE2MTk5MDc4/MzctMTA2MC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/4KpP-1KE-s_UjAONFpPMeGrUyZR4zcrTVbotWW5vNeA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NTUw/MjczLTE2MTk5MDc4/MzctMTA2MC5qcGVn.jpeg",
+      "title": "I Brought You My Bullets, You Brought Me Your Love ",
+      "year": 2021,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Red Oxblood With Silver Swirl [Smokey Red]",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "My Chemical Romance",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 319406,
+          "resource_url": "https://api.discogs.com/artists/319406"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Reprise Records",
+          "catno": "093624926184",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        },
+        {
+          "name": "Reprise Records",
+          "catno": "093624884996",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Hardcore",
+        "Emo",
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 6775331,
+    "instance_id": 1513346410,
+    "date_added": "2023-11-18T12:38:27-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 6775331,
+      "master_id": 2899,
+      "master_url": "https://api.discogs.com/masters/2899",
+      "resource_url": "https://api.discogs.com/releases/6775331",
+      "thumb": "https://i.discogs.com/37dHJzLHaVhiYFPSR4MRqUn7nLQXgammLA2E-qTCbDE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3NzUz/MzEtMTQ2MDE5MzU1/Ny0zNzY3LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/wn6wJXQQcia9et20PYO0hrL0ZF5_KospuJpiyrR9nMU/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3NzUz/MzEtMTQ2MDE5MzU1/Ny0zNzY3LmpwZWc.jpeg",
+      "title": "Blood Mountain",
+      "year": 2015,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Green Marbled",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Repress"
+          ]
+        }
+      ],
+      "artists": [
+        {
+          "name": "Mastodon",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 252161,
+          "resource_url": "https://api.discogs.com/artists/252161"
+        }
+      ],
+      "labels": [
+        {
+          "name": "Reprise Records",
+          "catno": "9362-49293-8",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        },
+        {
+          "name": "Reprise Records",
+          "catno": "44634-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        },
+        {
+          "name": "Relapse Records",
+          "catno": "9362-49293-8",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 3949,
+          "resource_url": "https://api.discogs.com/labels/3949"
+        },
+        {
+          "name": "Relapse Records",
+          "catno": "44634-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 3949,
+          "resource_url": "https://api.discogs.com/labels/3949"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Prog Rock",
+        "Heavy Metal"
       ]
     },
     "folder_id": 1

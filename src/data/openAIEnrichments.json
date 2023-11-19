@@ -18,7 +18,7 @@
     "description": "180g",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "clear"
+    "pattern_texture": "translucent"
   },
   {
     "id": "677375",
@@ -67,7 +67,7 @@
     "pattern_texture": ""
   },
   {
-    "id": 1563150,
+    "id": "1563150",
     "description": "Punchout Centers",
     "human_readable_color": "",
     "css_readable_colors": [],
@@ -185,6 +185,23 @@
     "pattern_texture": ""
   },
   {
+    "id": 2277097,
+    "description": "Grey/Red Splatter",
+    "human_readable_color": "Grey & Red",
+    "css_readable_colors": [
+      "grey",
+      "red"
+    ],
+    "pattern_texture": "Splatter"
+  },
+  {
+    "id": "2305229",
+    "description": "180 gram",
+    "human_readable_color": "",
+    "css_readable_colors": [],
+    "pattern_texture": "clear"
+  },
+  {
     "id": "2315274",
     "description": "Airplane Cover",
     "human_readable_color": "Translucent",
@@ -203,7 +220,7 @@
   {
     "id": "2467601",
     "description": "Red translucent",
-    "human_readable_color": "Red translucent",
+    "human_readable_color": "Red",
     "css_readable_colors": [
       "red"
     ],
@@ -243,7 +260,9 @@
     "id": "2835466",
     "description": "Coke Bottle Clear",
     "human_readable_color": "Clear",
-    "css_readable_colors": [],
+    "css_readable_colors": [
+      "transparent"
+    ],
     "pattern_texture": "translucent"
   },
   {
@@ -406,6 +425,15 @@
     "pattern_texture": "Splatter"
   },
   {
+    "id": "3547947",
+    "description": "Orange Translucent",
+    "human_readable_color": "Orange Translucent",
+    "css_readable_colors": [
+      "orange"
+    ],
+    "pattern_texture": "translucent"
+  },
+  {
     "id": "3554444",
     "description": "Multi-colored Splatter",
     "human_readable_color": "Multi-colored",
@@ -424,7 +452,7 @@
       "#f0fff0",
       "#228b22"
     ],
-    "pattern_texture": "Translucent"
+    "pattern_texture": "translucent"
   },
   {
     "id": "3641234",
@@ -509,7 +537,7 @@
     "css_readable_colors": [
       "blue"
     ],
-    "pattern_texture": ""
+    "pattern_texture": "translucent"
   },
   {
     "id": "5033685",
@@ -579,6 +607,13 @@
     "pattern_texture": "clear"
   },
   {
+    "id": "5955900",
+    "description": "180 Gram",
+    "human_readable_color": "",
+    "css_readable_colors": [],
+    "pattern_texture": "Clear"
+  },
+  {
     "id": "5983593",
     "description": "Red",
     "human_readable_color": "Red",
@@ -592,7 +627,7 @@
     "description": "180 Gram",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "Clear"
+    "pattern_texture": "clear"
   },
   {
     "id": "6156672",
@@ -627,6 +662,15 @@
       "white"
     ],
     "pattern_texture": ""
+  },
+  {
+    "id": "6775331",
+    "description": "Green Marbled",
+    "human_readable_color": "Green",
+    "css_readable_colors": [
+      "green"
+    ],
+    "pattern_texture": "Marbled"
   },
   {
     "id": "7069134",
@@ -682,6 +726,13 @@
     "pattern_texture": "Clear"
   },
   {
+    "id": "7790110",
+    "description": "180g",
+    "human_readable_color": "",
+    "css_readable_colors": [],
+    "pattern_texture": "translucent"
+  },
+  {
     "id": "7860521",
     "description": "Purple Marbled Translucent, 180 Gram",
     "human_readable_color": "Purple Translucent",
@@ -704,7 +755,7 @@
     "description": "Pitman Pressing",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "Clear"
+    "pattern_texture": ""
   },
   {
     "id": "8353709",
@@ -726,16 +777,16 @@
   {
     "id": "9020814",
     "description": "Gatefold Sleeve, 180 gram",
-    "human_readable_color": "",
+    "human_readable_color": "Translucent",
     "css_readable_colors": [],
-    "pattern_texture": "translucent"
+    "pattern_texture": "Clear"
   },
   {
     "id": "9127152",
     "description": "180g",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "clear"
+    "pattern_texture": ""
   },
   {
     "id": "9340972",
@@ -935,7 +986,7 @@
   {
     "id": "12802696",
     "description": "Half Ultra Clear / Half Bone and Half Ultra Clear / Half Opaque Red",
-    "human_readable_color": "Half Ultra Clear, Bone, Half Opaque Red",
+    "human_readable_color": "Half Ultra Clear, Half Bone, Half Opaque Red",
     "css_readable_colors": [
       "bone",
       "opaque red"
@@ -1020,13 +1071,13 @@
   {
     "id": "13762016",
     "description": "Orange Translucent and Yellow-Black Marble",
-    "human_readable_color": "Orange Translucent and Yellow-Black",
+    "human_readable_color": "Orange Translucent, Yellow-Black",
     "css_readable_colors": [
       "orange",
       "yellow",
       "black"
     ],
-    "pattern_texture": "translucent"
+    "pattern_texture": "translucent, marble"
   },
   {
     "id": "13791583",
@@ -1069,13 +1120,14 @@
     "description": "Gatefold",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "Gatefold"
+    "pattern_texture": "translucent"
   },
   {
     "id": "14724546",
-    "description": "Lime Green",
-    "human_readable_color": "Lime Green",
+    "description": "Green, Lime",
+    "human_readable_color": "Green, Lime",
     "css_readable_colors": [
+      "green",
       "lime"
     ],
     "pattern_texture": ""
@@ -1089,6 +1141,13 @@
       "deep crimson"
     ],
     "pattern_texture": ""
+  },
+  {
+    "id": "14845571",
+    "description": "180 Grs",
+    "human_readable_color": "",
+    "css_readable_colors": [],
+    "pattern_texture": "clear"
   },
   {
     "id": "14884729",
@@ -1169,7 +1228,17 @@
     "description": "Gatefold",
     "human_readable_color": "",
     "css_readable_colors": [],
-    "pattern_texture": "Gatefold"
+    "pattern_texture": "translucent"
+  },
+  {
+    "id": "15951324",
+    "description": "Vortex - White / Black Swirl",
+    "human_readable_color": "White & Black",
+    "css_readable_colors": [
+      "white",
+      "black"
+    ],
+    "pattern_texture": "Swirl"
   },
   {
     "id": "15996836",
@@ -1255,6 +1324,7 @@
     "description": "Translucent Purple",
     "human_readable_color": "Translucent Purple",
     "css_readable_colors": [
+      "translucent",
       "purple"
     ],
     "pattern_texture": "translucent"
@@ -1307,6 +1377,17 @@
     "pattern_texture": ""
   },
   {
+    "id": "18550273",
+    "description": "Red Oxblood With Silver Swirl [Smokey Red]",
+    "human_readable_color": "Red Oxblood, Silver, Smokey Red",
+    "css_readable_colors": [
+      "red",
+      "oxblood",
+      "silver"
+    ],
+    "pattern_texture": "swirl"
+  },
+  {
     "id": "20011096",
     "description": "Black With Silver And Blue Merge / Splatter [Monochrome]",
     "human_readable_color": "Black, Silver, Blue",
@@ -1316,6 +1397,16 @@
       "blue"
     ],
     "pattern_texture": "Merge / Splatter"
+  },
+  {
+    "id": "20522434",
+    "description": "Teal With White Swirl",
+    "human_readable_color": "Teal & White",
+    "css_readable_colors": [
+      "teal",
+      "white"
+    ],
+    "pattern_texture": "Swirl"
   },
   {
     "id": "20760622",
@@ -1333,7 +1424,7 @@
     "css_readable_colors": [
       "gold"
     ],
-    "pattern_texture": ""
+    "pattern_texture": "Translucent"
   },
   {
     "id": "20933011",
@@ -1456,6 +1547,15 @@
     "pattern_texture": "Foil"
   },
   {
+    "id": "24487997",
+    "description": "Red Opaque, Gatefold",
+    "human_readable_color": "Red Opaque",
+    "css_readable_colors": [
+      "red"
+    ],
+    "pattern_texture": ""
+  },
+  {
     "id": "24675908",
     "description": "Pink [Neon Pink]",
     "human_readable_color": "Pink Neon Pink",
@@ -1485,6 +1585,16 @@
     "pattern_texture": ""
   },
   {
+    "id": "25144240",
+    "description": "Red [Blood Splatter Red], Gatefold",
+    "human_readable_color": "Red, Blood Splatter Red",
+    "css_readable_colors": [
+      "red",
+      "bloodsplatterred"
+    ],
+    "pattern_texture": ""
+  },
+  {
     "id": "25145062",
     "description": "Blue W/ Black Transparent",
     "human_readable_color": "Blue with Black Translucent",
@@ -1509,5 +1619,67 @@
       "white"
     ],
     "pattern_texture": "Opaque"
+  },
+  {
+    "id": "26058616",
+    "description": "Red & White Splatter",
+    "human_readable_color": "Red & White",
+    "css_readable_colors": [
+      "red",
+      "white"
+    ],
+    "pattern_texture": "Splatter"
+  },
+  {
+    "id": "26204477",
+    "description": "Gold Colored",
+    "human_readable_color": "Gold",
+    "css_readable_colors": [
+      "gold"
+    ],
+    "pattern_texture": ""
+  },
+  {
+    "id": "26345177",
+    "description": "White",
+    "human_readable_color": "White",
+    "css_readable_colors": [
+      "white"
+    ],
+    "pattern_texture": ""
+  },
+  {
+    "id": "27977268",
+    "description": "Kaleidoscope",
+    "human_readable_color": "Translucent",
+    "css_readable_colors": [],
+    "pattern_texture": "Translucent"
+  },
+  {
+    "id": "28091296",
+    "description": "Fool's Gold",
+    "human_readable_color": "Translucent Gold",
+    "css_readable_colors": [
+      "gold"
+    ],
+    "pattern_texture": "Translucent"
+  },
+  {
+    "id": "28366828",
+    "description": "Black w/hi-melt pink and pearlescent blue splatter \"Last Word\"",
+    "human_readable_color": "Black with hi-melt pink and pearlescent blue",
+    "css_readable_colors": [
+      "black",
+      "pink",
+      "blue"
+    ],
+    "pattern_texture": "splatter"
+  },
+  {
+    "id": "28638235",
+    "description": "Clear [Coke Bottle Clear]",
+    "human_readable_color": "Clear",
+    "css_readable_colors": [],
+    "pattern_texture": "translucent"
   }
 ]

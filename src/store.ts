@@ -1,9 +1,31 @@
 import type { Artist, Collection, DataSource, Release } from "@types";
-import discogsData from "@data/collection.json";
-import openAIEnrichments from "@data/openAIEnrichments.json";
 import { sortArtistsByName } from "@util/data";
 import slug from "slug";
 import merge from "lodash/fp/merge";
+
+type AllDataSources = {
+  discogsData: Collection;
+  openAIEnrichments: DataSource;
+};
+
+async function getRemoteDataSource(name: string): Promise<unknown> {
+  const res = await fetch(
+    `https://stuff.tylergaw.com/wax-tracks/data/${name}.json`
+  );
+  return await res.json();
+}
+
+async function getDataSources(): Promise<AllDataSources> {
+  const discogsData = (await getRemoteDataSource("collection")) as Collection;
+  const openAIEnrichments = (await getRemoteDataSource(
+    "openAIEnrichments"
+  )) as DataSource;
+
+  return {
+    discogsData,
+    openAIEnrichments,
+  };
+}
 
 /**
  * Combine all possible data sources to produce a final collection.
@@ -36,9 +58,10 @@ export function combineDataSources(
   return collection;
 }
 
+const { discogsData, openAIEnrichments } = await getDataSources();
 const finalCollection: Collection = combineDataSources(
   discogsData,
-  openAIEnrichments as DataSource
+  openAIEnrichments
 );
 
 export function getArtists(collection: Release[]): Artist[] {

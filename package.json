@@ -9,9 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest",
-    "test-ui": "vitest --ui",
-    "get-collection": "node ./scripts/getCollection.js",
-    "enrich-collection": "node ./scripts/enrichCollection.js"
+    "test-ui": "vitest --ui"
   },
   "engines": {
     "node": ">= 17.0.0"
@@ -23,11 +21,7 @@
     "@types/lodash": "4.14.195",
     "@types/slug": "5.0.3",
     "@vitest/ui": "0.32.2",
-    "dotenv": "16.1.4",
     "lodash": "4.17.21",
-    "msw": "1.2.2",
-    "node-fetch": "3.3.1",
-    "openai": "3.2.1",
     "prettier": "2.8.8",
     "prettier-plugin-astro": "0.10.0",
     "slug": "8.2.2",

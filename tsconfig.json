@@ -3,12 +3,21 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@data/*": ["src/data/*"],
-      "@util/*": ["src/util/*"],
-      "@types": ["src/types.ts"],
-      "@store": ["src/store.ts"]
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@util/*": [
+        "src/util/*"
+      ],
+      "@types": [
+        "src/types.ts"
+      ],
+      "@store": [
+        "src/store.ts"
+      ]
     }
   }
 }

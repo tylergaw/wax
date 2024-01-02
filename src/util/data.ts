@@ -39,31 +39,28 @@ export function getReleaseUrl(release: Release): string {
   return buildUrl([artists[0].name, title]);
 }
 
-// TODO: Write tests for this.
 export function getHumanColor(release: Release): string {
   let humanColor = "Black";
 
   if (release.display) {
-    const { human_readable_color } = release.display;
+    const { humanReadableColor } = release.display;
 
-    if (!isEmpty(human_readable_color.trim())) {
-      humanColor = human_readable_color;
+    if (!isEmpty(humanReadableColor)) {
+      humanColor = humanReadableColor.trim();
     }
   }
 
   return `${humanColor} Vinyl`;
 }
 
-// TODO: Write tests for this.
 export function getMachineColor(release: Release): string {
   let color = "var(--color-primary-dark)";
 
   if (release.display) {
-    const { css_readable_colors } = release.display;
+    const { cssReadableColors = [] } = release.display;
 
-    if (!isEmpty(css_readable_colors)) {
-      color = css_readable_colors[0];
-
+    if (!isEmpty(cssReadableColors)) {
+      color = cssReadableColors![0].trim();
       // TODO: Handle more than one color here
     }
   }

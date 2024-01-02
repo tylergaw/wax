@@ -1,6 +1,11 @@
 import type { Release } from "@types";
 import { describe, it, expect } from "vitest";
-import { getReleaseUrl, sortArtistsByName } from "./data";
+import {
+  getHumanColor,
+  getMachineColor,
+  getReleaseUrl,
+  sortArtistsByName,
+} from "./data";
 
 describe("getReleaseUrl function", () => {
   it("handles single artist per release", () => {
@@ -48,5 +53,79 @@ describe("sortArtistsByName function", () => {
     const expectedKeys = ["AFI", "The Menzingers", "Slipknot", "Tim Barry"];
     console.log(result.length, expectedKeys.length);
     expect(result).toStrictEqual(expectedKeys);
+  });
+});
+
+describe("getHumanColor function", () => {
+  it("handles default color", () => {
+    const release: Release = {
+      id: 123,
+      basic_information: {
+        title: "Sing The Sorrow",
+        artists: [
+          {
+            name: "AFI",
+          },
+        ],
+      },
+    };
+
+    expect(getHumanColor(release)).toBe("Black Vinyl");
+  });
+
+  it("handles custom color", () => {
+    const release: Release = {
+      id: 123,
+      basic_information: {
+        title: "Sing The Sorrow",
+        artists: [
+          {
+            name: "AFI",
+          },
+        ],
+      },
+      display: {
+        humanReadableColor: "Coke Bottle Clear",
+      },
+    };
+
+    expect(getHumanColor(release)).toBe("Coke Bottle Clear Vinyl");
+  });
+});
+
+describe("getMachineColor function", () => {
+  it("handles default color", () => {
+    const release: Release = {
+      id: 123,
+      basic_information: {
+        title: "Sing The Sorrow",
+        artists: [
+          {
+            name: "AFI",
+          },
+        ],
+      },
+    };
+
+    expect(getMachineColor(release)).toBe("var(--color-primary-dark)");
+  });
+
+  it("handles custom color", () => {
+    const release: Release = {
+      id: 123,
+      basic_information: {
+        title: "Sing The Sorrow",
+        artists: [
+          {
+            name: "AFI",
+          },
+        ],
+      },
+      display: {
+        cssReadableColors: ["rgb(100,120,100)"],
+      },
+    };
+
+    expect(getMachineColor(release)).toBe("rgb(100,120,100)");
   });
 });

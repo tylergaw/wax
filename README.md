@@ -5,9 +5,14 @@ A record collection viewer with data from Discogs.
 - Production: [wax.tylergaw.com](https://wax.tylergaw.com/)
 - Staging: Every pull request gets a preview deploy URL
 
+> [!IMPORTANT]
+>
+> Fetching, enriching, and uploading collection data happens in [github.com/tylergaw/wax-tracks](https://github.com/tylergaw/wax-tracks).
+
 ## Technology overview
 
 - This is a static site built with [Astro](https://astro.build/)
+- Data fetcher/munger/uploader [github.com/tylergaw/wax-tracks](https://github.com/tylergaw/wax-tracks)
 - Discogs API [discogs.com/developers/](https://www.discogs.com/developers/)
 - Node >= v17.0.0
 - Hosted on Netlify

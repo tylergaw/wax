@@ -23,8 +23,8 @@ describe("combineDataSources function", () => {
       {
         id: 123,
         description: "Red Translucent",
-        human_readable_color: "Red Translucent",
-        css_readable_colors: ["red"],
+        humanReadableColor: "Red Translucent",
+        cssReadableColors: ["red"],
         pattern_texture: "translucent",
       },
     ];
@@ -39,10 +39,10 @@ describe("combineDataSources function", () => {
     // Next, check for the expected properites from openai enrichment
     expect(release).toHaveProperty("display");
     expect(release).toHaveProperty(
-      "display.human_readable_color",
+      "display.humanReadableColor",
       "Red Translucent"
     );
-    expect(release).toHaveProperty("display.css_readable_colors", ["red"]);
+    expect(release).toHaveProperty("display.cssReadableColors", ["red"]);
     expect(release).toHaveProperty("display.pattern_texture", "translucent");
   });
 });

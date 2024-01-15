@@ -8,10 +8,12 @@ type AllDataSources = {
   openAIEnrichments: DataSource;
 };
 
+// NOTE: I have this s3 bucket behind Cloudfront, but for these requests, we
+// don't need caching, so we go directly to s3.
+const dataBaseUrl = "https://tylergaw-assets.s3.amazonaws.com/wax-tracks/data/";
+
 async function getRemoteDataSource(name: string): Promise<unknown> {
-  const res = await fetch(
-    `https://stuff.tylergaw.com/wax-tracks/data/${name}.json`
-  );
+  const res = await fetch(`${dataBaseUrl}${name}.json`);
   return await res.json();
 }
 

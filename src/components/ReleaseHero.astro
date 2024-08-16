@@ -14,7 +14,7 @@ const { title, cover_image, year } = release.basic_information;
 
 <div class="container">
   <header>
-    <h1 class="title">{title}</h1>
+    <h1 class="title font-display">{title}</h1>
     <p class="subtitle">{artist} / {year} / {getHumanColor(release)}</p>
   </header>
   <div class="graphic">
@@ -41,8 +41,8 @@ const { title, cover_image, year } = release.basic_information;
   }
 
   .title {
-    font-size: 60px;
-    font-weight: 300;
+    font-style: italic;
+    font-size: 66px;
     margin: 0;
   }
 

@@ -27,7 +27,7 @@ const { className, releases, showArtist = true } = Astro.props;
             </div>
             <div class="info">
               <div class="primary-info">
-                <p class="title">{title}</p>
+                <p class="title font-display">{title}</p>
                 {showArtist && <p class="artist">{artists[0].name}</p>}
               </div>
               <p class="desciption">{getHumanColor(release)}</p>
@@ -46,12 +46,13 @@ const { className, releases, showArtist = true } = Astro.props;
     list-style: none;
     margin: 0;
     padding: 0;
-    column-gap: var(--g-gutter);
-    row-gap: calc(var(--sp-8) * 6);
+    column-gap: calc(var(--g-gutter) * 2);
+    row-gap: calc(var(--sp-10) * 6);
   }
 
   li {
-    width: var(--g-cols-2);
+    flex: 1;
+    min-width: var(--g-cols-2);
   }
 
   a {
@@ -65,7 +66,7 @@ const { className, releases, showArtist = true } = Astro.props;
   }
 
   .info {
-    margin-top: var(--sp-4);
+    margin-top: var(--sp-10);
   }
 
   .title,
@@ -74,17 +75,21 @@ const { className, releases, showArtist = true } = Astro.props;
   }
 
   .artist {
-    margin-top: var(--sp-2);
+    font-size: var(--font-size-18);
+    margin-top: var(--sp-8);
+    text-transform: uppercase;
   }
 
   .title {
-    font-weight: 500;
+    font-style: italic;
+    font-size: var(--font-size-18);
+    line-height: 1.2em;
   }
 
   .desciption {
-    font-size: var(--font-size-14);
+    font-size: var(--font-size-16);
     font-weight: 300;
-    margin: var(--sp-8) 0 0 0;
+    margin: var(--sp-12) 0 0 0;
   }
 
   ul.mini {

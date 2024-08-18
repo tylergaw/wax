@@ -1,11 +1,8 @@
 ---
 import type { Release } from "@types";
 import store from "@store";
-import Layout from "@layouts/Layout.astro";
-import Releases from "@components/Releases.astro";
-import ReleaseHero from "@components/ReleaseHero.astro";
+import ReleaseDisplay from "@components/ReleaseDisplay.astro";
 import slug from "slug";
-import { buildUrl } from "@util/data";
 
 // TODO: Reduce repetition, I think this can be done better across everything.
 export async function getStaticPaths() {
@@ -30,26 +27,10 @@ export async function getStaticPaths() {
 }
 
 const { artist, release, otherReleases } = Astro.props;
-const title = release.basic_information.title;
 ---
 
-<Layout title={`${title} by ${artist}`}>
-  <main class="standard-restricted-width">
-    <ReleaseHero artist={artist} release={release} />
-
-    {
-      otherReleases.length > 0 && (
-        <>
-          <h2 class="standard-page-subtitle">
-            More by <a href={buildUrl([artist])}>{artist}</a>
-          </h2>
-          <Releases
-            releases={otherReleases}
-            className="mini"
-            showArtist={false}
-          />
-        </>
-      )
-    }
-  </main>
-</Layout>
+<ReleaseDisplay
+  artist={artist}
+  release={release}
+  otherReleases={otherReleases}
+/>

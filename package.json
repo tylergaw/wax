@@ -12,20 +12,21 @@
     "test-ui": "vitest --ui"
   },
   "engines": {
-    "node": ">= 17.0.0"
+    "node": ">= 20.6.1"
   },
   "dependencies": {
     "@astrojs/netlify": "5.5.1",
-    "astro": "2.6.0"
+    "astro": "4.14.2"
   },
   "devDependencies": {
     "@types/lodash": "4.14.195",
     "@types/slug": "5.0.3",
-    "@vitest/ui": "0.32.2",
+    "@vitest/ui": "2.0.5",
     "lodash": "4.17.21",
     "prettier": "2.8.8",
     "prettier-plugin-astro": "0.10.0",
     "slug": "8.2.2",
-    "vitest": "0.32.0"
+    "typescript": "5.5.4",
+    "vitest": "2.0.5"
   }
 }

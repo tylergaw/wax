@@ -13,6 +13,7 @@ const releasesDisplay: Release[] = Object.keys(releases).reduce(
   (arr, key) => arr.concat(releases[key]),
   [] as Release[]
 );
+const artists = store.artists;
 ---
 
 <Layout title="Wax">
@@ -20,7 +21,8 @@ const releasesDisplay: Release[] = Object.keys(releases).reduce(
     <h1 class="standard-page-title">
       There are more, but this is {releasesDisplay.length} of <a
         href="https://tylergaw.com">my</a
-      > records.
+      > records from {artists.length}
+      <a href="/artists">artists</a>.
     </h1>
     <Releases releases={releasesDisplay} />
   </main>

@@ -15,7 +15,7 @@ export async function getStaticPaths() {
     const artist = release.basic_information.artists[0].name;
     const title = release.basic_information.title;
     const id = release.basic_information.id;
-    const otherReleases: Release[] = releases[artist].filter(
+    const otherReleases: Release[] = releases[artist.toLowerCase()].filter(
       (r: Release) => r.basic_information.id !== id
     );
 

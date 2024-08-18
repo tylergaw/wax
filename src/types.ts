@@ -24,6 +24,7 @@ export interface Release {
 export type Collection = Release[];
 
 export interface Artist {
+  id: number;
   name: string;
   slug: string;
 }

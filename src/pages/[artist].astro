@@ -11,7 +11,7 @@ export async function getStaticPaths() {
   // we're already getting all the artists from getReleasesByArtist
   // We just don't have the artist slug there yet.
   return store.artists.map((artist) => {
-    const artistReleases = allReleases[artist.name];
+    const artistReleases = allReleases[artist.name.toLowerCase()];
 
     return {
       params: { artist: artist.slug },

@@ -3,10 +3,15 @@ export interface props {
   color?: string;
 }
 
-const { color = "#363636" } = Astro.props;
+const { class: className, color = "#363636" } = Astro.props;
 ---
 
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 193 180">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 193 180"
+  class={className}
+>
   <path
     fill={color}
     fill-rule="evenodd"

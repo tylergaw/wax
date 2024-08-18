@@ -17,7 +17,11 @@ const releasesDisplay: Release[] = Object.keys(releases).reduce(
 
 <Layout title="Wax">
   <main class="standard-restricted-width">
-    <h1 class="standard-page-title">{releasesDisplay.length} Records</h1>
+    <h1 class="standard-page-title">
+      There are more, but this is {releasesDisplay.length} of <a
+        href="https://tylergaw.com">my</a
+      > records.
+    </h1>
     <Releases releases={releasesDisplay} />
   </main>
 </Layout>

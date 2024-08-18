@@ -1,7 +1,6 @@
 <style is:global>
   :root {
-    --font-primary: "Barlow Semi Condensed", sans-serif;
-    --font-display: "Wittgenstein", serif;
+    --font-display: "Texturina", serif;
 
     /* Font sizes */
     --font-size-14: calc(14 / 16 * 1rem);
@@ -10,13 +9,17 @@
     --font-size-20: calc(20 / 16 * 1rem);
     --font-size-22: calc(22 / 16 * 1rem);
     --font-size-24: calc(24 / 16 * 1rem);
+    --font-size-28: calc(28 / 16 * 1rem);
+    --font-size-30: calc(30 / 16 * 1rem);
+    --font-size-32: calc(32 / 16 * 1rem);
 
     /* Color */
     --color-primary-dark: #2b2b2b;
     --color-text: var(--color-primary-dark);
+    --color-accent-primary: red;
 
     /* Grid */
-    --g-cols: 14;
+    --g-cols: 18;
     --g-gutter: calc(13 / 16 * 1rem);
     --g-col-width: calc(90 / 16 * 1rem);
 
@@ -35,6 +38,11 @@
     --sp-8: calc(8 / 16 * 1rem);
     --sp-10: calc(10 / 16 * 1rem);
     --sp-12: calc(12 / 16 * 1rem);
+    --sp-14: calc(14 / 16 * 1rem);
+    --sp-16: calc(16 / 16 * 1rem);
+    --sp-18: calc(18 / 16 * 1rem);
+    --sp-20: calc(20 / 16 * 1rem);
+    --sp-28: calc(28 / 16 * 1rem);
   }
 
   * {
@@ -42,12 +50,18 @@
   }
 
   html {
+    background: white;
     color: var(--color-text);
     font-size: var(--font-size-16);
-    font-family: var(--font-primary);
+    font-family: var(--font-display);
+    font-weight: 300;
   }
 
   body {
+    background-image: url("/images/texture.svg"), url("/images/texture.svg"),
+      url("/images/texture.svg");
+    background-repeat: repeat;
+    background-size: 80px, 40px, 37px;
     margin: 0;
   }
 
@@ -60,16 +74,36 @@
   .font-display {
     font-family: var(--font-display);
     font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 900;
   }
 
   .standard-page-title {
-    font-size: var(--font-size-24);
+    font-size: var(--font-size-32);
+    font-weight: 200;
+    padding-bottom: var(--sp-12);
+  }
+
+  .standard-page-subtitle {
+    font-size: var(--font-size-22);
+    font-weight: 200;
+  }
+
+  .standard-page-title a,
+  .standard-page-subtitle a {
+    color: var(--color-accent-primary);
   }
 
   .standard-restricted-width {
     margin: 0 auto;
     max-width: min(var(--g-max-width), 93%);
+  }
+
+  @keyframes spin {
+    0% {
+      rotate: 0deg;
+    }
+
+    100% {
+      rotate: 359deg;
+    }
   }
 </style>

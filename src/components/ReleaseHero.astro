@@ -12,14 +12,14 @@ const { artist, release } = Astro.props;
 const { title, cover_image, year } = release.basic_information;
 ---
 
-<div class="container">
+<div class="container" style={`--machine-color: ${getMachineColor(release)}`}>
   <header>
-    <h1 class="title font-display">{title}</h1>
+    <h1 class="title">{title}</h1>
     <p class="subtitle">{artist} / {year} / {getHumanColor(release)}</p>
   </header>
   <div class="graphic">
     <div class="disc">
-      <Vinyl color={getMachineColor(release)} />
+      <Vinyl class="vinyl" color={getMachineColor(release)} />
     </div>
     <div class="cover">
       <img src={cover_image} alt="" width="500px" height="500px" />
@@ -29,27 +29,33 @@ const { title, cover_image, year } = release.basic_information;
 
 <style>
   header {
-    padding-top: calc(var(--sp-8) * 6);
-    padding-bottom: calc(var(--sp-8) * 6);
+    padding-bottom: calc(var(--sp-8) * 4);
+    padding-top: calc(var(--sp-8) * 2);
     text-align: center;
-  }
-
-  .subtitle {
-    font-size: var(--font-size-18);
-    font-weight: 500;
-    margin: 0;
   }
 
   .title {
     font-style: italic;
-    font-size: 66px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1;
     margin: 0;
+  }
+
+  .subtitle {
+    color: var(--color-accent-primary);
+    font-size: var(--font-size-22);
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: var(--sp-14);
   }
 
   .graphic {
     display: grid;
     grid-template: "container";
     place-items: center;
+    padding-bottom: var(--sp-20);
   }
 
   .cover,
@@ -57,16 +63,26 @@ const { title, cover_image, year } = release.basic_information;
     grid-area: container;
   }
 
-  img {
-    border-radius: 3px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    height: auto;
+  .cover {
+    background: var(--machine-color);
+    border: 1px solid currentColor;
     max-width: 500px;
+    position: relative;
+    width: 80%;
+  }
+
+  img {
+    display: block;
+    height: auto;
     width: 100%;
   }
 
   .disc {
-    max-width: 650px;
+    max-width: 680px;
     width: 100%;
+  }
+
+  .vinyl {
+    animation: spin 1.5s linear infinite;
   }
 </style>

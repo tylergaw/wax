@@ -1,0 +1,31 @@
+---
+import Layout from "@layouts/Layout.astro";
+import ReleaseHero from "@components/ReleaseHero.astro";
+import Releases from "@components/Releases.astro";
+import { buildUrl } from "@util/data";
+
+const { artist, release, otherReleases } = Astro.props;
+const title = release.basic_information.title;
+---
+
+<Layout title={`${title} by ${artist}`}>
+  <main class="standard-restricted-width">
+    <ReleaseHero artist={artist} release={release} />
+
+    <h2 class="standard-page-subtitle">
+      {otherReleases.length > 0 ? "More by" : "This is"}
+      <a href={buildUrl([artist])}>{artist}</a>
+    </h2>
+    {
+      otherReleases.length > 0 && (
+        <>
+          <Releases
+            releases={otherReleases}
+            className="mini"
+            showArtist={false}
+          />
+        </>
+      )
+    }
+  </main>
+</Layout>

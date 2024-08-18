@@ -35,8 +35,8 @@ export function sortArtistsByName(list: Artist[]) {
 }
 
 export function getReleaseUrl(release: Release): string {
-  const { title, artists } = release.basic_information;
-  return buildUrl([artists[0].name, title]);
+  const { title, artists, id } = release.basic_information;
+  return buildUrl([artists[0].name, `${title}-${id}`]);
 }
 
 export function getHumanColor(release: Release): string {

@@ -75,12 +75,13 @@ export function getArtists(collection: Release[]): Artist[] {
       const currName = artist.name;
 
       // First check to make sure don't already have this artist in the list
-      if (!artistIndex.includes(currName)) {
+      if (!artistIndex.includes(artist.id)) {
         const next: Artist = {
+          id: artist.id,
           name: currName,
           slug: slug(currName),
         };
-        artistIndex.push(currName);
+        artistIndex.push(artist.id);
         artists.push(next);
       }
     });
@@ -94,7 +95,7 @@ export function getReleasesByArtist(collection: Release[]) {
 
   // Create our object with artist names as keys
   let releases = artists.reduce((obj, artist) => {
-    obj[artist.name] = [];
+    obj[artist.name.toLowerCase()] = [];
     return obj;
   }, {} as { [index: string]: any });
 
@@ -104,7 +105,7 @@ export function getReleasesByArtist(collection: Release[]) {
     .sort((a, b) => a.basic_information.year - b.basic_information.year)
     .forEach((release) => {
       release.basic_information.artists.forEach((artist: any) => {
-        releases[artist.name].push(release);
+        releases[artist.name.toLowerCase()].push(release);
       });
     });
 

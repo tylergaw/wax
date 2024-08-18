@@ -13,15 +13,16 @@ export async function getStaticPaths() {
 
   return store.collection.map((release: Release) => {
     const artist = release.basic_information.artists[0].name;
-    const currentTitle = release.basic_information.title;
-    const otherReleases: Release[] = releases[artist].filter(
-      (r: Release) => r.basic_information.title !== currentTitle
+    const title = release.basic_information.title;
+    const id = release.basic_information.id;
+    const otherReleases: Release[] = releases[artist.toLowerCase()].filter(
+      (r: Release) => r.basic_information.id !== id
     );
 
     return {
       params: {
         artist: slug(artist),
-        release: slug(currentTitle),
+        release: `${slug(title)}-${id}`,
       },
       props: { artist, release, otherReleases },
     };

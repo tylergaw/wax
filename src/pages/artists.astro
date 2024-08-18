@@ -7,7 +7,7 @@ const artists = store.artists;
 ---
 
 <Layout title="Artists">
-  <main class="standard-restricted-width">
+  <main class="standard-restricted-width container">
     <h1 class="standard-page-title">{artists.length} Artists</h1>
     <ul>
       {
@@ -22,28 +22,65 @@ const artists = store.artists;
 </Layout>
 
 <style>
+  .container {
+    container-type: inline-size;
+    container-name: artists;
+  }
+
   ul {
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
-    column-gap: var(--g-gutter);
-    row-gap: 1rem;
   }
 
-  li {
-    width: var(--g-cols-2);
+  li + li {
+    margin-top: var(--sp-24);
   }
 
   a {
     color: inherit;
-    font-size: var(--font-size-18);
-    font-weight: 200;
-    text-decoration: underline;
+    font-size: var(--font-size-22);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    text-decoration: none;
   }
 
   a:where(:hover, :focus) {
     color: var(--color-accent-primary);
+  }
+
+  @container artists (min-width: 500px) {
+    ul {
+      columns: 2;
+      column-width: 14ch;
+    }
+
+    li {
+      padding-right: var(--sp-10);
+    }
+
+    a {
+      font-size: var(--font-size-20);
+      font-weight: 700;
+    }
+  }
+
+  @container artists (min-width: 915px) {
+    ul {
+      columns: 3;
+    }
+  }
+
+  @container artists (min-width: 1300px) {
+    ul {
+      columns: 4;
+    }
+  }
+
+  @container artists (min-width: 1500px) {
+    ul {
+      columns: 5;
+    }
   }
 </style>

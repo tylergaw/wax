@@ -5,6 +5,7 @@ import Layout from "@layouts/Layout.astro";
 import Releases from "@components/Releases.astro";
 import ReleaseHero from "@components/ReleaseHero.astro";
 import slug from "slug";
+import { buildUrl } from "@util/data";
 
 // TODO: Reduce repetition, I think this can be done better across everything.
 export async function getStaticPaths() {
@@ -38,7 +39,9 @@ const title = release.basic_information.title;
     {
       otherReleases.length > 0 && (
         <>
-          <h2 class="standard-page-title">More by {artist}</h2>
+          <h2 class="standard-page-subtitle">
+            More by <a href={buildUrl([artist])}>{artist}</a>
+          </h2>
           <Releases
             releases={otherReleases}
             className="mini"

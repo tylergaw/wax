@@ -3,6 +3,8 @@ import type { Release } from "@types";
 import store from "@store";
 import ReleaseDisplay from "@components/ReleaseDisplay.astro";
 
+export const prerender = false;
+
 const releases = store.releasesByArtist;
 const keys = Object.keys(releases);
 const random = keys[Math.floor(Math.random() * keys.length)];

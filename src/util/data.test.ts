@@ -12,6 +12,7 @@ describe("getReleaseUrl function", () => {
     const release1: Release = {
       id: 123,
       basic_information: {
+        id: 123,
         title: "Sing The Sorrow",
         artists: [
           {
@@ -24,6 +25,7 @@ describe("getReleaseUrl function", () => {
     const release2: Release = {
       id: 456,
       basic_information: {
+        id: 456,
         title: "American III: Solitary Man",
         artists: [
           {
@@ -33,9 +35,9 @@ describe("getReleaseUrl function", () => {
       },
     };
 
-    expect(getReleaseUrl(release1)).toBe("/afi/sing-the-sorrow/");
+    expect(getReleaseUrl(release1)).toBe("/afi/sing-the-sorrow-123/");
     expect(getReleaseUrl(release2)).toBe(
-      "/johnny-cash/american-iii-solitary-man/"
+      "/johnny-cash/american-iii-solitary-man-456/"
     );
   });
 });
@@ -43,11 +45,11 @@ describe("getReleaseUrl function", () => {
 describe("sortArtistsByName function", () => {
   it("sorts artists in the expected order", () => {
     const artists = [
-      { name: "Tim Barry", slug: "tim-barry" },
-      { name: "Slipknot", slug: "slipknot" },
+      { id: 1, name: "Tim Barry", slug: "tim-barry" },
+      { id: 2, name: "Slipknot", slug: "slipknot" },
       // Test for ignoring the definite article, "The"
-      { name: "The Menzingers", slug: "the-menzingers" },
-      { name: "AFI", slug: "afi" },
+      { id: 3, name: "The Menzingers", slug: "the-menzingers" },
+      { id: 4, name: "AFI", slug: "afi" },
     ];
     const result = sortArtistsByName(artists).map((a) => a.name);
     const expectedKeys = ["AFI", "The Menzingers", "Slipknot", "Tim Barry"];

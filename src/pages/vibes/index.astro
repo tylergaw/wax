@@ -1,0 +1,24 @@
+---
+import store from "@store";
+import Layout from "@layouts/Layout.astro";
+import { buildUrl } from "@util/data";
+
+const vibes = store.vibes;
+---
+
+<Layout title="Vibes">
+  <main class="standard-restricted-width text-list-container">
+    <h1 class="standard-page-title">{vibes.length} Vibes</h1>
+    <ul class="text-list">
+      {
+        vibes.map((vibe) => (
+          <li>
+            <a class="capitalize" href={buildUrl(["vibes", vibe])}>
+              {vibe}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</Layout>

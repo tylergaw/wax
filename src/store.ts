@@ -112,10 +112,29 @@ export function getReleasesByArtist(collection: Release[]) {
   return releases;
 }
 
+export function getVibes(collection: Release[]): string[] {
+  let vibes: string[] = [];
+
+  collection.forEach((release) => {
+    const genres = release.basic_information.genres || [];
+    const styles = release.basic_information.styles || [];
+    [...genres, ...styles].forEach((k: string) => {
+      const item = k.toLowerCase();
+
+      if (!vibes.includes(item)) {
+        vibes.push(item);
+      }
+    });
+  });
+
+  return vibes.sort();
+}
+
 const store = {
   collection: finalCollection,
   artists: getArtists(finalCollection),
   releasesByArtist: getReleasesByArtist(finalCollection),
+  vibes: getVibes(finalCollection),
 };
 
 export default store;

@@ -99,6 +99,10 @@
     max-width: min(var(--g-max-width), 93%);
   }
 
+  .capitalize {
+    text-transform: capitalize;
+  }
+
   @keyframes spin {
     0% {
       rotate: 0deg;
@@ -106,6 +110,68 @@
 
     100% {
       rotate: 359deg;
+    }
+  }
+
+  .text-list-container {
+    container-type: inline-size;
+    container-name: text-list-container;
+  }
+
+  .text-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-list li + li {
+    margin-top: var(--sp-24);
+  }
+
+  .text-list a {
+    color: inherit;
+    font-size: var(--font-size-22);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .text-list a:where(:hover, :focus) {
+    color: var(--color-accent-primary);
+  }
+
+  @container text-list-container (min-width: 500px) {
+    .text-list {
+      columns: 2;
+      column-width: 14ch;
+    }
+
+    .text-list li {
+      padding-right: var(--sp-10);
+    }
+
+    .text-list a {
+      font-size: var(--font-size-20);
+      font-weight: 700;
+    }
+  }
+
+  @container text-list-container  (min-width: 915px) {
+    .text-list {
+      columns: 3;
+    }
+  }
+
+  @container text-list-container  (min-width: 1300px) {
+    .text-list {
+      columns: 4;
+    }
+  }
+
+  @container text-list-container  (min-width: 1500px) {
+    .text-list {
+      columns: 5;
     }
   }
 </style>

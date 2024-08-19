@@ -1,6 +1,11 @@
 import type { Collection, Release } from "@types";
 import { describe, it, expect } from "vitest";
-import { combineDataSources, getArtists, getReleasesByArtist } from "./store";
+import {
+  combineDataSources,
+  getArtists,
+  getReleasesByArtist,
+  getVibes,
+} from "./store";
 
 describe("combineDataSources function", () => {
   it("returns the expected results", () => {
@@ -53,8 +58,10 @@ describe("getArtists function", () => {
       {
         id: 123,
         basic_information: {
+          id: 123,
           artists: [
             {
+              id: 1,
               name: "AFI",
             },
           ],
@@ -63,8 +70,10 @@ describe("getArtists function", () => {
       {
         id: 456,
         basic_information: {
+          id: 456,
           artists: [
             {
+              id: 2,
               name: "Soundgarden",
             },
           ],
@@ -80,11 +89,14 @@ describe("getArtists function", () => {
       {
         id: 123,
         basic_information: {
+          id: 123,
           artists: [
             {
+              id: 1,
               name: "Soundgarden",
             },
             {
+              id: 2,
               name: "Pearl Jam",
             },
           ],
@@ -100,6 +112,7 @@ describe("getArtists function", () => {
       {
         id: 123,
         basic_information: {
+          id: 123,
           artists: [
             {
               name: "AFI",
@@ -110,6 +123,7 @@ describe("getArtists function", () => {
       {
         id: 456,
         basic_information: {
+          id: 456,
           artists: [
             {
               name: "AFI",
@@ -129,10 +143,12 @@ describe("getArtists function", () => {
       {
         id: 123,
         basic_information: {
+          id: 123,
           title: "Superunknown",
           year: 1994,
           artists: [
             {
+              id: 1,
               name: "Soundgarden",
             },
           ],
@@ -141,10 +157,12 @@ describe("getArtists function", () => {
       {
         id: 456,
         basic_information: {
+          id: 456,
           title: "On The Impossible Past",
           year: 2012,
           artists: [
             {
+              id: 2,
               name: "The Menzingers",
             },
           ],
@@ -153,8 +171,10 @@ describe("getArtists function", () => {
       {
         id: 789,
         basic_information: {
+          id: 789,
           artists: [
             {
+              id: 3,
               name: "AFI",
             },
           ],
@@ -173,10 +193,12 @@ describe("getReleasesByArtist function", () => {
       {
         id: 123,
         basic_information: {
+          id: 123,
           title: "Iowa",
           year: 2001,
           artists: [
             {
+              id: 1,
               name: "Slipknot",
             },
           ],
@@ -185,10 +207,12 @@ describe("getReleasesByArtist function", () => {
       {
         id: 456,
         basic_information: {
+          id: 456,
           title: "Sing the Sorrow",
           year: 2003,
           artists: [
             {
+              id: 2,
               name: "AFI",
             },
           ],
@@ -197,10 +221,12 @@ describe("getReleasesByArtist function", () => {
       {
         id: 789,
         basic_information: {
+          id: 789,
           title: "On The Impossible Past",
           year: 2012,
           artists: [
             {
+              id: 3,
               name: "The Menzingers",
             },
           ],
@@ -209,10 +235,12 @@ describe("getReleasesByArtist function", () => {
       {
         id: 111,
         basic_information: {
+          id: 111,
           title: "Manchester",
           year: 2011,
           artists: [
             {
+              id: 4,
               name: "Tim Barry",
             },
           ],
@@ -221,10 +249,12 @@ describe("getReleasesByArtist function", () => {
       {
         id: 222,
         basic_information: {
+          id: 222,
           title: "The Art of Drowning",
           year: 2000,
           artists: [
             {
+              id: 5,
               name: "AFI",
             },
           ],
@@ -233,10 +263,12 @@ describe("getReleasesByArtist function", () => {
       {
         id: 333,
         basic_information: {
+          id: 333,
           title: "Superunknown",
           year: 1994,
           artists: [
             {
+              id: 6,
               name: "Soundgarden",
             },
           ],
@@ -245,10 +277,12 @@ describe("getReleasesByArtist function", () => {
       {
         id: 444,
         basic_information: {
+          id: 444,
           title: "Frances The Mute",
           year: 2005,
           artists: [
             {
+              id: 7,
               name: "The Mars Volta",
             },
           ],
@@ -256,12 +290,12 @@ describe("getReleasesByArtist function", () => {
       },
     ];
     const expectedKeys = [
-      "AFI",
-      "The Mars Volta",
-      "The Menzingers",
-      "Slipknot",
-      "Soundgarden",
-      "Tim Barry",
+      "afi",
+      "the mars volta",
+      "the menzingers",
+      "slipknot",
+      "soundgarden",
+      "tim barry",
     ];
     const result = getReleasesByArtist(collection);
 
@@ -269,13 +303,63 @@ describe("getReleasesByArtist function", () => {
     // This makes sure we don't have duplicate artist entries when we have
     // multiple releases by a single artist, like AFI in the above sample.
     expect(Object.keys(result)).toStrictEqual(expectedKeys);
-    expect(result["Soundgarden"].length).toBe(1);
-    expect(result["AFI"].length).toBe(2);
+    expect(result["soundgarden"].length).toBe(1);
+    expect(result["afi"].length).toBe(2);
 
     // Maybe a short-sighted test, but checking to make sure data sorting works.
-    const releaseYears = result["AFI"].map(
+    const releaseYears = result["afi"].map(
       (release: Release) => release.basic_information.year
     );
     expect(releaseYears).toStrictEqual([2000, 2003]);
+  });
+});
+
+describe("getVibes function", () => {
+  it("returns the expected results", () => {
+    const collection: Collection = [
+      {
+        id: 123,
+        basic_information: {
+          id: 123,
+          title: "Iowa",
+          year: 2001,
+          artists: [
+            {
+              id: 1,
+              name: "Slipknot",
+            },
+          ],
+          genres: ["Rock", "Acid Jazz"],
+          styles: ["Punk", "Country"],
+        },
+      },
+      {
+        id: 456,
+        basic_information: {
+          id: 456,
+          title: "Blue Record",
+          year: 2010,
+          artists: [
+            {
+              id: 2,
+              name: "Baroness",
+            },
+          ],
+          genres: ["Rock"],
+          styles: ["Metal", "Stoner Rock"],
+        },
+      },
+    ];
+
+    const vibes = getVibes(collection);
+    const expectedKeys = [
+      "acid jazz",
+      "country",
+      "metal",
+      "punk",
+      "rock",
+      "stoner rock",
+    ];
+    expect(vibes).toStrictEqual(expectedKeys);
   });
 });

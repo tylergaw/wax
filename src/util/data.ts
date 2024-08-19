@@ -13,7 +13,10 @@ function getComparableName(name: string): string {
 }
 
 export function buildUrl(segments: string[]): string {
-  return segments.reduce((accum, curr) => `${accum}${slug(curr)}/`, "/");
+  return segments.reduce(
+    (accum, curr) => `${accum}${slug(curr.replaceAll("/", " "))}/`,
+    "/"
+  );
 }
 
 // TODO: This could be made generic for use with lists other than Artists

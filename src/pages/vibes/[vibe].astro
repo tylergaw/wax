@@ -1,0 +1,68 @@
+---
+import type { Release } from "@types";
+import store from "@store";
+import Layout from "@layouts/Layout.astro";
+import Releases from "@components/Releases.astro";
+import { pluralize } from "@util/string";
+import slug from "slug";
+
+export async function getStaticPaths() {
+  const vibes = store.vibes;
+
+  return vibes.map((vibe) => {
+    const releases = store.collection.filter((release: Release) => {
+      const genres = release.basic_information.genres || [];
+      const styles = release.basic_information.styles || [];
+      const releaseVibes = [...genres, ...styles].map((v) => v.toLowerCase());
+      return releaseVibes.includes(vibe);
+    });
+
+    return {
+      params: { vibe: slug(vibe.replaceAll("/", " ")) },
+      props: { vibe, releases },
+    };
+  });
+}
+
+const { vibe, releases } = Astro.props;
+---
+
+<Layout title={vibe}>
+  <main class="standard-restricted-width">
+    <header>
+      <h1 class="title capitalize">
+        {vibe}
+      </h1>
+      <h2 class="subtitle">
+        {releases.length}
+        {pluralize("record", releases.length)}
+      </h2>
+    </header>
+
+    <Releases releases={releases} />
+  </main>
+</Layout>
+
+<style>
+  header {
+    padding-bottom: calc(var(--sp-8) * 4);
+    padding-top: calc(var(--sp-8) * 2);
+    text-align: center;
+  }
+
+  .title {
+    font-style: italic;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .subtitle {
+    color: var(--color-accent-primary);
+    font-size: var(--font-size-22);
+    font-weight: 300;
+    margin: 0 auto;
+    padding-top: var(--sp-14);
+  }
+</style>

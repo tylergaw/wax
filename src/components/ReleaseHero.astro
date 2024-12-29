@@ -6,7 +6,11 @@ export interface props {
 
 import type { Release } from "@types";
 import Vinyl from "@components/Vinyl.astro";
-import { getHumanColor, getMachineColor } from "@util/data";
+import {
+  getHumanColor,
+  getMachineColor,
+  getArtistDisplayName,
+} from "@util/data";
 
 const { artist, release } = Astro.props;
 const { title, cover_image, year } = release.basic_information;
@@ -15,7 +19,9 @@ const { title, cover_image, year } = release.basic_information;
 <div class="container" style={`--machine-color: ${getMachineColor(release)}`}>
   <header>
     <h1 class="title">{title}</h1>
-    <p class="subtitle">{artist} / {year} / {getHumanColor(release)}</p>
+    <p class="subtitle">
+      {getArtistDisplayName(artist)} / {year} / {getHumanColor(release)}
+    </p>
   </header>
   <div class="graphic">
     <div class="disc">

@@ -1,6 +1,7 @@
 import type { Release } from "@types";
 import { describe, it, expect } from "vitest";
 import {
+  getArtistDisplayName,
   getHumanColor,
   getMachineColor,
   getReleaseUrl,
@@ -129,5 +130,22 @@ describe("getMachineColor function", () => {
     };
 
     expect(getMachineColor(release)).toBe("rgb(100,120,100)");
+  });
+});
+
+describe("getArtistDisplayName function", () => {
+  it("returns cleaned up names when expected", () => {
+    expect(getArtistDisplayName("Battle Royale (2)")).toBe("Battle Royale");
+    expect(getArtistDisplayName("H20 (7)")).toBe("H20");
+    expect(getArtistDisplayName("Pup (3)")).toBe("Pup");
+  });
+
+  it("leaves names alone when expected", () => {
+    expect(getArtistDisplayName("A (strange) Artist Name")).toBe(
+      "A (strange) Artist Name"
+    );
+    expect(getArtistDisplayName("(International) Noise Conspiracy")).toBe(
+      "(International) Noise Conspiracy"
+    );
   });
 });

@@ -1,7 +1,7 @@
 ---
 import store from "@store";
 import Layout from "@layouts/Layout.astro";
-import { buildUrl } from "@util/data";
+import { buildUrl, getArtistDisplayName } from "@util/data";
 
 const artists = store.artists;
 ---
@@ -13,7 +13,7 @@ const artists = store.artists;
       {
         artists.map(({ name }) => (
           <li>
-            <a href={buildUrl([name])}>{name}</a>
+            <a href={buildUrl([name])}>{getArtistDisplayName(name)}</a>
           </li>
         ))
       }

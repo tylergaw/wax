@@ -70,3 +70,15 @@ export function getMachineColor(release: Release): string {
 
   return color;
 }
+
+/**
+ * In Discogs, if there are duplicate artist names, they append parens and a
+ * number to the name so we end up with some ugly names like; "PUP (2)".
+ * Since we know the do "<original-name> (<number)", this function looks for
+ * that and strips it out so. We only use this for display that way if we do
+ * have duplicate artists, we'll keep the parens and number in place for things
+ * like slugs for URLs and lookups.
+ */
+export function getArtistDisplayName(name: string): string {
+  return name.replace(/\s?\(\d+\)$/, "").trim();
+}

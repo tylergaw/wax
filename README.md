@@ -16,7 +16,7 @@ A record collection viewer with data from Discogs.
 - Discogs API [discogs.com/developers/](https://www.discogs.com/developers/)
 - Node >= v17.0.0
 - Hosted on Netlify
-- OpenAI API for data enrichment
+- Claude API for data enrichment
 
 ## Local setup
 

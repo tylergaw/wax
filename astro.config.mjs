@@ -9,4 +9,7 @@ export default defineConfig({
   scopedStyleStrategy: "class",
   output: "hybrid",
   adapter: netlify(),
+  devToolbar: {
+    enabled: false,
+  },
 });

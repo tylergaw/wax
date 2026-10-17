@@ -31,10 +31,12 @@ const log = store.log;
               {month.releases.map((release) => (
                 <li>
                   <a href={getReleaseUrl(release)}>
-                    {getArtistDisplayName(
+                    {`${getArtistDisplayName(
                       release.basic_information.artists[0].name
-                    )}{" "}
-                    – {release.basic_information.title}
+                    )}, `}
+                    <span class="album">
+                      {release.basic_information.title}
+                    </span>
                   </a>
                 </li>
               ))}
@@ -87,6 +89,10 @@ const log = store.log;
 
   li + li {
     margin-top: var(--sp-10);
+  }
+
+  .album {
+    font-weight: 600;
   }
 
   a {

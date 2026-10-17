@@ -32,7 +32,7 @@ yarn
 yarn start
 ```
 
-The site will be available at [http://localhost:3000](http://localhost:3000)
+The site will be available at [http://localhost:4321](http://localhost:4321)
 
 **Preview production**
 

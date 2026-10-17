@@ -81,8 +81,25 @@ describe("sortArtistsByName function", () => {
     ];
     const result = sortArtistsByName(artists).map((a) => a.name);
     const expectedKeys = ["AFI", "The Menzingers", "Slipknot", "Tim Barry"];
-    console.log(result.length, expectedKeys.length);
     expect(result).toStrictEqual(expectedKeys);
+  });
+
+  it("ignores case, accents, and a lowercase the", () => {
+    const artists = [
+      { id: 1, name: "ZZ Top", slug: "zz-top" },
+      { id: 2, name: "of Montreal", slug: "of-montreal" },
+      { id: 3, name: "the Get Up Kids", slug: "the-get-up-kids" },
+      { id: 4, name: "Múm", slug: "mum" },
+      { id: 5, name: "Mudhoney", slug: "mudhoney" },
+    ];
+    const result = sortArtistsByName(artists).map((a) => a.name);
+    expect(result).toStrictEqual([
+      "the Get Up Kids",
+      "Mudhoney",
+      "Múm",
+      "of Montreal",
+      "ZZ Top",
+    ]);
   });
 });
 

@@ -74,6 +74,13 @@ export function getArtists(collection: Release[]): Artist[] {
   return sortArtistsByName(artists);
 }
 
+// Returns a copy, oldest first, without changing the original order
+export function sortByYear(releases: Release[]): Release[] {
+  return [...releases].sort(
+    (a, b) => a.basic_information.year - b.basic_information.year
+  );
+}
+
 export function getReleasesByArtist(collection: Release[]) {
   const artists = getArtists(collection);
 
@@ -85,9 +92,7 @@ export function getReleasesByArtist(collection: Release[]) {
 
   // Walk the collection and put each release in the releases object at the
   // cooresponding artist key
-  collection
-    .sort((a, b) => a.basic_information.year - b.basic_information.year)
-    .forEach((release) => {
+  sortByYear(collection).forEach((release) => {
       // Some Discogs releases list the same artist more than once, so only
       // add the release to each artist once.
       let seenArtistKeys: string[] = [];

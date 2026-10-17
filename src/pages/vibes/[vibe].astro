@@ -1,6 +1,6 @@
 ---
 import type { Release } from "@types";
-import store from "@store";
+import store, { sortByYear } from "@store";
 import Layout from "@layouts/Layout.astro";
 import Releases from "@components/Releases.astro";
 import { pluralize } from "@util/string";
@@ -10,12 +10,14 @@ export async function getStaticPaths() {
   const vibes = store.vibes;
 
   return vibes.map((vibe) => {
-    const releases = store.collection.filter((release: Release) => {
-      const genres = release.basic_information.genres || [];
-      const styles = release.basic_information.styles || [];
-      const releaseVibes = [...genres, ...styles].map((v) => v.toLowerCase());
-      return releaseVibes.includes(vibe);
-    });
+    const releases = sortByYear(
+      store.collection.filter((release: Release) => {
+        const genres = release.basic_information.genres || [];
+        const styles = release.basic_information.styles || [];
+        const releaseVibes = [...genres, ...styles].map((v) => v.toLowerCase());
+        return releaseVibes.includes(vibe);
+      })
+    );
 
     return {
       params: { vibe: slug(vibe.replaceAll("/", " ")) },

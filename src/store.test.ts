@@ -6,7 +6,20 @@ import {
   getReleasesByArtist,
   getUniqueReleases,
   getVibes,
+  sortByYear,
 } from "./store";
+
+describe("sortByYear function", () => {
+  it("sorts a copy oldest first and leaves the original alone", () => {
+    const collection: Collection = [
+      { id: 1, basic_information: { year: 2001 } },
+      { id: 2, basic_information: { year: 1994 } },
+    ];
+
+    expect(sortByYear(collection).map((r) => r.id)).toEqual([2, 1]);
+    expect(collection.map((r) => r.id)).toEqual([1, 2]);
+  });
+});
 
 describe("combineDataSources function", () => {
   it("returns the expected results", () => {

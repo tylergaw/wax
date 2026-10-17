@@ -1,0 +1,4078 @@
+[
+  {
+    "id": "13329",
+    "description": "Jacksonville Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "27277",
+    "description": "SRC Pressing, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "76872",
+    "description": "Winchester Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "100245",
+    "description": "James Booker Credit",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "355382",
+    "description": "Specialty Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "370135",
+    "description": "Los Angeles Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "394418",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "472821",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "513594",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "577250",
+    "description": "Red Translucent",
+    "humanReadableColor": "Red Translucent",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "677375",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "770027",
+    "description": "Specialty Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "964554",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "965631",
+    "description": "Red Translucent",
+    "humanReadableColor": "Red Translucent",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "993128",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "994372",
+    "description": "Random Color",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1018597",
+    "description": "Hollywood Pressing, Figure Publishing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1078120",
+    "description": "Jacksonville Pressing, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1192308",
+    "description": "Yellow",
+    "humanReadableColor": "Yellow",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1210423",
+    "description": "Terre Haute Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1289528",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1326422",
+    "description": "Allied Press",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1563150",
+    "description": "Punchout Centers",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1597466",
+    "description": "Pink",
+    "humanReadableColor": "Pink",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1597615",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1663504",
+    "description": "Indianapolis Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1684889",
+    "description": "Grey Marbled",
+    "humanReadableColor": "Grey Marbled",
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "1684896",
+    "description": "Grey Marbled",
+    "humanReadableColor": "Grey Marbled",
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "1748265",
+    "description": "United Record Pressing, 180g, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1790723",
+    "description": "Blue Translucent",
+    "humanReadableColor": "Blue Translucent",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "1800037",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1849356",
+    "description": "Specialty Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1863024",
+    "description": "Electrosound Group Midwest Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1949892",
+    "description": "White",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2093841",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2101658",
+    "description": "Green",
+    "humanReadableColor": "Green",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2113642",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "2151825",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "2200190",
+    "description": "Yellow [Highlighter Yellow]",
+    "humanReadableColor": "Highlighter Yellow",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2236929",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2266242",
+    "description": "White",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2266940",
+    "description": "Lilac",
+    "humanReadableColor": "Lilac",
+    "cssReadableColors": [
+      "plum"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2277097",
+    "description": "Grey/Red Splatter",
+    "humanReadableColor": "Grey/Red Splatter",
+    "cssReadableColors": [
+      "grey",
+      "red"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "2305229",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2315274",
+    "description": "Airplane Cover",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2395237",
+    "description": "Blue Translucent",
+    "humanReadableColor": "Blue Translucent",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "2467601",
+    "description": "Red translucent",
+    "humanReadableColor": "Red Translucent",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "2517078",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "2563573",
+    "description": "Green",
+    "humanReadableColor": "Green",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2586681",
+    "description": "Gatefold Sleeve",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2649502",
+    "description": "Pitman Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2720220",
+    "description": "Sonopress Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2738405",
+    "description": "Green Translucent, Gatefold ",
+    "humanReadableColor": "Green Translucent",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "2779154",
+    "description": "Clear W/ Red, Black, And Silver Splatter",
+    "humanReadableColor": "Clear with Red, Black, and Silver Splatter",
+    "cssReadableColors": [
+      "red",
+      "black",
+      "silver"
+    ],
+    "pattern": "splatter",
+    "texture": "clear"
+  },
+  {
+    "id": "2783869",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2825456",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2835466",
+    "description": "Coke Bottle Clear",
+    "humanReadableColor": "Coke Bottle Clear",
+    "cssReadableColors": [
+      "palegreen"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "2836556",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2862960",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2873835",
+    "description": "Green/Purple Split",
+    "humanReadableColor": "Green/Purple Split",
+    "cssReadableColors": [
+      "green",
+      "purple"
+    ],
+    "pattern": "split",
+    "texture": null
+  },
+  {
+    "id": "2937981",
+    "description": "Pink",
+    "humanReadableColor": "Pink",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2950404",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3024956",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3105037",
+    "description": "Blood Red",
+    "humanReadableColor": "Blood Red",
+    "cssReadableColors": [
+      "darkred"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3121355",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3137648",
+    "description": "Tri Color Split Red/White/Green",
+    "humanReadableColor": "Tri Color Split Red/White/Green",
+    "cssReadableColors": [
+      "red",
+      "white",
+      "green"
+    ],
+    "pattern": "split",
+    "texture": null
+  },
+  {
+    "id": "3142675",
+    "description": "180 Gram and 180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3166712",
+    "description": "Random Color",
+    "humanReadableColor": "Random Color",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3169833",
+    "description": "Reddish Purple",
+    "humanReadableColor": "Reddish Purple",
+    "cssReadableColors": [
+      "mediumvioletred"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3177390",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3260443",
+    "description": "Green",
+    "humanReadableColor": "Green",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3274350",
+    "description": "Gatefold, 180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3293861",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3297403",
+    "description": "Lavender",
+    "humanReadableColor": "Lavender",
+    "cssReadableColors": [
+      "lavender"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3318811",
+    "description": "Triple Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3353708",
+    "description": "Yellow",
+    "humanReadableColor": "Yellow",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3427266",
+    "description": "Green",
+    "humanReadableColor": "Green",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3433272",
+    "description": "Pink",
+    "humanReadableColor": "Pink",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3439841",
+    "description": "Yellow",
+    "humanReadableColor": "Yellow",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3469317",
+    "description": "Grey",
+    "humanReadableColor": "Grey",
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3495350",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3516446",
+    "description": "180g, United Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3517602",
+    "description": "Green W/ Red And Black Splatter",
+    "humanReadableColor": "Green with Red and Black Splatter",
+    "cssReadableColors": [
+      "green",
+      "red",
+      "black"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "3547947",
+    "description": "Orange Translucent",
+    "humanReadableColor": "Orange Translucent",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "3554444",
+    "description": "Multi-colored Splatter",
+    "humanReadableColor": "Multi-colored Splatter",
+    "cssReadableColors": [
+      "red",
+      "yellow",
+      "blue",
+      "green"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "3574071",
+    "description": "Green Mint",
+    "humanReadableColor": "Green Mint",
+    "cssReadableColors": [
+      "mediumaquamarine"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3609018",
+    "description": "Clear Milky With Swamp Green",
+    "humanReadableColor": "Clear Milky with Swamp Green",
+    "cssReadableColors": [
+      "darkolivegreen",
+      "whitesmoke"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "3641234",
+    "description": "Pink Marbled",
+    "humanReadableColor": "Pink Marbled",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "3643309",
+    "description": "Translucent Red",
+    "humanReadableColor": "Translucent Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "3738509",
+    "description": "Terre Haute Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3747671",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3772317",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3884453",
+    "description": "With Co-Producer Credits, Pitman Pressing, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3890976",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3892549",
+    "description": "Winchester Press",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3955665",
+    "description": "Mixed Color",
+    "humanReadableColor": "Mixed Color",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3974684",
+    "description": "White",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "3976505",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "4052794",
+    "description": "Beer in Milky Clear",
+    "humanReadableColor": "Beer in Milky Clear",
+    "cssReadableColors": [
+      "goldenrod",
+      "ghostwhite"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "4359534",
+    "description": "Allied Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4393347",
+    "description": "Yellow Marble, photo insert",
+    "humanReadableColor": "Yellow Marble",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "4526068",
+    "description": "Red Translucent ",
+    "humanReadableColor": "Red Translucent",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "4565397",
+    "description": "Swamp Green In Bone White",
+    "humanReadableColor": "Swamp Green In Bone White",
+    "cssReadableColors": [
+      "oldlace",
+      "darkolivegreen"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4591765",
+    "description": "Oxblood",
+    "humanReadableColor": "Oxblood",
+    "cssReadableColors": [
+      "darkred"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4607953",
+    "description": "Half Grey/Half Green",
+    "humanReadableColor": "Half Grey/Half Green",
+    "cssReadableColors": [
+      "grey",
+      "green"
+    ],
+    "pattern": "split",
+    "texture": null
+  },
+  {
+    "id": "4609122",
+    "description": "Blue Album Artwork",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4649003",
+    "description": "180gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4702208",
+    "description": "180g, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4724731",
+    "description": "Opaque White 180g",
+    "humanReadableColor": "Opaque White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "4755491",
+    "description": "Pink Baby and Yellow Piss",
+    "humanReadableColor": "Pink Baby and Yellow Piss",
+    "cssReadableColors": [
+      "lightpink",
+      "khaki"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4783613",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4828748",
+    "description": "Gold",
+    "humanReadableColor": "Gold",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "4863169",
+    "description": "Blue Light ",
+    "humanReadableColor": "Blue Light",
+    "cssReadableColors": [
+      "lightblue"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5033685",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5162954",
+    "description": "Gloversville Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5168643",
+    "description": "White",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5264733",
+    "description": "Blue/White Swirl",
+    "humanReadableColor": "Blue/White Swirl",
+    "cssReadableColors": [
+      "blue",
+      "white"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "5280391",
+    "description": "Blue Clear",
+    "humanReadableColor": "Blue Clear",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "5551519",
+    "description": "Red and White",
+    "humanReadableColor": "Red and White",
+    "cssReadableColors": [
+      "red",
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5572655",
+    "description": "Ox Blood Red",
+    "humanReadableColor": "Ox Blood Red",
+    "cssReadableColors": [
+      "darkred"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5595040",
+    "description": "White",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5611793",
+    "description": "Troublesome Morning edition, semi-transparent with brown haze & pink splatter",
+    "humanReadableColor": "Semi-Transparent with Brown Haze & Pink Splatter",
+    "cssReadableColors": [
+      "saddlebrown",
+      "pink"
+    ],
+    "pattern": "splatter",
+    "texture": "translucent"
+  },
+  {
+    "id": "5617728",
+    "description": "Clear/White",
+    "humanReadableColor": "Clear/White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "5697493",
+    "description": "Silver, 180 Gram",
+    "humanReadableColor": "Silver",
+    "cssReadableColors": [
+      "silver"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5712050",
+    "description": "Los Angeles Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5766153",
+    "description": "Collector's Edition",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5783331",
+    "description": "200 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5801012",
+    "description": "Santa Maria Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5878669",
+    "description": "Jacksonville Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5955900",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "5983593",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6033392",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6156672",
+    "description": "Opaque Gold",
+    "humanReadableColor": "Opaque Gold",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "6201109",
+    "description": "Grey Swirl",
+    "humanReadableColor": "Grey Swirl",
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "6269965",
+    "description": "Orange Day-glo",
+    "humanReadableColor": "Orange Day-glo",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6293006",
+    "description": "Allied Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6331054",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "6503245",
+    "description": "White, 180g",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6567195",
+    "description": "Blue/Green Swirl",
+    "humanReadableColor": "Blue/Green Swirl",
+    "cssReadableColors": [
+      "blue",
+      "green"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "6656220",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6775331",
+    "description": "Green Marbled",
+    "humanReadableColor": "Green Marbled",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "6784565",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6883190",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6905243",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6986924",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "6993353",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "7030449",
+    "description": "Gatefold, 180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "7069134",
+    "description": "Purple Marble",
+    "humanReadableColor": "Purple Marble",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "7112398",
+    "description": "Lavender and Yellow",
+    "humanReadableColor": "Lavender and Yellow",
+    "cssReadableColors": [
+      "lavender",
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "7173732",
+    "description": "Blue/ Clear Split",
+    "humanReadableColor": "Blue/Clear Split",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": "split",
+    "texture": "clear"
+  },
+  {
+    "id": "7190525",
+    "description": "Clear ",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "7220944",
+    "description": "Purple Marbled, 180g",
+    "humanReadableColor": "Purple Marbled",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "7221005",
+    "description": "White, 180g",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "7221100",
+    "description": "Blue w/ Red Splatter [Ms. Voorhees Blue Sweater w/ Camp Counselor Blood Splatter]",
+    "humanReadableColor": "Blue with Red Splatter",
+    "cssReadableColors": [
+      "blue",
+      "red"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "7424058",
+    "description": "Blue Translucent",
+    "humanReadableColor": "Blue Translucent",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "7428792",
+    "description": "Mint Green With Blue And Yellow Splatter",
+    "humanReadableColor": "Mint Green With Blue And Yellow Splatter",
+    "cssReadableColors": [
+      "mediumaquamarine",
+      "blue",
+      "yellow"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "7435882",
+    "description": "Purple",
+    "humanReadableColor": "Purple",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "7452605",
+    "description": "180 Gram ",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "7550153",
+    "description": "150 Gram Coke Bottle Clear",
+    "humanReadableColor": "Coke Bottle Clear",
+    "cssReadableColors": [
+      "darkseagreen"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "7790110",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "7860521",
+    "description": "Purple Marbled Translucent, 180 Gram",
+    "humanReadableColor": "Purple Marbled Translucent",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": "marble",
+    "texture": "translucent"
+  },
+  {
+    "id": "8100972",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "8128857",
+    "description": "Pitman Pressing, No Triangle",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "8166324",
+    "description": "Red Opaque",
+    "humanReadableColor": "Red Opaque",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "8260804",
+    "description": "Pitman Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "8353709",
+    "description": "Red/Silver Marble and Blue/Silver Marble",
+    "humanReadableColor": "Red/Silver Marble and Blue/Silver Marble",
+    "cssReadableColors": [
+      "red",
+      "silver",
+      "blue"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "8457230",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "8582273",
+    "description": "Clear/Red Splatter",
+    "humanReadableColor": "Clear/Red Splatter",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": "splatter",
+    "texture": "clear"
+  },
+  {
+    "id": "8607579",
+    "description": "Clear, Record Industry Pressing",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "8764088",
+    "description": "Purple / Violet Swirl [Hallucination]",
+    "humanReadableColor": "Purple / Violet Swirl",
+    "cssReadableColors": [
+      "purple",
+      "violet"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "8801472",
+    "description": "180g and 180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "8867765",
+    "description": "Gatefold, Specialty Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "8893514",
+    "description": "Blue / Pink Splatter",
+    "humanReadableColor": "Blue / Pink Splatter",
+    "cssReadableColors": [
+      "blue",
+      "pink"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "8963130",
+    "description": "White w/ Red Splatter",
+    "humanReadableColor": "White w/ Red Splatter",
+    "cssReadableColors": [
+      "white",
+      "red"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "9020814",
+    "description": "Gatefold Sleeve, 180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "9088029",
+    "description": "Gatefold, 180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "9127152",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "9182740",
+    "description": "Pitman Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "9231704",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "9340972",
+    "description": "180g Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "9653096",
+    "description": "Gold",
+    "humanReadableColor": "Gold",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "9721861",
+    "description": "Red Opaque",
+    "humanReadableColor": "Red Opaque",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "9871518",
+    "description": "Orange with Black Swirl",
+    "humanReadableColor": "Orange with Black Swirl",
+    "cssReadableColors": [
+      "orange",
+      "black"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "9949916",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "9961236",
+    "description": "Monarch Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "10044733",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "10471009",
+    "description": "180g and 180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "10643949",
+    "description": "Red/Black Swirl",
+    "humanReadableColor": "Red/Black Swirl",
+    "cssReadableColors": [
+      "red",
+      "black"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "10672744",
+    "description": "Gatefold, Definitive Edition, 180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "10691963",
+    "description": "Blue Lyric Sleeve, 180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "10693965",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "10694620",
+    "description": "Definitive Edition, 180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "10915561",
+    "description": "Grey Mix",
+    "humanReadableColor": "Grey Mix",
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": "mix",
+    "texture": null
+  },
+  {
+    "id": "10957785",
+    "description": "Red Opaque",
+    "humanReadableColor": "Red Opaque",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "11092933",
+    "description": "Purple Marbled [Random Color Mix]",
+    "humanReadableColor": "Purple Marbled",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "11273694",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11343648",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11390219",
+    "description": "White",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11429851",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11461703",
+    "description": "Specialty Records Corporation Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11520528",
+    "description": "French Brown",
+    "humanReadableColor": "French Brown",
+    "cssReadableColors": [
+      "saddlebrown"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11528694",
+    "description": "Silver/Red Mix",
+    "humanReadableColor": "Silver/Red Mix",
+    "cssReadableColors": [
+      "silver",
+      "red"
+    ],
+    "pattern": "mix",
+    "texture": null
+  },
+  {
+    "id": "11560063",
+    "description": "Santa Maria",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11625464",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11719767",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "11807853",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11816219",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "11972113",
+    "description": "Swamp Green / Black Swirl",
+    "humanReadableColor": "Swamp Green / Black Swirl",
+    "cssReadableColors": [
+      "darkolivegreen",
+      "black"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "12109198",
+    "description": "Gatefold, MPO",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12156667",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12226922",
+    "description": "Blue Opaque",
+    "humanReadableColor": "Blue Opaque",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "12255615",
+    "description": "Magenta And Clear Split With White Splatter",
+    "humanReadableColor": "Magenta And Clear Split With White Splatter",
+    "cssReadableColors": [
+      "magenta",
+      "white"
+    ],
+    "pattern": "split, splatter",
+    "texture": "clear"
+  },
+  {
+    "id": "12262385",
+    "description": "Yellow",
+    "humanReadableColor": "Yellow",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12404453",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12445117",
+    "description": "180 Gram, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12449058",
+    "description": "Pink",
+    "humanReadableColor": "Pink",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12459879",
+    "description": "Orange",
+    "humanReadableColor": "Orange",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12496636",
+    "description": "Black and Red Swirl",
+    "humanReadableColor": "Black and Red Swirl",
+    "cssReadableColors": [
+      "black",
+      "red"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "12547860",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "12551952",
+    "description": "Blood / Bone Merge",
+    "humanReadableColor": "Blood / Bone Merge",
+    "cssReadableColors": [
+      "darkred",
+      "ivory"
+    ],
+    "pattern": "merge",
+    "texture": null
+  },
+  {
+    "id": "12558374",
+    "description": "Red Translucent",
+    "humanReadableColor": "Red Translucent",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "12593410",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12605104",
+    "description": "Clear w/ Orange Inset",
+    "humanReadableColor": "Clear with Orange Inset",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": "inset",
+    "texture": "clear"
+  },
+  {
+    "id": "12706955",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "12714021",
+    "description": "Green",
+    "humanReadableColor": "Green",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12794668",
+    "description": "150g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12802696",
+    "description": "Half Ultra Clear / Half Bone and Half Ultra Clear / Half Opaque Red",
+    "humanReadableColor": "Half Ultra Clear / Half Bone and Half Ultra Clear / Half Opaque Red",
+    "cssReadableColors": [
+      "ivory",
+      "red"
+    ],
+    "pattern": "split",
+    "texture": "clear"
+  },
+  {
+    "id": "12949094",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "12973071",
+    "description": "Black/Silver Swirl",
+    "humanReadableColor": "Black/Silver Swirl",
+    "cssReadableColors": [
+      "black",
+      "silver"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "13089976",
+    "description": "Strawberry Jam",
+    "humanReadableColor": "Strawberry Jam",
+    "cssReadableColors": [
+      "crimson"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "13185369",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "13320738",
+    "description": "Crystal Clear",
+    "humanReadableColor": "Crystal Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "13344006",
+    "description": "Green",
+    "humanReadableColor": "Green",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "13414158",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "13435962",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "13449657",
+    "description": "Carrollton Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "13474998",
+    "description": "Brown Translucent With Black Smoke [Whiskey]",
+    "humanReadableColor": "Brown Translucent With Black Smoke",
+    "cssReadableColors": [
+      "saddlebrown",
+      "black"
+    ],
+    "pattern": "smoke",
+    "texture": "translucent"
+  },
+  {
+    "id": "13603103",
+    "description": "Pitman, 2nd pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "13702717",
+    "description": "Silver",
+    "humanReadableColor": "Silver",
+    "cssReadableColors": [
+      "silver"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "13761310",
+    "description": "Yellow Translucent With Red & Orange Splatter and Yellow Translucent With Black & White Splatter",
+    "humanReadableColor": "Yellow Translucent With Red & Orange Splatter and Yellow Translucent With Black & White Splatter",
+    "cssReadableColors": [
+      "yellow",
+      "red",
+      "orange",
+      "black",
+      "white"
+    ],
+    "pattern": "splatter",
+    "texture": "translucent"
+  },
+  {
+    "id": "13762016",
+    "description": "Orange Translucent and Yellow-Black Marble ",
+    "humanReadableColor": "Orange Translucent and Yellow-Black Marble",
+    "cssReadableColors": [
+      "orange",
+      "yellow",
+      "black"
+    ],
+    "pattern": "marble",
+    "texture": "translucent"
+  },
+  {
+    "id": "13791583",
+    "description": "White",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "13923416",
+    "description": "Grey Smoke",
+    "humanReadableColor": "Grey Smoke",
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": "smoke",
+    "texture": "translucent"
+  },
+  {
+    "id": "14274077",
+    "description": "Silver/Black \"Galaxy\"",
+    "humanReadableColor": "Silver/Black Galaxy",
+    "cssReadableColors": [
+      "silver",
+      "black"
+    ],
+    "pattern": "galaxy",
+    "texture": null
+  },
+  {
+    "id": "14432517",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "14457631",
+    "description": "Definitive Edition, 180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "14465904",
+    "description": "Pink Clear Neon",
+    "humanReadableColor": "Pink Clear Neon",
+    "cssReadableColors": [
+      "hotpink"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "14522311",
+    "description": "Gold-In-Ultraclear",
+    "humanReadableColor": "Gold-In-Ultraclear",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": "color in color",
+    "texture": "clear"
+  },
+  {
+    "id": "14541226",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "14550457",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "14724546",
+    "description": "Green, Lime",
+    "humanReadableColor": "Green, Lime",
+    "cssReadableColors": [
+      "limegreen"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "14750542",
+    "description": "Metallic Sand & Deep Crimson",
+    "humanReadableColor": "Metallic Sand & Deep Crimson",
+    "cssReadableColors": [
+      "tan",
+      "crimson"
+    ],
+    "pattern": null,
+    "texture": "metallic"
+  },
+  {
+    "id": "14793268",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "14818123",
+    "description": "Allied Pressing, Sheffield Master",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "14845571",
+    "description": "180 Grs",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "14862503",
+    "description": "Pink/Green Splatter, Translucent",
+    "humanReadableColor": "Pink/Green Splatter Translucent",
+    "cssReadableColors": [
+      "pink",
+      "green"
+    ],
+    "pattern": "splatter",
+    "texture": "translucent"
+  },
+  {
+    "id": "14884729",
+    "description": "Blue [Translucent], 180 Gram",
+    "humanReadableColor": "Blue Translucent",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "14937761",
+    "description": "Orange Marble, Gatefold",
+    "humanReadableColor": "Orange Marble",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "15364200",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "15414237",
+    "description": "Gold",
+    "humanReadableColor": "Gold",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "15642795",
+    "description": "Glow In The Dark Green",
+    "humanReadableColor": "Glow In The Dark Green",
+    "cssReadableColors": [
+      "lightgreen"
+    ],
+    "pattern": null,
+    "texture": "glow in the dark"
+  },
+  {
+    "id": "15814217",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "15881674",
+    "description": "Magenta (Neon) Translucent and Gold Metallic",
+    "humanReadableColor": "Neon Magenta Translucent and Gold Metallic",
+    "cssReadableColors": [
+      "magenta",
+      "gold"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "15897535",
+    "description": "Hot Pink Shimmer",
+    "humanReadableColor": "Hot Pink Shimmer",
+    "cssReadableColors": [
+      "hotpink"
+    ],
+    "pattern": null,
+    "texture": "shimmer"
+  },
+  {
+    "id": "15929464",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "15930505",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "15948395",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "15951324",
+    "description": "Vortex - White / Black Swirl",
+    "humanReadableColor": "White / Black Swirl",
+    "cssReadableColors": [
+      "white",
+      "black"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "15962643",
+    "description": "Orange Translucent",
+    "humanReadableColor": "Orange Translucent",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "15989452",
+    "description": "Orange Sunburst",
+    "humanReadableColor": "Orange Sunburst",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": "sunburst",
+    "texture": null
+  },
+  {
+    "id": "15996836",
+    "description": "Clear With Yellow, Blue And Orange Swirls",
+    "humanReadableColor": "Clear With Yellow, Blue And Orange Swirls",
+    "cssReadableColors": [
+      "yellow",
+      "blue",
+      "orange"
+    ],
+    "pattern": "swirl",
+    "texture": "clear"
+  },
+  {
+    "id": "15997698",
+    "description": "Ruby Red Translucent",
+    "humanReadableColor": "Ruby Red Translucent",
+    "cssReadableColors": [
+      "firebrick"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "16026339",
+    "description": "180 g, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "16030220",
+    "description": "Gray Swirl [Black And White Galaxy], Gatefold",
+    "humanReadableColor": "Gray Swirl (Black And White Galaxy)",
+    "cssReadableColors": [
+      "gray",
+      "black",
+      "white"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "16077325",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "16106511",
+    "description": "Orange",
+    "humanReadableColor": "Orange",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "16122521",
+    "description": "Pink Marbled",
+    "humanReadableColor": "Pink Marbled",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "16205179",
+    "description": "white/red and blue w/ white splatter",
+    "humanReadableColor": "White/Red and Blue with White Splatter",
+    "cssReadableColors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "16262527",
+    "description": "Purple",
+    "humanReadableColor": "Purple",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "16431192",
+    "description": "Blue [Lapis Lazuli]",
+    "humanReadableColor": "Blue (Lapis Lazuli)",
+    "cssReadableColors": [
+      "royalblue"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "16486110",
+    "description": "Starburst  (Black/Blue/Purple)",
+    "humanReadableColor": "Starburst (Black/Blue/Purple)",
+    "cssReadableColors": [
+      "black",
+      "blue",
+      "purple"
+    ],
+    "pattern": "starburst",
+    "texture": null
+  },
+  {
+    "id": "16488018",
+    "description": "200 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "16610694",
+    "description": "Translucent Purple ",
+    "humanReadableColor": "Translucent Purple",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "16754889",
+    "description": "Gatefold Cover, 180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "16792488",
+    "description": "Pink w/ Splatter",
+    "humanReadableColor": "Pink with Splatter",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "16818729",
+    "description": "Burgundy",
+    "humanReadableColor": "Burgundy",
+    "cssReadableColors": [
+      "#800020"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "16841166",
+    "description": "Clear With Rainbow Splatter",
+    "humanReadableColor": "Clear With Rainbow Splatter",
+    "cssReadableColors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "pattern": "splatter",
+    "texture": "clear"
+  },
+  {
+    "id": "16899411",
+    "description": "Orange Translucent",
+    "humanReadableColor": "Orange Translucent",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "17756878",
+    "description": "Tan w/ Black Swirl, 180g",
+    "humanReadableColor": "Tan w/ Black Swirl",
+    "cssReadableColors": [
+      "tan",
+      "black"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "18007561",
+    "description": "Yellow/Red Marble",
+    "humanReadableColor": "Yellow/Red Marble",
+    "cssReadableColors": [
+      "yellow",
+      "red"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "18040351",
+    "description": "Half Pink / Half Blue",
+    "humanReadableColor": "Half Pink / Half Blue",
+    "cssReadableColors": [
+      "pink",
+      "blue"
+    ],
+    "pattern": "split",
+    "texture": null
+  },
+  {
+    "id": "18068767",
+    "description": "180 gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "18279577",
+    "description": "Mirror Press Series",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "18365920",
+    "description": "Clear Skyblue / Brown Splattered",
+    "humanReadableColor": "Clear Skyblue / Brown Splattered",
+    "cssReadableColors": [
+      "skyblue",
+      "brown"
+    ],
+    "pattern": "splatter",
+    "texture": "clear"
+  },
+  {
+    "id": "18414703",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "18426565",
+    "description": "White & True Metal Gray Marbled",
+    "humanReadableColor": "White & True Metal Gray Marbled",
+    "cssReadableColors": [
+      "white",
+      "gray"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "18550273",
+    "description": "Red Oxblood With Silver Swirl [Smokey Red]",
+    "humanReadableColor": "Red Oxblood With Silver Swirl",
+    "cssReadableColors": [
+      "#4a0000",
+      "silver"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "18565105",
+    "description": "Shelley",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "19288117",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "19829389",
+    "description": "Orange/Black Mix",
+    "humanReadableColor": "Orange/Black Mix",
+    "cssReadableColors": [
+      "orange",
+      "black"
+    ],
+    "pattern": "mix",
+    "texture": null
+  },
+  {
+    "id": "20011096",
+    "description": "Black With Silver And Blue Merge / Splatter [Monochrome]",
+    "humanReadableColor": "Black With Silver And Blue Merge / Splatter",
+    "cssReadableColors": [
+      "black",
+      "silver",
+      "blue"
+    ],
+    "pattern": "merge / splatter",
+    "texture": null
+  },
+  {
+    "id": "20185543",
+    "description": "Gold Galaxy",
+    "humanReadableColor": "Gold Galaxy",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": "galaxy",
+    "texture": null
+  },
+  {
+    "id": "20522434",
+    "description": "Teal With White Swirl",
+    "humanReadableColor": "Teal With White Swirl",
+    "cssReadableColors": [
+      "teal",
+      "white"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "20760622",
+    "description": "Amber Translucent",
+    "humanReadableColor": "Amber Translucent",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "20779813",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "20876662",
+    "description": "Gold Nugget",
+    "humanReadableColor": "Gold Nugget",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "20933011",
+    "description": "Eco-Mix Coloured",
+    "humanReadableColor": "Eco-Mix Coloured",
+    "cssReadableColors": null,
+    "pattern": "eco-mix",
+    "texture": null
+  },
+  {
+    "id": "20943343",
+    "description": "180 Gram, Gatefold, Half Speed Mastered ",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "21059350",
+    "description": "Black [Translucent] w/ Grey, White, & Black Splatter and Black w/ White Splatter and Clear w/ Blue & White Splatter and Grey w/ Magenta & White Splatter",
+    "humanReadableColor": "Black Translucent w/ Grey, White, & Black Splatter and Black w/ White Splatter and Clear w/ Blue & White Splatter and Grey w/ Magenta & White Splatter",
+    "cssReadableColors": [
+      "black",
+      "grey",
+      "white",
+      "blue",
+      "magenta"
+    ],
+    "pattern": "splatter",
+    "texture": "translucent"
+  },
+  {
+    "id": "21424708",
+    "description": "Blue",
+    "humanReadableColor": "Blue",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "21634477",
+    "description": "Red Translucent",
+    "humanReadableColor": "Red Translucent",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "21653416",
+    "description": "grimace purple/black marble",
+    "humanReadableColor": "Grimace Purple/Black Marble",
+    "cssReadableColors": [
+      "rebeccapurple",
+      "black"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "22129483",
+    "description": "Gold Nugget",
+    "humanReadableColor": "Gold Nugget",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "22460704",
+    "description": "Silver & Black Galaxy",
+    "humanReadableColor": "Silver & Black Galaxy",
+    "cssReadableColors": [
+      "silver",
+      "black"
+    ],
+    "pattern": "galaxy",
+    "texture": null
+  },
+  {
+    "id": "22578677",
+    "description": "Pink (Opaque Pink)",
+    "humanReadableColor": "Opaque Pink",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "22690028",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "22766402",
+    "description": "Green Neon, 180g",
+    "humanReadableColor": "Green Neon",
+    "cssReadableColors": [
+      "lime"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "22808678",
+    "description": "Memphis Record Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "22824578",
+    "description": "Green Marble",
+    "humanReadableColor": "Green Marble",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "22870928",
+    "description": "White In Half Doublemint / Half Clear w/ Hot Pink Splatter",
+    "humanReadableColor": "White In Half Doublemint / Half Clear w/ Hot Pink Splatter",
+    "cssReadableColors": [
+      "mediumaquamarine",
+      "white",
+      "hotpink"
+    ],
+    "pattern": "splatter",
+    "texture": "clear"
+  },
+  {
+    "id": "22958273",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "22997213",
+    "description": "Clear W/ Red & Teal Splatter",
+    "humanReadableColor": "Clear W/ Red & Teal Splatter",
+    "cssReadableColors": [
+      "red",
+      "teal"
+    ],
+    "pattern": "splatter",
+    "texture": "clear"
+  },
+  {
+    "id": "23017685",
+    "description": "Yellow [Lemon]",
+    "humanReadableColor": "Yellow [Lemon]",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "23031311",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "23116973",
+    "description": "Green Translucent",
+    "humanReadableColor": "Green Translucent",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "23192750",
+    "description": "White, 180g",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "23195939",
+    "description": "Marigold",
+    "humanReadableColor": "Marigold",
+    "cssReadableColors": [
+      "goldenrod"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "23513387",
+    "description": "Purple and blue splatter and Blue (transluscent) w/blue and purple splatter",
+    "humanReadableColor": "Purple and blue splatter and Blue Translucent w/ blue and purple splatter",
+    "cssReadableColors": [
+      "blue",
+      "purple"
+    ],
+    "pattern": "splatter",
+    "texture": "translucent"
+  },
+  {
+    "id": "23818649",
+    "description": "Orange Opaque, 180g",
+    "humanReadableColor": "Orange Opaque",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "23956076",
+    "description": "Pink, Gatefold",
+    "humanReadableColor": "Pink",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24139166",
+    "description": "Orange Marble, 180g, Gatefold",
+    "humanReadableColor": "Orange Marble",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "24239123",
+    "description": "Orange Crush",
+    "humanReadableColor": "Orange Crush",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24301901",
+    "description": "Gold Metallic",
+    "humanReadableColor": "Gold Metallic",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": "metallic"
+  },
+  {
+    "id": "24324380",
+    "description": "Orange",
+    "humanReadableColor": "Orange",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24372782",
+    "description": "Gold, 30th Anniversary",
+    "humanReadableColor": "Gold",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24471650",
+    "description": "Gold Foil Cover",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24487997",
+    "description": "Red Opaque, Gatefold",
+    "humanReadableColor": "Red Opaque",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "24611462",
+    "description": "30th Anniversary",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24675908",
+    "description": "Pink [Neon Pink]",
+    "humanReadableColor": "Neon Pink",
+    "cssReadableColors": [
+      "hotpink"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24768950",
+    "description": "Peach",
+    "humanReadableColor": "Peach",
+    "cssReadableColors": [
+      "peachpuff"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24820058",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24866075",
+    "description": "Silver, Gray Cover",
+    "humanReadableColor": "Silver",
+    "cssReadableColors": [
+      "silver"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24866408",
+    "description": "Red, 30th Anniversary Edition",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "24906872",
+    "description": "Pink Cadillac & Black Splatter",
+    "humanReadableColor": "Pink Cadillac & Black Splatter",
+    "cssReadableColors": [
+      "hotpink",
+      "black"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "25022977",
+    "description": "Light Blue",
+    "humanReadableColor": "Light Blue",
+    "cssReadableColors": [
+      "lightblue"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "25023202",
+    "description": "Silver",
+    "humanReadableColor": "Silver",
+    "cssReadableColors": [
+      "silver"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "25074958",
+    "description": "Opaque Purple, Black, And White Swirl",
+    "humanReadableColor": "Opaque Purple, Black, And White Swirl",
+    "cssReadableColors": [
+      "purple",
+      "black",
+      "white"
+    ],
+    "pattern": "swirl",
+    "texture": "opaque"
+  },
+  {
+    "id": "25118125",
+    "description": "Color In Color",
+    "humanReadableColor": "Color In Color",
+    "cssReadableColors": null,
+    "pattern": "color in color",
+    "texture": null
+  },
+  {
+    "id": "25144240",
+    "description": "Red & Black Splatter [Blood Splatter Red], Gatefold",
+    "humanReadableColor": "Red & Black Splatter",
+    "cssReadableColors": [
+      "darkred",
+      "black"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "25145062",
+    "description": "Blue W/ Black Transparent",
+    "humanReadableColor": "Blue With Black Transparent",
+    "cssReadableColors": [
+      "blue",
+      "black"
+    ],
+    "pattern": null,
+    "texture": "transparent"
+  },
+  {
+    "id": "25181848",
+    "description": "LP1 Yellow, LP2 Red, 180g and LP1 Blue, LP2 Purple, 180g",
+    "humanReadableColor": "Yellow, Red, Blue, Purple",
+    "cssReadableColors": [
+      "yellow",
+      "red",
+      "blue",
+      "purple"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "25181890",
+    "description": "Blue/Yellow",
+    "humanReadableColor": "Blue/Yellow",
+    "cssReadableColors": [
+      "blue",
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "25208113",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "25561039",
+    "description": "Purple and Blue Galaxy",
+    "humanReadableColor": "Purple and Blue Galaxy",
+    "cssReadableColors": [
+      "purple",
+      "blue"
+    ],
+    "pattern": "galaxy",
+    "texture": null
+  },
+  {
+    "id": "25784593",
+    "description": "White Opaque",
+    "humanReadableColor": "White Opaque",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "25868224",
+    "description": "Blue",
+    "humanReadableColor": "Blue",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "26058616",
+    "description": "Red & White Splatter",
+    "humanReadableColor": "Red & White Splatter",
+    "cssReadableColors": [
+      "red",
+      "white"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "26204477",
+    "description": "Gold Colored",
+    "humanReadableColor": "Gold",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "26345177",
+    "description": "White",
+    "humanReadableColor": "White",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "27228072",
+    "description": "Buttercream",
+    "humanReadableColor": "Buttercream",
+    "cssReadableColors": [
+      "#f3e5ab"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "27377151",
+    "description": "Silver",
+    "humanReadableColor": "Silver",
+    "cssReadableColors": [
+      "silver"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "27816189",
+    "description": "Galaxy Swirl ",
+    "humanReadableColor": "Galaxy Swirl",
+    "cssReadableColors": [
+      "midnightblue",
+      "purple",
+      "black"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "27847302",
+    "description": "Tigers Eye Translucent",
+    "humanReadableColor": "Tigers Eye Translucent",
+    "cssReadableColors": [
+      "darkgoldenrod",
+      "saddlebrown",
+      "black"
+    ],
+    "pattern": "swirl",
+    "texture": "translucent"
+  },
+  {
+    "id": "27947136",
+    "description": "Blue Vinyl",
+    "humanReadableColor": "Blue",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "27977268",
+    "description": "Kaleidoscope [Opaque Gray, Translucent Orange]",
+    "humanReadableColor": "Kaleidoscope Opaque Gray, Translucent Orange",
+    "cssReadableColors": [
+      "gray",
+      "orange"
+    ],
+    "pattern": "kaleidoscope",
+    "texture": "translucent"
+  },
+  {
+    "id": "28037466",
+    "description": "Black Ice w/ Silver",
+    "humanReadableColor": "Black Ice with Silver",
+    "cssReadableColors": [
+      "dimgray",
+      "silver"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "28091296",
+    "description": "Fool's Gold",
+    "humanReadableColor": "Fool's Gold",
+    "cssReadableColors": [
+      "goldenrod"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "28091347",
+    "description": "Fool's Gold",
+    "humanReadableColor": "Fool's Gold",
+    "cssReadableColors": [
+      "goldenrod"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "28318528",
+    "description": "Orange, Indie Retail Exclusive",
+    "humanReadableColor": "Orange",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "28366828",
+    "description": "Black With Hi-melt Pink And Pearlescent Blue Splatter",
+    "humanReadableColor": "Black With Hi-melt Pink And Pearlescent Blue Splatter",
+    "cssReadableColors": [
+      "black",
+      "hotpink",
+      "lightblue"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "28638235",
+    "description": "Clear [Coke Bottle Clear]",
+    "humanReadableColor": "Coke Bottle Clear",
+    "cssReadableColors": [
+      "mediumaquamarine"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "28714192",
+    "description": "Glow in the Mofo Dark",
+    "humanReadableColor": "Glow in the Dark",
+    "cssReadableColors": [
+      "palegreen"
+    ],
+    "pattern": null,
+    "texture": "glow in the dark"
+  },
+  {
+    "id": "28771870",
+    "description": "Purple, Anniversary Edition",
+    "humanReadableColor": "Purple",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "28926919",
+    "description": "Swamp Green/Bone with Magenta, Mustard, and Black Splatter and Doublemint Green and Easter Yellow with Red and Black Splatter",
+    "humanReadableColor": "Swamp Green/Bone with Magenta, Mustard, and Black Splatter and Doublemint Green and Easter Yellow with Red and Black Splatter",
+    "cssReadableColors": [
+      "darkolivegreen",
+      "oldlace",
+      "magenta",
+      "goldenrod",
+      "black",
+      "palegreen",
+      "khaki",
+      "red"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "28942606",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "28953472",
+    "description": "Redish With Black Galaxy",
+    "humanReadableColor": "Redish With Black Galaxy",
+    "cssReadableColors": [
+      "indianred",
+      "black"
+    ],
+    "pattern": "galaxy",
+    "texture": null
+  },
+  {
+    "id": "29083342",
+    "description": "Red Opaque and Red and Red and Red and Red and Red",
+    "humanReadableColor": "Red Opaque and Red and Red and Red and Red and Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "29219692",
+    "description": "Gatefold, Gloversville Pressing, Tan Labels",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "29539879",
+    "description": "Blue",
+    "humanReadableColor": "Blue",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "29807503",
+    "description": "Smoke [Translucent Smoke]",
+    "humanReadableColor": "Translucent Smoke",
+    "cssReadableColors": [
+      "dimgray"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "29808739",
+    "description": "Yellow Translucent",
+    "humanReadableColor": "Yellow Translucent",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "29954878",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "30106898",
+    "description": "United Record Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "30204470",
+    "description": "Peach",
+    "humanReadableColor": "Peach",
+    "cssReadableColors": [
+      "peachpuff"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "30237521",
+    "description": "Coke Bottle Clear",
+    "humanReadableColor": "Coke Bottle Clear",
+    "cssReadableColors": [
+      "mediumseagreen"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "30596569",
+    "description": "Lavender Marble and Purple Marble",
+    "humanReadableColor": "Lavender Marble and Purple Marble",
+    "cssReadableColors": [
+      "lavender",
+      "purple"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "30695482",
+    "description": "Green [Opaque Spring Green] and Pink [Opaque Baby Pink]",
+    "humanReadableColor": "Opaque Spring Green and Opaque Baby Pink",
+    "cssReadableColors": [
+      "springgreen",
+      "pink"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "30920751",
+    "description": "Ruby Translucent and Clear",
+    "humanReadableColor": "Ruby Translucent and Clear",
+    "cssReadableColors": [
+      "crimson"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "31083224",
+    "description": "Custom Tri-Color Merge [Black, Cyan Blue And Metallic Silver] With Neon Magenta, White And Metallic Silver Splatter",
+    "humanReadableColor": "Tri-Color Merge Black, Cyan Blue And Metallic Silver With Neon Magenta, White And Metallic Silver Splatter",
+    "cssReadableColors": [
+      "black",
+      "darkcyan",
+      "silver",
+      "magenta",
+      "white"
+    ],
+    "pattern": "merge with splatter",
+    "texture": null
+  },
+  {
+    "id": "31160003",
+    "description": "Pink",
+    "humanReadableColor": "Pink",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "31289291",
+    "description": "Green Swirl and Metallic Copper",
+    "humanReadableColor": "Green Swirl and Metallic Copper",
+    "cssReadableColors": [
+      "green",
+      "#b87333"
+    ],
+    "pattern": "swirl",
+    "texture": "metallic"
+  },
+  {
+    "id": "31606042",
+    "description": "Grey",
+    "humanReadableColor": "Grey",
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "31850216",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "32100537",
+    "description": " Blood Stain Clear, Alternate Artwork",
+    "humanReadableColor": "Blood Stain Clear",
+    "cssReadableColors": [
+      "darkred"
+    ],
+    "pattern": "splatter",
+    "texture": "clear"
+  },
+  {
+    "id": "32106225",
+    "description": "Glow In The Dark [Scared Of The Darkness Edition]",
+    "humanReadableColor": "Glow In The Dark",
+    "cssReadableColors": [
+      "#ccffcc"
+    ],
+    "pattern": null,
+    "texture": "glow in the dark"
+  },
+  {
+    "id": "32113506",
+    "description": "Yellow",
+    "humanReadableColor": "Yellow",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "32142153",
+    "description": "180g, 20th Anniversary Edition, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "32165877",
+    "description": "Half Speed Master, 180g, Bio Vinyl",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "32226069",
+    "description": "White with Orange, Purple and Blue Splatter and White with Orange, Purple and Blue Splatter, Obliterated Album and White with Orange, Purple and Blue Splatter, Obliterated Album, Etched",
+    "humanReadableColor": "White with Orange, Purple and Blue Splatter",
+    "cssReadableColors": [
+      "white",
+      "orange",
+      "purple",
+      "blue"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "32343552",
+    "description": "Red Opaque",
+    "humanReadableColor": "Red Opaque",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "opaque"
+  },
+  {
+    "id": "32353329",
+    "description": "Purple Marble Opaque and Purple Marble Translucent",
+    "humanReadableColor": "Purple Marble Opaque and Purple Marble Translucent",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": "marble",
+    "texture": "opaque, translucent"
+  },
+  {
+    "id": "32386413",
+    "description": "Red / Purple Swirl and Red / Purple Swirl and Red / Orange Swirl",
+    "humanReadableColor": "Red / Purple Swirl and Red / Orange Swirl",
+    "cssReadableColors": [
+      "red",
+      "purple",
+      "orange"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "33513512",
+    "description": "Green & Clear [Daydream]",
+    "humanReadableColor": "Green & Clear",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "33738879",
+    "description": "Purple",
+    "humanReadableColor": "Purple",
+    "cssReadableColors": [
+      "purple"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "33806661",
+    "description": "White-Red-Blue [Super Splatter]",
+    "humanReadableColor": "White-Red-Blue Super Splatter",
+    "cssReadableColors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "34256626",
+    "description": "180 Gram",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "35014166",
+    "description": "White, Red & Green",
+    "humanReadableColor": "White, Red & Green",
+    "cssReadableColors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "35209627",
+    "description": "Clear",
+    "humanReadableColor": "Clear",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear"
+  },
+  {
+    "id": "35324341",
+    "description": "Blue W/ Hot Pink Swirl",
+    "humanReadableColor": "Blue with Hot Pink Swirl",
+    "cssReadableColors": [
+      "blue",
+      "hotpink"
+    ],
+    "pattern": "swirl",
+    "texture": null
+  },
+  {
+    "id": "35355328",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "35660245",
+    "description": "Neon Orange, 25th Anniversary",
+    "humanReadableColor": "Neon Orange",
+    "cssReadableColors": [
+      "orangered"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "35714569",
+    "description": "Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "35921863",
+    "description": "Neon Green, Gatefold",
+    "humanReadableColor": "Neon Green",
+    "cssReadableColors": [
+      "lime"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "36492829",
+    "description": "Golden Ripple color",
+    "humanReadableColor": "Golden Ripple",
+    "cssReadableColors": [
+      "goldenrod",
+      "gold"
+    ],
+    "pattern": "ripple",
+    "texture": null
+  },
+  {
+    "id": "36532246",
+    "description": "Green W/ Smoke",
+    "humanReadableColor": "Green with Smoke",
+    "cssReadableColors": [
+      "green",
+      "dimgray"
+    ],
+    "pattern": "smoke",
+    "texture": null
+  },
+  {
+    "id": "36751249",
+    "description": "Fallen Angel",
+    "humanReadableColor": "Fallen Angel",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "36760489",
+    "description": "Lebanese Sunburst",
+    "humanReadableColor": "Lebanese Sunburst",
+    "cssReadableColors": [
+      "red",
+      "white",
+      "green"
+    ],
+    "pattern": "sunburst",
+    "texture": null
+  },
+  {
+    "id": "36828952",
+    "description": "Black And Orange Cornetto With Red Splatter",
+    "humanReadableColor": "Black And Orange Cornetto With Red Splatter",
+    "cssReadableColors": [
+      "black",
+      "orange",
+      "red"
+    ],
+    "pattern": "cornetto, splatter",
+    "texture": null
+  },
+  {
+    "id": "37611723",
+    "description": "Orange",
+    "humanReadableColor": "Orange",
+    "cssReadableColors": [
+      "orange"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "37668285",
+    "description": "S'Mores Marble",
+    "humanReadableColor": "S'Mores Marble",
+    "cssReadableColors": [
+      "saddlebrown",
+      "white",
+      "burlywood"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "37898535",
+    "description": "Black & White A-Side/B-Side and White Opaque",
+    "humanReadableColor": "Black & White A-Side/B-Side and White Opaque",
+    "cssReadableColors": [
+      "black",
+      "white"
+    ],
+    "pattern": "a-side/b-side",
+    "texture": "opaque"
+  },
+  {
+    "id": "37904211",
+    "description": "Gold Metallic Marble",
+    "humanReadableColor": "Gold Metallic Marble",
+    "cssReadableColors": [
+      "gold"
+    ],
+    "pattern": "marble",
+    "texture": "metallic"
+  },
+  {
+    "id": "37933113",
+    "description": "Everything Splatter",
+    "humanReadableColor": "Everything Splatter",
+    "cssReadableColors": null,
+    "pattern": "splatter",
+    "texture": null
+  },
+  {
+    "id": "37940037",
+    "description": "Chaos Reigns",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "38081151",
+    "description": "Green And Blue Marble",
+    "humanReadableColor": "Green And Blue Marble",
+    "cssReadableColors": [
+      "green",
+      "blue"
+    ],
+    "pattern": "marble",
+    "texture": null
+  },
+  {
+    "id": "38248512",
+    "description": "Maroon With Black Smoke [Glass Of Port]",
+    "humanReadableColor": "Maroon With Black Smoke",
+    "cssReadableColors": [
+      "maroon",
+      "black"
+    ],
+    "pattern": "smoke",
+    "texture": null
+  },
+  {
+    "id": "38604684",
+    "description": "Aquamarine",
+    "humanReadableColor": "Aquamarine",
+    "cssReadableColors": [
+      "aquamarine"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "38632977",
+    "description": "Single Sided",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  }
+]

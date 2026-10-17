@@ -4,13 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Wax Tracks is an ETL pipeline that fetches vinyl collection data from Discogs, enriches it with Claude, and uploads it to S3 for consumption by [wax.tylergaw.com](https://wax.tylergaw.com/).
+The pipeline fetches vinyl collection data from Discogs, enriches it with Claude, and writes JSON files to `data/` at the repo root. The site ([wax.tylergaw.com](https://wax.tylergaw.com/)) imports those files at build time.
 
 **Pipeline stages:**
-1. **Extract:** Fetch collection from Discogs API (`getCollection.js`)
-2. **Transform:** Enrich with Claude to standardize vinyl color/pattern/texture (`enrichCollection.js`)
-3. **Load:** Upload JSON files to S3 (`upload.js`)
-4. Trigger Netlify rebuild via webhook
+1. **Extract:** Fetch collection from Discogs API (`getCollection.js`) to `data/collection.json`
+2. **Transform:** Enrich with Claude to standardize vinyl color/pattern/texture (`enrichCollection.js`) to `data/enrichments.json`
+3. **Load:** The `.github/workflows/pipeline.yml` workflow runs both daily and opens a PR when `data/` changes. Routine PRs merge themselves; Netlify deploys on merge
 
 ## Working Principles
 
@@ -27,7 +26,7 @@ Wax Tracks is an ETL pipeline that fetches vinyl collection data from Discogs, e
 
 All commands are scripts in the root `package.json` and run from the repo root. Each script changes into `pipeline/` before running, so paths in the source are relative to `pipeline/`.
 
-**Run full pipeline (fetch → enrich → upload → rebuild):**
+**Run fetch and enrich locally (commit the `data/` changes yourself):**
 ```sh
 yarn pipeline:update
 ```
@@ -42,8 +41,7 @@ yarn pipeline:test
 yarn pipeline:fetch              # Fetch from Discogs (with prompt)
 yarn pipeline:fetch:skipPrompt   # Skip confirmation prompt
 yarn pipeline:enrich             # Claude enrichment (requires fetch output)
-yarn pipeline:upload             # Upload to S3
-yarn pipeline:rebuild            # Trigger Netlify rebuild
+yarn pipeline:enrich --mode=all  # Modes: new (default), no-color, all
 ```
 
 ## Architecture Notes
@@ -54,11 +52,12 @@ yarn pipeline:rebuild            # Trigger Netlify rebuild
 - Project uses ES modules (`"type": "module"` in the root package.json)
 
 ### Data Flow
-All stages communicate via temporary JSON files in `pipeline/temp/`:
-- `collection.json` - Output from Discogs fetch (input to enrich)
-- `openAIEnrichments.json` - Output from Claude enrichment (uploaded to S3). The name is left over from when this used OpenAI
+Files in `data/` at the repo root:
+- `collection.json` - Output from Discogs fetch, sorted by date added (input to enrich)
+- `enrichments.json` - Output from Claude enrichment, sorted by release id
+- `overrides.json` - Hand fixes keyed by release id. The pipeline never writes it; the site applies it last
 
-Both files are uploaded to S3 and consumed by the frontend.
+**Which records get enriched:** each enrichment stores the description it was made from. Mode `new` sends records with no enrichment or a changed description, `no-color` also sends records without `cssReadableColors`, and `all` sends everything. Enrichments for records no longer in the collection are dropped.
 
 ### Claude Enrichment Strategy
 The enrichment process (`enrichCollection.js`) is the most complex component:
@@ -73,7 +72,7 @@ The enrichment process (`enrichCollection.js`) is the most complex component:
 - Distinguishes between colors, patterns (marble, sunburst), and textures (clear, translucent)
 - `cssReadableColors` contains only valid lowercase CSS colors
 
-**Error handling:** Collects errors from each request. If ANY requests fail, logs errors and exits with non-zero code.
+**Error handling:** All or nothing. If any request fails or a record comes back missing, nothing is written and the script exits non-zero, so the workflow commits nothing and the next run retries.
 
 ### Environment Variables
 Required environment variables (see `.env.example`):
@@ -87,6 +86,7 @@ Required environment variables (see `.env.example`):
 - Tests are in `enrichCollection.test.js`
 
 ### Shared Utilities
-`shared.js` provides two utilities used across scripts:
+`shared.js` provides utilities used across scripts:
 - `persistData(data, filePath)` - Writes JSON to disk with formatting
 - `getFlag(args, flagName, defaultValue)` - Parses CLI flags (e.g., `--skipPagePrompt`)
+- `getOption(args, optionName, defaultValue)` - Parses CLI options with values (e.g., `--mode=all`)

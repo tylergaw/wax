@@ -25,7 +25,7 @@ describe("combineDataSources function", () => {
       },
     ];
 
-    const openAIEnrichments = [
+    const enrichments = [
       {
         id: 123,
         description: "Red Translucent",
@@ -35,14 +35,14 @@ describe("combineDataSources function", () => {
       },
     ];
 
-    const finalCollection = combineDataSources(discogsData, openAIEnrichments);
+    const finalCollection = combineDataSources(discogsData, enrichments);
     const release = finalCollection[0];
 
     // First, make sure all standard properties are still in place
     expect(release).toHaveProperty("basic_information");
     expect(release).toHaveProperty("basic_information.title", "Iowa");
 
-    // Next, check for the expected properites from openai enrichment
+    // Next, check for the expected properites from the enrichment
     expect(release).toHaveProperty("display");
     expect(release).toHaveProperty(
       "display.humanReadableColor",
@@ -50,6 +50,37 @@ describe("combineDataSources function", () => {
     );
     expect(release).toHaveProperty("display.cssReadableColors", ["red"]);
     expect(release).toHaveProperty("display.pattern_texture", "translucent");
+  });
+
+  it("lets overrides win over enrichments", () => {
+    const discogsData: Collection = [
+      { id: 123, basic_information: { title: "Iowa" } },
+      { id: 456, basic_information: { title: "Vol. 3" } },
+    ];
+    const enrichments = [
+      {
+        id: 123,
+        humanReadableColor: "Red",
+        cssReadableColors: ["red", "black"],
+        pattern: "swirl",
+      },
+    ];
+    const overrides = {
+      123: { humanReadableColor: "Cranberry Bog", cssReadableColors: ["#9f1d35"] },
+      456: { humanReadableColor: "Smoke" },
+    };
+
+    const [iowa, vol3] = combineDataSources(discogsData, enrichments, overrides);
+
+    // Arrays are replaced, not merged item by item
+    expect(iowa.display).toEqual({
+      id: 123,
+      humanReadableColor: "Cranberry Bog",
+      cssReadableColors: ["#9f1d35"],
+      pattern: "swirl",
+    });
+    // Overrides work for releases Claude never enriched
+    expect(vol3.display).toEqual({ humanReadableColor: "Smoke" });
   });
 });
 

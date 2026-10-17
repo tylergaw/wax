@@ -1,72 +1,47 @@
 # Pipeline
 
-This fetches, enriches, and stores vinyl collection data for [wax.tylergaw.com](https://wax.tylergaw.com/).
+Fetches the collection from Discogs and uses Claude to work out each record's vinyl color. The results are committed to [`data/`](../data/), and the site builds from those files.
 
-This was previously its own repo, [github.com/tylergaw/wax-tracks](https://github.com/tylergaw/wax-tracks).
+## How it runs
 
-## Project overview
-
-- node.js `>=20.6.0`: This uses node features that aren't available in earlier versions
-- Claude API: Used to enrich collection data. Right now, only for determining machine and human readable vinyl color/pattern
-
-## Local setup
-
-Copy `.env.example` to `pipeline/.env` and fill in the values. Dependencies are installed with the rest of the project by running `yarn` from the repo root.
-
-## Testing
-
-Run all tests once:
+The [Update collection data](../.github/workflows/pipeline.yml) workflow runs every morning, and can be run by hand from the Actions tab or with:
 
 ```sh
+gh workflow run pipeline.yml -R tylergaw/wax
+```
+
+When the data changes, the workflow opens a PR. Routine runs merge themselves. A manual run can pick which records to send to Claude:
+
+- `new` (default): records without colors yet, or whose Discogs description changed
+- `no-color`: `new`, plus records Claude didn't find a color for
+- `all`: every record. Use after changing the model or prompt
+
+`no-color` and `all` PRs wait for review.
+
+The workflow needs the repository secrets `TOKEN` and `USERNAME` (Discogs) and `ANTHROPIC_API_KEY`.
+
+## Hand fixes
+
+Put corrections in [`data/overrides.json`](../data/overrides.json), keyed by release id. They win over Claude's data and the pipeline never changes them:
+
+```json
+{
+  "123": {
+    "humanReadableColor": "Cranberry Bog",
+    "cssReadableColors": ["#9f1d35"]
+  }
+}
+```
+
+## Running locally
+
+Copy `.env.example` to `pipeline/.env` and fill in the values, then from the repo root:
+
+```sh
+yarn pipeline:update                 # fetch, then enrich new records
+yarn pipeline:fetch                  # fetch only
+yarn pipeline:enrich --mode=no-color # enrich only, with a mode
 yarn pipeline:test
 ```
 
-## Available scripts
-
-Everything is done through scripts in the root package.json. Run them from the repo root.
-
-### Fetch, enrich, upload, rebuild
-
-This is likely what you want. This runs everything needed to fetch latest collection from Discogs, enrich the data with Claude, upload the JSON files to S3, and rebuild the site in Netlify.
-
-```sh
-yarn pipeline:update
-```
-
-### Fetch
-
-Fetch Discogs collection and prompt to ask if you want all pages:
-
-```sh
-yarn pipeline:fetch
-```
-
-Fetch Discogs collection and skip prompt to ask if you want all pages:
-
-```sh
-yarn pipeline:fetch:skipPrompt
-```
-
-### Enrich
-
-**This depends on the output file from `fetch`**. Uses Claude to enrich the collection data. Right now, this only tries to determine machine and human-readable color of the vinyl based on the descriptions available.
-
-```sh
-yarn pipeline:enrich
-```
-
-### Upload
-
-Uploads the generated JSON file(s) to an S3 bucket.
-
-```sh
-yarn pipeline:upload
-```
-
-### Rebuild
-
-Rebuilds the Netlify site via web hook.
-
-```sh
-yarn pipeline:rebuild
-```
+Local runs write to `data/`. Commit the changes yourself.

@@ -1,68 +1,53 @@
-import type { Artist, Collection, DataSource, Release } from "@types";
+import type {
+  Artist,
+  Collection,
+  DataSource,
+  Release,
+  ReleaseDisplay,
+} from "@types";
 import { sortArtistsByName, toSlug } from "@util/data";
-import merge from "lodash/fp/merge";
+import discogsData from "../data/collection.json";
+import enrichmentsData from "../data/enrichments.json";
+import overridesData from "../data/overrides.json";
 
-type AllDataSources = {
-  discogsData: Collection;
-  openAIEnrichments: DataSource;
-};
-
-// NOTE: I have this s3 bucket behind Cloudfront, but for these requests, we
-// don't need caching, so we go directly to s3.
-const dataBaseUrl = "https://tylergaw-assets.s3.amazonaws.com/wax-tracks/data/";
-
-async function getRemoteDataSource(name: string): Promise<unknown> {
-  const res = await fetch(`${dataBaseUrl}${name}.json`);
-  return await res.json();
-}
-
-async function getDataSources(): Promise<AllDataSources> {
-  const discogsData = (await getRemoteDataSource("collection")) as Collection;
-  const openAIEnrichments = (await getRemoteDataSource(
-    "openAIEnrichments"
-  )) as DataSource;
-
-  return {
-    discogsData,
-    openAIEnrichments,
-  };
-}
+// Hand fixes keyed by release id, for example:
+// { "123": { "humanReadableColor": "Cranberry Bog", "cssReadableColors": ["#9f1d35"] } }
+export type Overrides = { [id: string]: ReleaseDisplay };
 
 /**
- * Combine all possible data sources to produce a final collection.
- * The order is important here
+ * Combine all data sources to produce a final collection. Later sources win:
  * - discogs is the foundation
- * - openai enrichments are next
- * - TODO: user enrichments  are most important so can override any others.
+ * - Claude enrichments set each release's display colors
+ * - overrides (data/overrides.json) are hand fixes and win over everything
  */
 export function combineDataSources(
   discogs: Collection,
-  openai: DataSource = []
+  enrichments: DataSource = [],
+  overrides: Overrides = {}
 ): Collection {
-  const discogsById = discogs.reduce((obj: Release, release: Release) => {
-    obj[release.id] = release;
-    return obj;
-  }, {} as Release);
-
-  const openAIEnrichmentsById = openai
+  const enrichmentsById = enrichments
     .filter((i) => i)
     .reduce((obj, enrichment) => {
-      obj[enrichment.id] = { display: { ...enrichment } };
+      obj[enrichment.id] = enrichment;
       return obj;
-    }, {} as { [key: string]: any });
+    }, {} as { [key: string]: ReleaseDisplay });
 
-  const merged = merge(discogsById, openAIEnrichmentsById);
-  const collection: Collection = Object.keys(merged).map((key) => ({
-    ...merged[key],
-  }));
+  // Keyed by id so a release that's in the collection twice only shows once
+  const releasesById = discogs.reduce((obj, release) => {
+    obj[release.id] = {
+      ...release,
+      display: { ...enrichmentsById[release.id], ...overrides[release.id] },
+    };
+    return obj;
+  }, {} as { [key: string]: Release });
 
-  return collection;
+  return Object.values(releasesById);
 }
 
-const { discogsData, openAIEnrichments } = await getDataSources();
 const finalCollection: Collection = combineDataSources(
-  discogsData,
-  openAIEnrichments
+  discogsData as Collection,
+  enrichmentsData as DataSource,
+  overridesData as Overrides
 );
 
 export function getArtists(collection: Release[]): Artist[] {

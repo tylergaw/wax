@@ -4,22 +4,18 @@
   take record descriptions written by humans in free-form and convert them into
   something we can use for machines and more clarity for humans.
 */
-import { persistData } from "./shared.js";
+import { getOption, persistData } from "./shared.js";
 import Anthropic from "@anthropic-ai/sdk";
 import fs from "fs/promises";
 
-const apiKey = process.env.ANTHROPIC_API_KEY;
-if (!apiKey) {
-  console.log(
-    "You need a Claude API Key set as a ANTHROPIC_API_KEY env var. See .env.example",
-  );
-  process.exit(1);
-}
+const collectionFilePath = "../data/collection.json";
+const dataFilePath = "../data/enrichments.json";
 
-// TODO: We'll need to update this for writing to S3.
-const collectionFilePath = "./temp/collection.json";
-// NOTE: The site reads this file name from S3, so it stays the same for now.
-const dataFilePath = "./temp/openAIEnrichments.json";
+// Which records to send to Claude:
+// - new: records without an enrichment, or whose description changed
+// - no-color: new, plus records Claude didn't find a color for last time
+// - all: every record with a description
+const modes = ["new", "no-color", "all"];
 
 const model = "claude-opus-5-5";
 
@@ -70,7 +66,7 @@ const responseSchema = {
   additionalProperties: false,
 };
 
-const client = new Anthropic({ apiKey, maxRetries: 4 });
+let client;
 
 // Build the prompts
 // Notes:
@@ -112,6 +108,7 @@ export const getUserMessages = (descriptions) => {
 };
 
 const requestEnrichments = async (batch) => {
+  client ??= new Anthropic({ maxRetries: 4 });
   const response = await client.beta.messages.create({
     model,
     max_tokens: 16000,
@@ -135,8 +132,41 @@ const requestEnrichments = async (batch) => {
   return JSON.parse(text.text).records;
 };
 
-export const getClaudeEnrichments = async (collection, recordLimit = 15) => {
-  const messages = getUserMessages(getDescriptions(collection));
+export const getRecordsToEnrich = (descriptions, enrichments, mode = "new") => {
+  const existingById = new Map(enrichments.map((e) => [String(e.id), e]));
+
+  return Object.keys(descriptions).reduce((obj, id) => {
+    const existing = existingById.get(id);
+    const isNew = !existing || existing.description !== descriptions[id];
+    const hasNoColor = !existing?.cssReadableColors?.length;
+
+    if (
+      mode === "all" ||
+      isNew ||
+      (mode === "no-color" && hasNoColor)
+    ) {
+      obj[id] = descriptions[id];
+    }
+
+    return obj;
+  }, {});
+};
+
+// Combine existing enrichments with new results. Only records that still
+// have a description are kept, and the description always comes from our
+// data so we can tell later if it changed.
+export const mergeEnrichments = (descriptions, enrichments, results) => {
+  const byId = new Map(enrichments.map((e) => [String(e.id), e]));
+  results.forEach((r) => byId.set(String(r.id), r));
+
+  return Object.keys(descriptions)
+    .filter((id) => byId.has(id))
+    .sort((a, b) => Number(a) - Number(b))
+    .map((id) => ({ ...byId.get(id), id, description: descriptions[id] }));
+};
+
+export const getClaudeEnrichments = async (descriptions, recordLimit = 15) => {
+  const messages = getUserMessages(descriptions);
   const requestsNeeded = Math.ceil(messages.length / recordLimit);
   const enrichments = [];
   const errors = [];
@@ -156,6 +186,15 @@ export const getClaudeEnrichments = async (collection, recordLimit = 15) => {
     }
   }
 
+  const returnedIds = new Set(enrichments.map((e) => String(e.id)));
+  const missingIds = Object.keys(descriptions).filter(
+    (id) => !returnedIds.has(id),
+  );
+
+  if (missingIds.length) {
+    errors.push({ message: `No enrichment returned for ${missingIds}` });
+  }
+
   if (errors.length) {
     console.error(errors);
     console.error(
@@ -167,37 +206,51 @@ export const getClaudeEnrichments = async (collection, recordLimit = 15) => {
   return enrichments;
 };
 
-const getCollection = async () => {
+const readJSON = async (filePath, fallback) => {
   try {
-    const collection = await fs.readFile(collectionFilePath, "utf8");
-    return JSON.parse(collection);
+    return JSON.parse(await fs.readFile(filePath, "utf8"));
   } catch (err) {
-    console.log(err);
-    process.exit(1);
+    if (err.code === "ENOENT" && fallback !== undefined) {
+      return fallback;
+    }
+
+    throw err;
   }
 };
 
 if (!process.env.TEST) {
   try {
-    const collection = await getCollection();
-    const startTime = Date.now();
-    const enrichments = await getClaudeEnrichments(collection);
-    const duration = Date.now() - startTime;
-    try {
-      if (enrichments) {
-        await persistData(enrichments, dataFilePath);
+    const mode = getOption(process.argv.slice(2), "mode", "new");
 
-        console.log("Claude enrichments written to", dataFilePath);
-        console.log(
-          `\nenrichCollection completed in ${duration / 1000} seconds.\n`,
-        );
-      } else {
-        console.log("No error, but there was no data to write to file");
-      }
-    } catch (err) {
-      console.log(err);
+    if (!modes.includes(mode)) {
+      throw new Error(`Unknown mode "${mode}". Use one of: ${modes}`);
     }
 
+    if (!process.env.ANTHROPIC_API_KEY) {
+      throw new Error(
+        "You need a Claude API Key set as a ANTHROPIC_API_KEY env var. See .env.example",
+      );
+    }
+
+    const collection = await readJSON(collectionFilePath);
+    const enrichments = await readJSON(dataFilePath, []);
+    const descriptions = getDescriptions(collection);
+    const toEnrich = getRecordsToEnrich(descriptions, enrichments, mode);
+    const count = Object.keys(toEnrich).length;
+
+    console.log(`Mode "${mode}": ${count} records to send to Claude.`);
+
+    const startTime = Date.now();
+    const results = count ? await getClaudeEnrichments(toEnrich) : [];
+    const duration = Date.now() - startTime;
+
+    await persistData(
+      mergeEnrichments(descriptions, enrichments, results),
+      dataFilePath,
+    );
+
+    console.log("Enrichments written to", dataFilePath);
+    console.log(`\nenrichCollection completed in ${duration / 1000} seconds.\n`);
     process.exit(0);
   } catch (err) {
     console.log(err.message);

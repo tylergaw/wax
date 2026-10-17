@@ -1,6 +1,11 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
-import { getDescriptions, getUserMessages } from "./enrichCollection.js";
+import {
+  getDescriptions,
+  getUserMessages,
+  getRecordsToEnrich,
+  mergeEnrichments,
+} from "./enrichCollection.js";
 
 const collection = [
   {
@@ -92,5 +97,52 @@ describe("getUserMessages function", () => {
 
   it("should return the expected shape", () => {
     assert(Array.isArray(messages));
+  });
+});
+
+describe("getRecordsToEnrich function", () => {
+  const descriptions = {
+    1: "Red",
+    2: "Cranberry Bog",
+    3: "Blue Marble",
+    4: "Green",
+  };
+  const enrichments = [
+    { id: "1", description: "Red", cssReadableColors: ["red"] },
+    { id: "2", description: "Cranberry Bog", cssReadableColors: null },
+    { id: "3", description: "Blue", cssReadableColors: ["blue"] },
+  ];
+
+  it("new: only records without an enrichment or with a changed description", () => {
+    const records = getRecordsToEnrich(descriptions, enrichments, "new");
+    assert.deepEqual(Object.keys(records), ["3", "4"]);
+  });
+
+  it("no-color: new records plus records without a color", () => {
+    const records = getRecordsToEnrich(descriptions, enrichments, "no-color");
+    assert.deepEqual(Object.keys(records), ["2", "3", "4"]);
+  });
+
+  it("all: every record with a description", () => {
+    const records = getRecordsToEnrich(descriptions, enrichments, "all");
+    assert.deepEqual(Object.keys(records), ["1", "2", "3", "4"]);
+  });
+});
+
+describe("mergeEnrichments function", () => {
+  it("adds results, keeps existing, drops removed records, sorts by id", () => {
+    const descriptions = { 10: "Red", 2: "Blue" };
+    const enrichments = [
+      { id: "10", description: "Red", cssReadableColors: ["red"] },
+      { id: "99", description: "Removed from collection" },
+    ];
+    const results = [
+      { id: "2", description: "blue (as Claude wrote it)", cssReadableColors: ["blue"] },
+    ];
+
+    assert.deepEqual(mergeEnrichments(descriptions, enrichments, results), [
+      { id: "2", description: "Blue", cssReadableColors: ["blue"] },
+      { id: "10", description: "Red", cssReadableColors: ["red"] },
+    ]);
   });
 });

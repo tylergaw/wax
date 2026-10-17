@@ -1,12 +1,15 @@
 import type { Release } from "@types";
 import { describe, it, expect } from "vitest";
 import {
+  formatAddedDate,
   getAddedDate,
+  getAddedMonthKey,
   getCurrentMonthKey,
   getLog,
   getLogUrl,
   getMonthKeys,
   getMonthName,
+  isInLog,
 } from "./log";
 
 const release = (id: number, date_added: string): Release => ({
@@ -88,5 +91,32 @@ describe("getMonthName function", () => {
 describe("getLogUrl function", () => {
   it("returns the month page URL", () => {
     expect(getLogUrl("2026-01")).toBe("/log/2026/01/");
+  });
+});
+
+describe("formatAddedDate function", () => {
+  it("formats the date in Eastern time", () => {
+    expect(formatAddedDate(release(1, "2026-10-12T09:00:00-07:00"))).toBe(
+      "Oct 12, 2026"
+    );
+    // 10:30 PM Pacific on Jan 31 is Feb 1 in Eastern time
+    expect(formatAddedDate(release(1, "2025-01-31T22:30:00-08:00"))).toBe(
+      "Feb 1, 2025"
+    );
+  });
+});
+
+describe("isInLog function", () => {
+  it("is true from the month the log starts", () => {
+    expect(isInLog(release(1, "2025-01-01T09:00:00-08:00"))).toBe(true);
+    expect(isInLog(release(1, "2024-12-26T09:00:00-08:00"))).toBe(false);
+  });
+});
+
+describe("getAddedMonthKey function", () => {
+  it("returns the Eastern time month", () => {
+    expect(getAddedMonthKey(release(1, "2025-01-31T22:30:00-08:00"))).toBe(
+      "2025-02"
+    );
   });
 });

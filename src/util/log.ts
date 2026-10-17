@@ -29,6 +29,26 @@ export function getAddedDate(release: Release): string {
   return toEastern(new Date(release.date_added));
 }
 
+// "2026-10", the log month the release was added in
+export function getAddedMonthKey(release: Release): string {
+  return getAddedDate(release).slice(0, 7);
+}
+
+// Whether the release was added after the log starts, when dates are reliable
+export function isInLog(release: Release): boolean {
+  return getAddedMonthKey(release) >= LOG_START;
+}
+
+// "Oct 12, 2026" in Eastern time
+export function formatAddedDate(release: Release): string {
+  return new Date(release.date_added).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: TIME_ZONE,
+  });
+}
+
 export function getCurrentMonthKey(now: Date = new Date()): string {
   return toEastern(now).slice(0, 7);
 }
@@ -61,7 +81,7 @@ export function getLog(
   end: string = getCurrentMonthKey()
 ): LogMonth[] {
   const byMonth = collection.reduce((obj, release) => {
-    const key = getAddedDate(release).slice(0, 7);
+    const key = getAddedMonthKey(release);
     (obj[key] ||= []).push(release);
     return obj;
   }, {} as { [key: string]: Release[] });

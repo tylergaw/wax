@@ -48,6 +48,11 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
           USERNAME: ${{ secrets.USERNAME }}
 
+      - name: Fetch album years from Discogs
+        run: yarn pipeline:masters
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+
       - name: Enrich with Claude
         run: yarn pipeline:enrich --mode="$MODE"
         env:

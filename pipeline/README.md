@@ -1,6 +1,6 @@
 # Pipeline
 
-Fetches the collection from Discogs and uses Claude to work out each record's vinyl color. The results are committed to [`data/`](../data/), and the site builds from those files.
+Fetches the collection from Discogs, fetches each album's original year from its Discogs master, and uses Claude to work out each record's vinyl color. The results are committed to [`data/`](../data/), and the site builds from those files.
 
 ## How it runs
 
@@ -40,6 +40,7 @@ Copy `.env.example` to `pipeline/.env` and fill in the values, then from the rep
 ```sh
 yarn pipeline:update                 # fetch, then enrich new records
 yarn pipeline:fetch                  # fetch only
+yarn pipeline:masters                # fetch album years for new albums
 yarn pipeline:enrich --mode=no-color # enrich only, with a mode
 yarn pipeline:test
 ```

@@ -8,8 +8,9 @@ The pipeline fetches vinyl collection data from Discogs, enriches it with Claude
 
 **Pipeline stages:**
 1. **Extract:** Fetch collection from Discogs API (`getCollection.js`) to `data/collection.json`
-2. **Transform:** Enrich with Claude to standardize vinyl color/pattern/texture (`enrichCollection.js`) to `data/enrichments.json`
-3. **Load:** The `.github/workflows/pipeline.yml` workflow runs both daily and opens a PR when `data/` changes. Routine PRs merge themselves; Netlify deploys on merge
+2. **Masters:** Fetch each new album's Discogs master (`getMasters.js`) to `data/masters.json`. A master is the album; each release in the collection is one pressing of it
+3. **Transform:** Enrich with Claude to standardize vinyl color/pattern/texture (`enrichCollection.js`) to `data/enrichments.json`
+4. **Load:** The `.github/workflows/pipeline.yml` workflow runs all three daily and opens a PR when `data/` changes. Routine PRs merge themselves; Netlify deploys on merge
 
 ## Working Principles
 
@@ -40,6 +41,7 @@ yarn pipeline:test
 ```sh
 yarn pipeline:fetch              # Fetch from Discogs (with prompt)
 yarn pipeline:fetch:skipPrompt   # Skip confirmation prompt
+yarn pipeline:masters            # Album years for masters not in masters.json
 yarn pipeline:enrich             # Claude enrichment (requires fetch output)
 yarn pipeline:enrich --mode=all  # Modes: new (default), no-color, all
 ```
@@ -55,6 +57,7 @@ yarn pipeline:enrich --mode=all  # Modes: new (default), no-color, all
 Files in `data/` at the repo root:
 - `collection.json` - Output from Discogs fetch, sorted by date added (input to enrich)
 - `enrichments.json` - Output from Claude enrichment, sorted by release id
+- `masters.json` - Album data keyed by Discogs master id. Only the original year for now. Only new masters are fetched, at about 1 request a second for Discogs' rate limit
 - `overrides.json` - Hand fixes keyed by release id. The pipeline never writes it; the site applies it last
 
 **Which records get enriched:** each enrichment stores the description it was made from. Mode `new` sends records with no enrichment or a changed description, `no-color` also sends records without `cssReadableColors`, and `all` sends everything. Enrichments for records no longer in the collection are dropped.

@@ -31,6 +31,14 @@ export function sortArtistsByName(list: Artist[]) {
   );
 }
 
+/**
+ * The year the album first came out, from its Discogs master. Falls back to
+ * the year of this pressing for releases without a master.
+ */
+export function getAlbumYear(release: Release): number {
+  return release.album?.year || release.basic_information.year;
+}
+
 export function getReleaseUrl(release: Release): string {
   const { title, artists, id } = release.basic_information;
   return buildUrl([artists[0].name, `${title}-${id}`]);

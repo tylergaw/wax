@@ -12,8 +12,9 @@
     "test-ui": "vitest --ui",
     "pipeline:fetch": "cd pipeline && node --env-file .env ./src/getCollection.js",
     "pipeline:fetch:skipPrompt": "cd pipeline && node --env-file .env ./src/getCollection.js --skipPagePrompt",
+    "pipeline:masters": "cd pipeline && node --env-file .env ./src/getMasters.js",
     "pipeline:enrich": "cd pipeline && node --env-file .env ./src/enrichCollection.js",
-    "pipeline:update": "npm run pipeline:fetch:skipPrompt && npm run pipeline:enrich",
+    "pipeline:update": "npm run pipeline:fetch:skipPrompt && npm run pipeline:masters && npm run pipeline:enrich",
     "pipeline:test": "cd pipeline && TEST=true node --env-file .env --test"
   },
   "engines": {

@@ -6,18 +6,30 @@ import {
   getReleasesByArtist,
   getUniqueReleases,
   getVibes,
-  sortByYear,
+  sortByAlbumYear,
 } from "./store";
 
-describe("sortByYear function", () => {
-  it("sorts a copy oldest first and leaves the original alone", () => {
+describe("sortByAlbumYear function", () => {
+  it("sorts a copy by album year and leaves the original alone", () => {
     const collection: Collection = [
-      { id: 1, basic_information: { year: 2001 } },
-      { id: 2, basic_information: { year: 1994 } },
+      // A 2014 pressing of a 1994 album
+      { id: 1, basic_information: { year: 2014 }, album: { year: 1994 } },
+      { id: 2, basic_information: { year: 2003 }, album: { year: 2003 } },
+      // No master, so it uses the pressing year
+      { id: 3, basic_information: { year: 1990 } },
     ];
 
-    expect(sortByYear(collection).map((r) => r.id)).toEqual([2, 1]);
-    expect(collection.map((r) => r.id)).toEqual([1, 2]);
+    expect(sortByAlbumYear(collection).map((r) => r.id)).toEqual([3, 1, 2]);
+    expect(collection.map((r) => r.id)).toEqual([1, 2, 3]);
+  });
+
+  it("uses the pressing year for albums from the same year", () => {
+    const collection: Collection = [
+      { id: 1, basic_information: { year: 2020 }, album: { year: 1994 } },
+      { id: 2, basic_information: { year: 1994 }, album: { year: 1994 } },
+    ];
+
+    expect(sortByAlbumYear(collection).map((r) => r.id)).toEqual([2, 1]);
   });
 });
 
@@ -94,6 +106,24 @@ describe("combineDataSources function", () => {
     });
     // Overrides work for releases Claude never enriched
     expect(vol3.display).toEqual({ humanReadableColor: "Smoke" });
+  });
+
+  it("adds album data from masters", () => {
+    const discogsData: Collection = [
+      { id: 1, basic_information: { master_id: 20, year: 2014 } },
+      { id: 2, basic_information: { master_id: 0, year: 2017 } },
+    ];
+    const masters = { 20: { year: 1994 } };
+
+    const [withMaster, withoutMaster] = combineDataSources(
+      discogsData,
+      [],
+      {},
+      masters
+    );
+
+    expect(withMaster.album).toEqual({ year: 1994 });
+    expect(withoutMaster.album).toBeUndefined();
   });
 });
 

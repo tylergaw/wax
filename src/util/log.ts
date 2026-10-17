@@ -40,16 +40,6 @@ export function isInLog(release: Release): boolean {
   return getAddedMonthKey(release) >= LOG_START;
 }
 
-// "Oct 12, 2026" in Eastern time
-export function formatAddedDate(release: Release): string {
-  return new Date(release.date_added).toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-    timeZone: TIME_ZONE,
-  });
-}
-
 export function getCurrentMonthKey(now: Date = new Date()): string {
   return toEastern(now).slice(0, 7);
 }
@@ -118,7 +108,7 @@ export type DatePart = { text: string; href?: string };
 
 /**
  * The dates shown on a release page, like "Released 1976, this pressing 2018,
- * added Oct 10, 2026". The pressing year only shows when it differs from the
+ * added October 2026". The added month links to its log page. The pressing year only shows when it differs from the
  * album year, and the added date only shows for releases in the log.
  */
 export function getReleaseDateParts(release: Release): DatePart[] {
@@ -135,9 +125,10 @@ export function getReleaseDateParts(release: Release): DatePart[] {
   }
 
   if (isInLog(release)) {
+    const monthKey = getAddedMonthKey(release);
     parts.push({
-      text: `added ${formatAddedDate(release)}`,
-      href: getLogUrl(getAddedMonthKey(release)),
+      text: `added ${getMonthName(monthKey)}`,
+      href: getLogUrl(monthKey),
     });
   }
 

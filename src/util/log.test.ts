@@ -1,7 +1,6 @@
 import type { Release } from "@types";
 import { describe, it, expect } from "vitest";
 import {
-  formatAddedDate,
   getAddedDate,
   getAddedMonthKey,
   getCurrentMonthKey,
@@ -95,18 +94,6 @@ describe("getLogUrl function", () => {
   });
 });
 
-describe("formatAddedDate function", () => {
-  it("formats the date in Eastern time", () => {
-    expect(formatAddedDate(release(1, "2026-10-12T09:00:00-07:00"))).toBe(
-      "Oct 12, 2026"
-    );
-    // 10:30 PM Pacific on Jan 31 is Feb 1 in Eastern time
-    expect(formatAddedDate(release(1, "2025-01-31T22:30:00-08:00"))).toBe(
-      "Feb 1, 2025"
-    );
-  });
-});
-
 describe("isInLog function", () => {
   it("is true from the month the log starts", () => {
     expect(isInLog(release(1, "2025-01-01T09:00:00-08:00"))).toBe(true);
@@ -136,7 +123,7 @@ describe("getReleaseDateParts function", () => {
       basic_information: { year: 2018 },
     };
 
-    expect(text(r)).toBe("Released 1976, this pressing 2018, added Oct 10, 2026");
+    expect(text(r)).toBe("Released 1976, this pressing 2018, added October 2026");
     expect(getReleaseDateParts(r)[2].href).toBe("/log/2026/10/");
   });
 
@@ -148,7 +135,7 @@ describe("getReleaseDateParts function", () => {
       basic_information: { year: 2026 },
     };
 
-    expect(text(r)).toBe("Released 2026, added Oct 10, 2026");
+    expect(text(r)).toBe("Released 2026, added October 2026");
   });
 
   it("leaves out the added date before the log starts", () => {
@@ -179,6 +166,6 @@ describe("getReleaseDateParts function", () => {
       basic_information: { year: 0 },
     };
 
-    expect(text(r)).toBe("Added Oct 10, 2026");
+    expect(text(r)).toBe("Added October 2026");
   });
 });

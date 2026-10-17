@@ -126,7 +126,7 @@
   {
     "id": "994372",
     "description": "Random Color",
-    "humanReadableColor": null,
+    "humanReadableColor": "Random Color",
     "cssReadableColors": null,
     "pattern": null,
     "texture": null
@@ -2844,8 +2844,13 @@
     "id": "20933011",
     "description": "Eco-Mix Coloured",
     "humanReadableColor": "Eco-Mix Coloured",
-    "cssReadableColors": null,
-    "pattern": "eco-mix",
+    "cssReadableColors": [
+      "gray",
+      "black",
+      "red",
+      "blue"
+    ],
+    "pattern": "marble",
     "texture": null
   },
   {
@@ -3947,7 +3952,7 @@
   {
     "id": "36751249",
     "description": "Fallen Angel",
-    "humanReadableColor": "Fallen Angel",
+    "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
     "texture": null

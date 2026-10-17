@@ -104,10 +104,42 @@ export function getReleasesByArtist(collection: Release[]) {
   collection
     .sort((a, b) => a.basic_information.year - b.basic_information.year)
     .forEach((release) => {
+      // Some Discogs releases list the same artist more than once, so only
+      // add the release to each artist once.
+      let seenArtistKeys: string[] = [];
+
       release.basic_information.artists.forEach((artist: any) => {
-        releases[artist.name.toLowerCase()].push(release);
+        const key = artist.name.toLowerCase();
+
+        if (!seenArtistKeys.includes(key)) {
+          seenArtistKeys.push(key);
+          releases[key].push(release);
+        }
       });
     });
+
+  return releases;
+}
+
+/**
+ * Flatten a releasesByArtist object into a single list, keeping the artist
+ * and release order. A release with multiple artists is listed under each of
+ * them in releasesByArtist, so only keep its first occurrence here.
+ */
+export function getUniqueReleases(releasesByArtist: {
+  [index: string]: Release[];
+}): Release[] {
+  let releaseIndex: Release["id"][] = [];
+  let releases: Release[] = [];
+
+  Object.keys(releasesByArtist).forEach((key) => {
+    releasesByArtist[key].forEach((release) => {
+      if (!releaseIndex.includes(release.id)) {
+        releaseIndex.push(release.id);
+        releases.push(release);
+      }
+    });
+  });
 
   return releases;
 }

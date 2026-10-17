@@ -7,7 +7,7 @@ This was previously its own repo, [github.com/tylergaw/wax-tracks](https://githu
 ## Project overview
 
 - node.js `>=20.6.0`: This uses node features that aren't available in earlier versions
-- OpenAI: Used to enrich collection data. Right now, only for determining machine and human readable vinyl color/pattern
+- Claude API: Used to enrich collection data. Right now, only for determining machine and human readable vinyl color/pattern
 
 ## Local setup
 
@@ -27,7 +27,7 @@ Everything is done through scripts in the root package.json. Run them from the r
 
 ### Fetch, enrich, upload, rebuild
 
-This is likely what you want. This runs everything needed to fetch latest collection from Discogs, enrich the data with OpenAI, upload the JSON files to S3, and rebuild the site in Netlify.
+This is likely what you want. This runs everything needed to fetch latest collection from Discogs, enrich the data with Claude, upload the JSON files to S3, and rebuild the site in Netlify.
 
 ```sh
 yarn pipeline:update
@@ -49,7 +49,7 @@ yarn pipeline:fetch:skipPrompt
 
 ### Enrich
 
-**This depends on the output file from `fetch`**. Uses OpenAI to enrich the collection data. Right now, this only tries to determine machine and human-readable color of the vinyl based on the descriptions available.
+**This depends on the output file from `fetch`**. Uses Claude to enrich the collection data. Right now, this only tries to determine machine and human-readable color of the vinyl based on the descriptions available.
 
 ```sh
 yarn pipeline:enrich

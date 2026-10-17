@@ -4,11 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Wax Tracks is an ETL pipeline that fetches vinyl collection data from Discogs, enriches it with OpenAI, and uploads it to S3 for consumption by [wax.tylergaw.com](https://wax.tylergaw.com/).
+Wax Tracks is an ETL pipeline that fetches vinyl collection data from Discogs, enriches it with Claude, and uploads it to S3 for consumption by [wax.tylergaw.com](https://wax.tylergaw.com/).
 
 **Pipeline stages:**
 1. **Extract:** Fetch collection from Discogs API (`getCollection.js`)
-2. **Transform:** Enrich with OpenAI to standardize vinyl color/pattern/texture (`enrichCollection.js`)
+2. **Transform:** Enrich with Claude to standardize vinyl color/pattern/texture (`enrichCollection.js`)
 3. **Load:** Upload JSON files to S3 (`upload.js`)
 4. Trigger Netlify rebuild via webhook
 
@@ -41,7 +41,7 @@ yarn pipeline:test
 ```sh
 yarn pipeline:fetch              # Fetch from Discogs (with prompt)
 yarn pipeline:fetch:skipPrompt   # Skip confirmation prompt
-yarn pipeline:enrich             # OpenAI enrichment (requires fetch output)
+yarn pipeline:enrich             # Claude enrichment (requires fetch output)
 yarn pipeline:upload             # Upload to S3
 yarn pipeline:rebuild            # Trigger Netlify rebuild
 ```
@@ -56,29 +56,30 @@ yarn pipeline:rebuild            # Trigger Netlify rebuild
 ### Data Flow
 All stages communicate via temporary JSON files in `pipeline/temp/`:
 - `collection.json` - Output from Discogs fetch (input to enrich)
-- `openAIEnrichments.json` - Output from OpenAI enrichment (uploaded to S3)
+- `openAIEnrichments.json` - Output from Claude enrichment (uploaded to S3). The name is left over from when this used OpenAI
 
 Both files are uploaded to S3 and consumed by the frontend.
 
-### OpenAI Enrichment Strategy
+### Claude Enrichment Strategy
 The enrichment process (`enrichCollection.js`) is the most complex component:
 
-**Batching:** Sends 15 records per OpenAI request (configurable via `recordLimit` parameter)
+**Batching:** Sends 15 records per Claude request, one request at a time (configurable via `recordLimit` parameter)
 
-**System prompt design:** Contains ~20 specific instructions for consistent output format. Key rules:
+**Model:** `claude-opus-5-5` with `effort: "low"`. Refusal fallbacks are on (`fallbacks: "default"`), so a declined request is retried server-side on Anthropic's recommended fallback model.
+
+**Output format:** Uses structured outputs (`output_config.format` with a JSON schema), so every response matches the shape: `{ records: [{ id, description, humanReadableColor, cssReadableColors, pattern, texture }] }`. Every record sent gets an entry back; fields without a value are null.
+
+**System prompt design:** Covers only the vinyl-specific rules, since the schema handles the JSON shape. Key rules:
 - Distinguishes between colors, patterns (marble, sunburst), and textures (clear, translucent)
-- Converts free-form descriptions to structured JSON with: `id`, `description`, `humanReadableColor`, `cssReadableColors`, `pattern`, `texture`
-- Uses `temperature: 0` for deterministic results
-- Requests JSON response format explicitly
+- `cssReadableColors` contains only valid lowercase CSS colors
 
-**Error handling:** Uses `Promise.allSettled()` to allow partial success. If ANY requests fail, logs errors and exits with non-zero code.
+**Error handling:** Collects errors from each request. If ANY requests fail, logs errors and exits with non-zero code.
 
 ### Environment Variables
 Required environment variables (see `.env.example`):
 - `TOKEN` - Discogs personal access token
 - `USERNAME` - Discogs username
-- `OPENAI_API_KEY` - OpenAI API key
-- `MODEL` - OpenAI model to use (e.g., `gpt-4`)
+- `ANTHROPIC_API_KEY` - Claude API key
 
 ### Testing Notes
 - Uses Node's native test runner (`--test` flag). The site's Vitest config excludes `pipeline/`

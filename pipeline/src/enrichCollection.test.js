@@ -1,10 +1,6 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
-import {
-  getDescriptions,
-  getUserMessages,
-  getOpenAIEnrichments,
-} from "./enrichCollection.js";
+import { getDescriptions, getUserMessages } from "./enrichCollection.js";
 
 const collection = [
   {
@@ -97,96 +93,4 @@ describe("getUserMessages function", () => {
   it("should return the expected shape", () => {
     assert(Array.isArray(messages));
   });
-});
-
-describe("getOpenAIEnrichments function", async () => {
-  const collection = [
-    {
-      id: 123,
-      basic_information: {
-        formats: [
-          {
-            name: "Vinyl",
-            text: "Purple Marbled Translucent, 180 Gram",
-          },
-        ],
-      },
-    },
-    {
-      id: 456,
-      basic_information: {
-        formats: [
-          {
-            name: "Vinyl",
-            text: "Black/Silver Swirl",
-          },
-        ],
-      },
-    },
-    {
-      id: 789,
-      basic_information: {
-        formats: [
-          {
-            name: "Vinyl",
-            text: "Silver/red swirl",
-          },
-        ],
-      },
-    },
-    {
-      id: 112,
-      basic_information: {
-        formats: [
-          {
-            name: "Vinyl",
-            text: "Purple and orange sunburst",
-          },
-        ],
-      },
-    },
-    {
-      id: 134,
-      basic_information: {
-        formats: [
-          {
-            name: "Vinyl",
-            text: "Hot pink",
-          },
-        ],
-      },
-    },
-    {
-      id: 156,
-      basic_information: {
-        formats: [
-          {
-            name: "Vinyl",
-            text: "Marbled green vinyl",
-          },
-        ],
-      },
-    },
-  ];
-  const enrichments = await getOpenAIEnrichments(collection);
-  console.log("in the test", enrichments);
-  // FIXME:
-  // NOTE: This is a brittle test
-  // TODO: Maybe don't make a brittle test?
-  // it("return the expected enrichment data", async () => {
-  //   const enrichments = await getOpenAIEnrichments(collection, 2);
-  //   const expectedKeys = [
-  //     "id",
-  //     "description",
-  //     "human_readable_color",
-  //     "css_readable_colors",
-  //     "pattern_texture",
-  //   ];
-
-  //   enrichments.forEach((obj) => {
-  //     Object.keys(obj).forEach((key, i) => {
-  //       assert.equal(key, expectedKeys[i]);
-  //     });
-  //   });
-  // });
 });

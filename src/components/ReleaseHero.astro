@@ -7,35 +7,32 @@ export interface props {
 import type { Release } from "@types";
 import Vinyl from "@components/Vinyl.astro";
 import {
-  getAlbumYear,
   getHumanColor,
   getMachineColor,
   getArtistDisplayName,
 } from "@util/data";
-import {
-  formatAddedDate,
-  getAddedMonthKey,
-  getLogUrl,
-  isInLog,
-} from "@util/log";
+import { getReleaseDateParts } from "@util/log";
 
 const { artist, release } = Astro.props;
 const { title, cover_image } = release.basic_information;
+const dateParts = getReleaseDateParts(release);
 ---
 
 <div class="container" style={`--machine-color: ${getMachineColor(release)}`}>
   <header>
     <h1 class="title">{title}</h1>
     <p class="subtitle">
-      {getArtistDisplayName(artist)} / {getAlbumYear(release)} /{" "}
-      {getHumanColor(release)}
+      {getArtistDisplayName(artist)} / {getHumanColor(release)}
     </p>
     {
-      isInLog(release) && (
-        <p class="added">
-          <a href={getLogUrl(getAddedMonthKey(release))}>
-            Added {formatAddedDate(release)}
-          </a>
+      dateParts.length > 0 && (
+        <p class="dates">
+          {dateParts.map((part, i) => (
+            <>
+              {i > 0 && ", "}
+              {part.href ? <a href={part.href}>{part.text}</a> : part.text}
+            </>
+          ))}
         </p>
       )
     }
@@ -74,18 +71,18 @@ const { title, cover_image } = release.basic_information;
     padding-top: var(--sp-14);
   }
 
-  .added {
+  .dates {
     font-size: var(--font-size-16);
     font-weight: 300;
     margin: 0;
     padding-top: var(--sp-10);
   }
 
-  .added a {
+  .dates a {
     color: inherit;
   }
 
-  .added a:where(:hover, :focus) {
+  .dates a:where(:hover, :focus) {
     color: var(--color-accent-primary);
   }
 

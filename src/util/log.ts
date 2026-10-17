@@ -1,4 +1,5 @@
 import type { Release } from "@types";
+import { getAlbumYear } from "@util/data";
 
 // The log starts here. Before this, records were added to Discogs in big
 // catch-up batches, so their dates don't say when they were bought.
@@ -111,4 +112,38 @@ export function getMonthName(key: string): string {
 export function getLogUrl(key: string): string {
   const [year, month] = key.split("-");
   return `/log/${year}/${month}/`;
+}
+
+export type DatePart = { text: string; href?: string };
+
+/**
+ * The dates shown on a release page, like "Released 1976, this pressing 2018,
+ * added Oct 10, 2026". The pressing year only shows when it differs from the
+ * album year, and the added date only shows for releases in the log.
+ */
+export function getReleaseDateParts(release: Release): DatePart[] {
+  const albumYear = getAlbumYear(release);
+  const pressingYear = release.basic_information.year;
+  const parts: DatePart[] = [];
+
+  if (albumYear) {
+    parts.push({ text: `released ${albumYear}` });
+  }
+
+  if (release.album?.year && pressingYear && pressingYear !== albumYear) {
+    parts.push({ text: `this pressing ${pressingYear}` });
+  }
+
+  if (isInLog(release)) {
+    parts.push({
+      text: `added ${formatAddedDate(release)}`,
+      href: getLogUrl(getAddedMonthKey(release)),
+    });
+  }
+
+  if (parts.length) {
+    parts[0].text = parts[0].text[0].toUpperCase() + parts[0].text.slice(1);
+  }
+
+  return parts;
 }

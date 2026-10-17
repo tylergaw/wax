@@ -9,6 +9,7 @@ import {
   getLogUrl,
   getMonthKeys,
   getMonthName,
+  getReleaseDateParts,
   isInLog,
 } from "./log";
 
@@ -118,5 +119,66 @@ describe("getAddedMonthKey function", () => {
     expect(getAddedMonthKey(release(1, "2025-01-31T22:30:00-08:00"))).toBe(
       "2025-02"
     );
+  });
+});
+
+describe("getReleaseDateParts function", () => {
+  const text = (r: Release) =>
+    getReleaseDateParts(r)
+      .map((p) => p.text)
+      .join(", ");
+
+  it("shows album year, pressing year, and added date", () => {
+    const r: Release = {
+      id: 1,
+      date_added: "2026-10-10T09:00:00-07:00",
+      album: { year: 1976 },
+      basic_information: { year: 2018 },
+    };
+
+    expect(text(r)).toBe("Released 1976, this pressing 2018, added Oct 10, 2026");
+    expect(getReleaseDateParts(r)[2].href).toBe("/log/2026/10/");
+  });
+
+  it("leaves out the pressing year when it matches the album", () => {
+    const r: Release = {
+      id: 1,
+      date_added: "2026-10-10T09:00:00-07:00",
+      album: { year: 2026 },
+      basic_information: { year: 2026 },
+    };
+
+    expect(text(r)).toBe("Released 2026, added Oct 10, 2026");
+  });
+
+  it("leaves out the added date before the log starts", () => {
+    const r: Release = {
+      id: 1,
+      date_added: "2019-08-18T09:00:00-07:00",
+      album: { year: 1994 },
+      basic_information: { year: 2014 },
+    };
+
+    expect(text(r)).toBe("Released 1994, this pressing 2014");
+  });
+
+  it("uses the pressing year as the release year without a master", () => {
+    const r: Release = {
+      id: 1,
+      date_added: "2019-08-18T09:00:00-07:00",
+      basic_information: { year: 2017 },
+    };
+
+    expect(text(r)).toBe("Released 2017");
+  });
+
+  it("capitalizes added when it's the only part", () => {
+    const r: Release = {
+      id: 1,
+      date_added: "2026-10-10T09:00:00-07:00",
+      basic_information: { year: 0 },
+    };
+
+    expect(text(r)).toBe("Added Oct 10, 2026");
   });
 });

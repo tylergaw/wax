@@ -25,40 +25,36 @@ Wax Tracks is an ETL pipeline that fetches vinyl collection data from Discogs, e
 
 ## Common Commands
 
+All commands are scripts in the root `package.json` and run from the repo root. Each script changes into `pipeline/` before running, so paths in the source are relative to `pipeline/`.
+
 **Run full pipeline (fetch → enrich → upload → rebuild):**
 ```sh
-npm run update
+yarn pipeline:update
 ```
 
 **Run tests:**
 ```sh
-npm test              # Run once
-npm test:watch        # Watch mode
+yarn pipeline:test
 ```
 
 **Individual pipeline stages:**
 ```sh
-npm run fetch              # Fetch from Discogs (with prompt)
-npm run fetch:skipPrompt   # Skip confirmation prompt
-npm run enrich             # OpenAI enrichment (requires fetch output)
-npm run upload             # Upload to S3
-npm run rebuild            # Trigger Netlify rebuild
-```
-
-**Code formatting:**
-```sh
-npm run prettier
+yarn pipeline:fetch              # Fetch from Discogs (with prompt)
+yarn pipeline:fetch:skipPrompt   # Skip confirmation prompt
+yarn pipeline:enrich             # OpenAI enrichment (requires fetch output)
+yarn pipeline:upload             # Upload to S3
+yarn pipeline:rebuild            # Trigger Netlify rebuild
 ```
 
 ## Architecture Notes
 
 ### Node.js Requirements
 - Requires Node.js `>=20.6.0` (uses native `--env-file` flag and ES modules)
-- All scripts use `node --env-file .env` to load environment variables
-- Project uses ES modules (`"type": "module"` in package.json)
+- All scripts use `node --env-file .env` to load environment variables from `pipeline/.env`
+- Project uses ES modules (`"type": "module"` in the root package.json)
 
 ### Data Flow
-All stages communicate via temporary JSON files in `./temp/`:
+All stages communicate via temporary JSON files in `pipeline/temp/`:
 - `collection.json` - Output from Discogs fetch (input to enrich)
 - `openAIEnrichments.json` - Output from OpenAI enrichment (uploaded to S3)
 
@@ -85,8 +81,7 @@ Required environment variables (see `.env.example`):
 - `MODEL` - OpenAI model to use (e.g., `gpt-4`)
 
 ### Testing Notes
-- Uses Node's native test runner (`--test` flag)
-- MSW (Mock Service Worker) is configured but currently incompatible with native test runner
+- Uses Node's native test runner (`--test` flag). The site's Vitest config excludes `pipeline/`
 - Set `TEST=true` environment variable to prevent scripts from running when imported
 - Tests are in `enrichCollection.test.js`
 

@@ -1,8 +1,8 @@
-# Wax Tracks
+# Pipeline
 
 This fetches, enriches, and stores vinyl collection data for [wax.tylergaw.com](https://wax.tylergaw.com/).
 
-The front-end repo for this is [github.com/tylergaw/wax](https://github.com/tylergaw/wax)
+This was previously its own repo, [github.com/tylergaw/wax-tracks](https://github.com/tylergaw/wax-tracks).
 
 ## Project overview
 
@@ -11,30 +11,26 @@ The front-end repo for this is [github.com/tylergaw/wax](https://github.com/tyle
 
 ## Local setup
 
+Copy `.env.example` to `pipeline/.env` and fill in the values. Dependencies are installed with the rest of the project by running `yarn` from the repo root.
+
 ## Testing
 
 Run all tests once:
 
 ```sh
-yarn test
-```
-
-Run tests and watch for changes:
-
-```sh
-yarn test:watch
+yarn pipeline:test
 ```
 
 ## Available scripts
 
-Everything is done through scripts in package.json
+Everything is done through scripts in the root package.json. Run them from the repo root.
 
 ### Fetch, enrich, upload, rebuild
 
 This is likely what you want. This runs everything needed to fetch latest collection from Discogs, enrich the data with OpenAI, upload the JSON files to S3, and rebuild the site in Netlify.
 
 ```sh
-yarn update
+yarn pipeline:update
 ```
 
 ### Fetch
@@ -42,13 +38,13 @@ yarn update
 Fetch Discogs collection and prompt to ask if you want all pages:
 
 ```sh
-yarn fetch
+yarn pipeline:fetch
 ```
 
 Fetch Discogs collection and skip prompt to ask if you want all pages:
 
 ```sh
-yarn fetch:skipPrompt
+yarn pipeline:fetch:skipPrompt
 ```
 
 ### Enrich
@@ -56,7 +52,7 @@ yarn fetch:skipPrompt
 **This depends on the output file from `fetch`**. Uses OpenAI to enrich the collection data. Right now, this only tries to determine machine and human-readable color of the vinyl based on the descriptions available.
 
 ```sh
-yarn enrich
+yarn pipeline:enrich
 ```
 
 ### Upload
@@ -64,7 +60,7 @@ yarn enrich
 Uploads the generated JSON file(s) to an S3 bucket.
 
 ```sh
-yarn upload
+yarn pipeline:upload
 ```
 
 ### Rebuild
@@ -72,5 +68,5 @@ yarn upload
 Rebuilds the Netlify site via web hook.
 
 ```sh
-yarn rebuild
+yarn pipeline:rebuild
 ```

@@ -108,8 +108,9 @@ export type DatePart = { text: string; href?: string };
 
 /**
  * The dates shown on a release page, like "Released 1976, this pressing 2018,
- * added October 2026". The added month links to its log page. The pressing year only shows when it differs from the
- * album year, and the added date only shows for releases in the log.
+ * collected October 2026". The month links to its log page. The pressing
+ * year only shows when it differs from the album year, and the collected
+ * month only shows for releases in the log.
  */
 export function getReleaseDateParts(release: Release): DatePart[] {
   const albumYear = getAlbumYear(release);
@@ -127,7 +128,7 @@ export function getReleaseDateParts(release: Release): DatePart[] {
   if (isInLog(release)) {
     const monthKey = getAddedMonthKey(release);
     parts.push({
-      text: `added ${getMonthName(monthKey)}`,
+      text: `collected ${getMonthName(monthKey)}`,
       href: getLogUrl(monthKey),
     });
   }

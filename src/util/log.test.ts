@@ -115,7 +115,7 @@ describe("getReleaseDateParts function", () => {
       .map((p) => p.text)
       .join(", ");
 
-  it("shows album year, pressing year, and added date", () => {
+  it("shows album year, pressing year, and collected month", () => {
     const r: Release = {
       id: 1,
       date_added: "2026-10-10T09:00:00-07:00",
@@ -123,7 +123,7 @@ describe("getReleaseDateParts function", () => {
       basic_information: { year: 2018 },
     };
 
-    expect(text(r)).toBe("Released 1976, this pressing 2018, added October 2026");
+    expect(text(r)).toBe("Released 1976, this pressing 2018, collected October 2026");
     expect(getReleaseDateParts(r)[2].href).toBe("/log/2026/10/");
   });
 
@@ -135,10 +135,10 @@ describe("getReleaseDateParts function", () => {
       basic_information: { year: 2026 },
     };
 
-    expect(text(r)).toBe("Released 2026, added October 2026");
+    expect(text(r)).toBe("Released 2026, collected October 2026");
   });
 
-  it("leaves out the added date before the log starts", () => {
+  it("leaves out the collected month before the log starts", () => {
     const r: Release = {
       id: 1,
       date_added: "2019-08-18T09:00:00-07:00",
@@ -159,13 +159,13 @@ describe("getReleaseDateParts function", () => {
     expect(text(r)).toBe("Released 2017");
   });
 
-  it("capitalizes added when it's the only part", () => {
+  it("capitalizes collected when it's the only part", () => {
     const r: Release = {
       id: 1,
       date_added: "2026-10-10T09:00:00-07:00",
       basic_information: { year: 0 },
     };
 
-    expect(text(r)).toBe("Added October 2026");
+    expect(text(r)).toBe("Collected October 2026");
   });
 });

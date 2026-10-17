@@ -27,7 +27,7 @@ const title = getMonthName(month.key);
       <h1 class="title">{title}</h1>
       <h2 class="subtitle">
         {month.releases.length}
-        {pluralize("record", month.releases.length)} added
+        {pluralize("record", month.releases.length)} collected
       </h2>
       <nav>
         {older && <a href={getLogUrl(older.key)}>{getMonthName(older.key)}</a>}

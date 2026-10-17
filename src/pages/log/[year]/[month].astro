@@ -1,0 +1,92 @@
+---
+import store from "@store";
+import Layout from "@layouts/Layout.astro";
+import Releases from "@components/Releases.astro";
+import { pluralize } from "@util/string";
+import { getLogUrl, getMonthName } from "@util/log";
+
+export async function getStaticPaths() {
+  // The log is newest first, so the next month is the previous item
+  return store.log.map((month, i) => ({
+    params: { year: month.year, month: month.month },
+    props: {
+      month,
+      newer: store.log[i - 1],
+      older: store.log[i + 1],
+    },
+  }));
+}
+
+const { month, newer, older } = Astro.props;
+const title = getMonthName(month.key);
+---
+
+<Layout title={title}>
+  <main class="standard-restricted-width">
+    <header>
+      <h1 class="title">{title}</h1>
+      <h2 class="subtitle">
+        {month.releases.length}
+        {pluralize("record", month.releases.length)} added
+      </h2>
+      <nav>
+        {older && <a href={getLogUrl(older.key)}>{getMonthName(older.key)}</a>}
+        <a href="/log/">All months</a>
+        {newer && <a href={getLogUrl(newer.key)}>{getMonthName(newer.key)}</a>}
+      </nav>
+    </header>
+
+    {
+      month.releases.length ? (
+        <Releases releases={month.releases} />
+      ) : (
+        <p class="empty">Nothing new this month.</p>
+      )
+    }
+  </main>
+</Layout>
+
+<style>
+  header {
+    padding-bottom: calc(var(--sp-8) * 4);
+    padding-top: calc(var(--sp-8) * 2);
+    text-align: center;
+  }
+
+  .title {
+    font-style: italic;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .subtitle {
+    color: var(--color-accent-primary);
+    font-size: var(--font-size-22);
+    font-weight: 300;
+    margin: 0 auto;
+    padding-top: var(--sp-14);
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-10) var(--sp-24);
+    justify-content: center;
+    padding-top: var(--sp-24);
+  }
+
+  nav a {
+    color: inherit;
+  }
+
+  nav a:where(:hover, :focus) {
+    color: var(--color-accent-primary);
+  }
+
+  .empty {
+    font-size: var(--font-size-22);
+    text-align: center;
+  }
+</style>

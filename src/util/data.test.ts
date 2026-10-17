@@ -6,6 +6,7 @@ import {
   getMachineColor,
   getReleaseUrl,
   sortArtistsByName,
+  toSlug,
 } from "./data";
 
 describe("getReleaseUrl function", () => {
@@ -40,6 +41,32 @@ describe("getReleaseUrl function", () => {
     expect(getReleaseUrl(release2)).toBe(
       "/johnny-cash/american-iii-solitary-man-456/"
     );
+  });
+
+  it("treats slashes in names as word breaks", () => {
+    const release: Release = {
+      id: 789,
+      basic_information: {
+        id: 789,
+        title: "In/Casino/Out",
+        artists: [
+          {
+            name: "Bad Cop/Bad Cop",
+          },
+        ],
+      },
+    };
+
+    expect(getReleaseUrl(release)).toBe(
+      "/bad-cop-bad-cop/in-casino-out-789/"
+    );
+  });
+});
+
+describe("toSlug function", () => {
+  it("treats slashes as word breaks", () => {
+    expect(toSlug("Bad Cop/Bad Cop")).toBe("bad-cop-bad-cop");
+    expect(toSlug("Live/1975-85")).toBe("live-1975-85");
   });
 });
 

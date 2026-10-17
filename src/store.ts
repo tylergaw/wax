@@ -1,6 +1,5 @@
 import type { Artist, Collection, DataSource, Release } from "@types";
-import { sortArtistsByName } from "@util/data";
-import slug from "slug";
+import { sortArtistsByName, toSlug } from "@util/data";
 import merge from "lodash/fp/merge";
 
 type AllDataSources = {
@@ -79,7 +78,7 @@ export function getArtists(collection: Release[]): Artist[] {
         const next: Artist = {
           id: artist.id,
           name: currName,
-          slug: slug(currName),
+          slug: toSlug(currName),
         };
         artistIndex.push(artist.id);
         artists.push(next);

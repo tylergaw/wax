@@ -2,7 +2,7 @@
 import type { Release } from "@types";
 import store from "@store";
 import ReleaseDisplay from "@components/ReleaseDisplay.astro";
-import slug from "slug";
+import { toSlug } from "@util/data";
 
 // TODO: Reduce repetition, I think this can be done better across everything.
 export async function getStaticPaths() {
@@ -18,8 +18,9 @@ export async function getStaticPaths() {
 
     return {
       params: {
-        artist: slug(artist),
-        release: `${slug(title)}-${id}`,
+        // Must match getReleaseUrl, which every release link uses
+        artist: toSlug(artist),
+        release: toSlug(`${title}-${id}`),
       },
       props: { artist, release, otherReleases },
     };

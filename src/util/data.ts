@@ -2,14 +2,9 @@ import type { Artist, Release } from "@types";
 import slug from "slug";
 import isEmpty from "lodash/fp/isEmpty";
 
+// Ignore a leading "The", in any case, when sorting by name
 function getComparableName(name: string): string {
-  const hasThe = name.toLowerCase().startsWith("the ");
-
-  if (hasThe) {
-    return name.replace("The ", "");
-  }
-
-  return name;
+  return name.replace(/^the /i, "");
 }
 
 /**
@@ -27,20 +22,21 @@ export function buildUrl(segments: string[]): string {
 
 // TODO: This could be made generic for use with lists other than Artists
 export function sortArtistsByName(list: Artist[]) {
-  return list.sort((a, b) => {
-    const aName = getComparableName(a.name);
-    const bName = getComparableName(b.name);
+  // Case and accent insensitive, so "of Montreal" and "múm" sort with the
+  // rest instead of after "Z"
+  return list.sort((a, b) =>
+    getComparableName(a.name).localeCompare(getComparableName(b.name), "en", {
+      sensitivity: "base",
+    })
+  );
+}
 
-    if (aName < bName) {
-      return -1;
-    }
-
-    if (aName > bName) {
-      return 1;
-    }
-
-    return 0;
-  });
+/**
+ * The year the album first came out, from its Discogs master. Falls back to
+ * the year of this pressing for releases without a master.
+ */
+export function getAlbumYear(release: Release): number {
+  return release.album?.year || release.basic_information.year;
 }
 
 export function getReleaseUrl(release: Release): string {

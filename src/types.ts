@@ -14,10 +14,17 @@ export type ReleaseDisplay = {
   texture?: string | null;
 };
 
+// Album-level data from the release's Discogs master. A release is one
+// pressing of an album.
+export type Album = {
+  year?: number;
+};
+
 export interface Release {
   id: string | number;
   basic_information: any;
   display?: ReleaseDisplay;
+  album?: Album;
   [key: string]: any;
 }
 

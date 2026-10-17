@@ -5,18 +5,15 @@ A record collection viewer with data from Discogs.
 - Production: [wax.tylergaw.com](https://wax.tylergaw.com/)
 - Staging: Every pull request gets a preview deploy URL
 
-> [!IMPORTANT]
->
-> Collection data lives in [data/](data/). It's fetched and enriched by [pipeline/](pipeline/), which runs daily in GitHub Actions. See its [README](pipeline/README.md).
-
 ## Technology overview
 
 - This is a static site built with [Astro](https://astro.build/)
 - Data fetcher and enricher in [pipeline/](pipeline/)
 - Discogs API [discogs.com/developers/](https://www.discogs.com/developers/)
-- Node >= v17.0.0
+- Node >= v20.0.0
 - Hosted on Netlify
 - Claude API for data enrichment
+- Collection data lives in this repo in [data/](data/). It's fetched and enriched by [pipeline/](pipeline/), which runs daily in GitHub Actions. See its [README](pipeline/README.md).
 
 ## Local setup
 

@@ -1,29 +1,36 @@
 import type {
+  Album,
   Artist,
   Collection,
   DataSource,
   Release,
   ReleaseDisplay,
 } from "@types";
-import { sortArtistsByName, toSlug } from "@util/data";
+import { getAlbumYear, sortArtistsByName, toSlug } from "@util/data";
 import discogsData from "../data/collection.json";
 import enrichmentsData from "../data/enrichments.json";
 import overridesData from "../data/overrides.json";
+import mastersData from "../data/masters.json";
 
 // Hand fixes keyed by release id, for example:
 // { "123": { "humanReadableColor": "Cranberry Bog", "cssReadableColors": ["#9f1d35"] } }
 export type Overrides = { [id: string]: ReleaseDisplay };
+
+// Album data keyed by Discogs master id
+export type Masters = { [masterId: string]: Album };
 
 /**
  * Combine all data sources to produce a final collection. Later sources win:
  * - discogs is the foundation
  * - Claude enrichments set each release's display colors
  * - overrides (data/overrides.json) are hand fixes and win over everything
+ * Album data from masters goes on each release as `album`.
  */
 export function combineDataSources(
   discogs: Collection,
   enrichments: DataSource = [],
-  overrides: Overrides = {}
+  overrides: Overrides = {},
+  masters: Masters = {}
 ): Collection {
   const enrichmentsById = enrichments
     .filter((i) => i)
@@ -37,6 +44,7 @@ export function combineDataSources(
     obj[release.id] = {
       ...release,
       display: { ...enrichmentsById[release.id], ...overrides[release.id] },
+      album: masters[release.basic_information.master_id],
     };
     return obj;
   }, {} as { [key: string]: Release });
@@ -47,7 +55,8 @@ export function combineDataSources(
 const finalCollection: Collection = combineDataSources(
   discogsData as Collection,
   enrichmentsData as DataSource,
-  overridesData as Overrides
+  overridesData as Overrides,
+  mastersData as Masters
 );
 
 export function getArtists(collection: Release[]): Artist[] {
@@ -74,6 +83,16 @@ export function getArtists(collection: Release[]): Artist[] {
   return sortArtistsByName(artists);
 }
 
+// Returns a copy sorted by album year, oldest first, without changing the
+// original order. Pressings of albums from the same year sort by pressing year.
+export function sortByAlbumYear(releases: Release[]): Release[] {
+  return [...releases].sort(
+    (a, b) =>
+      getAlbumYear(a) - getAlbumYear(b) ||
+      a.basic_information.year - b.basic_information.year
+  );
+}
+
 export function getReleasesByArtist(collection: Release[]) {
   const artists = getArtists(collection);
 
@@ -85,9 +104,7 @@ export function getReleasesByArtist(collection: Release[]) {
 
   // Walk the collection and put each release in the releases object at the
   // cooresponding artist key
-  collection
-    .sort((a, b) => a.basic_information.year - b.basic_information.year)
-    .forEach((release) => {
+  sortByAlbumYear(collection).forEach((release) => {
       // Some Discogs releases list the same artist more than once, so only
       // add the release to each artist once.
       let seenArtistKeys: string[] = [];

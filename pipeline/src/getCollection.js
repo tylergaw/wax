@@ -1,9 +1,7 @@
 import readline from "readline/promises";
-import fetch from "node-fetch";
 import { getFlag, persistData } from "./shared.js";
 
-// TODO: We'll need to update this for writing to S3.
-const dataFilePath = "./temp/collection.json";
+const dataFilePath = "../data/collection.json";
 const token = process.env.TOKEN;
 const username = process.env.USERNAME;
 const skipPagePrompt = getFlag(process.argv.slice(2), "skipPagePrompt", false);
@@ -27,7 +25,7 @@ if (!username) {
   process.exit(1);
 }
 
-const baseUrl = `https://api.discogs.com/users/${username}/collection/folders/0/releases?per_page=100`;
+const baseUrl = `https://api.discogs.com/users/${username}/collection/folders/0/releases?per_page=100&sort=added&sort_order=asc`;
 
 async function prompt(q) {
   try {
@@ -55,6 +53,11 @@ async function fetchJSON(url) {
       Authorization: `Discogs token=${token}`,
     },
   });
+
+  if (!res.ok) {
+    throw new Error(`Discogs request failed: ${res.status} ${res.statusText}`);
+  }
+
   const json = await res.json();
   return json;
 }

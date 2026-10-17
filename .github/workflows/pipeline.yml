@@ -1,0 +1,80 @@
+name: Update collection data
+
+on:
+  schedule:
+    # 9:00 UTC is 5 AM Eastern during daylight time, 4 AM in winter
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Which records to send to Claude
+        type: choice
+        options:
+          - new
+          - no-color
+          - all
+        default: new
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      MODE: ${{ inputs.mode || 'new' }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: yarn
+
+      - run: yarn install --frozen-lockfile
+
+      # The pipeline scripts load pipeline/.env, which only exists locally
+      - run: touch pipeline/.env
+
+      - name: Fetch collection from Discogs
+        run: yarn pipeline:fetch:skipPrompt
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+          USERNAME: ${{ secrets.USERNAME }}
+
+      - name: Enrich with Claude
+        run: yarn pipeline:enrich --mode="$MODE"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      # Routine runs merge themselves. no-color and all runs wait for review.
+      - name: Open a PR if the data changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data; then
+            echo "No data changes."
+            exit 0
+          fi
+
+          branch="data-update-$(date -u +%Y%m%d-%H%M%S)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data
+          git commit -m "Updates collection data"
+          git push -u origin "$branch"
+
+          gh pr create \
+            --title "Updates collection data ($MODE)" \
+            --body "Automated pipeline run, mode: $MODE."
+
+          if [ "$MODE" = "new" ]; then
+            gh pr merge "$branch" --squash --auto || gh pr merge "$branch" --squash
+          fi

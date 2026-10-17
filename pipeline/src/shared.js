@@ -2,7 +2,7 @@ import fs from "fs/promises";
 
 export async function persistData(data, filePath) {
   try {
-    await fs.writeFile(filePath, JSON.stringify(data, null, 2), {
+    await fs.writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, {
       flag: "w",
     });
   } catch (err) {
@@ -22,4 +22,11 @@ export function getFlag(args, flagName, defaultValue) {
     }
   }
   return flagValue;
+}
+
+// Reads a flag with a value, like --mode=all
+export function getOption(args, optionName, defaultValue) {
+  const prefix = `--${optionName}=`;
+  const arg = args.find((a) => a.startsWith(prefix));
+  return arg ? arg.substring(prefix.length) : defaultValue;
 }

@@ -114,9 +114,7 @@ const dateParts = getReleaseDateParts(release);
     width: 100%;
   }
 
-  /* The record's SVG is a rectangle, so its corners swing outside its box as
-  it spins. Clipping the box keeps them from widening the page or covering
-  links. The disc itself stays inside the box at every angle. */
+  /* Clips the spinning SVG's corners so they don't widen the page */
   .disc {
     max-width: 680px;
     overflow: hidden;

@@ -7,16 +7,16 @@ A record collection viewer with data from Discogs.
 
 > [!IMPORTANT]
 >
-> Fetching, enriching, and uploading collection data happens in [github.com/tylergaw/wax-tracks](https://github.com/tylergaw/wax-tracks).
+> Fetching, enriching, and uploading collection data happens in [pipeline/](pipeline/). See its [README](pipeline/README.md).
 
 ## Technology overview
 
 - This is a static site built with [Astro](https://astro.build/)
-- Data fetcher/munger/uploader [github.com/tylergaw/wax-tracks](https://github.com/tylergaw/wax-tracks)
+- Data fetcher/munger/uploader in [pipeline/](pipeline/)
 - Discogs API [discogs.com/developers/](https://www.discogs.com/developers/)
 - Node >= v17.0.0
 - Hosted on Netlify
-- OpenAI API for data enrichment
+- Claude API for data enrichment
 
 ## Local setup
 
@@ -32,7 +32,7 @@ yarn
 yarn start
 ```
 
-The site will be available at [http://localhost:3000](http://localhost:3000)
+The site will be available at [http://localhost:4321](http://localhost:4321)
 
 **Preview production**
 

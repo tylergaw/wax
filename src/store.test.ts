@@ -4,6 +4,7 @@ import {
   combineDataSources,
   getArtists,
   getReleasesByArtist,
+  getUniqueReleases,
   getVibes,
 } from "./store";
 
@@ -311,6 +312,136 @@ describe("getReleasesByArtist function", () => {
       (release: Release) => release.basic_information.year
     );
     expect(releaseYears).toStrictEqual([2000, 2003]);
+  });
+
+  it("lists a release once when its artists repeat the same artist", () => {
+    const collection: Collection = [
+      {
+        id: 123,
+        basic_information: {
+          id: 123,
+          title: "Itekoma Hits",
+          year: 2019,
+          artists: [
+            {
+              id: 1,
+              name: "Otoboke Beaver",
+            },
+            {
+              id: 1,
+              name: "Otoboke Beaver",
+            },
+          ],
+        },
+      },
+    ];
+    const result = getReleasesByArtist(collection);
+    expect(Object.keys(result)).toStrictEqual(["otoboke beaver"]);
+    expect(result["otoboke beaver"].length).toBe(1);
+  });
+
+  it("lists a release under each of its different artists", () => {
+    const collection: Collection = [
+      {
+        id: 123,
+        basic_information: {
+          id: 123,
+          title: "Split",
+          year: 2010,
+          artists: [
+            {
+              id: 1,
+              name: "Soundgarden",
+            },
+            {
+              id: 2,
+              name: "Pearl Jam",
+            },
+          ],
+        },
+      },
+    ];
+    const result = getReleasesByArtist(collection);
+    expect(result["soundgarden"].map((r: Release) => r.id)).toStrictEqual([
+      123,
+    ]);
+    expect(result["pearl jam"].map((r: Release) => r.id)).toStrictEqual([123]);
+  });
+});
+
+describe("getUniqueReleases function", () => {
+  it("lists each release once, at its first position", () => {
+    const collection: Collection = [
+      {
+        id: 111,
+        basic_information: {
+          id: 111,
+          title: "Split",
+          year: 2010,
+          artists: [
+            {
+              id: 1,
+              name: "Soundgarden",
+            },
+            {
+              id: 2,
+              name: "AFI",
+            },
+          ],
+        },
+      },
+      {
+        id: 222,
+        basic_information: {
+          id: 222,
+          title: "Sing the Sorrow",
+          year: 2003,
+          artists: [
+            {
+              id: 2,
+              name: "AFI",
+            },
+          ],
+        },
+      },
+      {
+        id: 333,
+        basic_information: {
+          id: 333,
+          title: "Superunknown",
+          year: 1994,
+          artists: [
+            {
+              id: 1,
+              name: "Soundgarden",
+            },
+          ],
+        },
+      },
+      {
+        id: 444,
+        basic_information: {
+          id: 444,
+          title: "Itekoma Hits",
+          year: 2019,
+          artists: [
+            {
+              id: 3,
+              name: "Otoboke Beaver",
+            },
+            {
+              id: 3,
+              name: "Otoboke Beaver",
+            },
+          ],
+        },
+      },
+    ];
+    const releases = getUniqueReleases(getReleasesByArtist(collection));
+
+    // Artists sorted by name, each artist's releases sorted by year. The split
+    // appears under AFI first, so it is not repeated under Soundgarden.
+    expect(releases.map((r) => r.id)).toStrictEqual([222, 111, 444, 333]);
   });
 });
 

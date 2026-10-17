@@ -1,18 +1,15 @@
 ---
 import type { Release } from "@types";
-import store from "@store";
+import store, { getUniqueReleases } from "@store";
 import Layout from "@layouts/Layout.astro";
 import Releases from "@components/Releases.astro";
 
 /*
   We want to display releases in the correct order, so we need to build a new
-  array from the releasesByArtist object.
+  array from the releasesByArtist object. Releases with multiple artists only
+  appear once.
 */
-const releases = store.releasesByArtist;
-const releasesDisplay: Release[] = Object.keys(releases).reduce(
-  (arr, key) => arr.concat(releases[key]),
-  [] as Release[]
-);
+const releasesDisplay: Release[] = getUniqueReleases(store.releasesByArtist);
 const artists = store.artists;
 ---
 

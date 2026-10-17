@@ -12,11 +12,17 @@ function getComparableName(name: string): string {
   return name;
 }
 
+/**
+ * Slugs a single URL segment. Slashes become spaces first so names like
+ * "Bad Cop/Bad Cop" become "bad-cop-bad-cop" instead of "bad-copbad-cop".
+ * Use this anywhere we build a URL or a page path so they always match.
+ */
+export function toSlug(str: string): string {
+  return slug(str.replaceAll("/", " "));
+}
+
 export function buildUrl(segments: string[]): string {
-  return segments.reduce(
-    (accum, curr) => `${accum}${slug(curr.replaceAll("/", " "))}/`,
-    "/"
-  );
+  return segments.reduce((accum, curr) => `${accum}${toSlug(curr)}/`, "/");
 }
 
 // TODO: This could be made generic for use with lists other than Artists

@@ -7,6 +7,7 @@ import type {
   ReleaseDisplay,
 } from "@types";
 import { getAlbumYear, sortArtistsByName, toSlug } from "@util/data";
+import { getLog } from "@util/log";
 import discogsData from "../data/collection.json";
 import enrichmentsData from "../data/enrichments.json";
 import overridesData from "../data/overrides.json";
@@ -168,6 +169,7 @@ const store = {
   artists: getArtists(finalCollection),
   releasesByArtist: getReleasesByArtist(finalCollection),
   vibes: getVibes(finalCollection),
+  log: getLog(finalCollection),
 };
 
 export default store;

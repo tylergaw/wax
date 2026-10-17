@@ -7,6 +7,7 @@ export interface props {
 import type { Release } from "@types";
 import Vinyl from "@components/Vinyl.astro";
 import {
+  buildUrl,
   getHumanColor,
   getMachineColor,
   getArtistDisplayName,
@@ -22,7 +23,8 @@ const dateParts = getReleaseDateParts(release);
   <header>
     <h1 class="title">{title}</h1>
     <p class="subtitle">
-      {getArtistDisplayName(artist)} / {getHumanColor(release)}
+      <a href={buildUrl([artist])}>{getArtistDisplayName(artist)}</a> /{" "}
+      {getHumanColor(release)}
     </p>
     {
       dateParts.length > 0 && (
@@ -75,10 +77,10 @@ const dateParts = getReleaseDateParts(release);
     font-size: var(--font-size-16);
     font-weight: 300;
     margin: 0;
-    padding-top: var(--sp-10);
+    padding-top: var(--sp-4);
   }
 
-  .dates a {
+  :is(.subtitle, .dates) a {
     color: inherit;
   }
 
@@ -112,12 +114,18 @@ const dateParts = getReleaseDateParts(release);
     width: 100%;
   }
 
+  /* The record's SVG is a rectangle, so its corners swing outside its box as
+  it spins. Clipping the box keeps them from widening the page or covering
+  links. The disc itself stays inside the box at every angle. */
   .disc {
     max-width: 680px;
+    overflow: hidden;
     width: 100%;
   }
 
   .vinyl {
     animation: spin 1.5s linear infinite;
+    display: block;
+    pointer-events: none;
   }
 </style>

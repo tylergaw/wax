@@ -21,10 +21,7 @@ const { artist, release } = Astro.props;
 const { title } = release.basic_information;
 const coverUrl = getCoverUrl(release, 1200);
 const format = getFormatLabel(release);
-const discOffsets = Array.from(
-  { length: Math.min(getDiscCount(release), 6) },
-  (_, i) => Math.ceil(i / 2) * (i % 2 ? 1 : -1)
-).sort((a, b) => Math.abs(b) - Math.abs(a));
+const discs = Math.min(getDiscCount(release), 6);
 const dateParts = getReleaseDateParts(release);
 ---
 
@@ -50,25 +47,21 @@ const dateParts = getReleaseDateParts(release);
     }
   </header>
   <div class="graphic">
-    {
-      discOffsets.map((offset) => (
-        <div
-          class="disc"
-          style={`translate: ${offset * 9}% 0; filter: brightness(${
-            1 - Math.abs(offset) * 0.12
-          })`}
-        >
-          <Vinyl class="vinyl" color={getMachineColor(release)} />
-        </div>
-      ))
-    }
-    {
-      coverUrl && (
-        <div class="cover">
-          <img src={coverUrl} alt="" width="500" height="500" />
-        </div>
-      )
-    }
+    <div class="unit" style={`--discs: ${discs}`}>
+      {
+        Array.from({ length: discs }, (_, i) => discs - 1 - i).map((i) => (
+          <div
+            class:list={["disc", i < discs - 1 && "in-front"]}
+            style={`--i: ${i}`}
+          >
+            <Vinyl class="vinyl" color={getMachineColor(release)} />
+          </div>
+        ))
+      }
+      <div class="cover">
+        {coverUrl && <img src={coverUrl} alt="" width="600" height="600" />}
+      </div>
+    </div>
   </div>
 </div>
 
@@ -112,36 +105,48 @@ const dateParts = getReleaseDateParts(release);
   }
 
   .graphic {
-    display: grid;
-    overflow-x: clip;
-    grid-template: "container";
-    place-items: center;
+    container-type: inline-size;
+    display: flex;
+    justify-content: center;
     padding-bottom: var(--sp-20);
   }
 
-  .cover,
-  .disc {
-    grid-area: container;
+  .unit {
+    --step: 0.12;
+    --width: calc(1.45 + var(--step) * (var(--discs) - 1));
+    --cover: min(100cqw / var(--width), 600px);
+    height: var(--cover);
+    position: relative;
+    width: calc(var(--cover) * var(--width));
   }
 
   .cover {
+    aspect-ratio: 1;
     background: var(--machine-color);
     border: 1px solid currentColor;
-    max-width: 500px;
-    position: relative;
-    width: 80%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: var(--cover);
   }
 
   img {
     display: block;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     width: 100%;
   }
 
   .disc {
-    max-width: 680px;
+    left: calc(var(--cover) * (0.44 + var(--step) * var(--i)));
     overflow: hidden;
-    width: 100%;
+    position: absolute;
+    top: calc(var(--cover) * 0.015);
+    width: calc(var(--cover) * 1.04);
+  }
+
+  .in-front {
+    filter: drop-shadow(1.5px 0 0 rgb(255 255 255 / 0.7));
   }
 
   .vinyl {

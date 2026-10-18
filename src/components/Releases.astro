@@ -160,16 +160,16 @@ const isMini = className === "mini";
   }
 
   .standard .graphic {
-    --pop: 1.25rem;
+    --pop: 1.75rem;
     --stack: 30;
-    --band: 5;
-    --shrink: 0.18;
+    --band: 3.5;
+    --shrink: 0.04;
     container-type: inline-size;
-    padding-top: calc(var(--pop) + var(--stack) * 1%);
+    padding-top: 6.25rem;
   }
 
   .standard .disc {
-    --size: calc((1 - var(--d) * var(--shrink)) * 97cqw);
+    --size: calc((1 - var(--d) * var(--shrink)) * 98.25cqw);
     --top: calc((var(--count) - 1 - var(--d)) * var(--band) * 1cqw);
     animation: spin 1s linear infinite paused;
     animation-delay: calc(var(--d) * -0.31s);
@@ -182,6 +182,10 @@ const isMini = className === "mini";
     translate: -50% 0;
     width: calc(var(--size) * 193 / 180);
     z-index: calc(var(--count) - var(--d));
+  }
+
+  .standard a:where(:hover, :focus) .graphic {
+    --band: 8;
   }
 
   .standard a:where(:hover, :focus) .disc {

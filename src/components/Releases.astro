@@ -228,7 +228,12 @@ const isMini = className === "mini";
   .standard .vinyl {
     left: -2.5%;
     top: var(--pop);
-    translate: 0 calc((var(--extra-discs, 0) - var(--back, 0)) * var(--step));
+    scale: var(--scale, 1);
+    translate: 0
+      calc(
+        (var(--extra-discs, 0) - var(--back, 0)) * var(--step) -
+          (1 - var(--scale, 1)) * 50%
+      );
     width: 105%;
   }
 
@@ -242,11 +247,13 @@ const isMini = className === "mini";
 
   .standard .back-1 {
     --back: 1;
+    --scale: 0.94;
     animation-delay: -0.31s;
   }
 
   .standard .back-2 {
     --back: 2;
+    --scale: 0.88;
     animation-delay: -0.62s;
   }
 

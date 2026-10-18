@@ -3,7 +3,7 @@ import type { VinylLook } from "@util/vinylLook";
 
 export interface props {
   color?: string;
-  density?: number;
+  density?: 1 | 2 | 3;
   look?: VinylLook;
 }
 
@@ -84,20 +84,6 @@ const dots = [
   };
 });
 
-const spacing = 2.93 / density;
-const tracks = [
-  [67.35, 82],
-  [53.68, 62.47],
-  [39.04, 47.82],
-];
-const grooves = tracks.flatMap(([inner, outer]) =>
-  Array.from(
-    { length: Math.floor((outer - inner) / spacing + 0.01) + 1 },
-    (_, i) => Math.round((outer - i * spacing + 0.5) * 100) / 100
-  )
-);
-const disc =
-  "M97 180c49.706 0 90-40.294 90-90S146.706 0 97 0 7 40.294 7 90s40.294 90 90 90Zm0-78c6.904 0 12.5-5.596 12.5-12.5S103.904 77 97 77s-12.5 5.596-12.5 12.5S90.096 102 97 102Z";
 ---
 
 <svg
@@ -108,9 +94,6 @@ const disc =
   style={style}
 >
   <defs>
-    <clipPath id={`${id}-disc`}>
-      <path d={disc} clip-rule="evenodd"></path>
-    </clipPath>
     {
       noise &&
         accentColors.map((accent, i) => (
@@ -191,7 +174,7 @@ const disc =
       )
     }
   </defs>
-  <g clip-path={`url(#${id}-disc)`} opacity={opacity}>
+  <g clip-path="url(#vinyl-disc)" opacity={opacity}>
     <rect width="193" height="180" fill={base}></rect>
     {
       noise &&
@@ -227,41 +210,5 @@ const disc =
     }
     {sheen && <rect width="193" height="180" fill={`url(#${id}-sheen)`} />}
   </g>
-  <path
-    stroke="#000"
-    stroke-opacity=".2"
-    vector-effect="non-scaling-stroke"
-    d="M186.5 90c0 49.429-40.071 89.5-89.5 89.5-49.43 0-89.5-40.071-89.5-89.5C7.5 40.57 47.57.5 97 .5c49.429 0 89.5 40.07 89.5 89.5ZM97 102.5c7.18 0 13-5.82 13-13s-5.82-13-13-13-13 5.82-13 13 5.82 13 13 13Z"
-  ></path>
-  <g fill="none" stroke-width="1">
-    {
-      grooves.map((r) => (
-        <circle
-          cx="97.5"
-          cy="90"
-          r={r}
-          stroke="#000"
-          stroke-opacity=".1"
-          vector-effect="non-scaling-stroke"
-        />
-      ))
-    }
-    {
-      grooves.map((r) => (
-        <circle
-          cx="97.5"
-          cy={90 + 1 / density}
-          r={r}
-          stroke="#848484"
-          stroke-opacity=".16"
-          vector-effect="non-scaling-stroke"
-        />
-      ))
-    }
-  </g>
-  <path
-    fill="#454545"
-    fill-rule="evenodd"
-    d="M97.5 119c16.016 0 29-12.984 29-29s-12.984-29-29-29-29 12.984-29 29 12.984 29 29 29Zm0-23.2a5.8 5.8 0 1 0 0-11.6 5.8 5.8 0 0 0 0 11.6Z"
-    clip-rule="evenodd"></path>
+  <use href={`#vinyl-surface-${density}`}></use>
 </svg>

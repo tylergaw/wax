@@ -6,6 +6,7 @@ export interface Props {
 import GlobalStyle from "@components/GlobalStyle.astro";
 import Banner from "@components/Banner.astro";
 import Footer from "@components/Footer.astro";
+import VinylDefs from "@components/VinylDefs.astro";
 
 const { title } = Astro.props;
 ---
@@ -27,6 +28,7 @@ const { title } = Astro.props;
     <GlobalStyle />
   </head>
   <body>
+    <VinylDefs />
     <Banner />
     <slot />
     <Footer />

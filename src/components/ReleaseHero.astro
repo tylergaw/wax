@@ -138,10 +138,12 @@ const dateParts = getReleaseDateParts(release);
   }
 
   .disc {
+    --room: calc(var(--cover) * 0.02);
     left: calc(var(--cover) * (0.44 + var(--step) * var(--i)));
     overflow: hidden;
+    padding: var(--room) 0;
     position: absolute;
-    top: calc(var(--cover) * 0.015);
+    top: calc(var(--cover) * 0.015 - var(--room));
     width: calc(var(--cover) * 1.04);
   }
 
@@ -151,6 +153,7 @@ const dateParts = getReleaseDateParts(release);
 
   .vinyl {
     animation: spin 1.5s linear infinite;
+    animation-delay: calc(var(--i) * -0.37s);
     display: block;
     pointer-events: none;
   }

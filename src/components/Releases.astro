@@ -8,6 +8,7 @@ export interface Props {
 import type { Release } from "@types";
 import {
   getArtistDisplayName,
+  getCoverUrl,
   getHumanColor,
   getMachineColor,
   getReleaseUrl,
@@ -18,15 +19,17 @@ function getRandomNumber() {
   return Math.random() * 2.4 - 1.2;
 }
 
-const { className, releases, showArtist = true } = Astro.props;
+const { className = "standard", releases, showArtist = true } = Astro.props;
+const isMini = className === "mini";
 ---
 
-<ul class=`${className}`>
+<ul class={className}>
   {
     releases.map((release: Release) => {
       const {
         basic_information: { title, artists },
       } = release;
+      const coverUrl = getCoverUrl(release, 600);
 
       return (
         <li data-id={release.id}>
@@ -38,6 +41,19 @@ const { className, releases, showArtist = true } = Astro.props;
           >
             <div class="graphic">
               <Vinyl class="vinyl" color={getMachineColor(release)} />
+              {!isMini && (
+                <div class="cover">
+                  {coverUrl && (
+                    <img
+                      src={coverUrl}
+                      alt=""
+                      width="600"
+                      height="600"
+                      loading="lazy"
+                    />
+                  )}
+                </div>
+              )}
             </div>
             <div class="info">
               <div class="primary-info">
@@ -112,15 +128,8 @@ const { className, releases, showArtist = true } = Astro.props;
   }
 
   .graphic {
-    --max-w: 260px;
-    border-bottom: 2px solid var(--color-text);
-    margin: 0 auto;
-    max-width: var(--max-w);
     overflow: hidden;
-    padding-top: min(49%, calc(var(--max-w) / 2.1));
     position: relative;
-    rotate: var(--rotation);
-    width: 100%;
   }
 
   .vinyl {
@@ -145,7 +154,7 @@ const { className, releases, showArtist = true } = Astro.props;
 
   .title {
     font-style: italic;
-    font-size: var(--font-size-32);
+    font-size: var(--font-size-28);
     font-weight: 900;
     line-height: 1em;
     letter-spacing: -0.03em;
@@ -155,7 +164,7 @@ const { className, releases, showArtist = true } = Astro.props;
     color: var(--color-accent-primary);
     font-size: var(--font-size-16);
     letter-spacing: 0.05em;
-    margin-top: var(--sp-12);
+    margin-top: var(--sp-4);
     text-transform: uppercase;
   }
 
@@ -170,6 +179,60 @@ const { className, releases, showArtist = true } = Astro.props;
     text-transform: capitalize;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+
+  ul.standard {
+    --gap: calc(var(--g-gutter) * 4);
+    column-gap: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(min(100%, max(260px, (100% - var(--gap) * 4) / 5)), 1fr)
+    );
+  }
+
+  .standard li {
+    max-width: none;
+    padding: 0 0 calc(var(--sp-10) * 6);
+  }
+
+  .standard .graphic {
+    --pop: 1.25rem;
+  }
+
+  .standard .graphic::before {
+    content: "";
+    display: block;
+    padding-top: calc(29% + var(--pop));
+  }
+
+  .standard .vinyl {
+    left: -2.5%;
+    top: var(--pop);
+    width: 105%;
+  }
+
+  .standard a:where(:hover, :focus) .vinyl {
+    top: 0;
+  }
+
+  .standard .cover {
+    aspect-ratio: 1;
+    background: var(--machine-color);
+    border: 1px solid currentColor;
+    position: relative;
+  }
+
+  .standard .info {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .standard .cover img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
   }
 
   ul.mini {
@@ -202,10 +265,10 @@ const { className, releases, showArtist = true } = Astro.props;
   }
 
   .mini .graphic {
-    border-bottom: 0;
     border-right: 2px solid var(--color-text);
     flex: 0 0 55px;
     padding-top: 95px;
+    rotate: var(--rotation);
   }
 
   .mini .vinyl {

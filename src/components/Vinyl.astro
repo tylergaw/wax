@@ -144,6 +144,7 @@ const dots = [
         <filter id={`${id}-wobble`} filterUnits="userSpaceOnUse" x="0" y="0" width="193" height="180">
           <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed={seed} />
           <feDisplacementMap in="SourceGraphic" scale="14" xChannelSelector="R" yChannelSelector="G" />
+          <feGaussianBlur stdDeviation="1.5" />
         </filter>
       )
     }
@@ -152,6 +153,13 @@ const dots = [
         <filter id={`${id}-splat`} filterUnits="userSpaceOnUse" x="0" y="0" width="193" height="180">
           <feTurbulence type="fractalNoise" baseFrequency="0.25" numOctaves="2" seed={seed + 1} />
           <feDisplacementMap in="SourceGraphic" scale="4" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+      )
+    }
+    {
+      recipe === "split" && (
+        <filter id={`${id}-seam`} filterUnits="userSpaceOnUse" x="-40" y="-40" width="273" height="260">
+          <feGaussianBlur stdDeviation="3" />
         </filter>
       )
     }
@@ -193,7 +201,18 @@ const dots = [
         </g>
       )
     }
-    {recipe === "split" && <rect width="97" height="180" fill={accentColors[0]} />}
+    {
+      recipe === "split" && (
+        <rect
+          x="-30"
+          y="-30"
+          width="127"
+          height="240"
+          fill={accentColors[0]}
+          filter={`url(#${id}-seam)`}
+        />
+      )
+    }
     {
       recipe === "center" && (
         <rect width="193" height="180" fill={`url(#${id}-center)`} />

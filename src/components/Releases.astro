@@ -9,9 +9,10 @@ import type { Release } from "@types";
 import {
   getArtistDisplayName,
   getCoverUrl,
+  getDiscCount,
+  getFormatLabel,
   getHumanColor,
   getMachineColor,
-  getRecordSize,
   getReleaseUrl,
 } from "@util/data";
 import Vinyl from "@components/Vinyl.astro";
@@ -30,20 +31,26 @@ const isMini = className === "mini";
       const {
         basic_information: { title, artists },
       } = release;
+      const color = getMachineColor(release);
       const coverUrl = getCoverUrl(release, 600);
-      const size = getRecordSize(release);
+      const format = getFormatLabel(release);
+      const discCount = Math.min(getDiscCount(release), 3);
 
       return (
         <li data-id={release.id}>
           <a
             href={getReleaseUrl(release)}
-            style={`--machine-color: ${getMachineColor(
-              release
-            )}; --rotation: ${getRandomNumber()}deg; `}
+            style={`--machine-color: ${color}; --rotation: ${getRandomNumber()}deg;`}
           >
-            <div class="graphic">
-              <Vinyl class="vinyl" color={getMachineColor(release)} />
-              {!isMini && (
+            {isMini ? (
+              <div class="graphic">
+                <Vinyl class="vinyl" color={color} />
+              </div>
+            ) : (
+              <div class="graphic" style={`--count: ${discCount}`}>
+                {Array.from({ length: discCount }, (_, d) => (
+                  <Vinyl class="disc" color={color} style={`--d: ${d}`} />
+                ))}
                 <div class="cover">
                   {coverUrl && (
                     <img
@@ -55,8 +62,8 @@ const isMini = className === "mini";
                     />
                   )}
                 </div>
-              )}
-            </div>
+              </div>
+            )}
             <div class="info">
               <div class="primary-info">
                 <p class="title font-display">{title}</p>
@@ -65,7 +72,7 @@ const isMini = className === "mini";
                 )}
               </div>
               <p class="desciption">
-                {size && `${size} / `}
+                {format && `${format} / `}
                 {getHumanColor(release)}
               </p>
             </div>
@@ -78,43 +85,9 @@ const isMini = className === "mini";
 
 <style>
   ul {
-    container-type: inline-size;
-    container-name: standard-ul;
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-
-  li {
-    flex: 1 1 var(--target-width, 100%);
-    max-width: var(--target-width, 100%);
-    min-width: var(--min-width, --g-cols-1);
-    --row-gap-multiple: 4;
-    padding: 0 var(--padding-h, var(--g-gutter));
-    padding-bottom: calc(var(--sp-10) * var(--row-gap-multiple));
-  }
-
-  @container standard-ul (min-width: 400px) {
-    li {
-      --target-width: 50%;
-      --row-gap-multiple: 6;
-      --padding-h: calc(var(--g-gutter) * 2);
-      --min-width: var(--g-cols-2);
-    }
-  }
-
-  @container standard-ul (min-width: 900px) {
-    li {
-      --target-width: 33%;
-    }
-  }
-
-  @container standard-ul (min-width: 1300px) {
-    li {
-      --target-width: 25%;
-    }
   }
 
   a {
@@ -127,23 +100,9 @@ const isMini = className === "mini";
     color: var(--color-accent-primary);
   }
 
-  a:where(:hover, :focus) .vinyl {
-    animation: spin 1s linear infinite;
-    top: 0;
-  }
-
   .graphic {
     overflow: hidden;
     position: relative;
-  }
-
-  .vinyl {
-    transform-origin: 50.5% 50.6%;
-    position: absolute;
-    top: 0.5rem;
-    left: 0;
-    transition: 0.1s ease;
-    width: 100%;
   }
 
   .info {
@@ -197,28 +156,41 @@ const isMini = className === "mini";
   }
 
   .standard li {
-    max-width: none;
-    padding: 0 0 calc(var(--sp-10) * 6);
+    padding-bottom: calc(var(--sp-10) * 6);
   }
 
   .standard .graphic {
-    --pop: 1.25rem;
+    --pop: 1.75rem;
+    --stack: 30;
+    --band: 3.5;
+    --shrink: 0.04;
+    container-type: inline-size;
+    padding-top: 6.25rem;
   }
 
-  .standard .graphic::before {
-    content: "";
-    display: block;
-    padding-top: calc(29% + var(--pop));
+  .standard .disc {
+    --size: calc((1 - var(--d) * var(--shrink)) * 98.25cqw);
+    --top: calc((var(--count) - 1 - var(--d)) * var(--band) * 1cqw);
+    animation: spin 1s linear infinite paused;
+    animation-delay: calc(var(--d) * -0.31s);
+    filter: drop-shadow(0 -1px 0 rgb(255 255 255 / 0.35));
+    left: 50%;
+    position: absolute;
+    top: calc(var(--top) + var(--pop));
+    transform-origin: 50.5% 50.6%;
+    transition: top 0.1s ease;
+    translate: -50% 0;
+    width: calc(var(--size) * 193 / 180);
+    z-index: calc(var(--count) - var(--d));
   }
 
-  .standard .vinyl {
-    left: -2.5%;
-    top: var(--pop);
-    width: 105%;
+  .standard a:where(:hover, :focus) .graphic {
+    --band: 8;
   }
 
-  .standard a:where(:hover, :focus) .vinyl {
-    top: 0;
+  .standard a:where(:hover, :focus) .disc {
+    animation-play-state: running;
+    top: var(--top);
   }
 
   .standard .cover {
@@ -226,11 +198,7 @@ const isMini = className === "mini";
     background: var(--machine-color);
     border: 1px solid currentColor;
     position: relative;
-  }
-
-  .standard .info {
-    padding-left: 0;
-    padding-right: 0;
+    z-index: 4;
   }
 
   .standard .cover img {
@@ -240,25 +208,39 @@ const isMini = className === "mini";
     width: 100%;
   }
 
+  .standard .info {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   ul.mini {
     container-name: mini-ul;
+    container-type: inline-size;
+    display: flex;
+    flex-wrap: wrap;
     row-gap: calc(var(--sp-8) * 2);
   }
 
+  .mini li {
+    flex: 1 1 var(--target-width, 100%);
+    max-width: var(--target-width, 100%);
+    padding: 0 var(--g-gutter) calc(var(--sp-10) * 4);
+  }
+
   @container mini-ul (min-width: 700px) {
-    li {
+    .mini li {
       --target-width: 50%;
     }
   }
 
   @container mini-ul (min-width: 1060px) {
-    li {
+    .mini li {
       --target-width: 33%;
     }
   }
 
   @container mini-ul (min-width: 1320px) {
-    li {
+    .mini li {
       --target-width: 25%;
     }
   }
@@ -277,17 +259,20 @@ const isMini = className === "mini";
   }
 
   .mini .vinyl {
+    left: 0;
+    position: absolute;
     top: 0;
+    transform-origin: 50.5% 50.6%;
     width: 100px;
+  }
+
+  .mini a:where(:hover, :focus) .vinyl {
+    animation: spin 1s linear infinite;
   }
 
   .mini .info {
     flex: 1 1 70%;
     margin-top: 0;
-  }
-
-  .mini .title {
-    font-size: var(--font-size-28);
   }
 
   .mini .desciption {

@@ -56,6 +56,19 @@ export function getCoverUrl(
   return `https://stuff.tylergaw.com/wax/covers/sized/${key}-${version}-${size}.jpg`;
 }
 
+// Only 7" and 10" records get a size. "LP" without a size means 12"
+export function getRecordSize(release: Release): string | null {
+  const descriptions: string[] = (release.basic_information.formats || [])
+    .filter((f: any) => f.name === "Vinyl")
+    .flatMap((f: any) => f.descriptions || []);
+
+  if (descriptions.includes('12"') || descriptions.includes("LP")) {
+    return null;
+  }
+
+  return ['10"', '7"'].find((size) => descriptions.includes(size)) ?? null;
+}
+
 export function getReleaseUrl(release: Release): string {
   const { title, artists, id } = release.basic_information;
   return buildUrl([artists[0].name, `${title}-${id}`]);

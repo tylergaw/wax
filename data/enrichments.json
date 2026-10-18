@@ -4074,5 +4074,15 @@
     "cssReadableColors": null,
     "pattern": null,
     "texture": null
+  },
+  {
+    "id": "38753289",
+    "description": "Poppy",
+    "humanReadableColor": "Poppy",
+    "cssReadableColors": [
+      "#e35335"
+    ],
+    "pattern": null,
+    "texture": null
   }
 ]

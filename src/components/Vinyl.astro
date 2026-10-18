@@ -45,6 +45,22 @@ const noise = {
   galaxy: { type: "fractalNoise", frequency: 0.02, octaves: 3, warp: 50, bands: "0 0 0.4 0.8 0.4 0" },
 }[recipe as "marble" | "smoke" | "galaxy"];
 
+const slices =
+  recipe === "split"
+    ? accentColors.map((sliceColor, i) => {
+        const count = accentColors.length + 1;
+        const point = (step: number) => {
+          const angle = Math.PI / 2 + (step / count) * Math.PI * 2;
+          return `${(97 + Math.cos(angle) * 130).toFixed(1)} ${(90 + Math.sin(angle) * 130).toFixed(1)}`;
+        };
+        const large = count === 2 ? 1 : 0;
+        return {
+          d: `M97 90 L${point(i + 1)} A130 130 0 ${large} 1 ${point(i + 2)} Z`,
+          color: sliceColor,
+        };
+      })
+    : [];
+
 const spirals =
   recipe === "swirl"
     ? Array.from({ length: 4 }, (_, i) => {
@@ -202,15 +218,12 @@ const dots = [
       )
     }
     {
-      recipe === "split" && (
-        <rect
-          x="-30"
-          y="-30"
-          width="127"
-          height="240"
-          fill={accentColors[0]}
-          filter={`url(#${id}-seam)`}
-        />
+      slices.length > 0 && (
+        <g filter={`url(#${id}-seam)`}>
+          {slices.map((slice) => (
+            <path d={slice.d} fill={slice.color} />
+          ))}
+        </g>
       )
     }
     {

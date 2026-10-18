@@ -1,20 +1,6 @@
 import { defineConfig } from "astro/config";
 import netlify from "@astrojs/netlify";
 
-const devPages = {
-  name: "dev-pages",
-  hooks: {
-    "astro:config:setup": ({ command, injectRoute }) => {
-      if (command === "dev") {
-        injectRoute({
-          pattern: "/covers",
-          entrypoint: "./src/dev-pages/covers.astro",
-        });
-      }
-    },
-  },
-};
-
 // https://astro.build/config
 export default defineConfig({
   inlineStylesheets: "auto",
@@ -26,5 +12,4 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
-  integrations: [devPages],
 });

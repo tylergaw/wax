@@ -16,6 +16,7 @@ import {
   getReleaseUrl,
 } from "@util/data";
 import Vinyl from "@components/Vinyl.astro";
+import { getVinylLook } from "@util/vinylLook";
 
 function getRandomNumber() {
   return Math.random() * 2.4 - 1.2;
@@ -32,6 +33,7 @@ const isMini = className === "mini";
         basic_information: { title, artists },
       } = release;
       const color = getMachineColor(release);
+      const look = getVinylLook(release);
       const coverUrl = getCoverUrl(release, 600);
       const format = getFormatLabel(release);
       const discCount = Math.min(getDiscCount(release), 3);
@@ -44,12 +46,16 @@ const isMini = className === "mini";
           >
             {isMini ? (
               <div class="graphic">
-                <Vinyl class="vinyl" color={color} />
+                <Vinyl class="vinyl" look={look} />
               </div>
             ) : (
               <div class="graphic" style={`--count: ${discCount}`}>
                 {Array.from({ length: discCount }, (_, d) => (
-                  <Vinyl class="disc" color={color} style={`--d: ${d}`} />
+                  <Vinyl
+                    class="disc"
+                    look={{ ...look, seed: look.seed + d }}
+                    style={`--d: ${d}`}
+                  />
                 ))}
                 <div class="cover">
                   {coverUrl && (
@@ -171,8 +177,8 @@ const isMini = className === "mini";
   .standard .disc {
     --size: calc((1 - var(--d) * var(--shrink)) * 98.25cqw);
     --top: calc((var(--count) - 1 - var(--d)) * var(--band) * 1cqw);
-    animation: spin 1s linear infinite paused;
-    animation-delay: calc(var(--d) * -0.31s);
+    animation: spin 2s linear infinite paused;
+    animation-delay: calc(var(--d) * -0.62s);
     filter: drop-shadow(0 -1px 0 rgb(255 255 255 / 0.35));
     left: 50%;
     position: absolute;
@@ -267,7 +273,7 @@ const isMini = className === "mini";
   }
 
   .mini a:where(:hover, :focus) .vinyl {
-    animation: spin 1s linear infinite;
+    animation: spin 2s linear infinite;
   }
 
   .mini .info {

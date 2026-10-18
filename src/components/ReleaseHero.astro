@@ -16,6 +16,7 @@ import {
   getFormatLabel,
 } from "@util/data";
 import { getReleaseDateParts } from "@util/log";
+import { getVinylLook } from "@util/vinylLook";
 
 const { artist, release } = Astro.props;
 const { title } = release.basic_information;
@@ -23,6 +24,7 @@ const coverUrl = getCoverUrl(release, 1200);
 const format = getFormatLabel(release);
 const discs = Math.min(getDiscCount(release), 6);
 const dateParts = getReleaseDateParts(release);
+const look = getVinylLook(release);
 ---
 
 <div class="container" style={`--machine-color: ${getMachineColor(release)}`}>
@@ -54,7 +56,11 @@ const dateParts = getReleaseDateParts(release);
             class:list={["disc", i < discs - 1 && "in-front"]}
             style={`--i: ${i}`}
           >
-            <Vinyl class="vinyl" color={getMachineColor(release)} density={3} />
+            <Vinyl
+              class="vinyl"
+              look={{ ...look, seed: look.seed + i }}
+              density={3}
+            />
           </div>
         ))
       }
@@ -152,8 +158,8 @@ const dateParts = getReleaseDateParts(release);
   }
 
   .vinyl {
-    animation: spin 1.5s linear infinite;
-    animation-delay: calc(var(--i) * -0.37s);
+    animation: spin 3s linear infinite;
+    animation-delay: calc(var(--i) * -0.74s);
     display: block;
     pointer-events: none;
   }

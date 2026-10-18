@@ -3,7 +3,7 @@ export interface props {
   color?: string;
 }
 
-const { class: className, color = "#363636" } = Astro.props;
+const { class: className, color = "#363636", style } = Astro.props;
 ---
 
 <svg
@@ -11,6 +11,7 @@ const { class: className, color = "#363636" } = Astro.props;
   fill="none"
   viewBox="0 0 193 180"
   class={className}
+  style={style}
 >
   <path
     fill={color}

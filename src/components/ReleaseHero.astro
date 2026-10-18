@@ -12,12 +12,14 @@ import {
   getHumanColor,
   getMachineColor,
   getArtistDisplayName,
+  getRecordSize,
 } from "@util/data";
 import { getReleaseDateParts } from "@util/log";
 
 const { artist, release } = Astro.props;
 const { title } = release.basic_information;
 const coverUrl = getCoverUrl(release, 1200);
+const size = getRecordSize(release);
 const dateParts = getReleaseDateParts(release);
 ---
 
@@ -26,6 +28,7 @@ const dateParts = getReleaseDateParts(release);
     <h1 class="title">{title}</h1>
     <p class="subtitle">
       <a href={buildUrl([artist])}>{getArtistDisplayName(artist)}</a> /{" "}
+      {size && `${size} / `}
       {getHumanColor(release)}
     </p>
     {

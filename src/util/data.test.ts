@@ -4,6 +4,7 @@ import {
   getAlbumKey,
   getArtistDisplayName,
   getCoverUrl,
+  getRecordSize,
   getHumanColor,
   getMachineColor,
   getReleaseUrl,
@@ -218,5 +219,36 @@ describe("getCoverUrl function", () => {
 
   it("returns undefined without a cover", () => {
     expect(getCoverUrl({ id: 1, basic_information: {} }, 600)).toBeUndefined();
+  });
+});
+
+describe("getRecordSize function", () => {
+  const release = (...formats: [string, string[]][]): Release => ({
+    id: 1,
+    basic_information: {
+      formats: formats.map(([name, descriptions]) => ({ name, descriptions })),
+    },
+  });
+
+  it("returns 7 and 10 inch sizes", () => {
+    expect(getRecordSize(release(["Vinyl", ['7"', "Single"]]))).toBe('7"');
+    expect(getRecordSize(release(["Vinyl", ['10"', "EP"]]))).toBe('10"');
+  });
+
+  it("returns null for 12 inch records and LPs", () => {
+    expect(getRecordSize(release(["Vinyl", ['12"', "EP"]]))).toBeNull();
+    expect(getRecordSize(release(["Vinyl", ["LP", "Album"]]))).toBeNull();
+  });
+
+  it("returns null when a release includes a 12 inch", () => {
+    expect(
+      getRecordSize(release(["Vinyl", ['12"', "EP"]], ["Vinyl", ['7"']]))
+    ).toBeNull();
+  });
+
+  it("ignores formats that aren't vinyl", () => {
+    expect(
+      getRecordSize(release(["CD", ['7"']], ["Vinyl", ["LP"]]))
+    ).toBeNull();
   });
 });

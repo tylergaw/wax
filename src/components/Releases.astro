@@ -216,7 +216,7 @@ const isMini = className === "mini";
 
   .standard .graphic {
     --pop: 1.25rem;
-    --step: 7%;
+    --step: 3.5%;
   }
 
   .standard .graphic::before {
@@ -226,7 +226,7 @@ const isMini = className === "mini";
   }
 
   .standard .vinyl {
-    left: -2.5%;
+    left: -2%;
     top: var(--pop);
     scale: var(--scale, 1);
     translate: 0
@@ -234,7 +234,7 @@ const isMini = className === "mini";
         (var(--extra-discs, 0) - var(--back, 0)) * var(--step) -
           (1 - var(--scale, 1)) * 50%
       );
-    width: 105%;
+    width: 104%;
   }
 
   .standard a:where(:hover, :focus) .vinyl {
@@ -247,13 +247,13 @@ const isMini = className === "mini";
 
   .standard .back-1 {
     --back: 1;
-    --scale: 0.94;
+    --scale: 0.84;
     animation-delay: -0.31s;
   }
 
   .standard .back-2 {
     --back: 2;
-    --scale: 0.88;
+    --scale: 0.68;
     animation-delay: -0.62s;
   }
 

@@ -8,6 +8,7 @@ import type { Release } from "@types";
 import Vinyl from "@components/Vinyl.astro";
 import {
   buildUrl,
+  getCoverUrl,
   getHumanColor,
   getMachineColor,
   getArtistDisplayName,
@@ -15,7 +16,8 @@ import {
 import { getReleaseDateParts } from "@util/log";
 
 const { artist, release } = Astro.props;
-const { title, cover_image } = release.basic_information;
+const { title } = release.basic_information;
+const coverUrl = getCoverUrl(release, 1200);
 const dateParts = getReleaseDateParts(release);
 ---
 
@@ -43,9 +45,13 @@ const dateParts = getReleaseDateParts(release);
     <div class="disc">
       <Vinyl class="vinyl" color={getMachineColor(release)} />
     </div>
-    <div class="cover">
-      <img src={cover_image} alt="" width="500px" height="500px" />
-    </div>
+    {
+      coverUrl && (
+        <div class="cover">
+          <img src={coverUrl} alt="" width="500" height="500" />
+        </div>
+      )
+    }
   </div>
 </div>
 

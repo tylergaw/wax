@@ -1,7 +1,9 @@
 import type { Release } from "@types";
 import { describe, it, expect } from "vitest";
 import {
+  getAlbumKey,
   getArtistDisplayName,
+  getCoverUrl,
   getHumanColor,
   getMachineColor,
   getReleaseUrl,
@@ -191,5 +193,30 @@ describe("getArtistDisplayName function", () => {
     expect(getArtistDisplayName("(International) Noise Conspiracy")).toBe(
       "(International) Noise Conspiracy"
     );
+  });
+});
+
+describe("getAlbumKey function", () => {
+  it("uses the master id, or the release id without a master", () => {
+    expect(getAlbumKey({ id: 1, basic_information: { id: 1, master_id: 20 } })).toBe("20");
+    expect(getAlbumKey({ id: 5, basic_information: { id: 5, master_id: 0 } })).toBe("r5");
+  });
+});
+
+describe("getCoverUrl function", () => {
+  it("builds the sized cover URL", () => {
+    const release: Release = {
+      id: 1,
+      basic_information: {},
+      cover: { key: "20", source: "manual", version: "abc123" },
+    };
+
+    expect(getCoverUrl(release, 600)).toBe(
+      "https://stuff.tylergaw.com/wax/covers/sized/20-abc123-600.jpg"
+    );
+  });
+
+  it("returns undefined without a cover", () => {
+    expect(getCoverUrl({ id: 1, basic_information: {} }, 600)).toBeUndefined();
   });
 });

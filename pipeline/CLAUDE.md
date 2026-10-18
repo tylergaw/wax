@@ -9,8 +9,9 @@ The pipeline fetches vinyl collection data from Discogs, enriches it with Claude
 **Pipeline stages:**
 1. **Extract:** Fetch collection from Discogs API (`getCollection.js`) to `data/collection.json`
 2. **Masters:** Fetch each new album's Discogs master (`getMasters.js`) to `data/masters.json`. A master is the album; each release in the collection is one pressing of it
-3. **Transform:** Enrich with Claude to standardize vinyl color/pattern/texture (`enrichCollection.js`) to `data/enrichments.json`
-4. **Load:** The `.github/workflows/pipeline.yml` workflow runs all three daily and opens a PR when `data/` changes. Routine PRs merge themselves; Netlify deploys on merge
+3. **Covers:** Find covers for new albums and make resized copies (`getCovers.js`), recorded in `data/covers.json`
+4. **Transform:** Enrich with Claude to standardize vinyl color/pattern/texture (`enrichCollection.js`) to `data/enrichments.json`
+5. **Load:** The `.github/workflows/pipeline.yml` workflow runs all four daily and opens a PR when `data/` changes. Routine PRs merge themselves; Netlify deploys on merge
 
 ## Working Principles
 
@@ -42,6 +43,7 @@ yarn pipeline:test
 yarn pipeline:fetch              # Fetch from Discogs (with prompt)
 yarn pipeline:fetch:skipPrompt   # Skip confirmation prompt
 yarn pipeline:masters            # Album years for masters not in masters.json
+yarn pipeline:covers             # Covers for new albums; --limit=N to try a few
 yarn pipeline:enrich             # Claude enrichment (requires fetch output)
 yarn pipeline:enrich --mode=all  # Modes: new (default), no-color, all
 ```
@@ -58,6 +60,7 @@ Files in `data/` at the repo root:
 - `collection.json` - Output from Discogs fetch, sorted by date added (input to enrich)
 - `enrichments.json` - Output from Claude enrichment, sorted by release id
 - `masters.json` - Album data keyed by Discogs master id. Only the original year for now. Only new masters are fetched, at about 1 request a second for Discogs' rate limit
+- `covers.json` - Cover source and version keyed by album key (master id, or `r<release id>`). The S3 bucket is the source of truth: `wax/covers/<key>.*` (manual) wins over `wax/covers/auto/<key>.jpg` (Cover Art Archive or Discogs). Resized copies go to `wax/covers/sized/<key>-<version>-<600|1200>.jpg`, with the version from the original's ETag so CloudFront never serves a stale image. Lookup errors skip the album for that run instead of failing it
 - `overrides.json` - Hand fixes keyed by release id. The pipeline never writes it; the site applies it last
 
 **Which records get enriched:** each enrichment stores the description it was made from. Mode `new` sends records with no enrichment or a changed description, `no-color` also sends records without `cssReadableColors`, and `all` sends everything. Enrichments for records no longer in the collection are dropped.
@@ -82,6 +85,7 @@ Required environment variables (see `.env.example`):
 - `TOKEN` - Discogs personal access token
 - `USERNAME` - Discogs username
 - `ANTHROPIC_API_KEY` - Claude API key
+- `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` - IAM user limited to `tylergaw-assets/wax/covers/*`
 
 ### Testing Notes
 - Uses Node's native test runner (`--test` flag). The site's Vitest config excludes `pipeline/`

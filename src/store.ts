@@ -2,16 +2,23 @@ import type {
   Album,
   Artist,
   Collection,
+  Cover,
   DataSource,
   Release,
   ReleaseDisplay,
 } from "@types";
-import { getAlbumYear, sortArtistsByName, toSlug } from "@util/data";
+import {
+  getAlbumKey,
+  getAlbumYear,
+  sortArtistsByName,
+  toSlug,
+} from "@util/data";
 import { getLog } from "@util/log";
 import discogsData from "../data/collection.json";
 import enrichmentsData from "../data/enrichments.json";
 import overridesData from "../data/overrides.json";
 import mastersData from "../data/masters.json";
+import coversData from "../data/covers.json";
 
 // Hand fixes keyed by release id, for example:
 // { "123": { "humanReadableColor": "Cranberry Bog", "cssReadableColors": ["#9f1d35"] } }
@@ -19,6 +26,8 @@ export type Overrides = { [id: string]: ReleaseDisplay };
 
 // Album data keyed by Discogs master id
 export type Masters = { [masterId: string]: Album };
+
+export type Covers = { [albumKey: string]: Omit<Cover, "key"> };
 
 /**
  * Combine all data sources to produce a final collection. Later sources win:
@@ -31,7 +40,8 @@ export function combineDataSources(
   discogs: Collection,
   enrichments: DataSource = [],
   overrides: Overrides = {},
-  masters: Masters = {}
+  masters: Masters = {},
+  covers: Covers = {}
 ): Collection {
   const enrichmentsById = enrichments
     .filter((i) => i)
@@ -42,10 +52,12 @@ export function combineDataSources(
 
   // Keyed by id so a release that's in the collection twice only shows once
   const releasesById = discogs.reduce((obj, release) => {
+    const albumKey = getAlbumKey(release);
     obj[release.id] = {
       ...release,
       display: { ...enrichmentsById[release.id], ...overrides[release.id] },
       album: masters[release.basic_information.master_id],
+      cover: covers[albumKey] && { key: albumKey, ...covers[albumKey] },
     };
     return obj;
   }, {} as { [key: string]: Release });
@@ -57,7 +69,8 @@ const finalCollection: Collection = combineDataSources(
   discogsData as Collection,
   enrichmentsData as DataSource,
   overridesData as Overrides,
-  mastersData as Masters
+  mastersData as Masters,
+  coversData as Covers
 );
 
 export function getArtists(collection: Release[]): Artist[] {

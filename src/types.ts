@@ -20,11 +20,18 @@ export type Album = {
   year?: number;
 };
 
+export type Cover = {
+  key: string;
+  source: string;
+  version: string;
+};
+
 export interface Release {
   id: string | number;
   basic_information: any;
   display?: ReleaseDisplay;
   album?: Album;
+  cover?: Cover;
   [key: string]: any;
 }
 

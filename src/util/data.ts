@@ -39,6 +39,23 @@ export function getAlbumYear(release: Release): number {
   return release.album?.year || release.basic_information.year;
 }
 
+export function getAlbumKey(release: Release): string {
+  const { master_id, id } = release.basic_information;
+  return master_id ? String(master_id) : `r${id}`;
+}
+
+export function getCoverUrl(
+  release: Release,
+  size: 600 | 1200
+): string | undefined {
+  if (!release.cover) {
+    return undefined;
+  }
+
+  const { key, version } = release.cover;
+  return `https://stuff.tylergaw.com/wax/covers/sized/${key}-${version}-${size}.jpg`;
+}
+
 export function getReleaseUrl(release: Release): string {
   const { title, artists, id } = release.basic_information;
   return buildUrl([artists[0].name, `${title}-${id}`]);

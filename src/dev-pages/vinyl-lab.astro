@@ -1,0 +1,114 @@
+---
+import store from "@store";
+import Layout from "@layouts/Layout.astro";
+import Vinyl from "@components/Vinyl.astro";
+import { getArtistDisplayName, getReleaseUrl } from "@util/data";
+import { getVinylLook } from "@util/vinylLook";
+
+export const prerender = false;
+
+const only = Astro.url.searchParams.get("only");
+
+const releases = store.collection
+  .filter((r) => r.display?.humanReadableColor)
+  .map((release) => ({ release, look: getVinylLook(release) }));
+
+const sections = ["marble", "swirl", "splatter", "smoke", "galaxy", "split", "center", "solid"].map(
+  (name) => ({
+    name,
+    releases: releases.filter(({ look }) =>
+      name === "splatter" ? look.splatter : look.recipe === name && !look.splatter
+    ),
+  })
+).filter((section) => !only || section.name === only);
+---
+
+<Layout title="Vinyl lab">
+  <main class="standard-restricted-width">
+    <h1 class="standard-page-title">Vinyl lab ({releases.length})</h1>
+    <nav>
+      {
+        sections.map((section) => (
+          <a href={`/vinyl-lab/?only=${section.name}`}>
+            {section.name} ({section.releases.length})
+          </a>
+        ))
+      }
+    </nav>
+    {
+      sections.map((section) => (
+        <section id={section.name}>
+          <h2>{section.name}</h2>
+          <ul>
+            {section.releases.map(({ release, look }) => (
+          <li>
+            <a href={getReleaseUrl(release)}>
+              <Vinyl class="disc" look={look} density={2} />
+            </a>
+            <p class="name">
+              {getArtistDisplayName(release.basic_information.artists[0].name)},{" "}
+              <span class="title">{release.basic_information.title}</span>
+            </p>
+            <p class="desc">{release.display?.description}</p>
+            <code>
+              {look.recipe}
+              {look.splatter && " + splatter"} / {look.base} /{" "}
+              {look.accents.join(", ") || "-"} / {look.opacity}
+              {look.sheen && " / sheen"}
+            </code>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </main>
+</Layout>
+
+<style>
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-8) var(--sp-16);
+    margin-bottom: var(--sp-24);
+  }
+
+  h2 {
+    font-size: var(--font-size-28);
+    margin: var(--sp-28) 0 var(--sp-16);
+    text-transform: capitalize;
+  }
+
+  ul {
+    display: grid;
+    gap: var(--sp-28) var(--sp-20);
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .disc {
+    display: block;
+    width: 100%;
+  }
+
+  .name {
+    font-size: var(--font-size-16);
+    margin: var(--sp-8) 0 var(--sp-4);
+  }
+
+  .title {
+    font-weight: 600;
+  }
+
+  .desc {
+    font-size: var(--font-size-14);
+    margin: 0 0 var(--sp-4);
+  }
+
+  code {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+</style>

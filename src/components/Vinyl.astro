@@ -1,7 +1,10 @@
 ---
+import type { VinylLook } from "@util/vinylLook";
+
 export interface props {
   color?: string;
   density?: number;
+  look?: VinylLook;
 }
 
 const {
@@ -9,7 +12,77 @@ const {
   color = "#363636",
   style,
   density = 1,
+  look,
 } = Astro.props;
+
+const {
+  recipe = "solid",
+  base = color,
+  accents = [],
+  splatter = false,
+  opacity = 1,
+  sheen = false,
+  seed = 1,
+} = look ?? {};
+
+const id = `v${seed}-${Math.random().toString(36).slice(2, 8)}`;
+const accentColors = accents.length ? accents : ["rgb(255 255 255 / 0.55)"];
+
+const random = (() => {
+  let s = seed;
+  return () => {
+    s |= 0;
+    s = (s + 0x6d2b79f5) | 0;
+    let t = Math.imul(s ^ (s >>> 15), 1 | s);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+})();
+
+const noise = {
+  marble: { type: "fractalNoise", frequency: 0.022, octaves: 5, warp: 45, bands: "0 0 0 0 0 0.9 0 0 0 0 0" },
+  smoke: { type: "fractalNoise", frequency: 0.015, octaves: 4, warp: 40, bands: "0 0 0.55 0.9 0.95" },
+  galaxy: { type: "fractalNoise", frequency: 0.02, octaves: 3, warp: 50, bands: "0 0 0.4 0.8 0.4 0" },
+}[recipe as "marble" | "smoke" | "galaxy"];
+
+const spirals =
+  recipe === "swirl"
+    ? Array.from({ length: 4 }, (_, i) => {
+        const start = random() * Math.PI * 2;
+        const turns = 0.6 + random() * 0.6;
+        const points = Array.from({ length: 40 }, (_, k) => {
+          const t = k / 39;
+          const r = 30 + t * 62;
+          const angle = start + t * turns * Math.PI * 2;
+          return `${(97 + Math.cos(angle) * r).toFixed(1)} ${(90 + Math.sin(angle) * r).toFixed(1)}`;
+        });
+        return {
+          d: `M${points.join(" L")}`,
+          width: 8 + random() * 14,
+          color: accentColors[i % accentColors.length],
+        };
+      })
+    : [];
+
+const dots = [
+  ...(splatter
+    ? Array.from({ length: 90 }, (_, i) => ({
+        r: 0.7 + random() ** 3 * 8,
+        color: accentColors[i % accentColors.length],
+      }))
+    : []),
+  ...(recipe === "galaxy"
+    ? Array.from({ length: 50 }, () => ({ r: 0.3 + random() * 0.5, color: "white" }))
+    : []),
+].map((dot) => {
+  const angle = random() * Math.PI * 2;
+  const distance = 32 + random() * 56;
+  return {
+    ...dot,
+    cx: 97 + Math.cos(angle) * distance,
+    cy: 90 + Math.sin(angle) * distance,
+  };
+});
 
 const spacing = 2.93 / density;
 const tracks = [
@@ -23,6 +96,8 @@ const grooves = tracks.flatMap(([inner, outer]) =>
     (_, i) => Math.round((outer - i * spacing + 0.5) * 100) / 100
   )
 );
+const disc =
+  "M97 180c49.706 0 90-40.294 90-90S146.706 0 97 0 7 40.294 7 90s40.294 90 90 90Zm0-78c6.904 0 12.5-5.596 12.5-12.5S103.904 77 97 77s-12.5 5.596-12.5 12.5S90.096 102 97 102Z";
 ---
 
 <svg
@@ -32,11 +107,126 @@ const grooves = tracks.flatMap(([inner, outer]) =>
   class={className}
   style={style}
 >
-  <path
-    fill={color}
-    fill-rule="evenodd"
-    d="M97 180c49.706 0 90-40.294 90-90S146.706 0 97 0 7 40.294 7 90s40.294 90 90 90Zm0-78c6.904 0 12.5-5.596 12.5-12.5S103.904 77 97 77s-12.5 5.596-12.5 12.5S90.096 102 97 102Z"
-    clip-rule="evenodd"></path>
+  <defs>
+    <clipPath id={`${id}-disc`}>
+      <path d={disc} clip-rule="evenodd"></path>
+    </clipPath>
+    {
+      noise &&
+        accentColors.map((accent, i) => (
+          <filter
+            id={`${id}-noise-${i}`}
+            filterUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="193"
+            height="180"
+            color-interpolation-filters="sRGB"
+          >
+            <feTurbulence
+              type={noise.type}
+              baseFrequency={noise.frequency}
+              numOctaves={noise.octaves}
+              seed={seed + i * 7}
+              result="noise"
+            />
+            <feTurbulence
+              type="fractalNoise"
+              baseFrequency="0.01"
+              numOctaves="2"
+              seed={seed + i * 7 + 3}
+              result="warp"
+            />
+            <feDisplacementMap
+              in="noise"
+              in2="warp"
+              scale={noise.warp}
+              xChannelSelector="R"
+              yChannelSelector="G"
+            />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1 0 0 0 0"
+            />
+            <feComponentTransfer result="mask">
+              <feFuncA type="table" tableValues={noise.bands} />
+            </feComponentTransfer>
+            <feFlood flood-color={accent} result="accent" />
+            <feComposite in="accent" in2="mask" operator="in" />
+          </filter>
+        ))
+    }
+    {
+      spirals.length > 0 && (
+        <filter id={`${id}-wobble`} filterUnits="userSpaceOnUse" x="0" y="0" width="193" height="180">
+          <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed={seed} />
+          <feDisplacementMap in="SourceGraphic" scale="14" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+      )
+    }
+    {
+      dots.length > 0 && (
+        <filter id={`${id}-splat`} filterUnits="userSpaceOnUse" x="0" y="0" width="193" height="180">
+          <feTurbulence type="fractalNoise" baseFrequency="0.25" numOctaves="2" seed={seed + 1} />
+          <feDisplacementMap in="SourceGraphic" scale="4" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+      )
+    }
+    {
+      recipe === "center" && (
+        <radialGradient id={`${id}-center`} cx="97" cy="90" r="90" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color={accentColors[0]} />
+          <stop offset="0.5" stop-color={accentColors[0]} />
+          <stop offset="0.8" stop-color={base} />
+        </radialGradient>
+      )
+    }
+    {
+      sheen && (
+        <linearGradient id={`${id}-sheen`} x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0.2" stop-color="white" stop-opacity="0" />
+          <stop offset="0.5" stop-color="white" stop-opacity="0.45" />
+          <stop offset="0.8" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+      )
+    }
+  </defs>
+  <g clip-path={`url(#${id}-disc)`} opacity={opacity}>
+    <rect width="193" height="180" fill={base}></rect>
+    {
+      noise &&
+        accentColors.map((_, i) => (
+          <g filter={`url(#${id}-noise-${i})`}>
+            <rect width="193" height="180" fill="black" />
+          </g>
+        ))
+    }
+    {
+      spirals.length > 0 && (
+        <g filter={`url(#${id}-wobble)`} fill="none" stroke-linecap="round">
+          {spirals.map((spiral) => (
+            <path d={spiral.d} stroke={spiral.color} stroke-width={spiral.width} />
+          ))}
+        </g>
+      )
+    }
+    {recipe === "split" && <rect width="97" height="180" fill={accentColors[0]} />}
+    {
+      recipe === "center" && (
+        <rect width="193" height="180" fill={`url(#${id}-center)`} />
+      )
+    }
+    {
+      dots.length > 0 && (
+        <g filter={`url(#${id}-splat)`}>
+          {dots.map((dot) => (
+            <circle cx={dot.cx} cy={dot.cy} r={dot.r} fill={dot.color} />
+          ))}
+        </g>
+      )
+    }
+    {sheen && <rect width="193" height="180" fill={`url(#${id}-sheen)`} />}
+  </g>
   <path
     stroke="#000"
     stroke-opacity=".2"

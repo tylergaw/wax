@@ -10,6 +10,11 @@ const devPages = {
           pattern: "/covers",
           entrypoint: "./src/dev-pages/covers.astro",
         });
+        injectRoute({
+          pattern: "/vinyl-lab",
+          entrypoint: "./src/dev-pages/vinyl-lab.astro",
+          prerender: false,
+        });
       }
     },
   },

@@ -87,5 +87,19 @@ jobs:
             --body "Automated pipeline run, mode: $MODE."
 
           if [ "$MODE" = "new" ]; then
-            gh pr merge "$branch" --squash --auto || gh pr merge "$branch" --squash
+            merged=false
+            for attempt in 1 2 3 4 5; do
+              if gh pr merge "$branch" --squash; then
+                merged=true
+                break
+              fi
+              sleep 5
+            done
+
+            if [ "$merged" != true ]; then
+              echo "Couldn't merge the PR, leaving it open."
+              exit 1
+            fi
+
+            git push origin --delete "$branch"
           fi

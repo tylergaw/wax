@@ -125,6 +125,24 @@ describe("combineDataSources function", () => {
     expect(withMaster.album).toEqual({ year: 1994 });
     expect(withoutMaster.album).toBeUndefined();
   });
+
+  it("adds covers by album key", () => {
+    const discogsData: Collection = [
+      { id: 1, basic_information: { id: 1, master_id: 20 } },
+      { id: 5, basic_information: { id: 5, master_id: 0 } },
+      { id: 6, basic_information: { id: 6, master_id: 30 } },
+    ];
+    const covers = {
+      20: { source: "cover-art-archive", version: "aaa" },
+      r5: { source: "discogs", version: "bbb" },
+    };
+
+    const [a, b, c] = combineDataSources(discogsData, [], {}, {}, covers);
+
+    expect(a.cover).toEqual({ key: "20", source: "cover-art-archive", version: "aaa" });
+    expect(b.cover).toEqual({ key: "r5", source: "discogs", version: "bbb" });
+    expect(c.cover).toBeUndefined();
+  });
 });
 
 describe("getArtists function", () => {

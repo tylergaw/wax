@@ -82,10 +82,31 @@ jobs:
           git commit -m "Updates collection data"
           git push -u origin "$branch"
 
+          git show HEAD~1:data/collection.json > "$RUNNER_TEMP/before.json"
+          {
+            echo "Automated pipeline run, mode: $MODE."
+            echo
+            (cd pipeline && node ./src/describeChanges.js "$RUNNER_TEMP/before.json" ../data/collection.json)
+          } > "$RUNNER_TEMP/body.md"
+
           gh pr create \
             --title "Updates collection data ($MODE)" \
-            --body "Automated pipeline run, mode: $MODE."
+            --body-file "$RUNNER_TEMP/body.md"
 
           if [ "$MODE" = "new" ]; then
-            gh pr merge "$branch" --squash --auto || gh pr merge "$branch" --squash
+            merged=false
+            for attempt in 1 2 3 4 5; do
+              if gh pr merge "$branch" --squash; then
+                merged=true
+                break
+              fi
+              sleep 5
+            done
+
+            if [ "$merged" != true ]; then
+              echo "Couldn't merge the PR, leaving it open."
+              exit 1
+            fi
+
+            git push origin --delete "$branch"
           fi

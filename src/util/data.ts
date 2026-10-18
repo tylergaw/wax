@@ -56,17 +56,45 @@ export function getCoverUrl(
   return `https://stuff.tylergaw.com/wax/covers/sized/${key}-${version}-${size}.jpg`;
 }
 
-// Only 7" and 10" records get a size. "LP" without a size means 12"
-export function getRecordSize(release: Release): string | null {
-  const descriptions: string[] = (release.basic_information.formats || [])
-    .filter((f: any) => f.name === "Vinyl")
-    .flatMap((f: any) => f.descriptions || []);
+const getVinylFormats = (release: Release): any[] =>
+  (release.basic_information.formats || []).filter(
+    (f: any) => f.name === "Vinyl"
+  );
 
-  if (descriptions.includes('12"') || descriptions.includes("LP")) {
+// "LP" without a size means 12"
+const getFormatSize = (format: any): string => {
+  const descriptions: string[] = format.descriptions || [];
+  return ['10"', '7"'].find((size) => descriptions.includes(size)) ?? '12"';
+};
+
+export function getDiscCount(release: Release): number {
+  const count = getVinylFormats(release).reduce(
+    (n: number, f: any) => n + (Number(f.qty) || 1),
+    0
+  );
+
+  return Math.max(count, 1);
+}
+
+export function getFormatLabel(release: Release): string | null {
+  const counts = getVinylFormats(release).reduce((obj, f) => {
+    const size = getFormatSize(f);
+    obj[size] = (obj[size] || 0) + (Number(f.qty) || 1);
+    return obj;
+  }, {} as { [size: string]: number });
+
+  const sizes = ['12"', '10"', '7"'].filter((size) => counts[size]);
+
+  const isSingle12 =
+    sizes.length === 1 && sizes[0] === '12"' && counts['12"'] === 1;
+
+  if (!sizes.length || isSingle12) {
     return null;
   }
 
-  return ['10"', '7"'].find((size) => descriptions.includes(size)) ?? null;
+  return sizes
+    .map((size) => (counts[size] > 1 ? `${counts[size]} × ${size}` : size))
+    .join(" + ");
 }
 
 export function getReleaseUrl(release: Release): string {

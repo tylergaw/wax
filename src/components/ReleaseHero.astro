@@ -12,14 +12,19 @@ import {
   getHumanColor,
   getMachineColor,
   getArtistDisplayName,
-  getRecordSize,
+  getDiscCount,
+  getFormatLabel,
 } from "@util/data";
 import { getReleaseDateParts } from "@util/log";
 
 const { artist, release } = Astro.props;
 const { title } = release.basic_information;
 const coverUrl = getCoverUrl(release, 1200);
-const size = getRecordSize(release);
+const format = getFormatLabel(release);
+const discOffsets = Array.from(
+  { length: Math.min(getDiscCount(release), 6) },
+  (_, i) => Math.ceil(i / 2) * (i % 2 ? 1 : -1)
+).sort((a, b) => Math.abs(b) - Math.abs(a));
 const dateParts = getReleaseDateParts(release);
 ---
 
@@ -28,7 +33,7 @@ const dateParts = getReleaseDateParts(release);
     <h1 class="title">{title}</h1>
     <p class="subtitle">
       <a href={buildUrl([artist])}>{getArtistDisplayName(artist)}</a> /{" "}
-      {size && `${size} / `}
+      {format && `${format} / `}
       {getHumanColor(release)}
     </p>
     {
@@ -45,9 +50,18 @@ const dateParts = getReleaseDateParts(release);
     }
   </header>
   <div class="graphic">
-    <div class="disc">
-      <Vinyl class="vinyl" color={getMachineColor(release)} />
-    </div>
+    {
+      discOffsets.map((offset) => (
+        <div
+          class="disc"
+          style={`translate: ${offset * 9}% 0; filter: brightness(${
+            1 - Math.abs(offset) * 0.12
+          })`}
+        >
+          <Vinyl class="vinyl" color={getMachineColor(release)} />
+        </div>
+      ))
+    }
     {
       coverUrl && (
         <div class="cover">
@@ -99,6 +113,7 @@ const dateParts = getReleaseDateParts(release);
 
   .graphic {
     display: grid;
+    overflow-x: clip;
     grid-template: "container";
     place-items: center;
     padding-bottom: var(--sp-20);

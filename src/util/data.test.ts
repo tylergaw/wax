@@ -4,7 +4,8 @@ import {
   getAlbumKey,
   getArtistDisplayName,
   getCoverUrl,
-  getRecordSize,
+  getDiscCount,
+  getFormatLabel,
   getHumanColor,
   getMachineColor,
   getReleaseUrl,
@@ -222,33 +223,55 @@ describe("getCoverUrl function", () => {
   });
 });
 
-describe("getRecordSize function", () => {
-  const release = (...formats: [string, string[]][]): Release => ({
+describe("getDiscCount and getFormatLabel functions", () => {
+  const release = (...formats: [string, string, string[]][]): Release => ({
     id: 1,
     basic_information: {
-      formats: formats.map(([name, descriptions]) => ({ name, descriptions })),
+      formats: formats.map(([name, qty, descriptions]) => ({
+        name,
+        qty,
+        descriptions,
+      })),
     },
   });
 
-  it("returns 7 and 10 inch sizes", () => {
-    expect(getRecordSize(release(["Vinyl", ['7"', "Single"]]))).toBe('7"');
-    expect(getRecordSize(release(["Vinyl", ['10"', "EP"]]))).toBe('10"');
+  it("adds up vinyl discs across format entries", () => {
+    const r = release(["Vinyl", "2", ["LP"]], ["Vinyl", "1", ["LP"]], ["CD", "1", []]);
+    expect(getDiscCount(r)).toBe(3);
+    expect(getFormatLabel(r)).toBe('3 × 12"');
   });
 
-  it("returns null for 12 inch records and LPs", () => {
-    expect(getRecordSize(release(["Vinyl", ['12"', "EP"]]))).toBeNull();
-    expect(getRecordSize(release(["Vinyl", ["LP", "Album"]]))).toBeNull();
+  it("uses the record size for multiple small records", () => {
+    expect(getFormatLabel(release(["Vinyl", "3", ['7"']]))).toBe('3 × 7"');
   });
 
-  it("returns null when a release includes a 12 inch", () => {
+  it("only shows the size for single 7 and 10 inch records", () => {
+    expect(getFormatLabel(release(["Vinyl", "1", ['7"']]))).toBe('7"');
+    expect(getFormatLabel(release(["Vinyl", "1", ['10"', "EP"]]))).toBe('10"');
+    expect(getFormatLabel(release(["Vinyl", "1", ["LP"]]))).toBeNull();
+    expect(getFormatLabel(release(["Vinyl", "1", ['12"', "EP"]]))).toBeNull();
+  });
+
+  it("counts each size in mixed sets", () => {
+    const boxSet = release(
+      ["Box Set", "1", []],
+      ["Vinyl", "2", ["LP"]],
+      ["Vinyl", "1", ['7"']],
+      ["Vinyl", "1", ['7"']],
+      ["Vinyl", "3", ['7"']]
+    );
+    expect(getDiscCount(boxSet)).toBe(7);
+    expect(getFormatLabel(boxSet)).toBe('2 × 12" + 5 × 7"');
     expect(
-      getRecordSize(release(["Vinyl", ['12"', "EP"]], ["Vinyl", ['7"']]))
-    ).toBeNull();
+      getFormatLabel(release(["Vinyl", "1", ['12"']], ["Vinyl", "1", ['7"']]))
+    ).toBe('12" + 7"');
   });
 
   it("ignores formats that aren't vinyl", () => {
-    expect(
-      getRecordSize(release(["CD", ['7"']], ["Vinyl", ["LP"]]))
-    ).toBeNull();
+    expect(getFormatLabel(release(["CD", "1", ['7"']], ["Vinyl", "1", ["LP"]]))).toBeNull();
+  });
+
+  it("counts at least one disc", () => {
+    expect(getDiscCount({ id: 1, basic_information: {} })).toBe(1);
   });
 });

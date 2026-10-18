@@ -54,7 +54,7 @@ const dateParts = getReleaseDateParts(release);
             class:list={["disc", i < discs - 1 && "in-front"]}
             style={`--i: ${i}`}
           >
-            <Vinyl class="vinyl" color={getMachineColor(release)} />
+            <Vinyl class="vinyl" color={getMachineColor(release)} density={3} />
           </div>
         ))
       }

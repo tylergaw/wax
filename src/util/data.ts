@@ -93,7 +93,10 @@ export function getFormatLabel(release: Release): string | null {
   }
 
   return sizes
-    .map((size) => (counts[size] > 1 ? `${counts[size]} × ${size}` : size))
+    .map((size) => {
+      const name = size === '12"' ? "LP" : size;
+      return counts[size] > 1 ? `${counts[size]}x${name}` : name;
+    })
     .join(" + ");
 }
 

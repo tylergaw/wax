@@ -238,11 +238,11 @@ describe("getDiscCount and getFormatLabel functions", () => {
   it("adds up vinyl discs across format entries", () => {
     const r = release(["Vinyl", "2", ["LP"]], ["Vinyl", "1", ["LP"]], ["CD", "1", []]);
     expect(getDiscCount(r)).toBe(3);
-    expect(getFormatLabel(r)).toBe('3 × 12"');
+    expect(getFormatLabel(r)).toBe("3xLP");
   });
 
   it("uses the record size for multiple small records", () => {
-    expect(getFormatLabel(release(["Vinyl", "3", ['7"']]))).toBe('3 × 7"');
+    expect(getFormatLabel(release(["Vinyl", "3", ['7"']]))).toBe('3x7"');
   });
 
   it("only shows the size for single 7 and 10 inch records", () => {
@@ -261,10 +261,10 @@ describe("getDiscCount and getFormatLabel functions", () => {
       ["Vinyl", "3", ['7"']]
     );
     expect(getDiscCount(boxSet)).toBe(7);
-    expect(getFormatLabel(boxSet)).toBe('2 × 12" + 5 × 7"');
+    expect(getFormatLabel(boxSet)).toBe('2xLP + 5x7"');
     expect(
       getFormatLabel(release(["Vinyl", "1", ['12"']], ["Vinyl", "1", ['7"']]))
-    ).toBe('12" + 7"');
+    ).toBe('LP + 7"');
   });
 
   it("ignores formats that aren't vinyl", () => {

@@ -67,8 +67,11 @@ const getFormatSize = (format: any): string => {
   return ['10"', '7"'].find((size) => descriptions.includes(size)) ?? '12"';
 };
 
+// Only LPs are drawn. Releases with no LPs, like a set of 7"s, draw them all
 export function getDiscCount(release: Release): number {
-  const count = getVinylFormats(release).reduce(
+  const formats = getVinylFormats(release);
+  const lps = formats.filter((f) => getFormatSize(f) === '12"');
+  const count = (lps.length ? lps : formats).reduce(
     (n: number, f: any) => n + (Number(f.qty) || 1),
     0
   );

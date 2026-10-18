@@ -260,7 +260,7 @@ describe("getDiscCount and getFormatLabel functions", () => {
       ["Vinyl", "1", ['7"']],
       ["Vinyl", "3", ['7"']]
     );
-    expect(getDiscCount(boxSet)).toBe(7);
+    expect(getDiscCount(boxSet)).toBe(2);
     expect(getFormatLabel(boxSet)).toBe('2xLP + 5x7"');
     expect(
       getFormatLabel(release(["Vinyl", "1", ['12"']], ["Vinyl", "1", ['7"']]))
@@ -269,6 +269,10 @@ describe("getDiscCount and getFormatLabel functions", () => {
 
   it("ignores formats that aren't vinyl", () => {
     expect(getFormatLabel(release(["CD", "1", ['7"']], ["Vinyl", "1", ["LP"]]))).toBeNull();
+  });
+
+  it("counts every disc when there are no LPs", () => {
+    expect(getDiscCount(release(["Vinyl", "11", ['7"']]))).toBe(11);
   });
 
   it("counts at least one disc", () => {

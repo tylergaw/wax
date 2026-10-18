@@ -1,0 +1,161 @@
+---
+import store from "@store";
+import Layout from "@layouts/Layout.astro";
+import { getCoverSections } from "@util/covers";
+
+const sections = getCoverSections(store.collection);
+---
+
+<Layout title="Covers">
+  <main class="standard-restricted-width">
+    <h1 class="standard-page-title">Covers</h1>
+    <p class="intro">
+      To replace a cover, upload it to the path under it in the
+      <code>tylergaw-assets</code> bucket. The next pipeline run picks it up.
+    </p>
+    <nav>
+      {
+        sections.map((section) => (
+          <a href={`#${section.source}`}>
+            {section.label} ({section.albums.length})
+          </a>
+        ))
+      }
+    </nav>
+
+    {
+      sections.map((section) => (
+        <section id={section.source}>
+          <h2>
+            {section.label} <span class="count">{section.albums.length}</span>
+          </h2>
+          <ul>
+            {section.albums.map((album) => (
+              <li>
+                <a href={album.url} class="cover">
+                  {album.coverUrl && (
+                    <img
+                      src={album.coverUrl}
+                      alt=""
+                      width="600"
+                      height="600"
+                      loading="lazy"
+                    />
+                  )}
+                  <span class="low-res">Low-res</span>
+                </a>
+                <p class="name">
+                  {album.artist}, <span class="title">{album.title}</span>
+                </p>
+                <code>wax/covers/{album.key}.jpg</code>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </main>
+</Layout>
+
+<script>
+  document.querySelectorAll<HTMLImageElement>(".cover img").forEach((img) => {
+    const check = () => {
+      if (img.naturalWidth < 600) {
+        img.closest(".cover")?.classList.add("is-low-res");
+      }
+    };
+
+    img.complete ? check() : img.addEventListener("load", check);
+  });
+</script>
+
+<style>
+  .intro {
+    font-size: var(--font-size-18);
+    margin: 0 0 var(--sp-16);
+    max-width: 60ch;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-8) var(--sp-20);
+  }
+
+  nav a {
+    color: var(--color-accent-primary);
+  }
+
+  section {
+    padding-top: var(--sp-28);
+  }
+
+  h2 {
+    font-size: var(--font-size-32);
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    margin: 0 0 var(--sp-16);
+  }
+
+  .count {
+    color: var(--color-accent-primary);
+    font-size: var(--font-size-16);
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  ul {
+    display: grid;
+    gap: var(--sp-24) var(--sp-16);
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cover {
+    aspect-ratio: 1;
+    background: var(--color-text);
+    display: block;
+    position: relative;
+  }
+
+  img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .low-res {
+    background: var(--color-accent-primary);
+    color: white;
+    display: none;
+    font-size: var(--font-size-14);
+    left: var(--sp-6);
+    padding: var(--sp-2) var(--sp-6);
+    position: absolute;
+    top: var(--sp-6);
+  }
+
+  .is-low-res .low-res {
+    display: block;
+  }
+
+  .name {
+    font-size: var(--font-size-16);
+    line-height: 1.2;
+    margin: var(--sp-8) 0 var(--sp-4);
+  }
+
+  .title {
+    font-weight: 600;
+  }
+
+  code {
+    font-size: var(--font-size-14);
+    opacity: 0.8;
+    overflow-wrap: anywhere;
+  }
+</style>

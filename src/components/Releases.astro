@@ -177,8 +177,8 @@ const isMini = className === "mini";
   .standard .disc {
     --size: calc((1 - var(--d) * var(--shrink)) * 98.25cqw);
     --top: calc((var(--count) - 1 - var(--d)) * var(--band) * 1cqw);
-    animation: spin 1s linear infinite paused;
-    animation-delay: calc(var(--d) * -0.31s);
+    animation: spin 2s linear infinite paused;
+    animation-delay: calc(var(--d) * -0.62s);
     filter: drop-shadow(0 -1px 0 rgb(255 255 255 / 0.35));
     left: 50%;
     position: absolute;
@@ -273,7 +273,7 @@ const isMini = className === "mini";
   }
 
   .mini a:where(:hover, :focus) .vinyl {
-    animation: spin 1s linear infinite;
+    animation: spin 2s linear infinite;
   }
 
   .mini .info {

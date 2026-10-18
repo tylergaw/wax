@@ -1,6 +1,7 @@
 ---
 export interface Props {
   title: string;
+  noindex?: boolean;
 }
 
 import GlobalStyle from "@components/GlobalStyle.astro";
@@ -8,7 +9,7 @@ import Banner from "@components/Banner.astro";
 import Footer from "@components/Footer.astro";
 import VinylDefs from "@components/VinylDefs.astro";
 
-const { title } = Astro.props;
+const { title, noindex = false } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -18,6 +19,7 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    {noindex && <meta name="robots" content="noindex" />}
     <title>{title} - Tyler Gaw’s Records</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

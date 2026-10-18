@@ -5,9 +5,6 @@ import Vinyl from "@components/Vinyl.astro";
 import { getArtistDisplayName, getReleaseUrl } from "@util/data";
 import { getVinylLook } from "@util/vinylLook";
 
-export const prerender = false;
-
-const only = Astro.url.searchParams.get("only");
 
 const releases = store.collection
   .filter((r) => r.display?.humanReadableColor)
@@ -20,16 +17,16 @@ const sections = ["marble", "swirl", "splatter", "smoke", "galaxy", "split", "ce
       name === "splatter" ? look.splatter : look.recipe === name && !look.splatter
     ),
   })
-).filter((section) => !only || section.name === only);
+);
 ---
 
-<Layout title="Vinyl lab">
+<Layout title="Vinyl lab" noindex>
   <main class="standard-restricted-width">
     <h1 class="standard-page-title">Vinyl lab ({releases.length})</h1>
     <nav>
       {
         sections.map((section) => (
-          <a href={`/vinyl-lab/?only=${section.name}`}>
+          <a href={`#${section.name}`}>
             {section.name} ({section.releases.length})
           </a>
         ))

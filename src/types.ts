@@ -33,6 +33,7 @@ export interface Release {
   display?: ReleaseDisplay;
   album?: Album;
   cover?: Cover;
+  sortArtist?: string;
   [key: string]: any;
 }
 

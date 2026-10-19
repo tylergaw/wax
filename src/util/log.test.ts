@@ -10,6 +10,7 @@ import {
   getMonthName,
   getReleaseDateParts,
   isInLog,
+  toDateAdded,
 } from "./log";
 
 const release = (id: number, date_added: string): Release => ({
@@ -167,5 +168,19 @@ describe("getReleaseDateParts function", () => {
     };
 
     expect(text(r)).toBe("Collected October 2026");
+  });
+});
+
+describe("toDateAdded function", () => {
+  it("turns a month or day into a date in that Eastern month", () => {
+    expect(toDateAdded("2026-03")).toBe("2026-03-01T12:00:00-05:00");
+    expect(toDateAdded("2026-03-14")).toBe("2026-03-14T12:00:00-05:00");
+    expect(getAddedMonthKey(release(1, toDateAdded("2026-03")))).toBe("2026-03");
+  });
+
+  it("leaves full timestamps alone", () => {
+    expect(toDateAdded("2026-10-18T15:56:57-07:00")).toBe(
+      "2026-10-18T15:56:57-07:00"
+    );
   });
 });

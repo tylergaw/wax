@@ -13,7 +13,7 @@ import {
   sortArtistsByName,
   toSlug,
 } from "@util/data";
-import { getLog } from "@util/log";
+import { getLog, toDateAdded } from "@util/log";
 import discogsData from "../data/collection.json";
 import enrichmentsData from "../data/enrichments.json";
 import overridesData from "../data/overrides.json";
@@ -21,8 +21,10 @@ import mastersData from "../data/masters.json";
 import coversData from "../data/covers.json";
 
 // Hand fixes keyed by release id, for example:
-// { "123": { "humanReadableColor": "Cranberry Bog", "cssReadableColors": ["#9f1d35"] } }
-export type Overrides = { [id: string]: ReleaseDisplay };
+// { "123": { "humanReadableColor": "Cranberry Bog", "dateAdded": "2026-03" } }
+export type Overrides = {
+  [id: string]: ReleaseDisplay & { dateAdded?: string };
+};
 
 // Album data keyed by Discogs master id
 export type Masters = { [masterId: string]: Album };
@@ -53,9 +55,11 @@ export function combineDataSources(
   // Keyed by id so a release that's in the collection twice only shows once
   const releasesById = discogs.reduce((obj, release) => {
     const albumKey = getAlbumKey(release);
+    const { dateAdded, ...displayOverrides } = overrides[release.id] ?? {};
     obj[release.id] = {
       ...release,
-      display: { ...enrichmentsById[release.id], ...overrides[release.id] },
+      ...(dateAdded && { date_added: toDateAdded(dateAdded) }),
+      display: { ...enrichmentsById[release.id], ...displayOverrides },
       album: masters[release.basic_information.master_id],
       cover: covers[albumKey] && { key: albumKey, ...covers[albumKey] },
     };

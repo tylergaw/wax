@@ -43106,5 +43106,61 @@
       ]
     },
     "folder_id": 1
+  },
+  {
+    "id": 37096398,
+    "instance_id": 2195636007,
+    "date_added": "2026-10-18T15:56:57-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 37096398,
+      "master_id": 0,
+      "master_url": null,
+      "resource_url": "https://api.discogs.com/releases/37096398",
+      "thumb": "https://i.discogs.com/1WiJ5lg9uAJmcCxSE7TXRXbN8xEyIov6QaoeQuSkhYA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDk2/Mzk4LTE3NzY0NTkw/MDEtMjM4NC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/8B2-5n_RIiwjOB18R955okCyqRksr4DUs_84pu0bf_E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDk2/Mzk4LTE3NzY0NTkw/MDEtMjM4NC5qcGVn.jpeg",
+      "title": "Ofensas",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "45 RPM"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Mal De Ojo Records",
+          "catno": "none",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2667485,
+          "resource_url": "https://api.discogs.com/labels/2667485"
+        }
+      ],
+      "artists": [
+        {
+          "name": "La Armada",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 2156907,
+          "resource_url": "https://api.discogs.com/artists/2156907"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Metal",
+        "Hardcore",
+        "Punk"
+      ]
+    },
+    "folder_id": 1
   }
 ]

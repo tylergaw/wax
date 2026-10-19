@@ -29,8 +29,8 @@ const recipes: [RegExp, VinylRecipe][] = [
   [/marble|merge|mix/, "marble"],
 ];
 
-export function getVinylLook(release: Release): VinylLook {
-  const display = release.display || {};
+export function getVinylLook(release: Release, disc = 0): VinylLook {
+  const display = release.display?.discs?.[disc] ?? release.display ?? {};
   const pattern = (display.pattern || "").toLowerCase();
   const texture = (display.texture || "").toLowerCase();
   const colors = (display.cssReadableColors || []).map((c) => c.trim());
@@ -43,7 +43,7 @@ export function getVinylLook(release: Release): VinylLook {
 
   return {
     recipe,
-    base: clearBase ? "white" : getMachineColor(release),
+    base: clearBase ? "white" : colors[0] || (isClear ? "white" : getMachineColor(release)),
     accents: clearBase ? colors : colors.slice(1),
     splatter,
     opacity: isClear ? (clearBase ? 0.35 : 0.55) : /translucent|transparent/.test(texture) ? 0.75 : 1,

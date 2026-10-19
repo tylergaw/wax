@@ -12,7 +12,7 @@ import {
   getHumanColor,
   getMachineColor,
   getArtistDisplayName,
-  getDiscCount,
+  getDrawnDiscs,
   getFormatLabel,
 } from "@util/data";
 import { getReleaseDateParts } from "@util/log";
@@ -22,9 +22,9 @@ const { artist, release } = Astro.props;
 const { title } = release.basic_information;
 const coverUrl = getCoverUrl(release, 1200);
 const format = getFormatLabel(release);
-const discs = Math.min(getDiscCount(release), 6);
+const drawnDiscs = getDrawnDiscs(release).slice(0, 6);
+const discs = drawnDiscs.length;
 const dateParts = getReleaseDateParts(release);
-const look = getVinylLook(release);
 ---
 
 <div class="container" style={`--machine-color: ${getMachineColor(release)}`}>
@@ -58,7 +58,10 @@ const look = getVinylLook(release);
           >
             <Vinyl
               class="vinyl"
-              look={{ ...look, seed: look.seed + i }}
+              look={{
+                ...getVinylLook(release, drawnDiscs[i]),
+                seed: Number(release.id) + i,
+              }}
               density={3}
             />
           </div>

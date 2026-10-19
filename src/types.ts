@@ -6,12 +6,13 @@ interface SourceObject {
 export type DataSource = SourceObject[];
 
 export type ReleaseDisplay = {
-  id?: string;
+  id?: string | number;
   description?: string;
   humanReadableColor?: string | null;
   cssReadableColors?: string[] | null;
   pattern?: string | null;
   texture?: string | null;
+  discs?: ReleaseDisplay[];
 };
 
 // Album-level data from the release's Discogs master. A release is one

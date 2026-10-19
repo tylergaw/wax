@@ -4,7 +4,7 @@ import {
   getAlbumKey,
   getArtistDisplayName,
   getCoverUrl,
-  getDiscCount,
+  getDrawnDiscs,
   getFormatLabel,
   getHumanColor,
   getMachineColor,
@@ -223,7 +223,7 @@ describe("getCoverUrl function", () => {
   });
 });
 
-describe("getDiscCount and getFormatLabel functions", () => {
+describe("getDrawnDiscs and getFormatLabel functions", () => {
   const release = (...formats: [string, string, string[]][]): Release => ({
     id: 1,
     basic_information: {
@@ -237,7 +237,7 @@ describe("getDiscCount and getFormatLabel functions", () => {
 
   it("adds up vinyl discs across format entries", () => {
     const r = release(["Vinyl", "2", ["LP"]], ["Vinyl", "1", ["LP"]], ["CD", "1", []]);
-    expect(getDiscCount(r)).toBe(3);
+    expect(getDrawnDiscs(r)).toEqual([0, 1, 2]);
     expect(getFormatLabel(r)).toBe("3xLP");
   });
 
@@ -260,7 +260,7 @@ describe("getDiscCount and getFormatLabel functions", () => {
       ["Vinyl", "1", ['7"']],
       ["Vinyl", "3", ['7"']]
     );
-    expect(getDiscCount(boxSet)).toBe(2);
+    expect(getDrawnDiscs(boxSet)).toEqual([0, 1]);
     expect(getFormatLabel(boxSet)).toBe('2xLP + 5x7"');
     expect(
       getFormatLabel(release(["Vinyl", "1", ['12"']], ["Vinyl", "1", ['7"']]))
@@ -272,10 +272,26 @@ describe("getDiscCount and getFormatLabel functions", () => {
   });
 
   it("counts every disc when there are no LPs", () => {
-    expect(getDiscCount(release(["Vinyl", "11", ['7"']]))).toBe(11);
+    expect(getDrawnDiscs(release(["Vinyl", "11", ['7"']]))).toHaveLength(11);
   });
 
   it("counts at least one disc", () => {
-    expect(getDiscCount({ id: 1, basic_information: {} })).toBe(1);
+    expect(getDrawnDiscs({ id: 1, basic_information: {} })).toEqual([0]);
+  });
+});
+
+describe("getDrawnDiscs function", () => {
+  it("returns the positions of LPs among all discs", () => {
+    const release: Release = {
+      id: 1,
+      basic_information: {
+        formats: [
+          { name: "Vinyl", qty: "1", descriptions: ['7"'] },
+          { name: "Vinyl", qty: "2", descriptions: ["LP"] },
+        ],
+      },
+    };
+
+    expect(getDrawnDiscs(release)).toEqual([1, 2]);
   });
 });

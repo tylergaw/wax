@@ -9,7 +9,7 @@ import type { Release } from "@types";
 import {
   getArtistDisplayName,
   getCoverUrl,
-  getDiscCount,
+  getDrawnDiscs,
   getFormatLabel,
   getHumanColor,
   getMachineColor,
@@ -33,10 +33,11 @@ const isMini = className === "mini";
         basic_information: { title, artists },
       } = release;
       const color = getMachineColor(release);
-      const look = getVinylLook(release);
+
       const coverUrl = getCoverUrl(release, 600);
       const format = getFormatLabel(release);
-      const discCount = Math.min(getDiscCount(release), 3);
+      const drawnDiscs = getDrawnDiscs(release).slice(0, 3);
+      const discCount = drawnDiscs.length;
 
       return (
         <li data-id={release.id}>
@@ -46,14 +47,17 @@ const isMini = className === "mini";
           >
             {isMini ? (
               <div class="graphic">
-                <Vinyl class="vinyl" look={look} />
+                <Vinyl class="vinyl" look={getVinylLook(release)} />
               </div>
             ) : (
               <div class="graphic" style={`--count: ${discCount}`}>
                 {Array.from({ length: discCount }, (_, d) => (
                   <Vinyl
                     class="disc"
-                    look={{ ...look, seed: look.seed + d }}
+                    look={{
+                      ...getVinylLook(release, drawnDiscs[d]),
+                      seed: Number(release.id) + d,
+                    }}
                     style={`--d: ${d}`}
                   />
                 ))}

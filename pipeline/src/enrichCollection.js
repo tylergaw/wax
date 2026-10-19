@@ -28,9 +28,22 @@ Return one entry for every record you receive, using the same id, with the descr
 - pattern: For example marble, swirl, splatter, or sunburst. "sunburst" is a pattern.
 - texture: For example clear or translucent. "Clear" is a texture, not a color.
 
-If a field has no value, set it to null. If a description has no color, pattern, or texture information at all, set humanReadableColor, cssReadableColors, pattern, and texture to null.`;
+If a field has no value, set it to null. If a description has no color, pattern, or texture information at all, set humanReadableColor, cssReadableColors, pattern, and texture to null.
+
+Each record also has a discs list with one entry per vinyl format. Each entry has a qty, the number of physical discs it covers, and a text, that entry's description, which may be null. Return discs with one entry per physical disc, in the same order, using the same field rules as above. An entry with qty 2 becomes two discs. If an entry's text describes several discs, like "LP1 Yellow, LP2 Red", give each disc its own look. If a disc has no description of its own, use the record's overall look.`;
 
 const nullable = (schema) => ({ anyOf: [schema, { type: "null" }] });
+
+const lookProperties = {
+  humanReadableColor: nullable({ type: "string" }),
+  cssReadableColors: nullable({
+    type: "array",
+    items: { type: "string" },
+  }),
+  pattern: nullable({ type: "string" }),
+  texture: nullable({ type: "string" }),
+};
+const lookFields = Object.keys(lookProperties);
 
 const responseSchema = {
   type: "object",
@@ -42,22 +55,18 @@ const responseSchema = {
         properties: {
           id: { type: "string" },
           description: { type: "string" },
-          humanReadableColor: nullable({ type: "string" }),
-          cssReadableColors: nullable({
+          ...lookProperties,
+          discs: {
             type: "array",
-            items: { type: "string" },
-          }),
-          pattern: nullable({ type: "string" }),
-          texture: nullable({ type: "string" }),
+            items: {
+              type: "object",
+              properties: lookProperties,
+              required: lookFields,
+              additionalProperties: false,
+            },
+          },
         },
-        required: [
-          "id",
-          "description",
-          "humanReadableColor",
-          "cssReadableColors",
-          "pattern",
-          "texture",
-        ],
+        required: ["id", "description", ...lookFields, "discs"],
         additionalProperties: false,
       },
     },
@@ -97,12 +106,21 @@ export const getDescriptions = (collection) => {
   }, {});
 };
 
-export const getUserMessages = (descriptions) => {
+export const getDiscEntries = (collection) =>
+  collection.reduce((obj, release) => {
+    obj[release.id] = release.basic_information.formats
+      .filter((f) => f.name.toLowerCase() === "vinyl")
+      .map((f) => ({ qty: Number(f.qty) || 1, text: f.text || null }));
+    return obj;
+  }, {});
+
+export const getUserMessages = (descriptions, discEntries = {}) => {
   return Object.keys(descriptions).map((id) => {
     const description = descriptions[id];
     return JSON.stringify({
       id,
       description,
+      discs: discEntries[id] ?? [],
     });
   });
 };
@@ -165,8 +183,12 @@ export const mergeEnrichments = (descriptions, enrichments, results) => {
     .map((id) => ({ ...byId.get(id), id, description: descriptions[id] }));
 };
 
-export const getClaudeEnrichments = async (descriptions, recordLimit = 15) => {
-  const messages = getUserMessages(descriptions);
+export const getClaudeEnrichments = async (
+  descriptions,
+  discEntries = {},
+  recordLimit = 15,
+) => {
+  const messages = getUserMessages(descriptions, discEntries);
   const requestsNeeded = Math.ceil(messages.length / recordLimit);
   const enrichments = [];
   const errors = [];
@@ -241,7 +263,9 @@ if (!process.env.TEST) {
     console.log(`Mode "${mode}": ${count} records to send to Claude.`);
 
     const startTime = Date.now();
-    const results = count ? await getClaudeEnrichments(toEnrich) : [];
+    const results = count
+      ? await getClaudeEnrichments(toEnrich, getDiscEntries(collection))
+      : [];
     const duration = Date.now() - startTime;
 
     await persistData(

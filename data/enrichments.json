@@ -5,7 +5,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "27277",
@@ -13,7 +21,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "76872",
@@ -21,7 +37,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "100245",
@@ -29,7 +53,27 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "355382",
@@ -37,7 +81,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "370135",
@@ -45,7 +97,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "394418",
@@ -53,7 +113,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "472821",
@@ -61,7 +129,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "513594",
@@ -69,7 +145,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "577250",
@@ -79,7 +169,25 @@
       "red"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "677375",
@@ -87,7 +195,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "770027",
@@ -95,7 +217,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "964554",
@@ -103,7 +233,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "965631",
@@ -113,7 +257,25 @@
       "red"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "993128",
@@ -121,7 +283,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "994372",
@@ -129,7 +299,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1018597",
@@ -137,7 +315,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1078120",
@@ -145,7 +331,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1192308",
@@ -155,7 +349,17 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1210423",
@@ -163,7 +367,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1289528",
@@ -171,7 +383,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1326422",
@@ -179,7 +399,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1563150",
@@ -187,7 +415,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1597466",
@@ -197,7 +439,25 @@
       "pink"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1597615",
@@ -207,7 +467,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1663504",
@@ -215,7 +485,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1684889",
@@ -225,7 +503,17 @@
       "grey"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grey Marbled",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1684896",
@@ -235,7 +523,17 @@
       "grey"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grey Marbled",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1748265",
@@ -243,7 +541,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1790723",
@@ -253,7 +565,17 @@
       "blue"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Blue Translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "1800037",
@@ -261,7 +583,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1849356",
@@ -269,7 +605,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1863024",
@@ -277,7 +621,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "1949892",
@@ -287,7 +639,25 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2093841",
@@ -295,7 +665,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2101658",
@@ -305,7 +683,17 @@
       "green"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2113642",
@@ -313,7 +701,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "2151825",
@@ -321,17 +717,35 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "2200190",
     "description": "Yellow [Highlighter Yellow]",
     "humanReadableColor": "Highlighter Yellow",
     "cssReadableColors": [
-      "yellow"
+      "#f3f315"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Highlighter Yellow",
+        "cssReadableColors": [
+          "#f3f315"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2236929",
@@ -339,7 +753,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2266242",
@@ -349,17 +777,45 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2266940",
     "description": "Lilac",
     "humanReadableColor": "Lilac",
     "cssReadableColors": [
-      "plum"
+      "#c8a2c8"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Lilac",
+        "cssReadableColors": [
+          "#c8a2c8"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2277097",
@@ -370,7 +826,27 @@
       "red"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grey/Red Splatter",
+        "cssReadableColors": [
+          "grey",
+          "red"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Grey/Red Splatter",
+        "cssReadableColors": [
+          "grey",
+          "red"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2305229",
@@ -378,7 +854,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2315274",
@@ -386,7 +870,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2395237",
@@ -396,7 +888,25 @@
       "blue"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Blue Translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Blue Translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "2467601",
@@ -406,7 +916,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "2517078",
@@ -414,7 +934,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "2563573",
@@ -424,7 +952,17 @@
       "green"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2586681",
@@ -432,7 +970,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2649502",
@@ -440,7 +992,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2720220",
@@ -448,7 +1008,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2738405",
@@ -458,7 +1032,17 @@
       "green"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Green Translucent",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "2779154",
@@ -470,7 +1054,19 @@
       "silver"
     ],
     "pattern": "splatter",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear with Red, Black, and Silver Splatter",
+        "cssReadableColors": [
+          "red",
+          "black",
+          "silver"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "2783869",
@@ -478,7 +1074,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2825456",
@@ -486,17 +1090,35 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2835466",
     "description": "Coke Bottle Clear",
     "humanReadableColor": "Coke Bottle Clear",
     "cssReadableColors": [
-      "palegreen"
+      "#a8c8b0"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Coke Bottle Clear",
+        "cssReadableColors": [
+          "#a8c8b0"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "2836556",
@@ -504,7 +1126,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2862960",
@@ -512,7 +1148,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2873835",
@@ -523,7 +1173,18 @@
       "purple"
     ],
     "pattern": "split",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green/Purple Split",
+        "cssReadableColors": [
+          "green",
+          "purple"
+        ],
+        "pattern": "split",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2937981",
@@ -533,7 +1194,17 @@
       "pink"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "2950404",
@@ -541,7 +1212,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3024956",
@@ -551,7 +1230,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3105037",
@@ -561,7 +1250,17 @@
       "darkred"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blood Red",
+        "cssReadableColors": [
+          "darkred"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3121355",
@@ -571,7 +1270,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3137648",
@@ -583,7 +1292,19 @@
       "green"
     ],
     "pattern": "split",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Tri Color Split Red/White/Green",
+        "cssReadableColors": [
+          "red",
+          "white",
+          "green"
+        ],
+        "pattern": "split",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3142675",
@@ -591,7 +1312,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3166712",
@@ -599,7 +1334,15 @@
     "humanReadableColor": "Random Color",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Random Color",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3169833",
@@ -609,7 +1352,17 @@
       "mediumvioletred"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Reddish Purple",
+        "cssReadableColors": [
+          "mediumvioletred"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3177390",
@@ -617,7 +1370,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3260443",
@@ -627,7 +1388,17 @@
       "green"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3274350",
@@ -635,7 +1406,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3293861",
@@ -643,7 +1422,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3297403",
@@ -653,7 +1440,17 @@
       "lavender"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Lavender",
+        "cssReadableColors": [
+          "lavender"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3318811",
@@ -661,7 +1458,27 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3353708",
@@ -671,7 +1488,17 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3427266",
@@ -681,7 +1508,17 @@
       "green"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3433272",
@@ -691,7 +1528,17 @@
       "pink"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3439841",
@@ -701,7 +1548,17 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3469317",
@@ -711,7 +1568,17 @@
       "grey"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grey",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3495350",
@@ -719,7 +1586,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3516446",
@@ -727,19 +1602,39 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3517602",
     "description": "Green W/ Red And Black Splatter",
-    "humanReadableColor": "Green with Red and Black Splatter",
+    "humanReadableColor": "Green With Red And Black Splatter",
     "cssReadableColors": [
       "green",
       "red",
       "black"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green With Red And Black Splatter",
+        "cssReadableColors": [
+          "green",
+          "red",
+          "black"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3547947",
@@ -749,7 +1644,17 @@
       "orange"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Orange Translucent",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "3554444",
@@ -762,7 +1667,20 @@
       "green"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Multi-colored Splatter",
+        "cssReadableColors": [
+          "red",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3574071",
@@ -772,18 +1690,47 @@
       "mediumaquamarine"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green Mint",
+        "cssReadableColors": [
+          "mediumaquamarine"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Green Mint",
+        "cssReadableColors": [
+          "mediumaquamarine"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3609018",
     "description": "Clear Milky With Swamp Green",
-    "humanReadableColor": "Clear Milky with Swamp Green",
+    "humanReadableColor": "Clear Milky With Swamp Green",
     "cssReadableColors": [
       "darkolivegreen",
       "whitesmoke"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear Milky With Swamp Green",
+        "cssReadableColors": [
+          "darkolivegreen",
+          "whitesmoke"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "3641234",
@@ -793,7 +1740,17 @@
       "pink"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink Marbled",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3643309",
@@ -803,7 +1760,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Translucent Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "3738509",
@@ -811,7 +1778,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3747671",
@@ -819,7 +1794,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3772317",
@@ -827,7 +1816,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3884453",
@@ -835,7 +1838,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3890976",
@@ -843,7 +1854,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3892549",
@@ -851,7 +1870,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3955665",
@@ -859,7 +1886,15 @@
     "humanReadableColor": "Mixed Color",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Mixed Color",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3974684",
@@ -869,7 +1904,17 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "3976505",
@@ -877,7 +1922,21 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "4052794",
@@ -885,10 +1944,21 @@
     "humanReadableColor": "Beer in Milky Clear",
     "cssReadableColors": [
       "goldenrod",
-      "ghostwhite"
+      "whitesmoke"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Beer in Milky Clear",
+        "cssReadableColors": [
+          "goldenrod",
+          "whitesmoke"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "4359534",
@@ -896,7 +1966,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4393347",
@@ -906,7 +1984,17 @@
       "yellow"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow Marble",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4526068",
@@ -916,18 +2004,39 @@
       "red"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "4565397",
     "description": "Swamp Green In Bone White",
     "humanReadableColor": "Swamp Green In Bone White",
     "cssReadableColors": [
-      "oldlace",
+      "ivory",
       "darkolivegreen"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Swamp Green In Bone White",
+        "cssReadableColors": [
+          "ivory",
+          "darkolivegreen"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4591765",
@@ -937,7 +2046,17 @@
       "darkred"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Oxblood",
+        "cssReadableColors": [
+          "darkred"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4607953",
@@ -948,15 +2067,46 @@
       "green"
     ],
     "pattern": "split",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Half Grey/Half Green",
+        "cssReadableColors": [
+          "grey",
+          "green"
+        ],
+        "pattern": "split",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4609122",
     "description": "Blue Album Artwork",
-    "humanReadableColor": null,
-    "cssReadableColors": null,
+    "humanReadableColor": "Blue",
+    "cssReadableColors": [
+      "blue"
+    ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Blue",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4649003",
@@ -964,7 +2114,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4702208",
@@ -972,7 +2130,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4724731",
@@ -982,18 +2148,46 @@
       "white"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Opaque White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "4755491",
     "description": "Pink Baby and Yellow Piss",
-    "humanReadableColor": "Pink Baby and Yellow Piss",
+    "humanReadableColor": "Baby Pink and Piss Yellow",
     "cssReadableColors": [
-      "lightpink",
-      "khaki"
+      "pink",
+      "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Baby Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Piss Yellow",
+        "cssReadableColors": [
+          "khaki"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4783613",
@@ -1001,7 +2195,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4828748",
@@ -1011,17 +2213,37 @@
       "gold"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gold",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "4863169",
     "description": "Blue Light ",
-    "humanReadableColor": "Blue Light",
+    "humanReadableColor": "Light Blue",
     "cssReadableColors": [
       "lightblue"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Light Blue",
+        "cssReadableColors": [
+          "lightblue"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5033685",
@@ -1029,7 +2251,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5162954",
@@ -1037,7 +2267,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5168643",
@@ -1047,7 +2291,25 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5264733",
@@ -1058,7 +2320,18 @@
       "white"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue/White Swirl",
+        "cssReadableColors": [
+          "blue",
+          "white"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5280391",
@@ -1068,7 +2341,17 @@
       "blue"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Blue Clear",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "5551519",
@@ -1079,7 +2362,25 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5572655",
@@ -1089,7 +2390,17 @@
       "darkred"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Ox Blood Red",
+        "cssReadableColors": [
+          "darkred"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5595040",
@@ -1099,18 +2410,39 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5611793",
     "description": "Troublesome Morning edition, semi-transparent with brown haze & pink splatter",
     "humanReadableColor": "Semi-Transparent with Brown Haze & Pink Splatter",
     "cssReadableColors": [
-      "saddlebrown",
+      "sienna",
       "pink"
     ],
     "pattern": "splatter",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Semi-Transparent with Brown Haze & Pink Splatter",
+        "cssReadableColors": [
+          "sienna",
+          "pink"
+        ],
+        "pattern": "splatter",
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "5617728",
@@ -1120,7 +2452,17 @@
       "white"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear/White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "5697493",
@@ -1130,7 +2472,25 @@
       "silver"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Silver",
+        "cssReadableColors": [
+          "silver"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Silver",
+        "cssReadableColors": [
+          "silver"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5712050",
@@ -1138,7 +2498,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5766153",
@@ -1146,7 +2514,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5783331",
@@ -1154,7 +2536,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5801012",
@@ -1162,7 +2558,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5878669",
@@ -1170,7 +2574,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5955900",
@@ -1178,7 +2590,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "5983593",
@@ -1188,7 +2608,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6033392",
@@ -1196,7 +2626,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6156672",
@@ -1206,7 +2650,17 @@
       "gold"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Opaque Gold",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "6201109",
@@ -1216,7 +2670,25 @@
       "grey"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grey Swirl",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Grey Swirl",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6269965",
@@ -1226,7 +2698,17 @@
       "orange"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange Day-glo",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6293006",
@@ -1234,7 +2716,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6331054",
@@ -1242,7 +2732,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "6503245",
@@ -1252,7 +2750,25 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6567195",
@@ -1263,7 +2779,18 @@
       "green"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue/Green Swirl",
+        "cssReadableColors": [
+          "blue",
+          "green"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6656220",
@@ -1271,7 +2798,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6775331",
@@ -1281,7 +2816,17 @@
       "green"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green Marbled",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6784565",
@@ -1289,7 +2834,27 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6883190",
@@ -1297,7 +2862,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6905243",
@@ -1307,7 +2880,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6986924",
@@ -1315,7 +2898,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "6993353",
@@ -1323,7 +2914,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7030449",
@@ -1331,7 +2930,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7069134",
@@ -1341,7 +2948,17 @@
       "purple"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple Marble",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7112398",
@@ -1352,25 +2969,65 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Lavender",
+        "cssReadableColors": [
+          "lavender"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7173732",
     "description": "Blue/ Clear Split",
-    "humanReadableColor": "Blue/Clear Split",
+    "humanReadableColor": "Blue/ Clear Split",
     "cssReadableColors": [
       "blue"
     ],
     "pattern": "split",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Blue/ Clear Split",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": "split",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "7190525",
     "description": "Clear ",
     "humanReadableColor": "Clear",
-    "cssReadableColors": null,
+    "cssReadableColors": [
+      "white"
+    ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "7220944",
@@ -1380,7 +3037,17 @@
       "purple"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple Marbled",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7221005",
@@ -1390,7 +3057,17 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7221100",
@@ -1401,7 +3078,18 @@
       "red"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue with Red Splatter",
+        "cssReadableColors": [
+          "blue",
+          "red"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7424058",
@@ -1411,7 +3099,25 @@
       "blue"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Blue Translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Blue Translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "7428792",
@@ -1423,7 +3129,39 @@
       "yellow"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Mint Green With Blue And Yellow Splatter",
+        "cssReadableColors": [
+          "mediumaquamarine",
+          "blue",
+          "yellow"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Mint Green With Blue And Yellow Splatter",
+        "cssReadableColors": [
+          "mediumaquamarine",
+          "blue",
+          "yellow"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Mint Green With Blue And Yellow Splatter",
+        "cssReadableColors": [
+          "mediumaquamarine",
+          "blue",
+          "yellow"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7435882",
@@ -1433,7 +3171,17 @@
       "purple"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7452605",
@@ -1441,17 +3189,41 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7550153",
     "description": "150 Gram Coke Bottle Clear",
     "humanReadableColor": "Coke Bottle Clear",
     "cssReadableColors": [
-      "darkseagreen"
+      "mediumaquamarine"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Coke Bottle Clear",
+        "cssReadableColors": [
+          "mediumaquamarine"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "7790110",
@@ -1459,7 +3231,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "7860521",
@@ -1469,15 +3249,37 @@
       "purple"
     ],
     "pattern": "marble",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Purple Marbled Translucent",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": "marble",
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "8100972",
     "description": "Clear",
     "humanReadableColor": "Clear",
-    "cssReadableColors": null,
+    "cssReadableColors": [
+      "white"
+    ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "8128857",
@@ -1485,7 +3287,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "8166324",
@@ -1495,7 +3305,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "8260804",
@@ -1503,7 +3323,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "8353709",
@@ -1515,7 +3349,27 @@
       "blue"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red/Silver Marble",
+        "cssReadableColors": [
+          "red",
+          "silver"
+        ],
+        "pattern": "marble",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Blue/Silver Marble",
+        "cssReadableColors": [
+          "blue",
+          "silver"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "8457230",
@@ -1523,7 +3377,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "8582273",
@@ -1533,7 +3401,17 @@
       "red"
     ],
     "pattern": "splatter",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear/Red Splatter",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "8607579",
@@ -1541,7 +3419,21 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "8764088",
@@ -1552,7 +3444,18 @@
       "violet"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple / Violet Swirl",
+        "cssReadableColors": [
+          "purple",
+          "violet"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "8801472",
@@ -1560,7 +3463,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "8867765",
@@ -1568,7 +3485,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "8893514",
@@ -1579,7 +3504,18 @@
       "pink"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue / Pink Splatter",
+        "cssReadableColors": [
+          "blue",
+          "pink"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "8963130",
@@ -1590,7 +3526,18 @@
       "red"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White w/ Red Splatter",
+        "cssReadableColors": [
+          "white",
+          "red"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9020814",
@@ -1598,7 +3545,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9088029",
@@ -1606,7 +3567,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9127152",
@@ -1614,7 +3589,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9182740",
@@ -1622,7 +3611,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9231704",
@@ -1630,7 +3627,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9340972",
@@ -1638,7 +3643,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9653096",
@@ -1648,7 +3661,25 @@
       "gold"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gold",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Gold",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9721861",
@@ -1658,7 +3689,25 @@
       "red"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      },
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "9871518",
@@ -1669,7 +3718,18 @@
       "black"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange with Black Swirl",
+        "cssReadableColors": [
+          "orange",
+          "black"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9949916",
@@ -1677,7 +3737,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "9961236",
@@ -1685,7 +3753,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10044733",
@@ -1693,7 +3769,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10471009",
@@ -1701,7 +3791,27 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10643949",
@@ -1712,7 +3822,18 @@
       "black"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red/Black Swirl",
+        "cssReadableColors": [
+          "red",
+          "black"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10672744",
@@ -1720,7 +3841,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10691963",
@@ -1728,7 +3863,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10693965",
@@ -1736,7 +3879,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10694620",
@@ -1744,7 +3901,27 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10915561",
@@ -1754,7 +3931,17 @@
       "grey"
     ],
     "pattern": "mix",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grey Mix",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": "mix",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "10957785",
@@ -1764,7 +3951,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "11092933",
@@ -1774,7 +3971,17 @@
       "purple"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple Marbled",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11273694",
@@ -1782,7 +3989,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11343648",
@@ -1790,7 +4005,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11390219",
@@ -1800,7 +4023,17 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11429851",
@@ -1808,7 +4041,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11461703",
@@ -1816,7 +4057,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11520528",
@@ -1826,7 +4081,17 @@
       "saddlebrown"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "French Brown",
+        "cssReadableColors": [
+          "saddlebrown"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11528694",
@@ -1837,7 +4102,18 @@
       "red"
     ],
     "pattern": "mix",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Silver/Red Mix",
+        "cssReadableColors": [
+          "silver",
+          "red"
+        ],
+        "pattern": "mix",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11560063",
@@ -1845,7 +4121,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11625464",
@@ -1853,7 +4137,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11719767",
@@ -1861,7 +4159,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "11807853",
@@ -1871,7 +4177,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11816219",
@@ -1879,7 +4195,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "11972113",
@@ -1890,7 +4220,18 @@
       "black"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Swamp Green / Black Swirl",
+        "cssReadableColors": [
+          "darkolivegreen",
+          "black"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12109198",
@@ -1898,7 +4239,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12156667",
@@ -1906,7 +4261,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12226922",
@@ -1916,7 +4279,25 @@
       "blue"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Blue Opaque",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      },
+      {
+        "humanReadableColor": "Blue Opaque",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "12255615",
@@ -1927,7 +4308,18 @@
       "white"
     ],
     "pattern": "split, splatter",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Magenta And Clear Split With White Splatter",
+        "cssReadableColors": [
+          "magenta",
+          "white"
+        ],
+        "pattern": "split, splatter",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "12262385",
@@ -1937,7 +4329,17 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12404453",
@@ -1945,7 +4347,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12445117",
@@ -1953,7 +4369,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12449058",
@@ -1963,7 +4387,17 @@
       "pink"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12459879",
@@ -1973,7 +4407,17 @@
       "orange"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12496636",
@@ -1984,7 +4428,18 @@
       "red"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Black and Red Swirl",
+        "cssReadableColors": [
+          "black",
+          "red"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12547860",
@@ -1992,7 +4447,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "12551952",
@@ -2003,7 +4466,18 @@
       "ivory"
     ],
     "pattern": "merge",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blood / Bone Merge",
+        "cssReadableColors": [
+          "darkred",
+          "ivory"
+        ],
+        "pattern": "merge",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12558374",
@@ -2013,7 +4487,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "12593410",
@@ -2023,7 +4507,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12605104",
@@ -2033,7 +4527,17 @@
       "orange"
     ],
     "pattern": "inset",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear with Orange Inset",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": "inset",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "12706955",
@@ -2041,7 +4545,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "12714021",
@@ -2051,7 +4563,17 @@
       "green"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12794668",
@@ -2059,7 +4581,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12802696",
@@ -2070,7 +4600,25 @@
       "red"
     ],
     "pattern": "split",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Half Ultra Clear / Half Bone",
+        "cssReadableColors": [
+          "ivory"
+        ],
+        "pattern": "split",
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Half Ultra Clear / Half Opaque Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": "split",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "12949094",
@@ -2078,7 +4626,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "12973071",
@@ -2089,7 +4645,18 @@
       "silver"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Black/Silver Swirl",
+        "cssReadableColors": [
+          "black",
+          "silver"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13089976",
@@ -2099,7 +4666,17 @@
       "crimson"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Strawberry Jam",
+        "cssReadableColors": [
+          "crimson"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13185369",
@@ -2107,7 +4684,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13320738",
@@ -2115,7 +4706,15 @@
     "humanReadableColor": "Crystal Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Crystal Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "13344006",
@@ -2125,7 +4724,17 @@
       "green"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13414158",
@@ -2133,7 +4742,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "13435962",
@@ -2141,7 +4758,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13449657",
@@ -2149,7 +4774,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13474998",
@@ -2160,7 +4793,18 @@
       "black"
     ],
     "pattern": "smoke",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Brown Translucent With Black Smoke",
+        "cssReadableColors": [
+          "saddlebrown",
+          "black"
+        ],
+        "pattern": "smoke",
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "13603103",
@@ -2168,7 +4812,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13702717",
@@ -2178,7 +4830,17 @@
       "silver"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Silver",
+        "cssReadableColors": [
+          "silver"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13761310",
@@ -2192,7 +4854,29 @@
       "white"
     ],
     "pattern": "splatter",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Yellow Translucent With Red & Orange Splatter",
+        "cssReadableColors": [
+          "yellow",
+          "red",
+          "orange"
+        ],
+        "pattern": "splatter",
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Yellow Translucent With Black & White Splatter",
+        "cssReadableColors": [
+          "yellow",
+          "black",
+          "white"
+        ],
+        "pattern": "splatter",
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "13762016",
@@ -2204,7 +4888,26 @@
       "black"
     ],
     "pattern": "marble",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Orange Translucent",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Yellow-Black Marble",
+        "cssReadableColors": [
+          "yellow",
+          "black"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13791583",
@@ -2214,17 +4917,37 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "13923416",
     "description": "Grey Smoke",
     "humanReadableColor": "Grey Smoke",
     "cssReadableColors": [
-      "grey"
+      "gray"
     ],
     "pattern": "smoke",
-    "texture": "translucent"
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grey Smoke",
+        "cssReadableColors": [
+          "gray"
+        ],
+        "pattern": "smoke",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14274077",
@@ -2235,7 +4958,18 @@
       "black"
     ],
     "pattern": "galaxy",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Silver/Black Galaxy",
+        "cssReadableColors": [
+          "silver",
+          "black"
+        ],
+        "pattern": "galaxy",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14432517",
@@ -2243,7 +4977,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14457631",
@@ -2251,7 +4993,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14465904",
@@ -2261,7 +5017,25 @@
       "hotpink"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Pink Clear Neon",
+        "cssReadableColors": [
+          "hotpink"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Pink Clear Neon",
+        "cssReadableColors": [
+          "hotpink"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "14522311",
@@ -2271,7 +5045,17 @@
       "gold"
     ],
     "pattern": "color in color",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Gold-In-Ultraclear",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": "color in color",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "14541226",
@@ -2279,7 +5063,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14550457",
@@ -2287,7 +5079,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14724546",
@@ -2297,7 +5097,17 @@
       "limegreen"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green, Lime",
+        "cssReadableColors": [
+          "limegreen"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14750542",
@@ -2305,10 +5115,30 @@
     "humanReadableColor": "Metallic Sand & Deep Crimson",
     "cssReadableColors": [
       "tan",
-      "crimson"
+      "darkred"
     ],
     "pattern": null,
-    "texture": "metallic"
+    "texture": "metallic",
+    "discs": [
+      {
+        "humanReadableColor": "Metallic Sand & Deep Crimson",
+        "cssReadableColors": [
+          "tan",
+          "darkred"
+        ],
+        "pattern": null,
+        "texture": "metallic"
+      },
+      {
+        "humanReadableColor": "Metallic Sand & Deep Crimson",
+        "cssReadableColors": [
+          "tan",
+          "darkred"
+        ],
+        "pattern": null,
+        "texture": "metallic"
+      }
+    ]
   },
   {
     "id": "14793268",
@@ -2316,7 +5146,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14818123",
@@ -2324,7 +5162,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14845571",
@@ -2332,18 +5178,43 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "14862503",
     "description": "Pink/Green Splatter, Translucent",
-    "humanReadableColor": "Pink/Green Splatter Translucent",
+    "humanReadableColor": "Pink/Green Splatter, Translucent",
     "cssReadableColors": [
       "pink",
       "green"
     ],
     "pattern": "splatter",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Pink/Green Splatter, Translucent",
+        "cssReadableColors": [
+          "pink",
+          "green"
+        ],
+        "pattern": "splatter",
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "14884729",
@@ -2353,7 +5224,17 @@
       "blue"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Blue Translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "14937761",
@@ -2363,7 +5244,17 @@
       "orange"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange Marble",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "15364200",
@@ -2371,7 +5262,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "15414237",
@@ -2381,17 +5280,37 @@
       "gold"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gold",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "15642795",
     "description": "Glow In The Dark Green",
     "humanReadableColor": "Glow In The Dark Green",
     "cssReadableColors": [
-      "lightgreen"
+      "greenyellow"
     ],
     "pattern": null,
-    "texture": "glow in the dark"
+    "texture": "glow in the dark",
+    "discs": [
+      {
+        "humanReadableColor": "Glow In The Dark Green",
+        "cssReadableColors": [
+          "greenyellow"
+        ],
+        "pattern": null,
+        "texture": "glow in the dark"
+      }
+    ]
   },
   {
     "id": "15814217",
@@ -2399,18 +5318,60 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "15881674",
     "description": "Magenta (Neon) Translucent and Gold Metallic",
-    "humanReadableColor": "Neon Magenta Translucent and Gold Metallic",
+    "humanReadableColor": "Magenta (Neon) Translucent and Gold Metallic",
     "cssReadableColors": [
       "magenta",
       "gold"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Magenta (Neon) Translucent",
+        "cssReadableColors": [
+          "magenta"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Magenta (Neon) Translucent",
+        "cssReadableColors": [
+          "magenta"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Gold Metallic",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": "metallic"
+      },
+      {
+        "humanReadableColor": "Gold Metallic",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": "metallic"
+      }
+    ]
   },
   {
     "id": "15897535",
@@ -2420,7 +5381,17 @@
       "hotpink"
     ],
     "pattern": null,
-    "texture": "shimmer"
+    "texture": "shimmer",
+    "discs": [
+      {
+        "humanReadableColor": "Hot Pink Shimmer",
+        "cssReadableColors": [
+          "hotpink"
+        ],
+        "pattern": null,
+        "texture": "shimmer"
+      }
+    ]
   },
   {
     "id": "15929464",
@@ -2428,7 +5399,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "15930505",
@@ -2436,7 +5415,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "15948395",
@@ -2444,18 +5431,37 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "15951324",
     "description": "Vortex - White / Black Swirl",
-    "humanReadableColor": "White / Black Swirl",
+    "humanReadableColor": "Vortex - White / Black Swirl",
     "cssReadableColors": [
       "white",
       "black"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Vortex - White / Black Swirl",
+        "cssReadableColors": [
+          "white",
+          "black"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "15962643",
@@ -2465,7 +5471,17 @@
       "orange"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Orange Translucent",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "15989452",
@@ -2475,7 +5491,17 @@
       "orange"
     ],
     "pattern": "sunburst",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange Sunburst",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": "sunburst",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "15996836",
@@ -2487,17 +5513,47 @@
       "orange"
     ],
     "pattern": "swirl",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear With Yellow, Blue And Orange Swirls",
+        "cssReadableColors": [
+          "yellow",
+          "blue",
+          "orange"
+        ],
+        "pattern": "swirl",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "15997698",
     "description": "Ruby Red Translucent",
     "humanReadableColor": "Ruby Red Translucent",
     "cssReadableColors": [
-      "firebrick"
+      "darkred"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Ruby Red Translucent",
+        "cssReadableColors": [
+          "darkred"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Ruby Red Translucent",
+        "cssReadableColors": [
+          "darkred"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "16026339",
@@ -2505,19 +5561,49 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16030220",
     "description": "Gray Swirl [Black And White Galaxy], Gatefold",
-    "humanReadableColor": "Gray Swirl (Black And White Galaxy)",
+    "humanReadableColor": "Gray Swirl [Black And White Galaxy]",
     "cssReadableColors": [
       "gray",
       "black",
       "white"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gray Swirl [Black And White Galaxy]",
+        "cssReadableColors": [
+          "gray",
+          "black",
+          "white"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Gray Swirl [Black And White Galaxy]",
+        "cssReadableColors": [
+          "gray",
+          "black",
+          "white"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16077325",
@@ -2525,7 +5611,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16106511",
@@ -2535,7 +5629,25 @@
       "orange"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16122521",
@@ -2545,19 +5657,66 @@
       "pink"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink Marbled",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": "marble",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Pink Marbled",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16205179",
     "description": "white/red and blue w/ white splatter",
-    "humanReadableColor": "White/Red and Blue with White Splatter",
+    "humanReadableColor": "White/Red and Blue w/ White Splatter",
     "cssReadableColors": [
       "white",
       "red",
       "blue"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White/Red",
+        "cssReadableColors": [
+          "white",
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White/Red",
+        "cssReadableColors": [
+          "white",
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Blue w/ White Splatter",
+        "cssReadableColors": [
+          "blue",
+          "white"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16262527",
@@ -2567,17 +5726,37 @@
       "purple"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16431192",
     "description": "Blue [Lapis Lazuli]",
-    "humanReadableColor": "Blue (Lapis Lazuli)",
+    "humanReadableColor": "Blue [Lapis Lazuli]",
     "cssReadableColors": [
       "royalblue"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue [Lapis Lazuli]",
+        "cssReadableColors": [
+          "royalblue"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16486110",
@@ -2589,7 +5768,19 @@
       "purple"
     ],
     "pattern": "starburst",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Starburst (Black/Blue/Purple)",
+        "cssReadableColors": [
+          "black",
+          "blue",
+          "purple"
+        ],
+        "pattern": "starburst",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16488018",
@@ -2597,7 +5788,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16610694",
@@ -2607,7 +5806,17 @@
       "purple"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Translucent Purple",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "16754889",
@@ -2615,17 +5824,41 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16792488",
     "description": "Pink w/ Splatter",
-    "humanReadableColor": "Pink with Splatter",
+    "humanReadableColor": "Pink w/ Splatter",
     "cssReadableColors": [
       "pink"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink w/ Splatter",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16818729",
@@ -2635,7 +5868,17 @@
       "#800020"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Burgundy",
+        "cssReadableColors": [
+          "#800020"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "16841166",
@@ -2650,7 +5893,35 @@
       "purple"
     ],
     "pattern": "splatter",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear With Rainbow Splatter",
+        "cssReadableColors": [
+          "red",
+          "orange",
+          "yellow",
+          "green",
+          "blue",
+          "purple"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Clear With Rainbow Splatter",
+        "cssReadableColors": [
+          "red",
+          "orange",
+          "yellow",
+          "green",
+          "blue",
+          "purple"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "16899411",
@@ -2660,7 +5931,17 @@
       "orange"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Orange Translucent",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "17756878",
@@ -2671,7 +5952,18 @@
       "black"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Tan w/ Black Swirl",
+        "cssReadableColors": [
+          "tan",
+          "black"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "18007561",
@@ -2682,7 +5974,18 @@
       "red"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow/Red Marble",
+        "cssReadableColors": [
+          "yellow",
+          "red"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "18040351",
@@ -2693,7 +5996,27 @@
       "blue"
     ],
     "pattern": "split",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Half Pink / Half Blue",
+        "cssReadableColors": [
+          "pink",
+          "blue"
+        ],
+        "pattern": "split",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Half Pink / Half Blue",
+        "cssReadableColors": [
+          "pink",
+          "blue"
+        ],
+        "pattern": "split",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "18068767",
@@ -2701,7 +6024,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "18279577",
@@ -2709,7 +6046,75 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "18365920",
@@ -2720,7 +6125,27 @@
       "brown"
     ],
     "pattern": "splatter",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear Skyblue / Brown Splattered",
+        "cssReadableColors": [
+          "skyblue",
+          "brown"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Clear Skyblue / Brown Splattered",
+        "cssReadableColors": [
+          "skyblue",
+          "brown"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "18414703",
@@ -2728,7 +6153,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "18426565",
@@ -2739,7 +6172,18 @@
       "gray"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White & True Metal Gray Marbled",
+        "cssReadableColors": [
+          "white",
+          "gray"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "18550273",
@@ -2750,7 +6194,18 @@
       "silver"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red Oxblood With Silver Swirl",
+        "cssReadableColors": [
+          "#4a0000",
+          "silver"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "18565105",
@@ -2758,7 +6213,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "19288117",
@@ -2766,7 +6229,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "19829389",
@@ -2776,8 +6253,19 @@
       "orange",
       "black"
     ],
-    "pattern": "mix",
-    "texture": null
+    "pattern": "marble",
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange/Black Mix",
+        "cssReadableColors": [
+          "orange",
+          "black"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "20011096",
@@ -2789,7 +6277,29 @@
       "blue"
     ],
     "pattern": "merge / splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Black With Silver And Blue Merge / Splatter",
+        "cssReadableColors": [
+          "black",
+          "silver",
+          "blue"
+        ],
+        "pattern": "merge / splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Black With Silver And Blue Merge / Splatter",
+        "cssReadableColors": [
+          "black",
+          "silver",
+          "blue"
+        ],
+        "pattern": "merge / splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "20185543",
@@ -2799,7 +6309,25 @@
       "gold"
     ],
     "pattern": "galaxy",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gold Galaxy",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": "galaxy",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Gold Galaxy",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": "galaxy",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "20522434",
@@ -2810,17 +6338,38 @@
       "white"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Teal With White Swirl",
+        "cssReadableColors": [
+          "teal",
+          "white"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "20760622",
     "description": "Amber Translucent",
     "humanReadableColor": "Amber Translucent",
     "cssReadableColors": [
-      "orange"
+      "#ffbf00"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Amber Translucent",
+        "cssReadableColors": [
+          "#ffbf00"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "20779813",
@@ -2828,7 +6377,21 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "20876662",
@@ -2838,7 +6401,17 @@
       "gold"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gold Nugget",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "20933011",
@@ -2846,7 +6419,15 @@
     "humanReadableColor": "Eco-Mix Coloured",
     "cssReadableColors": null,
     "pattern": "eco-mix",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Eco-Mix Coloured",
+        "cssReadableColors": null,
+        "pattern": "eco-mix",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "20943343",
@@ -2854,12 +6435,26 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "21059350",
     "description": "Black [Translucent] w/ Grey, White, & Black Splatter and Black w/ White Splatter and Clear w/ Blue & White Splatter and Grey w/ Magenta & White Splatter",
-    "humanReadableColor": "Black Translucent w/ Grey, White, & Black Splatter and Black w/ White Splatter and Clear w/ Blue & White Splatter and Grey w/ Magenta & White Splatter",
+    "humanReadableColor": "Black Translucent w/ Grey, White, & Black Splatter, Black w/ White Splatter, Clear w/ Blue & White Splatter, Grey w/ Magenta & White Splatter",
     "cssReadableColors": [
       "black",
       "grey",
@@ -2868,7 +6463,47 @@
       "magenta"
     ],
     "pattern": "splatter",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Black Translucent w/ Grey, White, & Black Splatter",
+        "cssReadableColors": [
+          "black",
+          "grey",
+          "white"
+        ],
+        "pattern": "splatter",
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Black w/ White Splatter",
+        "cssReadableColors": [
+          "black",
+          "white"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Clear w/ Blue & White Splatter",
+        "cssReadableColors": [
+          "blue",
+          "white"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Grey w/ Magenta & White Splatter",
+        "cssReadableColors": [
+          "grey",
+          "magenta",
+          "white"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "21424708",
@@ -2878,7 +6513,17 @@
       "blue"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "21634477",
@@ -2888,18 +6533,48 @@
       "red"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "21653416",
     "description": "grimace purple/black marble",
     "humanReadableColor": "Grimace Purple/Black Marble",
     "cssReadableColors": [
-      "rebeccapurple",
+      "#7b4fa0",
       "black"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grimace Purple/Black Marble",
+        "cssReadableColors": [
+          "#7b4fa0",
+          "black"
+        ],
+        "pattern": "marble",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Grimace Purple/Black Marble",
+        "cssReadableColors": [
+          "#7b4fa0",
+          "black"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "22129483",
@@ -2909,7 +6584,25 @@
       "gold"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gold Nugget",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Gold Nugget",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "22460704",
@@ -2920,7 +6613,27 @@
       "black"
     ],
     "pattern": "galaxy",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Silver & Black Galaxy",
+        "cssReadableColors": [
+          "silver",
+          "black"
+        ],
+        "pattern": "galaxy",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Silver & Black Galaxy",
+        "cssReadableColors": [
+          "silver",
+          "black"
+        ],
+        "pattern": "galaxy",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "22578677",
@@ -2930,7 +6643,17 @@
       "pink"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Opaque Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "22690028",
@@ -2938,7 +6661,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "22766402",
@@ -2948,7 +6679,17 @@
       "lime"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green Neon",
+        "cssReadableColors": [
+          "lime"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "22808678",
@@ -2956,7 +6697,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "22824578",
@@ -2966,19 +6721,51 @@
       "green"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green Marble",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "22870928",
     "description": "White In Half Doublemint / Half Clear w/ Hot Pink Splatter",
     "humanReadableColor": "White In Half Doublemint / Half Clear w/ Hot Pink Splatter",
     "cssReadableColors": [
-      "mediumaquamarine",
       "white",
+      "mediumaquamarine",
       "hotpink"
     ],
     "pattern": "splatter",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "White In Half Doublemint / Half Clear w/ Hot Pink Splatter",
+        "cssReadableColors": [
+          "white",
+          "mediumaquamarine",
+          "hotpink"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "White In Half Doublemint / Half Clear w/ Hot Pink Splatter",
+        "cssReadableColors": [
+          "white",
+          "mediumaquamarine",
+          "hotpink"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "22958273",
@@ -2988,7 +6775,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "22997213",
@@ -2999,7 +6796,27 @@
       "teal"
     ],
     "pattern": "splatter",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear W/ Red & Teal Splatter",
+        "cssReadableColors": [
+          "red",
+          "teal"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Clear W/ Red & Teal Splatter",
+        "cssReadableColors": [
+          "red",
+          "teal"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "23017685",
@@ -3009,7 +6826,17 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow [Lemon]",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "23031311",
@@ -3017,7 +6844,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "23116973",
@@ -3027,7 +6868,25 @@
       "green"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Green Translucent",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Green Translucent",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "23192750",
@@ -3037,7 +6896,17 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "23195939",
@@ -3047,18 +6916,48 @@
       "goldenrod"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Marigold",
+        "cssReadableColors": [
+          "goldenrod"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "23513387",
     "description": "Purple and blue splatter and Blue (transluscent) w/blue and purple splatter",
-    "humanReadableColor": "Purple and blue splatter and Blue Translucent w/ blue and purple splatter",
+    "humanReadableColor": "Purple and blue splatter and Blue Translucent w/blue and purple splatter",
     "cssReadableColors": [
-      "blue",
-      "purple"
+      "purple",
+      "blue"
     ],
     "pattern": "splatter",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Purple and blue splatter",
+        "cssReadableColors": [
+          "purple",
+          "blue"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Blue Translucent w/blue and purple splatter",
+        "cssReadableColors": [
+          "blue",
+          "purple"
+        ],
+        "pattern": "splatter",
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "23818649",
@@ -3068,7 +6967,17 @@
       "orange"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Orange Opaque",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "23956076",
@@ -3078,7 +6987,25 @@
       "pink"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24139166",
@@ -3088,7 +7015,17 @@
       "orange"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange Marble",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24239123",
@@ -3098,7 +7035,25 @@
       "orange"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange Crush",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Orange Crush",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24301901",
@@ -3108,7 +7063,25 @@
       "gold"
     ],
     "pattern": null,
-    "texture": "metallic"
+    "texture": "metallic",
+    "discs": [
+      {
+        "humanReadableColor": "Gold Metallic",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": "metallic"
+      },
+      {
+        "humanReadableColor": "Gold Metallic",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": "metallic"
+      }
+    ]
   },
   {
     "id": "24324380",
@@ -3118,7 +7091,25 @@
       "orange"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24372782",
@@ -3128,7 +7119,17 @@
       "gold"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gold",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24471650",
@@ -3136,7 +7137,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24487997",
@@ -3146,7 +7155,25 @@
       "red"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      },
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "24611462",
@@ -3154,7 +7181,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24675908",
@@ -3164,7 +7205,25 @@
       "hotpink"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Neon Pink",
+        "cssReadableColors": [
+          "hotpink"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Neon Pink",
+        "cssReadableColors": [
+          "hotpink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24768950",
@@ -3174,7 +7233,17 @@
       "peachpuff"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Peach",
+        "cssReadableColors": [
+          "peachpuff"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24820058",
@@ -3182,7 +7251,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24866075",
@@ -3192,7 +7275,17 @@
       "silver"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Silver",
+        "cssReadableColors": [
+          "silver"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24866408",
@@ -3202,18 +7295,47 @@
       "red"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "24906872",
     "description": "Pink Cadillac & Black Splatter",
     "humanReadableColor": "Pink Cadillac & Black Splatter",
     "cssReadableColors": [
-      "hotpink",
+      "pink",
       "black"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink Cadillac & Black Splatter",
+        "cssReadableColors": [
+          "pink",
+          "black"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25022977",
@@ -3223,7 +7345,25 @@
       "lightblue"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Light Blue",
+        "cssReadableColors": [
+          "lightblue"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Light Blue",
+        "cssReadableColors": [
+          "lightblue"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25023202",
@@ -3233,7 +7373,25 @@
       "silver"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Silver",
+        "cssReadableColors": [
+          "silver"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Silver",
+        "cssReadableColors": [
+          "silver"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25074958",
@@ -3245,7 +7403,19 @@
       "white"
     ],
     "pattern": "swirl",
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Opaque Purple, Black, And White Swirl",
+        "cssReadableColors": [
+          "purple",
+          "black",
+          "white"
+        ],
+        "pattern": "swirl",
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "25118125",
@@ -3253,18 +7423,46 @@
     "humanReadableColor": "Color In Color",
     "cssReadableColors": null,
     "pattern": "color in color",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Color In Color",
+        "cssReadableColors": null,
+        "pattern": "color in color",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25144240",
     "description": "Red & Black Splatter [Blood Splatter Red], Gatefold",
     "humanReadableColor": "Red & Black Splatter",
     "cssReadableColors": [
-      "darkred",
+      "red",
       "black"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red & Black Splatter",
+        "cssReadableColors": [
+          "red",
+          "black"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red & Black Splatter",
+        "cssReadableColors": [
+          "red",
+          "black"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25145062",
@@ -3275,7 +7473,18 @@
       "black"
     ],
     "pattern": null,
-    "texture": "transparent"
+    "texture": "transparent",
+    "discs": [
+      {
+        "humanReadableColor": "Blue With Black Transparent",
+        "cssReadableColors": [
+          "blue",
+          "black"
+        ],
+        "pattern": null,
+        "texture": "transparent"
+      }
+    ]
   },
   {
     "id": "25181848",
@@ -3288,7 +7497,41 @@
       "purple"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Blue",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Purple",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25181890",
@@ -3299,7 +7542,27 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue/Yellow",
+        "cssReadableColors": [
+          "blue",
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Blue/Yellow",
+        "cssReadableColors": [
+          "blue",
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25208113",
@@ -3307,7 +7570,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25561039",
@@ -3318,7 +7589,18 @@
       "blue"
     ],
     "pattern": "galaxy",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple and Blue Galaxy",
+        "cssReadableColors": [
+          "purple",
+          "blue"
+        ],
+        "pattern": "galaxy",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "25784593",
@@ -3328,7 +7610,25 @@
       "white"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "White Opaque",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      },
+      {
+        "humanReadableColor": "White Opaque",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "25868224",
@@ -3338,7 +7638,17 @@
       "blue"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "26058616",
@@ -3349,7 +7659,18 @@
       "white"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red & White Splatter",
+        "cssReadableColors": [
+          "red",
+          "white"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "26204477",
@@ -3359,7 +7680,17 @@
       "gold"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Gold",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "26345177",
@@ -3369,7 +7700,17 @@
       "white"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "27228072",
@@ -3379,7 +7720,17 @@
       "#f3e5ab"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Buttercream",
+        "cssReadableColors": [
+          "#f3e5ab"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "27377151",
@@ -3389,7 +7740,25 @@
       "silver"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Silver",
+        "cssReadableColors": [
+          "silver"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Silver",
+        "cssReadableColors": [
+          "silver"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "27816189",
@@ -3401,7 +7770,29 @@
       "black"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Galaxy Swirl",
+        "cssReadableColors": [
+          "midnightblue",
+          "purple",
+          "black"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Galaxy Swirl",
+        "cssReadableColors": [
+          "midnightblue",
+          "purple",
+          "black"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "27847302",
@@ -3409,11 +7800,21 @@
     "humanReadableColor": "Tigers Eye Translucent",
     "cssReadableColors": [
       "darkgoldenrod",
-      "saddlebrown",
-      "black"
+      "saddlebrown"
     ],
-    "pattern": "swirl",
-    "texture": "translucent"
+    "pattern": null,
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Tigers Eye Translucent",
+        "cssReadableColors": [
+          "darkgoldenrod",
+          "saddlebrown"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "27947136",
@@ -3423,7 +7824,17 @@
       "blue"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "27977268",
@@ -3434,7 +7845,18 @@
       "orange"
     ],
     "pattern": "kaleidoscope",
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Kaleidoscope Opaque Gray, Translucent Orange",
+        "cssReadableColors": [
+          "gray",
+          "orange"
+        ],
+        "pattern": "kaleidoscope",
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "28037466",
@@ -3445,7 +7867,27 @@
       "silver"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Black Ice with Silver",
+        "cssReadableColors": [
+          "dimgray",
+          "silver"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Black Ice with Silver",
+        "cssReadableColors": [
+          "dimgray",
+          "silver"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "28091296",
@@ -3455,7 +7897,17 @@
       "goldenrod"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Fool's Gold",
+        "cssReadableColors": [
+          "goldenrod"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "28091347",
@@ -3465,7 +7917,17 @@
       "goldenrod"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Fool's Gold",
+        "cssReadableColors": [
+          "goldenrod"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "28318528",
@@ -3475,7 +7937,33 @@
       "orange"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "28366828",
@@ -3487,7 +7975,19 @@
       "lightblue"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Black With Hi-melt Pink And Pearlescent Blue Splatter",
+        "cssReadableColors": [
+          "black",
+          "hotpink",
+          "lightblue"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "28638235",
@@ -3497,7 +7997,17 @@
       "mediumaquamarine"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Coke Bottle Clear",
+        "cssReadableColors": [
+          "mediumaquamarine"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "28714192",
@@ -3507,7 +8017,17 @@
       "palegreen"
     ],
     "pattern": null,
-    "texture": "glow in the dark"
+    "texture": "glow in the dark",
+    "discs": [
+      {
+        "humanReadableColor": "Glow in the Dark",
+        "cssReadableColors": [
+          "palegreen"
+        ],
+        "pattern": null,
+        "texture": "glow in the dark"
+      }
+    ]
   },
   {
     "id": "28771870",
@@ -3517,7 +8037,17 @@
       "purple"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "28926919",
@@ -3529,12 +8059,37 @@
       "magenta",
       "goldenrod",
       "black",
-      "palegreen",
+      "mediumaquamarine",
       "khaki",
       "red"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Swamp Green/Bone with Magenta, Mustard, and Black Splatter",
+        "cssReadableColors": [
+          "darkolivegreen",
+          "oldlace",
+          "magenta",
+          "goldenrod",
+          "black"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Doublemint Green and Easter Yellow with Red and Black Splatter",
+        "cssReadableColors": [
+          "mediumaquamarine",
+          "khaki",
+          "red",
+          "black"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "28942606",
@@ -3542,28 +8097,114 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "28953472",
     "description": "Redish With Black Galaxy",
     "humanReadableColor": "Redish With Black Galaxy",
     "cssReadableColors": [
-      "indianred",
+      "firebrick",
       "black"
     ],
     "pattern": "galaxy",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Redish With Black Galaxy",
+        "cssReadableColors": [
+          "firebrick",
+          "black"
+        ],
+        "pattern": "galaxy",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Redish With Black Galaxy",
+        "cssReadableColors": [
+          "firebrick",
+          "black"
+        ],
+        "pattern": "galaxy",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "29083342",
     "description": "Red Opaque and Red and Red and Red and Red and Red",
-    "humanReadableColor": "Red Opaque and Red and Red and Red and Red and Red",
+    "humanReadableColor": "Red Opaque and Red",
     "cssReadableColors": [
       "red"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      },
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      },
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "29219692",
@@ -3571,7 +8212,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "29539879",
@@ -3581,7 +8230,17 @@
       "blue"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "29807503",
@@ -3591,7 +8250,17 @@
       "dimgray"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Translucent Smoke",
+        "cssReadableColors": [
+          "dimgray"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "29808739",
@@ -3601,7 +8270,17 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Yellow Translucent",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "29954878",
@@ -3609,7 +8288,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "30106898",
@@ -3617,7 +8304,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "30204470",
@@ -3627,17 +8322,37 @@
       "peachpuff"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Peach",
+        "cssReadableColors": [
+          "peachpuff"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "30237521",
     "description": "Coke Bottle Clear",
     "humanReadableColor": "Coke Bottle Clear",
     "cssReadableColors": [
-      "mediumseagreen"
+      "mediumaquamarine"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Coke Bottle Clear",
+        "cssReadableColors": [
+          "mediumaquamarine"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "30596569",
@@ -3648,7 +8363,25 @@
       "purple"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Lavender Marble",
+        "cssReadableColors": [
+          "lavender"
+        ],
+        "pattern": "marble",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Purple Marble",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "30695482",
@@ -3659,7 +8392,25 @@
       "pink"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Opaque Spring Green",
+        "cssReadableColors": [
+          "springgreen"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      },
+      {
+        "humanReadableColor": "Opaque Baby Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "30920751",
@@ -3669,7 +8420,23 @@
       "crimson"
     ],
     "pattern": null,
-    "texture": "translucent"
+    "texture": "translucent",
+    "discs": [
+      {
+        "humanReadableColor": "Ruby Translucent",
+        "cssReadableColors": [
+          "crimson"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "31083224",
@@ -3677,13 +8444,27 @@
     "humanReadableColor": "Tri-Color Merge Black, Cyan Blue And Metallic Silver With Neon Magenta, White And Metallic Silver Splatter",
     "cssReadableColors": [
       "black",
-      "darkcyan",
+      "deepskyblue",
       "silver",
       "magenta",
       "white"
     ],
     "pattern": "merge with splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Tri-Color Merge Black, Cyan Blue And Metallic Silver With Neon Magenta, White And Metallic Silver Splatter",
+        "cssReadableColors": [
+          "black",
+          "deepskyblue",
+          "silver",
+          "magenta",
+          "white"
+        ],
+        "pattern": "merge with splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "31160003",
@@ -3693,7 +8474,17 @@
       "pink"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "31289291",
@@ -3704,7 +8495,25 @@
       "#b87333"
     ],
     "pattern": "swirl",
-    "texture": "metallic"
+    "texture": "metallic",
+    "discs": [
+      {
+        "humanReadableColor": "Green Swirl",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Metallic Copper",
+        "cssReadableColors": [
+          "#b87333"
+        ],
+        "pattern": null,
+        "texture": "metallic"
+      }
+    ]
   },
   {
     "id": "31606042",
@@ -3714,7 +8523,17 @@
       "grey"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Grey",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "31850216",
@@ -3722,17 +8541,52 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "32100537",
     "description": " Blood Stain Clear, Alternate Artwork",
     "humanReadableColor": "Blood Stain Clear",
     "cssReadableColors": [
+      "#f5f5f5",
       "darkred"
     ],
     "pattern": "splatter",
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Blood Stain Clear",
+        "cssReadableColors": [
+          "#f5f5f5",
+          "darkred"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Blood Stain Clear",
+        "cssReadableColors": [
+          "#f5f5f5",
+          "darkred"
+        ],
+        "pattern": "splatter",
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "32106225",
@@ -3742,7 +8596,17 @@
       "#ccffcc"
     ],
     "pattern": null,
-    "texture": "glow in the dark"
+    "texture": "glow in the dark",
+    "discs": [
+      {
+        "humanReadableColor": "Glow In The Dark",
+        "cssReadableColors": [
+          "#ccffcc"
+        ],
+        "pattern": null,
+        "texture": "glow in the dark"
+      }
+    ]
   },
   {
     "id": "32113506",
@@ -3752,7 +8616,17 @@
       "yellow"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "32142153",
@@ -3760,7 +8634,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "32165877",
@@ -3768,7 +8656,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "32226069",
@@ -3781,7 +8683,64 @@
       "blue"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White with Orange, Purple and Blue Splatter",
+        "cssReadableColors": [
+          "white",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White with Orange, Purple and Blue Splatter",
+        "cssReadableColors": [
+          "white",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White with Orange, Purple and Blue Splatter",
+        "cssReadableColors": [
+          "white",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White with Orange, Purple and Blue Splatter",
+        "cssReadableColors": [
+          "white",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White with Orange, Purple and Blue Splatter",
+        "cssReadableColors": [
+          "white",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        "pattern": "splatter",
+        "texture": "etched"
+      }
+    ]
   },
   {
     "id": "32343552",
@@ -3791,7 +8750,17 @@
       "red"
     ],
     "pattern": null,
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Red Opaque",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "32353329",
@@ -3801,7 +8770,25 @@
       "purple"
     ],
     "pattern": "marble",
-    "texture": "opaque, translucent"
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple Marble Opaque",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": "marble",
+        "texture": "opaque"
+      },
+      {
+        "humanReadableColor": "Purple Marble Translucent",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": "marble",
+        "texture": "translucent"
+      }
+    ]
   },
   {
     "id": "32386413",
@@ -3813,7 +8800,36 @@
       "orange"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red / Purple Swirl",
+        "cssReadableColors": [
+          "red",
+          "purple"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red / Purple Swirl",
+        "cssReadableColors": [
+          "red",
+          "purple"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red / Orange Swirl",
+        "cssReadableColors": [
+          "red",
+          "orange"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "33513512",
@@ -3823,7 +8839,25 @@
       "green"
     ],
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Green & Clear",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      },
+      {
+        "humanReadableColor": "Green & Clear",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "33738879",
@@ -3833,7 +8867,17 @@
       "purple"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Purple",
+        "cssReadableColors": [
+          "purple"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "33806661",
@@ -3845,7 +8889,19 @@
       "blue"
     ],
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White-Red-Blue Super Splatter",
+        "cssReadableColors": [
+          "white",
+          "red",
+          "blue"
+        ],
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "34256626",
@@ -3853,7 +8909,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "35014166",
@@ -3865,7 +8935,19 @@
       "green"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "White, Red & Green",
+        "cssReadableColors": [
+          "white",
+          "red",
+          "green"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "35209627",
@@ -3873,7 +8955,15 @@
     "humanReadableColor": "Clear",
     "cssReadableColors": null,
     "pattern": null,
-    "texture": "clear"
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Clear",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
   },
   {
     "id": "35324341",
@@ -3884,7 +8974,18 @@
       "hotpink"
     ],
     "pattern": "swirl",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Blue with Hot Pink Swirl",
+        "cssReadableColors": [
+          "blue",
+          "hotpink"
+        ],
+        "pattern": "swirl",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "35355328",
@@ -3892,7 +8993,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "35660245",
@@ -3902,7 +9011,17 @@
       "orangered"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Neon Orange",
+        "cssReadableColors": [
+          "orangered"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "35714569",
@@ -3910,7 +9029,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "35921863",
@@ -3920,7 +9047,17 @@
       "lime"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Neon Green",
+        "cssReadableColors": [
+          "lime"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "36492829",
@@ -3931,7 +9068,18 @@
       "gold"
     ],
     "pattern": "ripple",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Golden Ripple",
+        "cssReadableColors": [
+          "goldenrod",
+          "gold"
+        ],
+        "pattern": "ripple",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "36532246",
@@ -3942,15 +9090,34 @@
       "dimgray"
     ],
     "pattern": "smoke",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green with Smoke",
+        "cssReadableColors": [
+          "green",
+          "dimgray"
+        ],
+        "pattern": "smoke",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "36751249",
     "description": "Fallen Angel",
-    "humanReadableColor": "Fallen Angel",
+    "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "36760489",
@@ -3962,7 +9129,19 @@
       "green"
     ],
     "pattern": "sunburst",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Lebanese Sunburst",
+        "cssReadableColors": [
+          "red",
+          "white",
+          "green"
+        ],
+        "pattern": "sunburst",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "36828952",
@@ -3974,7 +9153,19 @@
       "red"
     ],
     "pattern": "cornetto, splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Black And Orange Cornetto With Red Splatter",
+        "cssReadableColors": [
+          "black",
+          "orange",
+          "red"
+        ],
+        "pattern": "cornetto, splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "37611723",
@@ -3984,7 +9175,17 @@
       "orange"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Orange",
+        "cssReadableColors": [
+          "orange"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "37668285",
@@ -3996,7 +9197,19 @@
       "burlywood"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "S'Mores Marble",
+        "cssReadableColors": [
+          "saddlebrown",
+          "white",
+          "burlywood"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "37898535",
@@ -4007,7 +9220,26 @@
       "white"
     ],
     "pattern": "a-side/b-side",
-    "texture": "opaque"
+    "texture": "opaque",
+    "discs": [
+      {
+        "humanReadableColor": "Black & White A-Side/B-Side",
+        "cssReadableColors": [
+          "black",
+          "white"
+        ],
+        "pattern": "a-side/b-side",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "White Opaque",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": "opaque"
+      }
+    ]
   },
   {
     "id": "37904211",
@@ -4017,7 +9249,33 @@
       "gold"
     ],
     "pattern": "marble",
-    "texture": "metallic"
+    "texture": "metallic",
+    "discs": [
+      {
+        "humanReadableColor": "Gold Metallic Marble",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": "marble",
+        "texture": "metallic"
+      },
+      {
+        "humanReadableColor": "Gold Metallic Marble",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": "marble",
+        "texture": "metallic"
+      },
+      {
+        "humanReadableColor": "Gold Metallic Marble",
+        "cssReadableColors": [
+          "gold"
+        ],
+        "pattern": "marble",
+        "texture": "metallic"
+      }
+    ]
   },
   {
     "id": "37933113",
@@ -4025,7 +9283,15 @@
     "humanReadableColor": "Everything Splatter",
     "cssReadableColors": null,
     "pattern": "splatter",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Everything Splatter",
+        "cssReadableColors": null,
+        "pattern": "splatter",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "37940037",
@@ -4033,7 +9299,15 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "38081151",
@@ -4044,7 +9318,18 @@
       "blue"
     ],
     "pattern": "marble",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Green And Blue Marble",
+        "cssReadableColors": [
+          "green",
+          "blue"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "38248512",
@@ -4055,7 +9340,27 @@
       "black"
     ],
     "pattern": "smoke",
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Maroon With Black Smoke",
+        "cssReadableColors": [
+          "maroon",
+          "black"
+        ],
+        "pattern": "smoke",
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Maroon With Black Smoke",
+        "cssReadableColors": [
+          "maroon",
+          "black"
+        ],
+        "pattern": "smoke",
+        "texture": null
+      }
+    ]
   },
   {
     "id": "38604684",
@@ -4065,7 +9370,17 @@
       "aquamarine"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Aquamarine",
+        "cssReadableColors": [
+          "aquamarine"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "38632977",
@@ -4073,7 +9388,21 @@
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   },
   {
     "id": "38753289",
@@ -4083,6 +9412,16 @@
       "#e35335"
     ],
     "pattern": null,
-    "texture": null
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Poppy",
+        "cssReadableColors": [
+          "#e35335"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   }
 ]

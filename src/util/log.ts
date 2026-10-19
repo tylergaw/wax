@@ -18,6 +18,19 @@ function toEastern(date: Date): string {
   return date.toLocaleString("sv-SE", { timeZone: TIME_ZONE });
 }
 
+// "2026-03" or "2026-03-14" as noon Eastern, so it can't slip into another day
+export function toDateAdded(date: string): string {
+  if (/^\d{4}-\d{2}$/.test(date)) {
+    return `${date}-01T12:00:00-05:00`;
+  }
+
+  if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    return `${date}T12:00:00-05:00`;
+  }
+
+  return date;
+}
+
 export function getAddedDate(release: Release): string {
   return toEastern(new Date(release.date_added));
 }

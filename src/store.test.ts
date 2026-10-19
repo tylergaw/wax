@@ -126,6 +126,18 @@ describe("combineDataSources function", () => {
     expect(withoutMaster.album).toBeUndefined();
   });
 
+  it("lets overrides change the date added", () => {
+    const discogsData: Collection = [
+      { id: 1, date_added: "2026-10-18T15:56:57-07:00", basic_information: {} },
+    ];
+    const overrides = { 1: { dateAdded: "2026-03", humanReadableColor: "Red" } };
+
+    const [release] = combineDataSources(discogsData, [], overrides);
+
+    expect(release.date_added).toBe("2026-03-01T12:00:00-05:00");
+    expect(release.display).toEqual({ humanReadableColor: "Red" });
+  });
+
   it("adds covers by album key", () => {
     const discogsData: Collection = [
       { id: 1, basic_information: { id: 1, master_id: 20 } },

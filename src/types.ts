@@ -6,7 +6,7 @@ interface SourceObject {
 export type DataSource = SourceObject[];
 
 export type ReleaseDisplay = {
-  id?: string;
+  id?: string | number;
   description?: string;
   humanReadableColor?: string | null;
   cssReadableColors?: string[] | null;

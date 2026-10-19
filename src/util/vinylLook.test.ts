@@ -74,6 +74,35 @@ describe("getVinylLook function", () => {
     ).toBe(0.75);
   });
 
+  it("draws clear records without colors as clear", () => {
+    expect(getVinylLook(release(null, "clear", null))).toMatchObject({
+      base: "white",
+      opacity: 0.55,
+    });
+  });
+
+  it("uses each disc's own look when there is one", () => {
+    const r: Release = {
+      id: 42,
+      basic_information: {},
+      display: {
+        cssReadableColors: ["lightpink", "khaki"],
+        discs: [
+          { cssReadableColors: ["lightpink"], pattern: null, texture: null },
+          { cssReadableColors: ["blue", "silver"], pattern: "marble", texture: null },
+        ],
+      },
+    };
+
+    expect(getVinylLook(r, 0)).toMatchObject({ base: "lightpink", recipe: "solid" });
+    expect(getVinylLook(r, 1)).toMatchObject({
+      base: "blue",
+      accents: ["silver"],
+      recipe: "marble",
+    });
+    expect(getVinylLook(r, 5).base).toBe("lightpink");
+  });
+
   it("adds a sheen to metallic records", () => {
     expect(getVinylLook(release(null, "metallic", ["gold"])).sheen).toBe(true);
   });

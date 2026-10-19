@@ -67,16 +67,16 @@ const getFormatSize = (format: any): string => {
   return ['10"', '7"'].find((size) => descriptions.includes(size)) ?? '12"';
 };
 
-// Only LPs are drawn. Releases with no LPs, like a set of 7"s, draw them all
-export function getDiscCount(release: Release): number {
-  const formats = getVinylFormats(release);
-  const lps = formats.filter((f) => getFormatSize(f) === '12"');
-  const count = (lps.length ? lps : formats).reduce(
-    (n: number, f: any) => n + (Number(f.qty) || 1),
-    0
+// Positions of the physical discs to draw, in order. Only LPs are drawn.
+// Releases with no LPs, like a set of 7"s, draw them all
+export function getDrawnDiscs(release: Release): number[] {
+  const sizes: string[] = getVinylFormats(release).flatMap((f) =>
+    Array(Number(f.qty) || 1).fill(getFormatSize(f))
   );
+  const lps = sizes.flatMap((size, i) => (size === '12"' ? [i] : []));
+  const drawn = lps.length ? lps : sizes.map((_, i) => i);
 
-  return Math.max(count, 1);
+  return drawn.length ? drawn : [0];
 }
 
 export function getFormatLabel(release: Release): string | null {

@@ -12,6 +12,7 @@ export type ReleaseDisplay = {
   cssReadableColors?: string[] | null;
   pattern?: string | null;
   texture?: string | null;
+  discs?: ReleaseDisplay[];
 };
 
 // Album-level data from the release's Discogs master. A release is one

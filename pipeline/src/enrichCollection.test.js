@@ -2,6 +2,7 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import {
   getDescriptions,
+  getDiscEntries,
   getUserMessages,
   getRecordsToEnrich,
   mergeEnrichments,
@@ -143,6 +144,42 @@ describe("mergeEnrichments function", () => {
     assert.deepEqual(mergeEnrichments(descriptions, enrichments, results), [
       { id: "2", description: "Blue", cssReadableColors: ["blue"] },
       { id: "10", description: "Red", cssReadableColors: ["red"] },
+    ]);
+  });
+});
+
+describe("getDiscEntries function", () => {
+  it("lists each vinyl format with its count and description", () => {
+    const entries = getDiscEntries([
+      {
+        id: 1,
+        basic_information: {
+          formats: [
+            { name: "Vinyl", qty: "2", text: "Magenta Translucent" },
+            { name: "Vinyl", qty: "1" },
+            { name: "CD", qty: "1", text: "Ignored" },
+          ],
+        },
+      },
+    ]);
+
+    assert.deepEqual(entries, {
+      1: [
+        { qty: 2, text: "Magenta Translucent" },
+        { qty: 1, text: null },
+      ],
+    });
+  });
+
+  it("is sent to Claude with each record", () => {
+    const [message] = getUserMessages(
+      { 1: "Pink Baby and Yellow Piss" },
+      { 1: [{ qty: 1, text: "Pink Baby" }, { qty: 1, text: "Yellow Piss" }] },
+    );
+
+    assert.deepEqual(JSON.parse(message).discs, [
+      { qty: 1, text: "Pink Baby" },
+      { qty: 1, text: "Yellow Piss" },
     ]);
   });
 });

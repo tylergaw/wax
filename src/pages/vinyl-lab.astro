@@ -6,6 +6,11 @@ import { getArtistDisplayName, getReleaseUrl } from "@util/data";
 import { getVinylLook } from "@util/vinylLook";
 
 
+const multiDisc = store.collection.filter((release) => {
+  const discs = release.display?.discs ?? [];
+  return new Set(discs.map((disc) => JSON.stringify(disc))).size > 1;
+});
+
 const releases = store.collection
   .filter((r) => r.display?.humanReadableColor)
   .map((release) => ({ release, look: getVinylLook(release) }));
@@ -24,6 +29,7 @@ const sections = ["marble", "swirl", "splatter", "smoke", "galaxy", "split", "ce
   <main class="standard-restricted-width">
     <h1 class="standard-page-title">Vinyl lab ({releases.length})</h1>
     <nav>
+      <a href="#multi-disc">multi-disc ({multiDisc.length})</a>
       {
         sections.map((section) => (
           <a href={`#${section.name}`}>
@@ -32,6 +38,30 @@ const sections = ["marble", "swirl", "splatter", "smoke", "galaxy", "split", "ce
         ))
       }
     </nav>
+    <section id="multi-disc">
+      <h2>Multi-disc ({multiDisc.length})</h2>
+      <ul class="multi">
+        {
+          multiDisc.map((release) => (
+            <li>
+              <a href={getReleaseUrl(release)} class="discs">
+                {release.display?.discs?.map((_, i) => (
+                  <Vinyl
+                    class="disc"
+                    look={{ ...getVinylLook(release, i), seed: Number(release.id) + i }}
+                  />
+                ))}
+              </a>
+              <p class="name">
+                {getArtistDisplayName(release.basic_information.artists[0].name)},{" "}
+                <span class="title">{release.basic_information.title}</span>
+              </p>
+              <p class="desc">{release.display?.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
     {
       sections.map((section) => (
         <section id={section.name}>
@@ -88,6 +118,20 @@ const sections = ["marble", "swirl", "splatter", "smoke", "galaxy", "split", "ce
   .disc {
     display: block;
     width: 100%;
+  }
+
+  .multi {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+
+  .discs {
+    display: flex;
+    gap: var(--sp-4);
+  }
+
+  .discs .disc {
+    flex: 1 1 0;
+    min-width: 0;
   }
 
   .name {

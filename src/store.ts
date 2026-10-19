@@ -22,8 +22,13 @@ import coversData from "../data/covers.json";
 
 // Hand fixes keyed by release id, for example:
 // { "123": { "humanReadableColor": "Cranberry Bog", "dateAdded": "2026-03" } }
+// sortArtist picks which of a release's artists it's listed under in the full list
 export type Overrides = {
-  [id: string]: ReleaseDisplay & { dateAdded?: string };
+  [id: string]: ReleaseDisplay & {
+    dateAdded?: string;
+    sortArtist?: string;
+    albumYear?: number;
+  };
 };
 
 // Album data keyed by Discogs master id
@@ -55,12 +60,15 @@ export function combineDataSources(
   // Keyed by id so a release that's in the collection twice only shows once
   const releasesById = discogs.reduce((obj, release) => {
     const albumKey = getAlbumKey(release);
-    const { dateAdded, ...displayOverrides } = overrides[release.id] ?? {};
+    const { dateAdded, sortArtist, albumYear, ...displayOverrides } =
+      overrides[release.id] ?? {};
+    const album = masters[release.basic_information.master_id];
     obj[release.id] = {
       ...release,
       ...(dateAdded && { date_added: toDateAdded(dateAdded) }),
+      ...(sortArtist && { sortArtist }),
       display: { ...enrichmentsById[release.id], ...displayOverrides },
-      album: masters[release.basic_information.master_id],
+      album: albumYear ? { ...album, year: albumYear } : album,
       cover: covers[albumKey] && { key: albumKey, ...covers[albumKey] },
     };
     return obj;
@@ -143,7 +151,8 @@ export function getReleasesByArtist(collection: Release[]) {
 /**
  * Flatten a releasesByArtist object into a single list, keeping the artist
  * and release order. A release with multiple artists is listed under each of
- * them in releasesByArtist, so only keep its first occurrence here.
+ * them in releasesByArtist, so only keep its first occurrence here, or the
+ * occurrence under its sortArtist when it has one.
  */
 export function getUniqueReleases(releasesByArtist: {
   [index: string]: Release[];
@@ -153,6 +162,9 @@ export function getUniqueReleases(releasesByArtist: {
 
   Object.keys(releasesByArtist).forEach((key) => {
     releasesByArtist[key].forEach((release) => {
+      const sortKey = release.sortArtist?.toLowerCase();
+      if (sortKey && sortKey in releasesByArtist && sortKey !== key) return;
+
       if (!releaseIndex.includes(release.id)) {
         releaseIndex.push(release.id);
         releases.push(release);

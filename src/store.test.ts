@@ -138,6 +138,30 @@ describe("combineDataSources function", () => {
     expect(release.display).toEqual({ humanReadableColor: "Red" });
   });
 
+  it("lets overrides set the album year", () => {
+    const discogsData: Collection = [
+      { id: 1, basic_information: { master_id: 20 } },
+    ];
+    const overrides = { 1: { albumYear: 1994 } };
+
+    const [release] = combineDataSources(discogsData, [], overrides, {
+      20: { year: 0 },
+    });
+
+    expect(release.album).toEqual({ year: 1994 });
+    expect(release.display).toEqual({});
+  });
+
+  it("lets overrides set the sort artist", () => {
+    const discogsData: Collection = [{ id: 1, basic_information: {} }];
+    const overrides = { 1: { sortArtist: "Tom Holkenborg" } };
+
+    const [release] = combineDataSources(discogsData, [], overrides);
+
+    expect(release.sortArtist).toBe("Tom Holkenborg");
+    expect(release.display).toEqual({});
+  });
+
   it("adds covers by album key", () => {
     const discogsData: Collection = [
       { id: 1, basic_information: { id: 1, master_id: 20 } },
@@ -546,6 +570,21 @@ describe("getUniqueReleases function", () => {
     // Artists sorted by name, each artist's releases sorted by year. The split
     // appears under AFI first, so it is not repeated under Soundgarden.
     expect(releases.map((r) => r.id)).toStrictEqual([222, 111, 444, 333]);
+  });
+
+  it("lists a release under its sort artist", () => {
+    const artists = [
+      { id: 1, name: "Tom Holkenborg" },
+      { id: 2, name: "Junkie XL" },
+    ];
+    const collection: Collection = [
+      { id: 1, sortArtist: "tom holkenborg", basic_information: { year: 2015, artists } },
+      { id: 2, basic_information: { year: 2016, artists: [artists[1]] } },
+      { id: 3, sortArtist: "Nobody", basic_information: { year: 2017, artists } },
+    ];
+    const releases = getUniqueReleases(getReleasesByArtist(collection));
+
+    expect(releases.map((r) => r.id)).toStrictEqual([2, 3, 1]);
   });
 });
 

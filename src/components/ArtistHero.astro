@@ -80,14 +80,14 @@ const back = deal(clamp(count * 1.5, 4, columns * rows)).map((item, i) => ({
   ...item,
   x: ((cells[i] % columns) + 0.5 + between(-0.4, 0.4)) / columns,
   y: (Math.floor(cells[i] / columns) + 0.5 + between(-0.4, 0.4)) / rows,
-  size: between(0.42, 0.6),
+  size: between(0.36, 0.5),
   front: false,
 }));
 const front = deal(clamp(count * 0.5, 1, 10)).map((item) => ({
   ...item,
   x: between(0, 1),
   y: between(0, 1),
-  size: between(0.26, 0.38),
+  size: between(0.24, 0.34),
   front: true,
 }));
 
@@ -115,12 +115,12 @@ const splat = () => {
       r: 2 + random() ** 3 * 30,
     };
   });
-  return { x: between(0, 1600), y: between(0, 520), color: pick(colors), dots };
+  return { x: between(0, 1600), y: between(120, 504), color: pick(colors), dots };
 };
 
 const dash = () => ({
   x: between(0, 1600),
-  y: between(0, 520),
+  y: between(40, 584),
   length: between(14, 56),
   angle: between(0, 180),
   width: between(3, 7),
@@ -130,7 +130,7 @@ const dash = () => ({
 const shape = () => ({
   kind: pick(["ring", "triangle", "squiggle", "cross"]),
   x: between(0, 1600),
-  y: between(0, 520),
+  y: between(40, 584),
   size: between(24, 70),
   rotate: between(0, 360),
   color: chance(0.3) ? "#2b2b2b" : pick(colors),
@@ -155,118 +155,115 @@ const id = `hero-${artist.id}`;
 const name = getArtistDisplayName(artist.name);
 const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
 
-// Rough top and bottom edges so the hero doesn't end in a hard line
-const edge = (min: number, max: number) =>
-  Array.from({ length: 41 }, (_, i) => {
-    const x = (i / 40) * 100;
-    return `${x.toFixed(1)}% ${between(min, max).toFixed(2)}%`;
-  });
-const clipPath = `polygon(${[...edge(0, 2.5), ...edge(97.5, 100).reverse()].join(", ")})`;
 ---
 
-<header class="hero" style={`--title-size: ${titleSize}px; clip-path: ${clipPath}`}>
-  {
-    layers.map((layer) => (
-      <>
-        <svg
-          class="marks"
-          viewBox="0 0 1600 520"
-          preserveAspectRatio="xMidYMid slice"
-          aria-hidden="true"
-        >
-          <defs>
-            <filter id={`${id}-${layer.name}-splat`}>
-              <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed={seed % 1000} />
-              <feDisplacementMap in="SourceGraphic" scale="12" xChannelSelector="R" yChannelSelector="G" />
-            </filter>
-            <filter id={`${id}-${layer.name}-rough`}>
-              <feTurbulence type="fractalNoise" baseFrequency="0.3" numOctaves="1" seed="3" />
-              <feDisplacementMap in="SourceGraphic" scale="3" xChannelSelector="R" yChannelSelector="G" />
-            </filter>
-          </defs>
-          <g filter={`url(#${id}-${layer.name}-splat)`}>
-            {layer.splats.map((s) => (
-              <g transform={`translate(${s.x} ${s.y})`} fill={s.color}>
-                {s.dots.map((dot) => (
-                  <circle cx={dot.cx} cy={dot.cy} r={dot.r} />
-                ))}
-              </g>
-            ))}
-          </g>
-          <g filter={`url(#${id}-${layer.name}-rough)`} stroke-linecap="round" fill="none">
-            {layer.dashes.map((d) => (
-              <line
-                x1={-d.length / 2}
-                x2={d.length / 2}
-                stroke={d.color}
-                stroke-width={d.width}
-                transform={`translate(${d.x} ${d.y}) rotate(${d.angle})`}
-              />
-            ))}
-            {layer.shapes.map((s) => {
-              const n = s.size;
-              const transform = `translate(${s.x} ${s.y}) rotate(${s.rotate})`;
-              if (s.kind === "ring")
-                return <circle r={n / 2} stroke={s.color} stroke-width="6" transform={transform} />;
-              if (s.kind === "triangle")
-                return <path d={`M0 ${-n / 2}L${n / 2} ${n / 2}H${-n / 2}Z`} fill={s.color} transform={transform} />;
-              if (s.kind === "cross")
-                return <path d={`M${-n / 2} 0H${n / 2}M0 ${-n / 2}V${n / 2}`} stroke={s.color} stroke-width="7" transform={transform} />;
-              return (
-                <path
-                  d={`M${-n} 0q${n / 4} ${-n / 3} ${n / 2} 0t${n / 2} 0t${n / 2} 0t${n / 2} 0`}
-                  stroke={s.color}
-                  stroke-width="6"
-                  transform={transform}
+<header class="hero" style={`--title-size: ${titleSize}px`}>
+  <div class="frame">
+    {
+      layers.map((layer) => (
+        <>
+          <svg
+            class="marks"
+            viewBox="0 0 1600 624"
+            preserveAspectRatio="xMidYMid slice"
+            aria-hidden="true"
+          >
+            <defs>
+              <filter id={`${id}-${layer.name}-splat`}>
+                <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed={seed % 1000} />
+                <feDisplacementMap in="SourceGraphic" scale="12" xChannelSelector="R" yChannelSelector="G" />
+              </filter>
+              <filter id={`${id}-${layer.name}-rough`}>
+                <feTurbulence type="fractalNoise" baseFrequency="0.3" numOctaves="1" seed="3" />
+                <feDisplacementMap in="SourceGraphic" scale="3" xChannelSelector="R" yChannelSelector="G" />
+              </filter>
+            </defs>
+            <g filter={`url(#${id}-${layer.name}-splat)`}>
+              {layer.splats.map((s) => (
+                <g transform={`translate(${s.x} ${s.y})`} fill={s.color}>
+                  {s.dots.map((dot) => (
+                    <circle cx={dot.cx} cy={dot.cy} r={dot.r} />
+                  ))}
+                </g>
+              ))}
+            </g>
+            <g filter={`url(#${id}-${layer.name}-rough)`} stroke-linecap="round" fill="none">
+              {layer.dashes.map((d) => (
+                <line
+                  x1={-d.length / 2}
+                  x2={d.length / 2}
+                  stroke={d.color}
+                  stroke-width={d.width}
+                  transform={`translate(${d.x} ${d.y}) rotate(${d.angle})`}
                 />
-              );
-            })}
-          </g>
-        </svg>
-        {layer.name === "under" && (
-          <div class="pieces" aria-hidden="true">
-            {pieces.map((piece) => (
-              <div
-                class:list={["piece", piece.style]}
-                style={[
-                  `left: ${(piece.x * 100).toFixed(1)}%`,
-                  `top: ${(piece.y * 100).toFixed(1)}%`,
-                  `--size: ${piece.size.toFixed(3)}`,
-                  `--r: ${piece.rotate.toFixed(1)}deg`,
-                  `--tint: ${piece.tint}`,
-                  piece.clip && `--clip: ${piece.clip}`,
-                ]
-                  .filter(Boolean)
-                  .join("; ")}
-              >
-                {piece.disc && (
-                  <Vinyl
-                    class="disc"
-                    look={getVinylLook(piece.release)}
-                    style={`left: ${piece.disc[0]}%; top: ${piece.disc[1]}%`}
+              ))}
+              {layer.shapes.map((s) => {
+                const n = s.size;
+                const transform = `translate(${s.x} ${s.y}) rotate(${s.rotate})`;
+                if (s.kind === "ring")
+                  return <circle r={n / 2} stroke={s.color} stroke-width="6" transform={transform} />;
+                if (s.kind === "triangle")
+                  return <path d={`M0 ${-n / 2}L${n / 2} ${n / 2}H${-n / 2}Z`} fill={s.color} transform={transform} />;
+                if (s.kind === "cross")
+                  return <path d={`M${-n / 2} 0H${n / 2}M0 ${-n / 2}V${n / 2}`} stroke={s.color} stroke-width="7" transform={transform} />;
+                return (
+                  <path
+                    d={`M${-n} 0q${n / 4} ${-n / 3} ${n / 2} 0t${n / 2} 0t${n / 2} 0t${n / 2} 0`}
+                    stroke={s.color}
+                    stroke-width="6"
+                    transform={transform}
                   />
-                )}
-                <img src={piece.src} alt="" />
-                {piece.tape && (
-                  <span
-                    class="tape"
-                    style={`left: ${piece.tape.left.toFixed(0)}%; rotate: ${piece.tape.rotate.toFixed(0)}deg`}
-                  />
-                )}
-              </div>
-            ))}
-          </div>
-        )}
-      </>
-    ))
-  }
+                );
+              })}
+            </g>
+          </svg>
+          {layer.name === "under" && (
+            <div class="pieces" aria-hidden="true">
+              {pieces.map((piece) => (
+                <div
+                  class:list={["piece", piece.style]}
+                  style={[
+                    `left: ${(piece.x * 100).toFixed(1)}%`,
+                    `top: ${(piece.y * 100).toFixed(1)}%`,
+                    `--size: ${piece.size.toFixed(3)}`,
+                    `--r: ${piece.rotate.toFixed(1)}deg`,
+                    `--tint: ${piece.tint}`,
+                    piece.clip && `--clip: ${piece.clip}`,
+                  ]
+                    .filter(Boolean)
+                    .join("; ")}
+                >
+                  {piece.disc && (
+                    <Vinyl
+                      class="disc"
+                      look={getVinylLook(piece.release)}
+                      style={`left: ${piece.disc[0]}%; top: ${piece.disc[1]}%`}
+                    />
+                  )}
+                  <img src={piece.src} alt="" />
+                  {piece.tape && (
+                    <span
+                      class="tape"
+                      style={`left: ${piece.tape.left.toFixed(0)}%; rotate: ${piece.tape.rotate.toFixed(0)}deg`}
+                    />
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+        </>
+      ))
+    }
+  </div>
 
-  <div class="label">
-    <h1 class="title">{name}</h1>
-    <p class="subtitle">
-      {releases.length}
-      {pluralize("record", releases.length)}
-    </p>
+  <div class="heading standard-restricted-width">
+    <div class="label">
+      <h1 class="title">{name}</h1>
+      <p class="subtitle">
+        {releases.length}
+        {pluralize("record", releases.length)}
+      </p>
+    </div>
   </div>
 </header>
 
@@ -274,11 +271,21 @@ const clipPath = `polygon(${[...edge(0, 2.5), ...edge(97.5, 100).reverse()].join
   .hero {
     --u: 520px;
     display: grid;
-    height: var(--u);
-    margin-bottom: calc(var(--sp-8) * 4);
-    overflow: hidden;
+    height: calc(var(--u) * 1.2);
+    margin-bottom: var(--sp-16);
+    overflow: clip;
     place-items: center;
     position: relative;
+  }
+
+  .frame {
+    height: 100%;
+    left: 50%;
+    max-width: 1440px;
+    position: absolute;
+    top: 0;
+    translate: -50% 0;
+    width: 100%;
   }
 
   @media (max-width: 700px) {
@@ -287,16 +294,17 @@ const clipPath = `polygon(${[...edge(0, 2.5), ...edge(97.5, 100).reverse()].join
     }
   }
 
-  .marks,
-  .pieces {
+  .marks {
     height: 100%;
     inset: 0;
+    pointer-events: none;
     position: absolute;
     width: 100%;
   }
 
-  .marks {
-    pointer-events: none;
+  .pieces {
+    inset: calc(var(--u) * 0.3) 0;
+    position: absolute;
   }
 
   .piece {
@@ -308,7 +316,6 @@ const clipPath = `polygon(${[...edge(0, 2.5), ...edge(97.5, 100).reverse()].join
   }
 
   .piece img {
-    box-shadow: 0 4px 14px rgb(0 0 0 / 0.3);
     display: block;
     position: relative;
     width: 100%;
@@ -319,17 +326,14 @@ const clipPath = `polygon(${[...edge(0, 2.5), ...edge(97.5, 100).reverse()].join
   }
 
   .torn img {
-    box-shadow: none;
     clip-path: var(--clip);
   }
 
   .tint {
     background: var(--tint);
-    box-shadow: 0 4px 14px rgb(0 0 0 / 0.3);
   }
 
   .tint img {
-    box-shadow: none;
     filter: grayscale(1) contrast(1.3);
     mix-blend-mode: multiply;
   }
@@ -347,14 +351,17 @@ const clipPath = `polygon(${[...edge(0, 2.5), ...edge(97.5, 100).reverse()].join
     width: 38%;
   }
 
+  .heading {
+    position: relative;
+    width: 100%;
+  }
+
   .label {
     background: white;
-    box-shadow: 8px 8px 0 var(--color-primary-dark);
-    max-width: min(90%, 960px);
-    padding: var(--sp-24) var(--sp-28);
-    position: relative;
-    rotate: -1.5deg;
-    text-align: center;
+    border: 3px solid var(--color-primary-dark);
+    max-width: 100%;
+    padding: var(--sp-20) var(--sp-24);
+    width: fit-content;
   }
 
   .title {
@@ -363,6 +370,7 @@ const clipPath = `polygon(${[...edge(0, 2.5), ...edge(97.5, 100).reverse()].join
     font-weight: 900;
     line-height: 0.95;
     margin: 0;
+    max-width: 20ch;
     text-wrap: balance;
   }
 
@@ -374,7 +382,7 @@ const clipPath = `polygon(${[...edge(0, 2.5), ...edge(97.5, 100).reverse()].join
 
   @media (max-width: 700px) {
     .label {
-      padding: var(--sp-16) var(--sp-18);
+      padding: var(--sp-12) var(--sp-16);
     }
 
     .subtitle {

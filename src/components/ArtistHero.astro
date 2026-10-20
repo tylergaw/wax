@@ -76,27 +76,29 @@ const clamp = (n: number, min: number, max: number) =>
   Math.round(Math.min(max, Math.max(min, n)));
 const count = releases.length;
 const cells = shuffle(Array.from({ length: columns * rows }, (_, i) => i));
-const back = deal(clamp(count * 1.5, 4, columns * rows)).map((item, i) => ({
+const back = deal(clamp(count * 2 + 8, 10, columns * rows)).map((item, i) => ({
   ...item,
-  x: ((cells[i] % columns) + 0.5 + between(-0.4, 0.4)) / columns,
-  y: (Math.floor(cells[i] / columns) + 0.5 + between(-0.4, 0.4)) / rows,
-  size: between(0.36, 0.5),
+  x: ((cells[i] % columns) + 0.5 + between(-0.55, 0.55)) / columns,
+  y: (Math.floor(cells[i] / columns) + 0.5 + between(-0.55, 0.55)) / rows,
+  size: chance(0.2) ? between(0.18, 0.26) : between(0.3, 0.5),
   front: false,
 }));
-const front = deal(clamp(count * 0.5, 1, 10)).map((item) => ({
+const front = deal(clamp(count * 0.6 + 2, 3, 10)).map((item) => ({
   ...item,
   x: between(0, 1),
   y: between(0, 1),
-  size: between(0.24, 0.34),
+  size: between(0.16, 0.34),
   front: true,
 }));
 
 const pieces = [...back, ...front].map((piece) => {
-  const style = pick(["sleeve", "sleeve", "sleeve", "print", "torn", "tint"]);
+  const style = pick(["sleeve", "sleeve", "sleeve", "print", "torn", "tint", "strip", "round"]);
+  const tilt = piece.size < 0.28 && chance(0.4) ? 38 : 20;
   return {
     ...piece,
     style,
-    rotate: between(-14, 14),
+    rotate: between(-tilt, tilt),
+    crop: `${between(0, 100).toFixed(0)}% ${between(0, 100).toFixed(0)}%`,
     // Discs slide out of sleeves on top, where they won't get covered up
     disc: piece.front && style === "sleeve" && chance(0.6) && pick([[42, 3], [-42, 3], [3, -42]]),
     tape: chance(0.3) && { left: between(5, 60), rotate: between(-25, 25) },
@@ -139,15 +141,15 @@ const shape = () => ({
 const layers = [
   {
     name: "under",
-    splats: Array.from({ length: 5 }, splat),
+    splats: Array.from({ length: 6 }, splat),
     dashes: [] as ReturnType<typeof dash>[],
-    shapes: Array.from({ length: 4 }, shape),
+    shapes: Array.from({ length: 6 }, shape),
   },
   {
     name: "over",
-    splats: Array.from({ length: 3 }, splat),
-    dashes: Array.from({ length: 26 }, dash),
-    shapes: Array.from({ length: 5 }, shape),
+    splats: Array.from({ length: 4 }, splat),
+    dashes: Array.from({ length: 40 }, dash),
+    shapes: Array.from({ length: 8 }, shape),
   },
 ];
 
@@ -228,6 +230,7 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
                     `--size: ${piece.size.toFixed(3)}`,
                     `--r: ${piece.rotate.toFixed(1)}deg`,
                     `--tint: ${piece.tint}`,
+                    `--crop: ${piece.crop}`,
                     piece.clip && `--clip: ${piece.clip}`,
                   ]
                     .filter(Boolean)
@@ -303,7 +306,7 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
   }
 
   .pieces {
-    inset: calc(var(--u) * 0.3) 0;
+    inset: calc(var(--u) * 0.32) 0;
     position: absolute;
   }
 
@@ -323,6 +326,20 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
 
   .print img {
     border: calc(var(--u) * 0.016) solid #fbf8f1;
+  }
+
+  .strip {
+    aspect-ratio: 2.6;
+  }
+
+  .strip img {
+    height: 100%;
+    object-fit: cover;
+    object-position: var(--crop);
+  }
+
+  .round img {
+    border-radius: 50%;
   }
 
   .torn img {
@@ -358,9 +375,11 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
 
   .label {
     background: white;
-    border: 3px solid var(--color-primary-dark);
+    border: 1px solid var(--color-primary-dark);
+    margin: 0 auto;
     max-width: 100%;
     padding: var(--sp-20) var(--sp-24);
+    text-align: center;
     width: fit-content;
   }
 
@@ -370,6 +389,7 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
     font-weight: 900;
     line-height: 0.95;
     margin: 0;
+    margin-inline: auto;
     max-width: 20ch;
     text-wrap: balance;
   }

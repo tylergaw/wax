@@ -71,12 +71,12 @@ const tornEdge = () => {
 // The back layer takes spots on a jittered grid so pieces spread out, then
 // smaller pieces scatter on top. Artists with more records get more pieces.
 const columns = 8;
-const rows = 3;
+const rows = 4;
 const clamp = (n: number, min: number, max: number) =>
   Math.round(Math.min(max, Math.max(min, n)));
 const count = releases.length;
 const cells = shuffle(Array.from({ length: columns * rows }, (_, i) => i));
-const back = deal(clamp(count * 2 + 8, 10, columns * rows)).map((item, i) => ({
+const back = deal(clamp(count * 2 + 10, 12, 30)).map((item, i) => ({
   ...item,
   x: ((cells[i] % columns) + 0.5 + between(-0.55, 0.55)) / columns,
   y: (Math.floor(cells[i] / columns) + 0.5 + between(-0.55, 0.55)) / rows,
@@ -117,12 +117,12 @@ const splat = () => {
       r: 2 + random() ** 3 * 30,
     };
   });
-  return { x: between(0, 1600), y: between(120, 504), color: pick(colors), dots };
+  return { x: between(0, 1600), y: between(120, 608), color: pick(colors), dots };
 };
 
 const dash = () => ({
   x: between(0, 1600),
-  y: between(40, 584),
+  y: between(40, 688),
   length: between(14, 56),
   angle: between(0, 180),
   width: between(3, 7),
@@ -132,7 +132,7 @@ const dash = () => ({
 const shape = () => ({
   kind: pick(["ring", "triangle", "squiggle", "cross"]),
   x: between(0, 1600),
-  y: between(40, 584),
+  y: between(40, 688),
   size: between(24, 70),
   rotate: between(0, 360),
   color: chance(0.3) ? "#2b2b2b" : pick(colors),
@@ -166,7 +166,7 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
         <>
           <svg
             class="marks"
-            viewBox="0 0 1600 624"
+            viewBox="0 0 1600 728"
             preserveAspectRatio="xMidYMid slice"
             aria-hidden="true"
           >
@@ -274,7 +274,7 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
   .hero {
     --u: 520px;
     display: grid;
-    height: calc(var(--u) * 1.2);
+    height: calc(var(--u) * 1.4);
     margin-bottom: var(--sp-16);
     overflow: clip;
     place-items: center;

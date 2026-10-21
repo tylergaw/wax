@@ -23,11 +23,13 @@ import coversData from "../data/covers.json";
 // Hand fixes keyed by release id, for example:
 // { "123": { "humanReadableColor": "Cranberry Bog", "dateAdded": "2026-03" } }
 // sortArtist picks which of a release's artists it's listed under in the full list
+// artist moves a release to another artist in the collection, by name
 export type Overrides = {
   [id: string]: ReleaseDisplay & {
     dateAdded?: string;
     sortArtist?: string;
     albumYear?: number;
+    artist?: string;
   };
 };
 
@@ -57,14 +59,24 @@ export function combineDataSources(
       return obj;
     }, {} as { [key: string]: ReleaseDisplay });
 
+  const artistsByName = new Map<string, Artist>(
+    discogs.flatMap((release) =>
+      (release.basic_information.artists ?? []).map((a: Artist) => [a.name, a])
+    )
+  );
+
   // Keyed by id so a release that's in the collection twice only shows once
   const releasesById = discogs.reduce((obj, release) => {
     const albumKey = getAlbumKey(release);
-    const { dateAdded, sortArtist, albumYear, ...displayOverrides } =
+    const { dateAdded, sortArtist, albumYear, artist, ...displayOverrides } =
       overrides[release.id] ?? {};
     const album = masters[release.basic_information.master_id];
+    const movedTo = artist ? artistsByName.get(artist) : undefined;
     obj[release.id] = {
       ...release,
+      ...(movedTo && {
+        basic_information: { ...release.basic_information, artists: [movedTo] },
+      }),
       ...(dateAdded && { date_added: toDateAdded(dateAdded) }),
       ...(sortArtist && { sortArtist }),
       display: { ...enrichmentsById[release.id], ...displayOverrides },

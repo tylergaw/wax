@@ -107,47 +107,30 @@ const pieces = [...back, ...front].map((piece) => {
   };
 });
 
-const splat = () => {
-  const dots = Array.from({ length: 16 }, () => {
-    const angle = random() * Math.PI * 2;
-    const distance = random() ** 2 * 80;
-    return {
-      cx: Math.cos(angle) * distance,
-      cy: Math.sin(angle) * distance,
-      r: 2 + random() ** 3 * 30,
-    };
-  });
-  return { x: between(0, 1600), y: between(120, 608), color: pick(colors), dots };
-};
-
 const dash = () => ({
   x: between(0, 1600),
   y: between(40, 688),
   length: between(14, 56),
   angle: between(0, 180),
   width: between(3, 7),
-  color: chance(0.4) ? "#2b2b2b" : pick(colors),
 });
 
 const shape = () => ({
-  kind: pick(["ring", "triangle", "squiggle", "cross"]),
+  kind: pick(["ring", "squiggle", "cross", "cross"]),
   x: between(0, 1600),
   y: between(40, 688),
   size: between(24, 70),
   rotate: between(0, 360),
-  color: chance(0.3) ? "#2b2b2b" : pick(colors),
 });
 
 const layers = [
   {
     name: "under",
-    splats: Array.from({ length: 6 }, splat),
-    dashes: [] as ReturnType<typeof dash>[],
+    dashes: Array.from({ length: 12 }, dash),
     shapes: Array.from({ length: 6 }, shape),
   },
   {
     name: "over",
-    splats: Array.from({ length: 4 }, splat),
     dashes: Array.from({ length: 40 }, dash),
     shapes: Array.from({ length: 8 }, shape),
   },
@@ -171,30 +154,16 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
             aria-hidden="true"
           >
             <defs>
-              <filter id={`${id}-${layer.name}-splat`}>
-                <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed={seed % 1000} />
-                <feDisplacementMap in="SourceGraphic" scale="12" xChannelSelector="R" yChannelSelector="G" />
-              </filter>
               <filter id={`${id}-${layer.name}-rough`}>
                 <feTurbulence type="fractalNoise" baseFrequency="0.3" numOctaves="1" seed="3" />
                 <feDisplacementMap in="SourceGraphic" scale="3" xChannelSelector="R" yChannelSelector="G" />
               </filter>
             </defs>
-            <g filter={`url(#${id}-${layer.name}-splat)`}>
-              {layer.splats.map((s) => (
-                <g transform={`translate(${s.x} ${s.y})`} fill={s.color}>
-                  {s.dots.map((dot) => (
-                    <circle cx={dot.cx} cy={dot.cy} r={dot.r} />
-                  ))}
-                </g>
-              ))}
-            </g>
-            <g filter={`url(#${id}-${layer.name}-rough)`} stroke-linecap="round" fill="none">
+            <g filter={`url(#${id}-${layer.name}-rough)`} stroke="currentColor" stroke-linecap="round" fill="none">
               {layer.dashes.map((d) => (
                 <line
                   x1={-d.length / 2}
                   x2={d.length / 2}
-                  stroke={d.color}
                   stroke-width={d.width}
                   transform={`translate(${d.x} ${d.y}) rotate(${d.angle})`}
                 />
@@ -203,15 +172,12 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
                 const n = s.size;
                 const transform = `translate(${s.x} ${s.y}) rotate(${s.rotate})`;
                 if (s.kind === "ring")
-                  return <circle r={n / 2} stroke={s.color} stroke-width="6" transform={transform} />;
-                if (s.kind === "triangle")
-                  return <path d={`M0 ${-n / 2}L${n / 2} ${n / 2}H${-n / 2}Z`} fill={s.color} transform={transform} />;
+                  return <circle r={n / 2} stroke-width="6" transform={transform} />;
                 if (s.kind === "cross")
-                  return <path d={`M${-n / 2} 0H${n / 2}M0 ${-n / 2}V${n / 2}`} stroke={s.color} stroke-width="7" transform={transform} />;
+                  return <path d={`M${-n / 2} 0H${n / 2}M0 ${-n / 2}V${n / 2}`} stroke-width="7" transform={transform} />;
                 return (
                   <path
                     d={`M${-n} 0q${n / 4} ${-n / 3} ${n / 2} 0t${n / 2} 0t${n / 2} 0t${n / 2} 0`}
-                    stroke={s.color}
                     stroke-width="6"
                     transform={transform}
                   />
@@ -298,6 +264,7 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
   }
 
   .marks {
+    color: var(--color-primary-dark);
     height: 100%;
     inset: 0;
     pointer-events: none;

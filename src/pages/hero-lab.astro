@@ -1,0 +1,29 @@
+---
+import store from "@store";
+import Layout from "@layouts/Layout.astro";
+import ArtistHero from "@components/ArtistHero.astro";
+
+const names = [
+  "Against Me!",
+  "Deafheaven",
+  "Nick Cave & The Bad Seeds",
+  "Baroness",
+  "Converge",
+  "Bruce Springsteen & The E-Street Band",
+  "Florence And The Machine",
+];
+const artists = names.flatMap((name) => {
+  const artist = store.artists.find((a) => a.name === name);
+  return artist
+    ? [{ artist, releases: store.releasesByArtist[name.toLowerCase()] }]
+    : [];
+});
+---
+
+<Layout title="Hero lab" noindex>
+  {
+    artists.map(({ artist, releases }) => (
+      <ArtistHero artist={artist} releases={releases} />
+    ))
+  }
+</Layout>

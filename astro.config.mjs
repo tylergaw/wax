@@ -9,6 +9,12 @@ export default defineConfig({
   scopedStyleStrategy: "class",
   output: "hybrid",
   adapter: netlify(),
+  // Old URLs for releases moved to another artist with overrides
+  redirects: {
+    "/bruce-springsteen-the-e-street-band/": "/bruce-springsteen/",
+    "/bruce-springsteen-the-e-street-band/live-1975-85-947430/":
+      "/bruce-springsteen/live-1975-85-947430/",
+  },
   devToolbar: {
     enabled: false,
   },

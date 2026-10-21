@@ -152,6 +152,27 @@ describe("combineDataSources function", () => {
     expect(release.display).toEqual({});
   });
 
+  it("lets overrides move a release to another artist", () => {
+    const bruce = { id: 1, name: "Bruce Springsteen" };
+    const band = { id: 2, name: "Bruce Springsteen & The E-Street Band" };
+    const discogsData: Collection = [
+      { id: 1, basic_information: { title: "Nebraska", artists: [bruce] } },
+      { id: 2, basic_information: { title: "Live", artists: [band] } },
+      { id: 3, basic_information: { title: "Other", artists: [band] } },
+    ];
+    const overrides = {
+      2: { artist: "Bruce Springsteen" },
+      3: { artist: "Nobody" },
+    };
+
+    const [, live, other] = combineDataSources(discogsData, [], overrides);
+
+    expect(live.basic_information.artists).toEqual([bruce]);
+    expect(live.basic_information.title).toBe("Live");
+    expect(live.display).toEqual({});
+    expect(other.basic_information.artists).toEqual([band]);
+  });
+
   it("lets overrides set the sort artist", () => {
     const discogsData: Collection = [{ id: 1, basic_information: {} }];
     const overrides = { 1: { sortArtist: "Tom Holkenborg" } };

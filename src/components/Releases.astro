@@ -106,7 +106,7 @@ const isMini = className === "mini";
     text-decoration: none;
   }
 
-  a:where(:hover, :focus) .title {
+  a:where(:hover, :focus) :is(.title, .artist, .desciption) {
     color: var(--color-accent-primary);
   }
 
@@ -135,9 +135,9 @@ const isMini = className === "mini";
   }
 
   .artist {
-    color: var(--color-accent-primary);
-    font-size: var(--font-size-16);
-    letter-spacing: 0.05em;
+    color: var(--color-text);
+    font-family: var(--font-paint);
+    font-size: var(--font-size-18);
     margin-top: var(--sp-4);
     text-transform: uppercase;
   }

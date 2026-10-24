@@ -2,7 +2,6 @@
 import type { Artist, Release } from "@types";
 import { getArtistDisplayName, getCoverUrl } from "@util/data";
 import { getVinylLook } from "@util/vinylLook";
-import { pluralize } from "@util/string";
 import Vinyl from "@components/Vinyl.astro";
 
 export interface Props {
@@ -138,11 +137,27 @@ const layers = [
 
 const id = `hero-${artist.id}`;
 const name = getArtistDisplayName(artist.name);
-const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
+// Size the name to fill the width. Paint Factory Bold runs about 0.6em per
+// character. Longer names break onto two lines at the most even word break.
+const words = name.split(" ");
+const longestLine =
+  name.length > 14 && words.length > 1
+    ? Math.min(
+        ...words.slice(1).map((_, i) => {
+          const first = words.slice(0, i + 1).join(" ");
+          return Math.max(first.length, name.length - first.length - 1);
+        })
+      )
+    : name.length;
+const fit = 90 / (0.62 * longestLine);
+const maxSize = name.length <= 6 ? 280 : 180;
 
 ---
 
-<header class="hero" style={`--title-size: ${titleSize}px`}>
+<header
+  class="hero"
+  style={`--fit: ${fit.toFixed(2)}vw; --max-size: ${maxSize}px`}
+>
   <div class="frame">
     {
       layers.map((layer) => (
@@ -226,13 +241,7 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
   </div>
 
   <div class="heading standard-restricted-width">
-    <div class="label">
-      <h1 class="title">{name}</h1>
-      <p class="subtitle">
-        {releases.length}
-        {pluralize("record", releases.length)}
-      </p>
-    </div>
+    <h1 class="title">{name}</h1>
   </div>
 </header>
 
@@ -337,43 +346,34 @@ const titleSize = name.length <= 12 ? 120 : name.length <= 22 ? 96 : 72;
 
   .heading {
     position: relative;
+    text-align: center;
     width: 100%;
   }
 
-  .label {
-    background: white;
-    border: 1px solid var(--color-primary-dark);
-    margin: 0 auto;
-    max-width: 100%;
-    padding: var(--sp-20) var(--sp-24);
-    text-align: center;
-    width: fit-content;
-  }
-
   .title {
-    font-size: min(var(--title-size), 10vw);
-    font-style: italic;
-    font-weight: 900;
-    line-height: 0.95;
+    color: var(--color-background);
+    font-family: var(--font-paint);
+    font-size: clamp(48px, var(--fit), var(--max-size));
+    font-weight: bold;
+    line-height: 0.8;
     margin: 0;
-    margin-inline: auto;
-    max-width: 20ch;
+    paint-order: stroke fill;
     text-wrap: balance;
-  }
-
-  .subtitle {
-    font-size: var(--font-size-22);
-    margin: 0;
-    padding-top: var(--sp-12);
+    -webkit-text-stroke: 8px var(--color-text);
   }
 
   @media (max-width: 700px) {
-    .label {
-      padding: var(--sp-12) var(--sp-16);
+    .title {
+      font-size: clamp(56px, max(var(--fit), 20vw), var(--max-size));
+      hyphens: auto;
+      overflow-wrap: anywhere;
+      text-transform: lowercase;
     }
+  }
 
-    .subtitle {
-      font-size: var(--font-size-16);
+  @media (max-width: 420px) {
+    .title {
+      line-height: 1;
     }
   }
 </style>

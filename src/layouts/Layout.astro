@@ -21,6 +21,20 @@ const { title, noindex = false } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     {noindex && <meta name="robots" content="noindex" />}
     <title>{title} - Tyler Gaw’s Records</title>
+    <link
+      rel="preload"
+      href="/fonts/paint-factory-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/paint-factory-bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

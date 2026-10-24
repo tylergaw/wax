@@ -137,6 +137,14 @@ const layers = [
 
 const id = `hero-${artist.id}`;
 const name = getArtistDisplayName(artist.name);
+
+// Paint Factory has no accented letters, so swap them for something better
+const nameParts = [...name].map((char) => {
+  const marks = char.normalize("NFD").slice(1);
+  if (!marks) return { text: char };
+  const emoji = marks.includes("\u0308") ? "🤘" : "🧐";
+  return { text: `\u2060${emoji}\u2060`, swap: true };
+});
 // Size the name to fill the width. Paint Factory Bold runs about 0.6em per
 // character. Longer names break onto two lines at the most even word break.
 const words = name.split(" ");
@@ -241,7 +249,11 @@ const maxSize = name.length <= 6 ? 280 : 180;
   </div>
 
   <div class="heading standard-restricted-width">
-    <h1 class="title">{name}</h1>
+    <h1 class="title" aria-label={name}>
+      {nameParts.map((part) =>
+        part.swap ? <span class="swap">{part.text}</span> : part.text
+      )}
+    </h1>
   </div>
 </header>
 
@@ -360,6 +372,10 @@ const maxSize = name.length <= 6 ? 280 : 180;
     paint-order: stroke fill;
     text-wrap: balance;
     -webkit-text-stroke: 8px var(--color-text);
+  }
+
+  .swap {
+    -webkit-text-stroke: 0;
   }
 
   @media (max-width: 700px) {

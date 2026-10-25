@@ -259,7 +259,7 @@ const maxSize = name.length <= 6 ? 280 : 180;
 
 <style>
   .hero {
-    --u: 520px;
+    --u: 340px;
     display: grid;
     height: calc(var(--u) * 1.4);
     margin-bottom: var(--sp-16);
@@ -278,9 +278,9 @@ const maxSize = name.length <= 6 ? 280 : 180;
     width: 100%;
   }
 
-  @media (max-width: 700px) {
+  @media (min-width: 700px) {
     .hero {
-      --u: 340px;
+      --u: 520px;
     }
   }
 
@@ -365,11 +365,14 @@ const maxSize = name.length <= 6 ? 280 : 180;
   .title {
     color: var(--color-background);
     font-family: var(--font-paint);
-    font-size: clamp(48px, var(--fit), var(--max-size));
+    font-size: clamp(56px, max(var(--fit), 20vw), var(--max-size));
     font-weight: bold;
-    line-height: 0.8;
+    hyphens: auto;
+    line-height: 1;
     margin: 0;
+    overflow-wrap: anywhere;
     paint-order: stroke fill;
+    text-transform: lowercase;
     text-wrap: balance;
     -webkit-text-stroke: 8px var(--color-text);
   }
@@ -378,18 +381,18 @@ const maxSize = name.length <= 6 ? 280 : 180;
     -webkit-text-stroke: 0;
   }
 
-  @media (max-width: 700px) {
+  @media (min-width: 420px) {
     .title {
-      font-size: clamp(56px, max(var(--fit), 20vw), var(--max-size));
-      hyphens: auto;
-      overflow-wrap: anywhere;
-      text-transform: lowercase;
+      line-height: 0.8;
     }
   }
 
-  @media (max-width: 420px) {
+  @media (min-width: 700px) {
     .title {
-      line-height: 1;
+      font-size: clamp(48px, var(--fit), var(--max-size));
+      hyphens: manual;
+      overflow-wrap: normal;
+      text-transform: none;
     }
   }
 </style>

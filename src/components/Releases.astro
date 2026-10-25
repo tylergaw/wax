@@ -128,7 +128,7 @@ const isMini = className === "mini";
 
   .title {
     font-style: italic;
-    font-size: var(--font-size-28);
+    font-size: var(--font-size-22);
     font-weight: 900;
     line-height: 1em;
     letter-spacing: -0.03em;
@@ -156,13 +156,41 @@ const isMini = className === "mini";
   }
 
   ul.standard {
-    --gap: calc(var(--g-gutter) * 4);
+    --gap: calc(var(--g-gutter) * 2);
     column-gap: var(--gap);
     display: grid;
-    grid-template-columns: repeat(
-      auto-fill,
-      minmax(min(100%, max(260px, (100% - var(--gap) * 4) / 5)), 1fr)
-    );
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media (min-width: 430px) {
+    ul.standard {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 700px) {
+    .title {
+      font-size: var(--font-size-28);
+    }
+
+    ul.standard {
+      --gap: calc(var(--g-gutter) * 4);
+    }
+  }
+
+  @media (min-width: 830px) {
+    ul.standard {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1000px) {
+    ul.standard {
+      grid-template-columns: repeat(
+        auto-fill,
+        minmax(min(100%, max(260px, (100% - var(--gap) * 4) / 5)), 1fr)
+      );
+    }
   }
 
   .standard li {

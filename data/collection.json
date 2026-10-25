@@ -42717,6 +42717,14 @@
           "entity_type_name": "Label",
           "id": 40661,
           "resource_url": "https://api.discogs.com/labels/40661"
+        },
+        {
+          "name": "Chunksaah Records",
+          "catno": "CAR076",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 40661,
+          "resource_url": "https://api.discogs.com/labels/40661"
         }
       ],
       "artists": [

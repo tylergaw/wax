@@ -43169,5 +43169,78 @@
       ]
     },
     "folder_id": 1
+  },
+  {
+    "id": 38819523,
+    "instance_id": 2198944039,
+    "date_added": "2026-10-28T19:05:14-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 38819523,
+      "master_id": 724992,
+      "master_url": "https://api.discogs.com/masters/724992",
+      "resource_url": "https://api.discogs.com/releases/38819523",
+      "thumb": "https://i.discogs.com/CzO5Cdcm9Mag5hZUt0rnE2xRqa4ITdjjNeVNu9LInls/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODE5/NTIzLTE3OTMwMzk1/MjItOTU4NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/cW9bWFSz__SnzOS9-dESQdmqppBacLb-O5MP1QtQgCc/rs:fit/g:sm/q:90/h:600/w:587/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODE5/NTIzLTE3OTMwMzk1/MjItOTU4NS5qcGVn.jpeg",
+      "title": "The Black Parade",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "180g",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        },
+        {
+          "name": "Box Set",
+          "qty": "1",
+          "text": "20th Anniversary, One-Step Audiophile",
+          "descriptions": [
+            "Deluxe Edition",
+            "Limited Edition",
+            "Numbered"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Reprise Records",
+          "catno": "093624816256",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        }
+      ],
+      "artists": [
+        {
+          "name": "My Chemical Romance",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 319406,
+          "resource_url": "https://api.discogs.com/artists/319406"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Emo",
+        "Punk"
+      ]
+    },
+    "folder_id": 1,
+    "notes": [
+      {
+        "field_id": 3,
+        "value": "I have 5973/7000"
+      }
+    ]
   }
 ]

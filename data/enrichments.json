@@ -9423,5 +9423,27 @@
         "texture": null
       }
     ]
+  },
+  {
+    "id": "38819523",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   }
 ]

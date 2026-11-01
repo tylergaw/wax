@@ -343,21 +343,21 @@
   },
   {
     "id": "1192308",
-    "description": "Yellow",
-    "humanReadableColor": "Yellow",
+    "description": "Yellow Translucent",
+    "humanReadableColor": "Yellow Translucent",
     "cssReadableColors": [
       "yellow"
     ],
     "pattern": null,
-    "texture": null,
+    "texture": "translucent",
     "discs": [
       {
-        "humanReadableColor": "Yellow",
+        "humanReadableColor": "Yellow Translucent",
         "cssReadableColors": [
           "yellow"
         ],
         "pattern": null,
-        "texture": null
+        "texture": "translucent"
       }
     ]
   },

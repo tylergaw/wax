@@ -9445,5 +9445,27 @@
         "texture": null
       }
     ]
+  },
+  {
+    "id": "38881809",
+    "description": "Jacket variant",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
   }
 ]

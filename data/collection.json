@@ -43242,5 +43242,79 @@
         "value": "I have 5973/7000"
       }
     ]
+  },
+  {
+    "id": 38881809,
+    "instance_id": 2200970930,
+    "date_added": "2026-11-03T19:12:55-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 38881809,
+      "master_id": 38108,
+      "master_url": "https://api.discogs.com/masters/38108",
+      "resource_url": "https://api.discogs.com/releases/38881809",
+      "thumb": "https://i.discogs.com/WJpqGrhxemdF0dD1SAVGdGTxah5fZ9xWWa4r8pL4KVg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODgx/ODA5LTE3OTMzNjIy/MzEtMzk1Mi5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/iT6PsOYG-jzt-zOSMIIB_pcUG7PJL0MZl5tAWyblEYw/rs:fit/g:sm/q:90/h:555/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODgx/ODA5LTE3OTMzNjIy/MzEtMzk1Mi5qcGVn.jpeg",
+      "title": "Take Off Your Pants And Jacket",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        },
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Jacket variant",
+          "descriptions": [
+            "LP",
+            "Single Sided",
+            "Etched"
+          ]
+        },
+        {
+          "name": "All Media",
+          "qty": "1",
+          "text": "25th Anniversary",
+          "descriptions": [
+            "Reissue",
+            "Special Edition"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Geffen Records",
+          "catno": "00881061116936",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 821,
+          "resource_url": "https://api.discogs.com/labels/821"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Blink-182",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 80395,
+          "resource_url": "https://api.discogs.com/artists/80395"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Pop Punk",
+        "Alternative Rock"
+      ]
+    },
+    "folder_id": 1
   }
 ]

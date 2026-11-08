@@ -7966,6 +7966,22 @@
     ]
   },
   {
+    "id": "28355428",
+    "description": "180g",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
+  },
+  {
     "id": "28366828",
     "description": "Black With Hi-melt Pink And Pearlescent Blue Splatter",
     "humanReadableColor": "Black With Hi-melt Pink And Pearlescent Blue Splatter",
@@ -9212,6 +9228,30 @@
     ]
   },
   {
+    "id": "37678431",
+    "description": "Yellow, Purple, and Orange Marble",
+    "humanReadableColor": "Yellow, Purple, and Orange Marble",
+    "cssReadableColors": [
+      "yellow",
+      "purple",
+      "orange"
+    ],
+    "pattern": "marble",
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Yellow, Purple, and Orange Marble",
+        "cssReadableColors": [
+          "yellow",
+          "purple",
+          "orange"
+        ],
+        "pattern": "marble",
+        "texture": null
+      }
+    ]
+  },
+  {
     "id": "37898535",
     "description": "Black & White A-Side/B-Side and White Opaque",
     "humanReadableColor": "Black & White A-Side/B-Side and White Opaque",
@@ -9448,7 +9488,7 @@
   },
   {
     "id": "38881809",
-    "description": "Airplane (\"Take off\") variant",
+    "description": "180 Gram and 180 Gram",
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,

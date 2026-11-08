@@ -43262,15 +43262,17 @@
         {
           "name": "Vinyl",
           "qty": "1",
+          "text": "180 Gram",
           "descriptions": [
             "LP",
-            "Album"
+            "Album",
+            "Reissue"
           ]
         },
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "Airplane (\"Take off\") variant",
+          "text": "180 Gram",
           "descriptions": [
             "LP",
             "Single Sided",
@@ -43280,9 +43282,8 @@
         {
           "name": "All Media",
           "qty": "1",
-          "text": "25th Anniversary",
+          "text": "25 Year Anniversary Edition",
           "descriptions": [
-            "Reissue",
             "Special Edition"
           ]
         }
@@ -43313,6 +43314,305 @@
       ],
       "styles": [
         "Pop Punk",
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 37678431,
+    "instance_id": 2202627164,
+    "date_added": "2026-11-08T14:38:36-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 37678431,
+      "master_id": 33469,
+      "master_url": "https://api.discogs.com/masters/33469",
+      "resource_url": "https://api.discogs.com/releases/37678431",
+      "thumb": "https://i.discogs.com/wUkeRPvCqPfnWDl1GR356aUvelaSxwEyftap23FUetw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njc4/NDMxLTE3ODE5OTM3/NTUtMTg5NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/GukT-9aKvNH6X9sAJ6-IRyPx39k3hfRf2kdG7o08rS4/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Njc4/NDMxLTE3ODE5OTM3/NTUtMTg5NS5qcGVn.jpeg",
+      "title": "Show Your Bones",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Yellow, Purple, and Orange Marble",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Interscope Records",
+          "catno": "19957106214",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2311,
+          "resource_url": "https://api.discogs.com/labels/2311"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Yeah Yeah Yeahs",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 95405,
+          "resource_url": "https://api.discogs.com/artists/95405"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 21782623,
+    "instance_id": 2202629530,
+    "date_added": "2026-11-08T14:46:29-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 21782623,
+      "master_id": 36171,
+      "master_url": "https://api.discogs.com/masters/36171",
+      "resource_url": "https://api.discogs.com/releases/21782623",
+      "thumb": "https://i.discogs.com/Bqy5_v8dXgeCa7_7GklgDzyG5N_pl5NCUUhRR9OMsSU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNzgy/NjIzLTE2NDI0NzIw/MjEtNTU2OS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/g4RGHydIO_QeBeY126GySMo84FrcsMpZMuQgzmDAmck/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNzgy/NjIzLTE2NDI0NzIw/MjEtNTU2OS5qcGVn.jpeg",
+      "title": "Reinventing The Steel",
+      "year": 0,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Elektra",
+          "catno": "R1 62451",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 651,
+          "resource_url": "https://api.discogs.com/labels/651"
+        },
+        {
+          "name": "Elektra",
+          "catno": "081227974329",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 651,
+          "resource_url": "https://api.discogs.com/labels/651"
+        },
+        {
+          "name": "EastWest Records America",
+          "catno": "081227974329",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 5574,
+          "resource_url": "https://api.discogs.com/labels/5574"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Pantera",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 85885,
+          "resource_url": "https://api.discogs.com/artists/85885"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Thrash",
+        "Heavy Metal",
+        "Groove Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 28355428,
+    "instance_id": 2202630080,
+    "date_added": "2026-11-08T14:48:34-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 28355428,
+      "master_id": 13960,
+      "master_url": "https://api.discogs.com/masters/13960",
+      "resource_url": "https://api.discogs.com/releases/28355428",
+      "thumb": "https://i.discogs.com/GE9SyXNSE_H0ol-UWEg_qbP6_h2yaiUsOFUO2nN_in8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzU1/NDI4LTE2OTUzMzI3/NTAtMzY3MS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/48m9af5IcBl7zawcoe947HCJAVff2dac_chxUjjQ83g/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MzU1/NDI4LTE2OTUzMzI3/NTAtMzY3MS5qcGVn.jpeg",
+      "title": "Rain Dogs",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180g",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Island Records",
+          "catno": "B0037078-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 8377,
+          "resource_url": "https://api.discogs.com/labels/8377"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Tom Waits",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 82294,
+          "resource_url": "https://api.discogs.com/artists/82294"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Experimental"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 33382109,
+    "instance_id": 2202630701,
+    "date_added": "2026-11-08T14:50:58-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 33382109,
+      "master_id": 25436,
+      "master_url": "https://api.discogs.com/masters/25436",
+      "resource_url": "https://api.discogs.com/releases/33382109",
+      "thumb": "https://i.discogs.com/f9Gwc4BcXn13dyVXG3KoY53cWsSlL6Y3sj7HKKE7jCg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzgy/MTA5LTE3NDE3Mzcx/NTQtMjk5OC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/a79FMeRUNsY59auebBp6q4txFvxDvBiJtJ0hn8ZpTnA/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzgy/MTA5LTE3NDE3Mzcx/NTQtMjk5OC5qcGVn.jpeg",
+      "title": "Generator",
+      "year": 2024,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "86416-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Religion",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 17479,
+          "resource_url": "https://api.discogs.com/artists/17479"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 14061165,
+    "instance_id": 2202631419,
+    "date_added": "2026-11-08T14:53:37-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 14061165,
+      "master_id": 25294,
+      "master_url": "https://api.discogs.com/masters/25294",
+      "resource_url": "https://api.discogs.com/releases/14061165",
+      "thumb": "https://i.discogs.com/3i1fPSXEo2tH8vH9Govc_eqMv-YTc7-IEjRzwqr8fj8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDYx/MTY1LTE1OTAzMjYx/ODEtMjU4NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/U_pLkBrc5KtVGylg442iJ4SooVmbyA-r3mpil6T-XRE/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDYx/MTY1LTE1OTAzMjYx/ODEtMjU4NS5qcGVn.jpeg",
+      "title": "Against The Grain",
+      "year": 2017,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Stereo"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "E-86409-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Religion",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 17479,
+          "resource_url": "https://api.discogs.com/artists/17479"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore",
         "Punk"
       ]
     },

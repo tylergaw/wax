@@ -43270,7 +43270,7 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "Jacket variant",
+          "text": "Airplane (\"Take off\") variant",
           "descriptions": [
             "LP",
             "Single Sided",
@@ -43313,7 +43313,7 @@
       ],
       "styles": [
         "Pop Punk",
-        "Alternative Rock"
+        "Punk"
       ]
     },
     "folder_id": 1

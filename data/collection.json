@@ -6608,10 +6608,13 @@
         }
       ],
       "genres": [
-        "Electronic"
+        "Rock",
+        "Classical"
       ],
       "styles": [
-        "Ambient"
+        "Contemporary",
+        "Ethereal",
+        "Impressionist"
       ]
     },
     "folder_id": 1,

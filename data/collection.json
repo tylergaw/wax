@@ -43184,8 +43184,8 @@
       "master_id": 724992,
       "master_url": "https://api.discogs.com/masters/724992",
       "resource_url": "https://api.discogs.com/releases/38819523",
-      "thumb": "https://i.discogs.com/CzO5Cdcm9Mag5hZUt0rnE2xRqa4ITdjjNeVNu9LInls/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODE5/NTIzLTE3OTMwMzk1/MjItOTU4NS5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/cW9bWFSz__SnzOS9-dESQdmqppBacLb-O5MP1QtQgCc/rs:fit/g:sm/q:90/h:600/w:587/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODE5/NTIzLTE3OTMwMzk1/MjItOTU4NS5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/eC-AETLfx_9Um8FyZ0P3kMu9xHfkHCv08GBSheb21HU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODE5/NTIzLTE3OTQ1MTk4/NDAtNDI0My5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/IMWKkzy15ZI1bmbcWp2JgpGhd7sqtnwwxEIoXbrhJUE/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODE5/NTIzLTE3OTQ1MTk4/NDAtNDI0My5qcGVn.jpeg",
       "title": "The Black Parade",
       "year": 2026,
       "formats": [
@@ -43620,5 +43620,120 @@
       ]
     },
     "folder_id": 1
+  },
+  {
+    "id": 37369005,
+    "instance_id": 2203947618,
+    "date_added": "2026-11-12T18:02:04-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 37369005,
+      "master_id": 4228662,
+      "master_url": "https://api.discogs.com/masters/4228662",
+      "resource_url": "https://api.discogs.com/releases/37369005",
+      "thumb": "https://i.discogs.com/-sQ8Yap82p6Et2iKj12MQMccfUYKJw3iml340Nn8Zz4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzY5/MDA1LTE3ODEzNTMy/MjQtOTczOC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/jKEBB9J2XIzsOxkIJyxrpeX_RJ9_pnCujaqq_OEXvdA/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzY5/MDA1LTE3ODEzNTMy/MjQtOTczOC5qcGVn.jpeg",
+      "title": "Prendre Le Pouvoir Par La Force",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "La Vida Es Un Mus",
+          "catno": "MUS336",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 38322,
+          "resource_url": "https://api.discogs.com/labels/38322"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Prisonnier Du Temps",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 12214972,
+          "resource_url": "https://api.discogs.com/artists/12214972"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 17151508,
+    "instance_id": 2203948237,
+    "date_added": "2026-11-12T18:04:01-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 17151508,
+      "master_id": 1949122,
+      "master_url": "https://api.discogs.com/masters/1949122",
+      "resource_url": "https://api.discogs.com/releases/17151508",
+      "thumb": "https://i.discogs.com/D5IU-A7P2OovjDNgCy8rco_IzenfBauCUwhfEc7aaVw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MTUx/NTA4LTE2MTIxNDM3/NTEtNzY0NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/BIUMVi2zk1v4G-2VXkGrQw2pdoO44w0B-WJd-0Bzw9g/rs:fit/g:sm/q:90/h:600/w:582/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MTUx/NTA4LTE2MTIxNDM3/NTEtNzY0NS5qcGVn.jpeg",
+      "title": "When You Found Me",
+      "year": 2021,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Liberty & Lament",
+          "catno": "LL0225-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 63652,
+          "resource_url": "https://api.discogs.com/labels/63652"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Lucero",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 317913,
+          "resource_url": "https://api.discogs.com/artists/317913"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Country Rock",
+        "Southern Rock"
+      ]
+    },
+    "folder_id": 1,
+    "notes": [
+      {
+        "field_id": 1,
+        "value": "Mint (M)"
+      }
+    ]
   }
 ]

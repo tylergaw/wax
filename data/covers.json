@@ -2243,6 +2243,10 @@
     "source": "discogs",
     "version": "3cdc29be"
   },
+  "1949122": {
+    "source": "discogs",
+    "version": "64369d05"
+  },
   "1997932": {
     "source": "cover-art-archive",
     "version": "6ecf15c3"
@@ -2498,6 +2502,10 @@
   "4218045": {
     "source": "discogs",
     "version": "0f6ed6a9"
+  },
+  "4228662": {
+    "source": "discogs",
+    "version": "a89ab93d"
   },
   "4249596": {
     "source": "discogs",

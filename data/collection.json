@@ -6572,6 +6572,7 @@
         {
           "name": "Vinyl",
           "qty": "2",
+          "text": "Manufactured In The EU",
           "descriptions": [
             "LP",
             "Album"
@@ -6608,13 +6609,13 @@
         }
       ],
       "genres": [
-        "Rock",
-        "Classical"
+        "Electronic",
+        "Rock"
       ],
       "styles": [
-        "Contemporary",
-        "Ethereal",
-        "Impressionist"
+        "Art Rock",
+        "Experimental",
+        "Post Rock"
       ]
     },
     "folder_id": 1,
@@ -28469,7 +28470,7 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "Blue (transluscent) w/blue and purple splatter",
+          "text": "Blue (translucent) w/blue and purple splatter",
           "descriptions": [
             "LP"
           ]

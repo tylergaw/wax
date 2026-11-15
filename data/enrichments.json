@@ -4972,6 +4972,28 @@
     ]
   },
   {
+    "id": "14345514",
+    "description": "Manufactured In The EU",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    ]
+  },
+  {
     "id": "14432517",
     "description": "180g",
     "humanReadableColor": null,
@@ -6930,8 +6952,8 @@
   },
   {
     "id": "23513387",
-    "description": "Purple and blue splatter and Blue (transluscent) w/blue and purple splatter",
-    "humanReadableColor": "Purple and blue splatter and Blue Translucent w/blue and purple splatter",
+    "description": "Purple and blue splatter and Blue (translucent) w/blue and purple splatter",
+    "humanReadableColor": "Purple and Blue Splatter and Blue Translucent with Blue and Purple Splatter",
     "cssReadableColors": [
       "purple",
       "blue"
@@ -6940,7 +6962,7 @@
     "texture": "translucent",
     "discs": [
       {
-        "humanReadableColor": "Purple and blue splatter",
+        "humanReadableColor": "Purple and Blue Splatter",
         "cssReadableColors": [
           "purple",
           "blue"
@@ -6949,7 +6971,7 @@
         "texture": null
       },
       {
-        "humanReadableColor": "Blue Translucent w/blue and purple splatter",
+        "humanReadableColor": "Blue Translucent with Blue and Purple Splatter",
         "cssReadableColors": [
           "blue",
           "purple"

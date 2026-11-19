@@ -5434,7 +5434,7 @@
       "thumb": "https://i.discogs.com/xY5oZups2ikOFWEQDZwseasvfFwgqUZsi1NlKXxTcmY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyNjA4/MDQtMTQ1ODE1NzAw/Mi00MjM4LmpwZWc.jpeg",
       "cover_image": "https://i.discogs.com/6nk-XQYGOmbjx7Y7iUCrMZiaVC47uJcvdNrM66Kd_gw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyNjA4/MDQtMTQ1ODE1NzAw/Mi00MjM4LmpwZWc.jpeg",
       "title": "The River",
-      "year": 1980,
+      "year": 0,
       "formats": [
         {
           "name": "Vinyl",
@@ -5442,7 +5442,9 @@
           "text": "Pitman Pressing",
           "descriptions": [
             "LP",
-            "Album"
+            "Album",
+            "Repress",
+            "Stereo"
           ]
         }
       ],
@@ -5450,6 +5452,14 @@
         {
           "name": "Columbia",
           "catno": "PC2 36854",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1866,
+          "resource_url": "https://api.discogs.com/labels/1866"
+        },
+        {
+          "name": "Columbia",
+          "catno": "36854",
           "entity_type": "1",
           "entity_type_name": "Label",
           "id": 1866,
@@ -5470,7 +5480,10 @@
       "genres": [
         "Rock"
       ],
-      "styles": []
+      "styles": [
+        "Folk Rock",
+        "Pop Rock"
+      ]
     },
     "folder_id": 1
   },
@@ -39903,13 +39916,13 @@
       "resource_url": "https://api.discogs.com/releases/14432517",
       "thumb": "https://i.discogs.com/Ogs00QLIIilRTBPPu_c_Ewk-xBs5VTyldHo731gifS4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDMy/NTE3LTE1NzQ4ODY1/MjctNTE4Mi5qcGVn.jpeg",
       "cover_image": "https://i.discogs.com/wu1H4cgE-zTaNP2ocS33vvL2wUutnSM9t3A3yTHcAzA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDMy/NTE3LTE1NzQ4ODY1/MjctNTE4Mi5qcGVn.jpeg",
-      "title": "R",
+      "title": "R (Rated R)",
       "year": 2019,
       "formats": [
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "180g",
+          "text": "180 Gram",
           "descriptions": [
             "LP",
             "Album",
@@ -43736,5 +43749,69 @@
         "value": "Mint (M)"
       }
     ]
+  },
+  {
+    "id": 39061514,
+    "instance_id": 2206084499,
+    "date_added": "2026-11-18T18:49:06-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 39061514,
+      "master_id": 4398579,
+      "master_url": "https://api.discogs.com/masters/4398579",
+      "resource_url": "https://api.discogs.com/releases/39061514",
+      "thumb": "https://i.discogs.com/Lrl359Qr7H3hQGi11kzzZ_FPJD3VBdNqHBrWrKHhtaE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MDYx/NTE0LTE3OTQ5MzE3/NzUtNjg1OS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/9dQkiBlVtESeOCrzRTk20fNLkjwfLKW_Z1a3PTqAvo8/rs:fit/g:sm/q:90/h:600/w:580/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MDYx/NTE0LTE3OTQ5MzE3/NzUtNjg1OS5qcGVn.jpeg",
+      "title": "Fatal Paradox",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Red W/ Black Splatter",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "BLKIIBLK Records",
+          "catno": "BB LP 1604RKS",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 4096545,
+          "resource_url": "https://api.discogs.com/labels/4096545"
+        },
+        {
+          "name": "BLKIIBLK Records",
+          "catno": "BB LP 1604",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 4096545,
+          "resource_url": "https://api.discogs.com/labels/4096545"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Hatebreed",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251870,
+          "resource_url": "https://api.discogs.com/artists/251870"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hardcore"
+      ]
+    },
+    "folder_id": 1
   }
 ]

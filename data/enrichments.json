@@ -4995,7 +4995,7 @@
   },
   {
     "id": "14432517",
-    "description": "180g",
+    "description": "180 Gram",
     "humanReadableColor": null,
     "cssReadableColors": null,
     "pattern": null,
@@ -9526,6 +9526,28 @@
         "humanReadableColor": null,
         "cssReadableColors": null,
         "pattern": null,
+        "texture": null
+      }
+    ]
+  },
+  {
+    "id": "39061514",
+    "description": "Red W/ Black Splatter",
+    "humanReadableColor": "Red with Black Splatter",
+    "cssReadableColors": [
+      "red",
+      "black"
+    ],
+    "pattern": "splatter",
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red with Black Splatter",
+        "cssReadableColors": [
+          "red",
+          "black"
+        ],
+        "pattern": "splatter",
         "texture": null
       }
     ]

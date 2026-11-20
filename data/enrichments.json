@@ -9531,6 +9531,22 @@
     ]
   },
   {
+    "id": "38911443",
+    "description": "Transparent",
+    "humanReadableColor": "Transparent",
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": "clear",
+    "discs": [
+      {
+        "humanReadableColor": "Transparent",
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": "clear"
+      }
+    ]
+  },
+  {
     "id": "39061514",
     "description": "Red W/ Black Splatter",
     "humanReadableColor": "Red with Black Splatter",

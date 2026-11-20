@@ -43779,7 +43779,7 @@
       "labels": [
         {
           "name": "BLKIIBLK Records",
-          "catno": "BB LP 1604RKS",
+          "catno": "BB LP 1604",
           "entity_type": "1",
           "entity_type_name": "Label",
           "id": 4096545,
@@ -43787,7 +43787,7 @@
         },
         {
           "name": "BLKIIBLK Records",
-          "catno": "BB LP 1604",
+          "catno": "BB LP 1604RKS",
           "entity_type": "1",
           "entity_type_name": "Label",
           "id": 4096545,
@@ -43810,6 +43810,71 @@
       ],
       "styles": [
         "Hardcore"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 38911443,
+    "instance_id": 2206359273,
+    "date_added": "2026-11-19T18:04:13-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 38911443,
+      "master_id": 4390572,
+      "master_url": "https://api.discogs.com/masters/4390572",
+      "resource_url": "https://api.discogs.com/releases/38911443",
+      "thumb": "https://i.discogs.com/vIDEkV73XOc0TCsZBdequkmwcj3jAcvNKBEIAt0nsvA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4OTEx/NDQzLTE3OTM2Mjg3/ODUtNTQxOS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/iZAsFS03o6igyr5BprMFy1QJUBpCf0gpSKxEkrHIKHw/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4OTEx/NDQzLTE3OTM2Mjg3/ODUtNTQxOS5qcGVn.jpeg",
+      "title": "Perfecth",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Transparent",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Matador",
+          "catno": "OLE2253LP",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/labels/194"
+        },
+        {
+          "name": "Matador",
+          "catno": "OLE2253LPE",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/labels/194"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Queens Of The Stone Age",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 56168,
+          "resource_url": "https://api.discogs.com/artists/56168"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Stoner Rock"
       ]
     },
     "folder_id": 1

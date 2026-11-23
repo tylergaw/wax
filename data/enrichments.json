@@ -9567,5 +9567,33 @@
         "texture": null
       }
     ]
+  },
+  {
+    "id": "39107511",
+    "description": "Red",
+    "humanReadableColor": "Red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null,
+    "discs": [
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      },
+      {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    ]
   }
 ]

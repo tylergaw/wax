@@ -43878,5 +43878,75 @@
       ]
     },
     "folder_id": 1
+  },
+  {
+    "id": 39107511,
+    "instance_id": 2207439400,
+    "date_added": "2026-11-22T16:08:59-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 39107511,
+      "master_id": 4198566,
+      "master_url": "https://api.discogs.com/masters/4198566",
+      "resource_url": "https://api.discogs.com/releases/39107511",
+      "thumb": "https://i.discogs.com/-Vof8Trlgj6kU9VK6cANT4vNT2QKEbRq4qPqDTVd1cQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTA3/NTExLTE3OTUyODE4/NTEtMzI1OS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/IdvDu-siRn5jc5Zr1m4N60MNLou-mME7dJb5vQS9qzY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTA3/NTExLTE3OTUyODE4/NTEtMzI1OS5qcGVn.jpeg",
+      "title": "Nine Inch Noize",
+      "year": 0,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Red",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Interscope Records",
+          "catno": "00600574198907",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2311,
+          "resource_url": "https://api.discogs.com/labels/2311"
+        },
+        {
+          "name": "The Null Corporation",
+          "catno": "Halo 38",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 108462,
+          "resource_url": "https://api.discogs.com/labels/108462"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Nine Inch Nails",
+          "anv": "",
+          "join": ",",
+          "role": "",
+          "tracks": "",
+          "id": 3857,
+          "resource_url": "https://api.discogs.com/artists/3857"
+        },
+        {
+          "name": "Boys Noize",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 243374,
+          "resource_url": "https://api.discogs.com/artists/243374"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": []
+    },
+    "folder_id": 1
   }
 ]

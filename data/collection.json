@@ -43892,7 +43892,7 @@
       "thumb": "https://i.discogs.com/-Vof8Trlgj6kU9VK6cANT4vNT2QKEbRq4qPqDTVd1cQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTA3/NTExLTE3OTUyODE4/NTEtMzI1OS5qcGVn.jpeg",
       "cover_image": "https://i.discogs.com/IdvDu-siRn5jc5Zr1m4N60MNLou-mME7dJb5vQS9qzY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTA3/NTExLTE3OTUyODE4/NTEtMzI1OS5qcGVn.jpeg",
       "title": "Nine Inch Noize",
-      "year": 0,
+      "year": 2025,
       "formats": [
         {
           "name": "Vinyl",
@@ -43943,9 +43943,16 @@
         }
       ],
       "genres": [
+        "Electronic",
         "Rock"
       ],
-      "styles": []
+      "styles": [
+        "EBM",
+        "Techno",
+        "Industrial",
+        "Acid House",
+        "Electro House"
+      ]
     },
     "folder_id": 1
   }

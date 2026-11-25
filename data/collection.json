@@ -43892,7 +43892,7 @@
       "thumb": "https://i.discogs.com/-Vof8Trlgj6kU9VK6cANT4vNT2QKEbRq4qPqDTVd1cQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTA3/NTExLTE3OTUyODE4/NTEtMzI1OS5qcGVn.jpeg",
       "cover_image": "https://i.discogs.com/IdvDu-siRn5jc5Zr1m4N60MNLou-mME7dJb5vQS9qzY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MTA3/NTExLTE3OTUyODE4/NTEtMzI1OS5qcGVn.jpeg",
       "title": "Nine Inch Noize",
-      "year": 2025,
+      "year": 2026,
       "formats": [
         {
           "name": "Vinyl",
@@ -43915,7 +43915,7 @@
         },
         {
           "name": "The Null Corporation",
-          "catno": "Halo 38",
+          "catno": "00600574198907",
           "entity_type": "1",
           "entity_type_name": "Label",
           "id": 108462,
@@ -43926,20 +43926,11 @@
         {
           "name": "Nine Inch Nails",
           "anv": "",
-          "join": ",",
+          "join": "",
           "role": "",
           "tracks": "",
           "id": 3857,
           "resource_url": "https://api.discogs.com/artists/3857"
-        },
-        {
-          "name": "Boys Noize",
-          "anv": "",
-          "join": "",
-          "role": "",
-          "tracks": "",
-          "id": 243374,
-          "resource_url": "https://api.discogs.com/artists/243374"
         }
       ],
       "genres": [
